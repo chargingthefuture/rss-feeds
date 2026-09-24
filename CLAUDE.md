@@ -20,8 +20,6 @@ here vouches for, accuses, or associates the project with any channel listed.
   feed is cut and where; it says nothing about why.
 - The archive is complete; the cut is applied at publish time. Never delete entries from an archive
   to enforce a cutoff.
-- A channel is removed on its owner's request, by deleting `channels/<slug>.json`. No reason is
-  needed.
 - `dist/` is build output and never committed.
 
 ## Conventions

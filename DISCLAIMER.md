@@ -7,5 +7,3 @@ A cutoff date on a feed is that one reader's own decision about what they read, 
 Each entry carries the channel's own title, date and link, exactly as published and never altered; a title keeps its own spelling. No video is copied. An entry embeds the channel's own player and links to the video on YouTube.
 
 These feeds are kept apart from the Charging The Future blog on purpose. The blog is that project's own writing. These are not, and nothing here is written in its voice.
-
-If a channel is yours and you want it removed from here, open an issue on this repository. It is removed; no account on anything of ours is needed and no reason has to be given.

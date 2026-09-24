@@ -244,7 +244,7 @@ function indexPage(archives: Archive[]): string {
     '    <ul>',
     rows,
     '    </ul>',
-    `    <p><a href="https://github.com/chargingthefuture/rss-feeds">Source and removal requests</a></p>`,
+    `    <p><a href="https://github.com/chargingthefuture/rss-feeds">Source</a></p>`,
     '  </main>',
     '</body>',
     '</html>',
