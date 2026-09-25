@@ -25,6 +25,9 @@ name: Collect a channel's uploads
 # YouTube refuses a data center address from time to time. A run that comes back
 # with nothing writes nothing and fails loudly, leaving what is already
 # collected untouched.
+#
+# main takes changes only through a pull request, so a run that finds something
+# new opens one. Merging it publishes the feed.
 
 on:
   workflow_dispatch:
@@ -44,7 +47,7 @@ on:
 
 permissions:
   contents: write
-  actions: write
+  pull-requests: write
 
 jobs:
   collect:
@@ -83,37 +86,41 @@ jobs:
             pnpm collect
           fi
 
-      - name: Commit what changed
-        id: commit
+      - name: Open a pull request with what changed
+        # main takes changes only through a pull request, so the refresh goes
+        # onto a branch of its own and waits there for a person to merge it.
+        # The merge is a push to main, which starts the deploy.
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANNEL: ${{ inputs.channel }}
+          CUTOFF: ${{ inputs.cutoff }}
         run: |
           # `git status --porcelain` rather than `git diff`: a newly collected
           # channel is a file git has never seen, and `git diff` reports no
           # change for a file it is not tracking.
           if [ -z "$(git status --porcelain -- channels)" ]; then
-            echo "changed=no" >> "$GITHUB_OUTPUT"
             echo "Nothing new."
             exit 0
           fi
+          if [ -n "$CHANNEL" ]; then
+            title="chore: collect the uploads of $CHANNEL"
+          else
+            title='chore: refresh the collected uploads'
+          fi
+          branch="collect/run-${GITHUB_RUN_ID}"
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git switch -c "$branch"
           git add channels
-          git commit -m 'chore: refresh the collected uploads'
-          git push
-          echo "changed=yes" >> "$GITHUB_OUTPUT"
-
-      - name: Publish
-        # A commit made with the built-in token does not start the deploy on its
-        # own, so it is asked for directly.
-        if: steps.commit.outputs.changed == 'yes'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl -fsS -X POST \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H 'Accept: application/vnd.github+json' \
-            -H 'X-GitHub-Api-Version: 2022-11-28' \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/deploy.yml/dispatches" \
-            -d '{"ref":"main"}'
+          git commit -m "$title"
+          git push -u origin "$branch"
+          body="Collected by run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+          if [ -n "$CUTOFF" ]; then
+            body="$body Feed cut before $CUTOFF."
+          fi
+          if ! gh pr create --base main --head "$branch" --title "$title" --body "$body"; then
+            echo "::warning title=Pull request not opened::The branch $branch is pushed, but opening its pull request was refused. Open it from the branch on GitHub. To let this workflow open it, turn on Settings → Actions → General → Allow GitHub Actions to create and approve pull requests."
+          fi
 
       - name: Say where the feeds are
         run: |

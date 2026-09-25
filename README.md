@@ -13,7 +13,7 @@ it is the same text the site's front page shows.
 | `channels/<slug>.json` | A channel's collected upload list: id, title, date, and whether the date is approximate. Committed, because it cannot be rebuilt on demand. May carry a `cutoff`. |
 | `scripts/collect-youtube-archive.ts` | Reads a channel's upload list with yt-dlp (metadata only, no video, no API key) and merges it into the archive. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, plus the site's index page. |
-| `.github/workflows/collect.yml` | Runs the collector for one channel or all of them, commits what changed, and starts the deploy. |
+| `.github/workflows/collect.yml` | Runs the collector for one channel or all of them and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
 ## Adding a channel
@@ -24,7 +24,8 @@ feed stops there — videos dated on or after the date are never written into it
 on later refreshes; run again with the channel and a new date to change it. Leave the channel box
 empty to refresh every channel already collected.
 
-The run's summary prints each feed's address. Subscribe to it in a reader.
+A run that finds something new opens a pull request with it; the feed goes live once that is
+merged. The run's summary prints each feed's address. Subscribe to it in a reader.
 
 ## Dates
 
