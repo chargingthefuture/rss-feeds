@@ -1,0 +1,4629 @@
+{
+  "slug": "ycombinator",
+  "name": "ycombinator",
+  "channelUrl": "https://www.youtube.com/@ycombinator",
+  "collectedAt": "2026-09-25",
+  "cutoff": "2024-12-31",
+  "videos": [
+    {
+      "id": "yslXlV2BP_Y",
+      "title": "The State of Startups in 2026",
+      "date": "2026-09-18",
+      "approximateDate": true,
+      "duration": 2189
+    },
+    {
+      "id": "wr6PMD06hP0",
+      "title": "Why You're Getting Zero Replies To Your Cold Emails",
+      "date": "2026-09-13",
+      "approximateDate": true,
+      "duration": 762
+    },
+    {
+      "id": "n9xKblqyQ28",
+      "title": "Why The Harness Matters More Than The Model | YC Paper Club",
+      "date": "2026-09-12",
+      "approximateDate": true,
+      "duration": 3611
+    },
+    {
+      "id": "5bxp78i96S8",
+      "title": "Paul Graham On Startups, Ambition, and Great Founders",
+      "date": "2026-09-05",
+      "approximateDate": true,
+      "duration": 1285
+    },
+    {
+      "id": "nM86DBOqgPM",
+      "title": "The World’s Largest Electric Aircraft Just Flew",
+      "date": "2026-09-05",
+      "approximateDate": true,
+      "duration": 889
+    },
+    {
+      "id": "rY0wnfFHYbs",
+      "title": "Open Models Change The Economics of AI",
+      "date": "2026-09-05",
+      "approximateDate": true,
+      "duration": 3436
+    },
+    {
+      "id": "4YWO4sSRrTE",
+      "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 917
+    },
+    {
+      "id": "5d6y3poKwK4",
+      "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1860
+    },
+    {
+      "id": "A9JDkiYEhfY",
+      "title": "The Case For Data Centers In Space",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2174
+    },
+    {
+      "id": "byAj35QlGbs",
+      "title": "Blake Scholl: How 50 People Built a Supersonic Jet",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3002
+    },
+    {
+      "id": "cRZNwgvcWUg",
+      "title": "Chelsea Finn: This is the State of the Art in Robotics",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3498
+    },
+    {
+      "id": "CxXgV54KzpQ",
+      "title": "Jeff Dean: The 1% Rule for Building in AI",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3427
+    },
+    {
+      "id": "eRrc1pUY5oU",
+      "title": "Garry Tan: Own Your Intelligence",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2528
+    },
+    {
+      "id": "Gp4zrV3-6N8",
+      "title": "Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2964
+    },
+    {
+      "id": "I4B37S1dyQQ",
+      "title": "Jensen Huang: The Mindset That Built NVIDIA",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2940
+    },
+    {
+      "id": "IfoPg2QefF8",
+      "title": "Going In Deep On Data | YC Paper Club",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3155
+    },
+    {
+      "id": "myDCd0hNqQU",
+      "title": "Why Robotics Still Isn't Solved - But Could Be Soon | YC Paper Club",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 5053
+    },
+    {
+      "id": "n8dz2FX0_uY",
+      "title": "Lessons From Training Composer At Cursor And Building Meta/Nvidia Compute Clusters | YC Paper Club",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 4585
+    },
+    {
+      "id": "o0ORPbSEgd8",
+      "title": "Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3580
+    },
+    {
+      "id": "P06RgnUKX_I",
+      "title": "How To Design In The Agent Era",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3362
+    },
+    {
+      "id": "qyPCVqFUyDo",
+      "title": "Boris Cherny: We Cut 80% of Claude Code’s Prompt",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2152
+    },
+    {
+      "id": "sJ4VJWycX9M",
+      "title": "Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1930
+    },
+    {
+      "id": "whcfSGN6CAU",
+      "title": "Peter Steinberger: \"Fun Is Velocity\"",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2513
+    },
+    {
+      "id": "Xc4klGbq8v8",
+      "title": "Max Hodak: Average Is Not Good Enough",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3423
+    },
+    {
+      "id": "YEvLKzsEwMw",
+      "title": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 3105
+    },
+    {
+      "id": "ZIaOBAjvc38",
+      "title": "Sam Altman: \"Never a Better Time to Do a Startup\"",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2341
+    },
+    {
+      "id": "zLUZclThLhU",
+      "title": "Michael Kratsios: Inside the White House's AI Strategy",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 2384
+    },
+    {
+      "id": "_O6x4ktK6JA",
+      "title": "He Built the World's #1 Open-Source Coding Agent",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 2667
+    },
+    {
+      "id": "99sPd15j3Zc",
+      "title": "What Actually Makes A Startup Durable",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 2856
+    },
+    {
+      "id": "ALJQHSgCl2E",
+      "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1722
+    },
+    {
+      "id": "DbBnd9PYob4",
+      "title": "The Model-Agnostic AI Platform Betting That No Single Lab Will Win",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1373
+    },
+    {
+      "id": "e5-6rEwzxLs",
+      "title": "Dot Plots: How to Actually See What Your Users Are Doing",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 830
+    },
+    {
+      "id": "F3INH9wZXoQ",
+      "title": "Why Physical AI Is the Next Platform Shift",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1211
+    },
+    {
+      "id": "FVsgX0AdDTo",
+      "title": "What Big Tech Missed And How Startups Can Still Win",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1750
+    },
+    {
+      "id": "Ju8LVdvuxGM",
+      "title": "India Can Create The Largest AI Companies",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1930
+    },
+    {
+      "id": "qz4GQ0zUFRw",
+      "title": "World Models, JEPA And The Path To Sample-Efficient RL",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 4467
+    },
+    {
+      "id": "RgYCO87ghRY",
+      "title": "How Photoroom Trained Themselves To Dream Bigger",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1324
+    },
+    {
+      "id": "sG5aB79TE44",
+      "title": "How Supabase Became One Of The Fastest Growing DevTool Companies In The World",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1881
+    },
+    {
+      "id": "vb1Gcn10enw",
+      "title": "What Top AI Labs Are Really Doing With Observability",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1830
+    },
+    {
+      "id": "VbqaL_eHhKY",
+      "title": "YC's Head of Design Shows You How To Design With AI",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1855
+    },
+    {
+      "id": "xpeRVyFFy_Q",
+      "title": "Solving the Blank Canvas Problem: Gusto's AI Co-Founder",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1947
+    },
+    {
+      "id": "_FBivfgOvuE",
+      "title": "How to Get Your First 10 Customers",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 827
+    },
+    {
+      "id": "2Ap1dnv-GXA",
+      "title": "Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1470
+    },
+    {
+      "id": "3rWSvrFahIY",
+      "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 4615
+    },
+    {
+      "id": "49L8lVe_PVo",
+      "title": "How Meesho Became India’s Biggest Shopping App",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1821
+    },
+    {
+      "id": "8OOuCnZB-4o",
+      "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 2563
+    },
+    {
+      "id": "B246K_G7mHU",
+      "title": "Inside YC's AI Playbook",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 2790
+    },
+    {
+      "id": "fQmlML9Lay4",
+      "title": "Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 995
+    },
+    {
+      "id": "gSNFJbgoaHI",
+      "title": "How to Build an AI-Native Services Company",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 682
+    },
+    {
+      "id": "mjmswQurIU4",
+      "title": "How Legora Went From YC to $100M ARR in 18 Months",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1367
+    },
+    {
+      "id": "mPAHvz8kW24",
+      "title": "The Most AI-Pilled CEO We Know",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 3247
+    },
+    {
+      "id": "ObBAxL2dFzw",
+      "title": "Groww: If Your Customers Don't Love It or Hate It, You've Already Lost",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1811
+    },
+    {
+      "id": "oHwUD9b9_pg",
+      "title": "Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 2443
+    },
+    {
+      "id": "R56RJFZBasQ",
+      "title": "Pick One Idea and Go Deep",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 691
+    },
+    {
+      "id": "wE1ZgJdt4uM",
+      "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 4039
+    },
+    {
+      "id": "yyXCQHX55N4",
+      "title": "Emergent: How Six Months of Tinkering Led To A $100M ARR Company",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1745
+    },
+    {
+      "id": "57lDpTwiW6g",
+      "title": "Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 2490
+    },
+    {
+      "id": "7VKliOQXQ9M",
+      "title": "How The Best Companies Defend Against Mediocrity And Rot",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 3005
+    },
+    {
+      "id": "DGtUUMNYLcc",
+      "title": "Recursion Is The Next Scaling Law In AI",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 2273
+    },
+    {
+      "id": "JNyuX1zoOgU",
+      "title": "Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 2457
+    },
+    {
+      "id": "QHJkUw31YX8",
+      "title": "Paul Graham, Founder of Y Combinator, Live from Stockholm",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1318
+    },
+    {
+      "id": "X_JsIHUfUjc",
+      "title": "How to Build a Self-Improving Company with AI",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 809
+    },
+    {
+      "id": "X5bABLCuIHA",
+      "title": "Harshil Mathur: AI Is Compressing Every Moat",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1895
+    },
+    {
+      "id": "YKZCU0ynEbs",
+      "title": "Zepto: How Two 17-Year-Olds Built India's Largest Seller Of Fruits and Vegetables",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1738
+    },
+    {
+      "id": "4EsUaur0nsQ",
+      "title": "The GPT Moment for Robotics Is Here",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 2967
+    },
+    {
+      "id": "EN7frwQIbKc",
+      "title": "How To Build A Company With AI From The Ground Up",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 628
+    },
+    {
+      "id": "JF6XIixstmQ",
+      "title": "This Startup Catches Fraud at Scale",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 1884
+    },
+    {
+      "id": "k2ZLQC8P7dc",
+      "title": "François Chollet: Why Scaling Alone Isn’t Enough for AGI",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 3444
+    },
+    {
+      "id": "kkv5rZhrLkc",
+      "title": "BillionToOne Is Solving One of Biotech’s Hardest Problems",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 1250
+    },
+    {
+      "id": "kMYeTRqzAfc",
+      "title": "Replit's CEO On The Only Two Jobs Left In The Company Of The Future",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 2352
+    },
+    {
+      "id": "wkv2ifxPpF8",
+      "title": "How to Make Claude Code Your AI Engineering Team",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 1310
+    },
+    {
+      "id": "ypzNhwpmOD4",
+      "title": "How Stripe Built Their New Website",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 2617
+    },
+    {
+      "id": "5gspRJVp9dI",
+      "title": "The Future Of Brain-Computer Interfaces",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 3201
+    },
+    {
+      "id": "8SVocWnDHwE",
+      "title": "AI Is Unlocking Millions Of New Builders",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 2373
+    },
+    {
+      "id": "DNSXlBmukck",
+      "title": "Common Mistakes With Vibe Coded Websites",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 2247
+    },
+    {
+      "id": "PCypBUVhff8",
+      "title": "Inside The Startup Reinventing The $6 Trillion Chemical Manufacturing Industry",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 788
+    },
+    {
+      "id": "UPGB-hsAoVY",
+      "title": "The Powerful Alternative To Fine-Tuning",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 1186
+    },
+    {
+      "id": "4uzGDAoNOZc",
+      "title": "OpenClaw Creator: Why 80% Of Apps Will Disappear",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 1356
+    },
+    {
+      "id": "K5JoLAauzq4",
+      "title": "How We Redesigned Our Website",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 1120
+    },
+    {
+      "id": "leQ89XSHILw",
+      "title": "Why Your Startup Website Isn't Converting",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 2427
+    },
+    {
+      "id": "PQU9o_5rHC4",
+      "title": "Inside Claude Code With Its Creator Boris Cherny",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 3011
+    },
+    {
+      "id": "Q8wVMdwhlh4",
+      "title": "The AI Agent Economy Is Here",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 1402
+    },
+    {
+      "id": "qwmmWzPnhog",
+      "title": "We're All Addicted To Claude Code",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 2760
+    },
+    {
+      "id": "rWUWfj_PqmM",
+      "title": "The New Way To Build A Startup",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 471
+    },
+    {
+      "id": "0kARDVL2nZg",
+      "title": "How To Get Your First Users",
+      "date": "2026-01-26",
+      "approximateDate": true,
+      "duration": 342
+    },
+    {
+      "id": "2hgjgycOU_0",
+      "title": "Inside The Startup Building Reusable Rockets",
+      "date": "2026-01-26",
+      "approximateDate": true,
+      "duration": 944
+    },
+    {
+      "id": "dC_3ys349bU",
+      "title": "The ML Technique Every Founder Should Know",
+      "date": "2026-01-26",
+      "approximateDate": true,
+      "duration": 1631
+    },
+    {
+      "id": "5WN8bfG06Hk",
+      "title": "From Pivot Hell To $1.4 Billion Unicorn",
+      "date": "2025-12-26",
+      "approximateDate": true,
+      "duration": 2327
+    },
+    {
+      "id": "cqrJzG03ENE",
+      "title": "The Truth About The AI Bubble",
+      "date": "2025-12-26",
+      "approximateDate": true,
+      "duration": 1823
+    },
+    {
+      "id": "pBlIgs6w7Ss",
+      "title": "How Intelligent Is AI, Really?",
+      "date": "2025-12-26",
+      "approximateDate": true,
+      "duration": 720
+    },
+    {
+      "id": "t8co94HS6tY",
+      "title": "How Amplitude Went From Skeptics to “All In” on AI",
+      "date": "2025-12-26",
+      "approximateDate": true,
+      "duration": 2662
+    },
+    {
+      "id": "Z4L4ZqL1xqQ",
+      "title": "The Best Consumer Startup Ideas Were Impossible Until Now",
+      "date": "2025-12-26",
+      "approximateDate": true,
+      "duration": 2376
+    },
+    {
+      "id": "DULfEcPR0Gc",
+      "title": "Good News For Startups: Enterprise Is Bad At AI",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 1304
+    },
+    {
+      "id": "hKw6cRKcqzY",
+      "title": "Inside The Startup Launching AI Data Centers Into Space",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 776
+    },
+    {
+      "id": "i_PjjXKNpA4",
+      "title": "The Startup Playbook for Hiring Your First Engineers and AEs",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 2601
+    },
+    {
+      "id": "KTmxaMdUbHA",
+      "title": "AI Is Eating Logistics",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 2021
+    },
+    {
+      "id": "l0h3nAW13ao",
+      "title": "From Idea to $650M Exit: Lessons in Building AI Startups",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 2365
+    },
+    {
+      "id": "RynySryqM_0",
+      "title": "Cursor Head of Design Roasts Startup Websites",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 2135
+    },
+    {
+      "id": "bxBzsSsqQAM",
+      "title": "The 7 Most Powerful Moats For AI Startups",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2706
+    },
+    {
+      "id": "DJjZzzPANBY",
+      "title": "Ask These Questions Before Starting An AI Startup",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2436
+    },
+    {
+      "id": "ENG_DQF5E60",
+      "title": "This Startup Is Trying To Delete 29% Of All CO2 Emissions",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 767
+    },
+    {
+      "id": "Hm-ZIiwiN1o",
+      "title": "Billion-Dollar Unpopular Startup Ideas",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2263
+    },
+    {
+      "id": "IqwSb2hO1jE",
+      "title": "What Everyone Is Getting Wrong About AI And Jobs",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 481
+    },
+    {
+      "id": "JZLZQVmfGn8",
+      "title": "Transformers Explained: The Discovery That Changed AI Forever",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 559
+    },
+    {
+      "id": "nGLmpKi-jRU",
+      "title": "Startup Advice: AI GTM, Pivoting & How To Hire",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2313
+    },
+    {
+      "id": "YFeb3yAxtjE",
+      "title": "Anthropic Head of Pretraining on Scaling Laws, Compute, and the Future of AI",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 3845
+    },
+    {
+      "id": "_PioN-CpOP0",
+      "title": "Fei-Fei Li: Spatial Intelligence is the Next Frontier in AI",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2662
+    },
+    {
+      "id": "-7Qz7tSTfUU",
+      "title": "Dylan Field: Scaling Figma and the Future of Design",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2437
+    },
+    {
+      "id": "0LMK5JYkB94",
+      "title": "AI Revolution: What Nobody Else Is Seeing",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2373
+    },
+    {
+      "id": "2jOnoTEk-xA",
+      "title": "Aravind Srinivas: Perplexity's Race to Build Agentic Search",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2593
+    },
+    {
+      "id": "2Yguz5U-Nic",
+      "title": "Nobel Laureate John Jumper: AI is Revolutionizing Scientific Discovery",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1647
+    },
+    {
+      "id": "3N3TnaViyjk",
+      "title": "DoorDash CEO: Customer Obsession, Surviving Startup Death & Creating A New Market",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1893
+    },
+    {
+      "id": "4Tmn-XP93m4",
+      "title": "The Engineering Unlocks Behind DeepSeek | YC Decoded",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 786
+    },
+    {
+      "id": "4UE4e6b2qtA",
+      "title": "Figma's Dylan Field: Exploring the idea maze, vibe coding, and the power of “locking in”",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2262
+    },
+    {
+      "id": "5noIKN8t69U",
+      "title": "Alexandr Wang: Building Scale AI, Transforming Work With Agents & Competing With China",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 3673
+    },
+    {
+      "id": "5QcCeSsNRks",
+      "title": "François Chollet: How We Get To AGI",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2088
+    },
+    {
+      "id": "5uBAQrg4SoQ",
+      "title": "GPT-4.5 = Big Model Energy | YC Decoded",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 506
+    },
+    {
+      "id": "7Kt9ugD3bGQ",
+      "title": "How To Use AI In Your Startup",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 858
+    },
+    {
+      "id": "a8-QsBHoH94",
+      "title": "Chelsea Finn: Building Robots That Can Do Anything",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2693
+    },
+    {
+      "id": "aIKfA3gIXwo",
+      "title": "How AI Is Changing Enterprise",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2969
+    },
+    {
+      "id": "ASABxNenD_U",
+      "title": "Vertical AI Agents Could Be 10X Bigger Than SaaS",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2533
+    },
+    {
+      "id": "AUUZuzVHKdo",
+      "title": "Satya Nadella: Microsoft's AI Bets, Hyperscaling, Quantum Computing Breakthroughs",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2430
+    },
+    {
+      "id": "aYK0H85E_oU",
+      "title": "How Zepto Became India’s Fastest Growing Startup",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2304
+    },
+    {
+      "id": "BJjsfNO5JTo",
+      "title": "How To Get The Most Out Of Vibe Coding | Startup School",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1000
+    },
+    {
+      "id": "bvjyaz4ZiVI",
+      "title": "How Top 1% Founders Navigate Co-founder Conflict",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2595
+    },
+    {
+      "id": "CcnwFJqEnxU",
+      "title": "How David Lieb Turned a Failing Startup Into Google Photos | Backstory",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "cFIlta1GkiE",
+      "title": "Elon Musk: Digital Superintelligence, Multiplanetary Life, How to Be Useful",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2981
+    },
+    {
+      "id": "CKfERe55CeA",
+      "title": "Why Design Matters: Lessons from Stripe, Lyft and Airbnb",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2018
+    },
+    {
+      "id": "d6Ed5bZAtrM",
+      "title": "How Scaling Laws Will Determine AI's Future | YC Decoded",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 612
+    },
+    {
+      "id": "DBhSfROq3wU",
+      "title": "AI Interfaces Of The Future | Design Review",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2188
+    },
+    {
+      "id": "DH7REvnQ1y4",
+      "title": "The Sales Playbook For Founders | Startup School",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1129
+    },
+    {
+      "id": "DL82mGde6wo",
+      "title": "State-Of-The-Art Prompting For AI Agents",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1886
+    },
+    {
+      "id": "DY5Z-uZ6ZMc",
+      "title": "Stripe Head of Design Katie Dill Reviews Startup Websites",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1266
+    },
+    {
+      "id": "eBVi_sLaYsc",
+      "title": "Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2226
+    },
+    {
+      "id": "eW7rUtYHD9U",
+      "title": "Bob McGrew: AI Agents And The Path To AGI",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1845
+    },
+    {
+      "id": "EW9TUqOgjmQ",
+      "title": "Twitter vs. X: Product Lessons For Startup Founders",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1363
+    },
+    {
+      "id": "Fk9BCr5pLTU",
+      "title": "How To Find A Co-Founder | Startup School",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1238
+    },
+    {
+      "id": "FwD0wqwUjAI",
+      "title": "How To Build The Future: Parker Conrad",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2608
+    },
+    {
+      "id": "HB3l1BPi7zo",
+      "title": "How Do Billion Dollar Startups Start?",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1114
+    },
+    {
+      "id": "IACHfKmZMr8",
+      "title": "Vibe Coding Is The Future",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1894
+    },
+    {
+      "id": "IRROi-Q1V44",
+      "title": "The Right (And Wrong) Way To Spend Money At Your Startup",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1747
+    },
+    {
+      "id": "jbIQfoldLag",
+      "title": "Now Anyone Can Code: How AI Agents Can Build Your Whole App",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2234
+    },
+    {
+      "id": "JdT78t1Offo",
+      "title": "Anthropic Co-founder: Building Claude Code, Lessons From GPT-3 & LLM System Design",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2157
+    },
+    {
+      "id": "JiwiqYGw4iU",
+      "title": "Why The Next AI Breakthroughs Will Be In Reasoning, Not Scaling",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2117
+    },
+    {
+      "id": "JOYSDqJdiro",
+      "title": "The Next Breakthrough In AI Agents Is Here",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 510
+    },
+    {
+      "id": "K4s6Cgicw_A",
+      "title": "Startup Ideas You Can Now Build With AI",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2447
+    },
+    {
+      "id": "kOyIjt6FUrw",
+      "title": "How Replit Went From $10M to $100M ARR In Just 9 Months",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2151
+    },
+    {
+      "id": "ksGNfd-wQY4",
+      "title": "What Founders Can Do To Improve Their Design Game",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1244
+    },
+    {
+      "id": "lbJilIQhHko",
+      "title": "The 10 Trillion Parameter AI Model With 300 IQ",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2025
+    },
+    {
+      "id": "LCEmiRjPEtQ",
+      "title": "Andrej Karpathy: Software Is Changing (Again)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2372
+    },
+    {
+      "id": "LKgAx7FWva4",
+      "title": "Windsurf CEO: Betting On AI Agents, Pivoting In 48 Hours, And The Future of Coding",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 3156
+    },
+    {
+      "id": "lqokpIme47A",
+      "title": "The Finance Startup Bringing Agentic AI to Wall Street",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2776
+    },
+    {
+      "id": "Lv9bKyQgoHo",
+      "title": "Why OpenAI's o1 Is A Huge Deal | YC Decoded",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 427
+    },
+    {
+      "id": "lWmDiDGsLK4",
+      "title": "The Future of Software Creation with Replit CEO Amjad Masad",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2522
+    },
+    {
+      "id": "oOylEw3tPQ8",
+      "title": "Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2249
+    },
+    {
+      "id": "p8Jx4qvDoSo",
+      "title": "Scaling and the Road to Human-Level AI | Anthropic Co-founder Jared Kaplan",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2448
+    },
+    {
+      "id": "Pdne9xaRLUc",
+      "title": "Why Now Is The Best Time To Build In Crypto",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2521
+    },
+    {
+      "id": "pHuXCzM2ntU",
+      "title": "How This 25-Year-Old Built A $675M Legal AI Startup (With No Legal Experience)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2726
+    },
+    {
+      "id": "Q0Xs0lGgwVA",
+      "title": "You Don’t Have To Be A Billionaire To Launch Satellites",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 821
+    },
+    {
+      "id": "raTbhtKZTZA",
+      "title": "OpenAI vs. Deepseek vs. Qwen: Comparing Open Source LLM Architectures",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 752
+    },
+    {
+      "id": "rjyJsbUunQ4",
+      "title": "Building A $2 Billion SaaS Company: Lessons From A Two Time Founder",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1472
+    },
+    {
+      "id": "RNJCfif1dPY",
+      "title": "Andrew Ng: Building Faster with AI",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2638
+    },
+    {
+      "id": "ShYKkPPhOoc",
+      "title": "How to Spend Your 20s in the AI Era",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2336
+    },
+    {
+      "id": "sOFmYwYa9Pk",
+      "title": "How Blake Scholl Built The First Independent Supersonic Jet",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 826
+    },
+    {
+      "id": "SP7Ua8FKZN4",
+      "title": "How To Build The Future: Aravind Srinivas",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2079
+    },
+    {
+      "id": "TANaRNMbYgk",
+      "title": "How To Get AI Startup Ideas",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2629
+    },
+    {
+      "id": "TECDj4JUx7o",
+      "title": "How AI Coding Agents Will Change Your Job",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1152
+    },
+    {
+      "id": "TrXi3naD6Og",
+      "title": "Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1676
+    },
+    {
+      "id": "uEeFsW9343g",
+      "title": "Brand Design Tips From Linear Founder Karri Saarinen",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2622
+    },
+    {
+      "id": "uGjv25IrjoE",
+      "title": "The Lightcone 2025 Forecast",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 423
+    },
+    {
+      "id": "uqc_vt95GJg",
+      "title": "Aaron Levie: Why Startups Win In The AI Era",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2428
+    },
+    {
+      "id": "V979Wd1gmTU",
+      "title": "Sam Altman: The Future of OpenAI, ChatGPT's Origins, and Building AI Hardware",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2564
+    },
+    {
+      "id": "VaQA55ZZWBU",
+      "title": "From A Pivot To Building A $9.6 Billion Payroll Company",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1572
+    },
+    {
+      "id": "VDmU0jjklBo",
+      "title": "Anthropic’s Claude Computer Use Is A Game Changer | YC Decoded",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 474
+    },
+    {
+      "id": "VIkphkYlkaQ",
+      "title": "How To Build A Truly Abundant Future",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2053
+    },
+    {
+      "id": "wH3TKpALlw4",
+      "title": "Starting A Company? The Key Terms You Should Know | Startup School",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1075
+    },
+    {
+      "id": "WJoZK9sMwvw",
+      "title": "How To Design Better AI Apps",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1808
+    },
+    {
+      "id": "XdigD0LOXx0",
+      "title": "Fusion Energy Will Power the AI Boom",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 488
+    },
+    {
+      "id": "xFQ5mIJdxhA",
+      "title": "Legendary Consumer VC Predicts The Future Of AI Products",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2147
+    },
+    {
+      "id": "xXCBz_8hM9w",
+      "title": "How To Build The Future: Sam Altman",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2812
+    },
+    {
+      "id": "z0wt2pe_LZM",
+      "title": "2024: The Year the GPT Wrapper Myth Proved Wrong",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2291
+    },
+    {
+      "id": "z1aKRhRnVNk",
+      "title": "How To Start A Dev Tools Company | Startup School",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1977
+    },
+    {
+      "id": "Zyw-YA0k3xo",
+      "title": "The FDE Playbook for AI Startups with Bob McGrew",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 3043
+    },
+    {
+      "id": "_-5xJQ4U8g0",
+      "title": "Are We In An AI Hype Cycle?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2256
+    },
+    {
+      "id": "_mKeVGSqQac",
+      "title": "B2B Startup Metrics | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1427
+    },
+    {
+      "id": "0fKYVl12VTA",
+      "title": "Enterprise Sales | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1387
+    },
+    {
+      "id": "0TNTlMZFTWw",
+      "title": "Why This Is The Perfect Time To Start A Startup",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1150
+    },
+    {
+      "id": "2ViqdR5E2wU",
+      "title": "When Should You Trust Your Gut?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 731
+    },
+    {
+      "id": "43RhhwpiSk0",
+      "title": "Do Technical Founders Need Business Co-Founders?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 635
+    },
+    {
+      "id": "4aMQPG9gPoM",
+      "title": "Better AI Models, Better Startups",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2467
+    },
+    {
+      "id": "4hjiRmgmHiU",
+      "title": "How To Price For B2B | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1066
+    },
+    {
+      "id": "6u4JVz7iQTY",
+      "title": "How YC Was Created With Jessica Livingston",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 3540
+    },
+    {
+      "id": "6WtdFqgsEY0",
+      "title": "Standing Up For Startups - YC Goes To D.C.",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 727
+    },
+    {
+      "id": "7Kh_fpxP1yY",
+      "title": "How To Convert Customers With Cold Emails | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1966
+    },
+    {
+      "id": "8-Zrhz1QKGo",
+      "title": "How to Survive the Crypto Boom & Bust Cycle",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 575
+    },
+    {
+      "id": "a_n4yOqlWbA",
+      "title": "Apple Vision Pro: Startup Platform Of The Future?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1679
+    },
+    {
+      "id": "al-15mMAS18",
+      "title": "Building Confidence In Yourself and Your Ideas",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1271
+    },
+    {
+      "id": "chAoH_AeGAg",
+      "title": "Should You Quit Your Job At A Unicorn?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 812
+    },
+    {
+      "id": "CKvo_kQbakU",
+      "title": "10 People + AI = Billion Dollar Company?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2304
+    },
+    {
+      "id": "CYdsh1FhpI4",
+      "title": "Critiquing Software Startup Websites with CEO of Glide",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1398
+    },
+    {
+      "id": "D81y-kh11oI",
+      "title": "Should Your Startup Bootstrap or Raise Venture Capital?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 845
+    },
+    {
+      "id": "e1Yhs9BEOSw",
+      "title": "Lightcone: Consumer is back, What’s getting funded now, The vibes immaculate",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2542
+    },
+    {
+      "id": "erDE2e69dlc",
+      "title": "Inside The Hard Tech Startups Turning Sci-Fi Into Reality",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2917
+    },
+    {
+      "id": "fcfVjd_oV1I",
+      "title": "How To NOT Get Screwed As A Software Engineer",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1059
+    },
+    {
+      "id": "fdD4y4Civp4",
+      "title": "Consumer Startup Metrics | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1346
+    },
+    {
+      "id": "fmI_OciHV_8",
+      "title": "How To Build Generative AI Models Like OpenAI's Sora",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2046
+    },
+    {
+      "id": "FNwu440UxhU",
+      "title": "Stop Innovating (On The Wrong Things)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 719
+    },
+    {
+      "id": "GU9iT7MW0rs",
+      "title": "Tarpit Ideas: The Sequel",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 830
+    },
+    {
+      "id": "HQjjgi6271k",
+      "title": "50 Founders Share Why They Applied To Y Combinator",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 184
+    },
+    {
+      "id": "IjPDIjge81o",
+      "title": "Startup Experts Discuss Doing Things That Don't Scale",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1542
+    },
+    {
+      "id": "iMo5-4h_XwE",
+      "title": "What Is ZIRP And How Did It Poison Startups?",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1103
+    },
+    {
+      "id": "kVGvC7Ix_nc",
+      "title": "Signs Your Company Is Recovering From ZIRP",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1060
+    },
+    {
+      "id": "KxjPgGLVJSg",
+      "title": "How New Technology Creates New Businesses",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 496
+    },
+    {
+      "id": "LSUviaN1eso",
+      "title": "Gmail Creator Paul Buchheit On AGI, Open Source Models, Freedom",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2924
+    },
+    {
+      "id": "nF_YWdz6S0Y",
+      "title": "Startup Experts Reveal Their Top Productivity Advice",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 982
+    },
+    {
+      "id": "nsM558l60_c",
+      "title": "AI Startup Founders Debate the Creation of Artificial General Intelligence",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 346
+    },
+    {
+      "id": "Nsx5RDVKZSk",
+      "title": "Why Startup Founders Should Launch Companies Sooner Than They Think",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1098
+    },
+    {
+      "id": "pqwOL6YfRIo",
+      "title": "Does Your Startup Website Pass The First Impression Test? | Design Review",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1272
+    },
+    {
+      "id": "qFBUd0b8TjY",
+      "title": "AI and the Future of Law: The 10 Year \"Overnight\" Success Story",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1049
+    },
+    {
+      "id": "QKPgBAnbc10",
+      "title": "Tom Blomfield: How I Created Two Billion-Dollar Fintech Startups",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 865
+    },
+    {
+      "id": "R2fAYn8R318",
+      "title": "How Surbhi Sarna Built A $275M Biotech Company From Nothing",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 712
+    },
+    {
+      "id": "SMi3JO-hsyY",
+      "title": "Why Founders Shouldn't Think Like Investors",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1438
+    },
+    {
+      "id": "tJTxDqjO4vg",
+      "title": "Design Tips to Convert More Customers | Design Review",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1430
+    },
+    {
+      "id": "TwDJhUJL-5o",
+      "title": "The Truth About Building AI Startups Today",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1947
+    },
+    {
+      "id": "uZVyBc1CKN0",
+      "title": "How Nothing Founder Carl Pei Built A Multi-Million Dollar Smartphone Brand In Just 2 Years",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1271
+    },
+    {
+      "id": "vhXdUXmmhb4",
+      "title": "Techno Optimism, Explained",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 976
+    },
+    {
+      "id": "VNxBZ7ka5J0",
+      "title": "How To Keep Your Users | Startup School",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1763
+    },
+    {
+      "id": "VyIOoqjm8HA",
+      "title": "Building The World's Best Image Diffusion Model",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 3352
+    },
+    {
+      "id": "wA0qC9D4LA0",
+      "title": "The best AI founders in the world are moving here",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2007
+    },
+    {
+      "id": "ZpKu2wvquWg",
+      "title": "How To Build A Tech Startup With No Technical Skills",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 914
+    },
+    {
+      "id": "09mXPGVkfVA",
+      "title": "Why You Shouldn't Copy Your Tech Idols",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1055
+    },
+    {
+      "id": "4N55fVuxxOg",
+      "title": "Critiquing Startup Mobile Apps with Glide CEO",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1443
+    },
+    {
+      "id": "7gxKhRSbK1s",
+      "title": "Big Changes at Y Combinator? An Inside Look with S22 Founders",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 196
+    },
+    {
+      "id": "B2JpZPSHaVM",
+      "title": "Critiquing Startup Websites With Webflow CEO",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1450
+    },
+    {
+      "id": "B5tU2447OK8",
+      "title": "How to Apply And Succeed at Y Combinator | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1492
+    },
+    {
+      "id": "bgp5QZwuNQI",
+      "title": "The Secret That Silicon Valley's Top Investors All Share",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 700
+    },
+    {
+      "id": "BUE-icVYRFU",
+      "title": "Should You Start A Startup? | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1034
+    },
+    {
+      "id": "DmehFuCMtvc",
+      "title": "Startup Experts Reveal Their Favorite Pivot Stories",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1249
+    },
+    {
+      "id": "DOez-RwJ7mg",
+      "title": "The Truth About Y Combinator",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1601
+    },
+    {
+      "id": "ECLJ95XNxA4",
+      "title": "Silicon Valley's Cargo Culting Problem",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 996
+    },
+    {
+      "id": "EiRnSjcVIqk",
+      "title": "Inside The Most Powerful Startup Community In The World",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 360
+    },
+    {
+      "id": "hQC5O3WTmuo",
+      "title": "The REAL potential of generative AI",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1203
+    },
+    {
+      "id": "hUbM-bURoJE",
+      "title": "The Hard Conversations Founders Don't Want to Have",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1284
+    },
+    {
+      "id": "hyYCn_kAngI",
+      "title": "How to Get Your First Customers | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1374
+    },
+    {
+      "id": "ia7IKW0yuG0",
+      "title": "The Cult of Conformity in Silicon Valley",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1078
+    },
+    {
+      "id": "IdwYMfM2QMs",
+      "title": "Secrets You Can Learn From Your Customers",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 890
+    },
+    {
+      "id": "IyhLAbqDw0k",
+      "title": "60 Startup Founders Share How They Met Their Co-Founder",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 233
+    },
+    {
+      "id": "jNJQTIUyT9Y",
+      "title": "How To Go From Startup Dream To Reality",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 414
+    },
+    {
+      "id": "LJay5YW4fLA",
+      "title": "How To Earn Customers For Life",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 779
+    },
+    {
+      "id": "ljVan7CGBiE",
+      "title": "Startup Experts Share Their Investor Horror Stories",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1569
+    },
+    {
+      "id": "NZp5j5hvn9I",
+      "title": "50 Founders Share How They Got Their First Customers",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 240
+    },
+    {
+      "id": "o1HFZ8P4rA8",
+      "title": "Which Sales Strategy Is Best For Your Startup?",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 374
+    },
+    {
+      "id": "O5KCB2p6SB8",
+      "title": "The Student's Guide To Becoming A Successful Startup Founder",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1462
+    },
+    {
+      "id": "oWZbWzAyHAE",
+      "title": "Startup Business Models and Pricing | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1964
+    },
+    {
+      "id": "PZqt2Y84gf0",
+      "title": "The Immigrant Journey Behind A Silicon Valley Success Story",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 727
+    },
+    {
+      "id": "RD5EAMOh7fE",
+      "title": "How Generosity Built Tech Giants",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 628
+    },
+    {
+      "id": "rE2XaBGHN2I",
+      "title": "The Secrets To Setting Smarter Goals",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1753
+    },
+    {
+      "id": "rP7bpYsfa6Q",
+      "title": "Tips For Technical Startup Founders | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1693
+    },
+    {
+      "id": "smHw9kEwcgM",
+      "title": "Will OpenAI Kill All Startups?",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 801
+    },
+    {
+      "id": "Th8JoIan4dg",
+      "title": "How to Get and Evaluate Startup Ideas | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1942
+    },
+    {
+      "id": "TNgjY5twBIg",
+      "title": "40 AI Founders Discuss Current Artificial Intelligence Technology",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 425
+    },
+    {
+      "id": "u36A-YTxiOw",
+      "title": "The Best Way To Launch Your Startup | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1268
+    },
+    {
+      "id": "uIYujpFmvo8",
+      "title": "Critiquing AI Startup Websites with YC President Garry Tan",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1441
+    },
+    {
+      "id": "z1iF1c8w5Lg",
+      "title": "How To Talk To Users | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1051
+    },
+    {
+      "id": "zBUhQPPS9AY",
+      "title": "How Startup Fundraising Works | Startup School",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1692
+    },
+    {
+      "id": "ZqGOCF4O6ks",
+      "title": "Does Your Startup Need To Be In San Francisco?",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 918
+    },
+    {
+      "id": "0IShllkCHtY",
+      "title": "Most Important Lifestyle Habits Of Successful Founders",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1921
+    },
+    {
+      "id": "0OVSTWozvfY",
+      "title": "Save Your Startup During an Economic Downturn",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 2146
+    },
+    {
+      "id": "6606a2ka-jQ",
+      "title": "YC Founders Made These Fundraising Mistakes",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 454
+    },
+    {
+      "id": "8MdVFF5HU0g",
+      "title": "Embark Trucks' Application Video for YC W16",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 55
+    },
+    {
+      "id": "9pQJXR0Tcos",
+      "title": "Turning Your Users Into Paying Customers",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 794
+    },
+    {
+      "id": "AWa4qZvtMuY",
+      "title": "How To Deal With Setbacks",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1348
+    },
+    {
+      "id": "bp_kMA-eTsE",
+      "title": "Advantages Of A First-Time Founder",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1313
+    },
+    {
+      "id": "BtzUo6vL3Iw",
+      "title": "Top Ways Startups Waste Money",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1694
+    },
+    {
+      "id": "CUZ6PKJZvXE",
+      "title": "Don't Make These Hiring Mistakes",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1185
+    },
+    {
+      "id": "dlfjs_eEEzs",
+      "title": "Co-Founder Mistakes That Kill Companies & How To Avoid Them",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 525
+    },
+    {
+      "id": "ephzgxgOjR0",
+      "title": "How Future Billionaires Get Sh*t Done",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1227
+    },
+    {
+      "id": "euZH0tVotPQ",
+      "title": "Investors Said No, Now What?",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 951
+    },
+    {
+      "id": "f0tPjcgcwnQ",
+      "title": "When to Launch Your Startup and When to Wait",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 821
+    },
+    {
+      "id": "G7TMqY7gkGY",
+      "title": "Simple Products That Became Big Companies – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1279
+    },
+    {
+      "id": "GiuxXzmvolU",
+      "title": "Y Combinator Is Back In Person",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1186
+    },
+    {
+      "id": "gok9BZLMxDs",
+      "title": "Critiquing Startup Websites With Instacart's First Designer",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1393
+    },
+    {
+      "id": "gUuQsMERjUc",
+      "title": "What Basic Game Theory Teaches Us About Startups",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1138
+    },
+    {
+      "id": "Hwfu1zNwSWI",
+      "title": "The Better Customer–Startups or Big Enterprise?",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1036
+    },
+    {
+      "id": "IYLVhk7yaaw",
+      "title": "Elon Musk & The Midwit Meme – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1063
+    },
+    {
+      "id": "Jcuqq48CNj8",
+      "title": "Where Do Great Startup Ideas Come From? – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1257
+    },
+    {
+      "id": "KWNNmPCF-Xs",
+      "title": "Should You Follow Your Passion? – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1134
+    },
+    {
+      "id": "lJausFj_Dto",
+      "title": "The Two Mindsets That Can KILL Your Startup",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1476
+    },
+    {
+      "id": "Ngv14GwaMSg",
+      "title": "Introducing Startup School 2022",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 84
+    },
+    {
+      "id": "qnav9vgHDHs",
+      "title": "How To Change The World? Get The Small Things Right – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1094
+    },
+    {
+      "id": "rpyvQJGcQGw",
+      "title": "Weave's Application Video for YC W14",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 101
+    },
+    {
+      "id": "sM2reZib2RY",
+      "title": "Why You Should Leave Your FAANG Job",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1185
+    },
+    {
+      "id": "TCPjk8Tpb5c",
+      "title": "Things That Don't Scale, The Software Edition – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1556
+    },
+    {
+      "id": "tzsmJtKZ2No",
+      "title": "How To Compete With Amazon and Google",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 965
+    },
+    {
+      "id": "UqKzpLqXuI0",
+      "title": "Why Investors Can’t Fix Your Company – Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1454
+    },
+    {
+      "id": "wnyI7ZM_Mrk",
+      "title": "Understanding Investor Terms & Incentives || Rookie Mistakes with Dalton Caldwell and Michael Seibel",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 578
+    },
+    {
+      "id": "y7Zz3TmXNHY",
+      "title": "Lessons From The Founders Scaling Their Startup In A War Zone",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 526
+    },
+    {
+      "id": "_oYJR6FNcdA",
+      "title": "Essential Startup Advice During a Pandemic",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1167
+    },
+    {
+      "id": "17xrOGM8tQo",
+      "title": "Squire, Edlyft, Promise: The Journey, Challenges, & Impact",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 378
+    },
+    {
+      "id": "1Rq0ltksFEg",
+      "title": "Synthetic Media: Virtual Influencers & Live Animation: Figments (S19) - YC Gaming Tech Talks 2020",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 531
+    },
+    {
+      "id": "4a0nj4o2O9k",
+      "title": "Designing Characters with Deep Learning: Spellbrush (W18) - YC Gaming Tech Talks 2020",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 603
+    },
+    {
+      "id": "4dJ6IaP_0dM",
+      "title": "Harj Taggar - How Startups can Compete with FAANG Companies when Hiring Employees",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 267
+    },
+    {
+      "id": "aDM8CNnCOwk",
+      "title": "Tim Brady - How do you calculate burn rate, runway and growth rate?",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 359
+    },
+    {
+      "id": "as7mjhC8puM",
+      "title": "Dreamcraft (S18) - YC Tech Talks: Gaming 2020 (November 9th, 2020)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 83
+    },
+    {
+      "id": "B2QdN0-fAbw",
+      "title": "Tim Brady - How Much Equity Should I Give My First Employees?",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 280
+    },
+    {
+      "id": "Efz7KHFlEvk",
+      "title": "Ramen VR (S19) - YC Tech Talks: Gaming 2020 (November 9th, 2020)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 98
+    },
+    {
+      "id": "elVbENZLbak",
+      "title": "Desining from Day One: Artists as Founders: Multiverse (S20) - YC Gaming Tech Talks 2020",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 618
+    },
+    {
+      "id": "evIZRpNQUx4",
+      "title": "Harj Taggar - Choosing a Startup to Work At",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 298
+    },
+    {
+      "id": "FHb0zhXnNvU",
+      "title": "Volley (W18) - YC Tech Talks: Gaming 2020 (November 9th, 2020)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 127
+    },
+    {
+      "id": "gQ_rZc0YUNw",
+      "title": "Harj Taggar - Why Do Startups Fail",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 150
+    },
+    {
+      "id": "i-jdGdrjesg",
+      "title": "Athlane (S19) - YC Tech Talks, Gaming 2020 (November 9, 2020)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 74
+    },
+    {
+      "id": "kJIBAp48Pv8",
+      "title": "Michael Seibel - How to set your KPI?",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 234
+    },
+    {
+      "id": "kYdGzntCwX4",
+      "title": "Future Founders Conference for Women Globally",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 292
+    },
+    {
+      "id": "prKi3-rUPHc",
+      "title": "How to Find the Right Co-founder",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1713
+    },
+    {
+      "id": "QBOxjlN9M2E",
+      "title": "2021 YC Top Companies on Their Startup Journey",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 295
+    },
+    {
+      "id": "Rzlr2tNSl0U",
+      "title": "DoorDash's Application Video for YC S13",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 90
+    },
+    {
+      "id": "YNAOXokK--o",
+      "title": "DoorDash at YC Summer 2013 Demo Day",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 161
+    },
+    {
+      "id": "ztoZF65LUgk",
+      "title": "MMOs in the Instagram Era: Highrise (S18) - YC Gaming Tech Talks 2020",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 338
+    },
+    {
+      "id": "1f2vKWIVB-w",
+      "title": "Diego Saez Gil - How Pachama Uses Tech to Solve Climate Change",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 2780
+    },
+    {
+      "id": "1RsI-Vh-KWI",
+      "title": "Cory Doctorow and Joe Betts-Lacroix on Adversarial Interoperability",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 4345
+    },
+    {
+      "id": "6IPuXAK24RE",
+      "title": "How Much Should You Spend After Fundraising? - Gustaf Alströmer",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 136
+    },
+    {
+      "id": "DvXN7fRTVds",
+      "title": "Matt Cutts on the US Digital Service and Working at Google for 17 Years",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 3910
+    },
+    {
+      "id": "oAEZoAp2_zY",
+      "title": "Why Fundraising Is Different In Silicon Valley - Michael Seibel",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 204
+    },
+    {
+      "id": "qNQk29B_oEo",
+      "title": "Laks Srini on Making Homeownership in Reach with ZeroDown",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 2153
+    },
+    {
+      "id": "s8ER6DIlAvY",
+      "title": "Geoff Ralston - Parting Advice",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 924
+    },
+    {
+      "id": "TogTe74Zg7w",
+      "title": "Amber Atherton of Zyper and Iba Masood of TARA on Raising a Series A as a Female Founder",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 3768
+    },
+    {
+      "id": "uCRBLKGaHtY",
+      "title": "Consume Information That Encourages You To Do More - Dalton Caldwell",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 313
+    },
+    {
+      "id": "_yIAYZtdrfI",
+      "title": "A CS Education That's Free Until You Get a Job - Austen Allred of Lambda School",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3620
+    },
+    {
+      "id": "-u4Jx4uuwMc",
+      "title": "Frank Lantz - Director of NYU's Game Center and Creator of Universal Paperclips",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 4155
+    },
+    {
+      "id": "17XZGUX_9iM",
+      "title": "Kevin Hale - How to Pitch Your Startup",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1667
+    },
+    {
+      "id": "1hHMwLxN6EM",
+      "title": "Michael Seibel - How to Plan an MVP",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 830
+    },
+    {
+      "id": "3_t7kHENrxg",
+      "title": "Helping African Businesses Get Paid, Shola Akinlade of Paystack",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3376
+    },
+    {
+      "id": "30a5yFBd7Fo",
+      "title": "Kevin Hale - How to Work Together",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1668
+    },
+    {
+      "id": "3xU050kMbHM",
+      "title": "Kat Mañalac - How to Launch (Again and Again)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1190
+    },
+    {
+      "id": "4hfSS2Avc6E",
+      "title": "SEO Advice from SurveyMonkey Director of SEO and Growth, Eli Schwartz",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3123
+    },
+    {
+      "id": "5-TgqZ8nado",
+      "title": "Paul Graham: What does it mean to do things that don't scale?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 83
+    },
+    {
+      "id": "5fmDKGV0TnQ",
+      "title": "One Order of Operations for Starting a Startup by Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 937
+    },
+    {
+      "id": "6amgO4dIotk",
+      "title": "Working at Big Tech Companies Can Be a Trap - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 215
+    },
+    {
+      "id": "6lY9CYIY4pQ",
+      "title": "Gustaf Alströmer - Growth for Startups",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2331
+    },
+    {
+      "id": "7atClUTkR3A",
+      "title": "A Conversation on Hard Tech with Eric Migicovsky",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3663
+    },
+    {
+      "id": "7xPnR21sDtE",
+      "title": "Paul Buchheit: What are some things successful founders have in common?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 104
+    },
+    {
+      "id": "845O4RE1XDM",
+      "title": "Paul Graham: What are some common mistakes founders make?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 87
+    },
+    {
+      "id": "8LvRLPJwmeM",
+      "title": "Ooshma Garg: What is your advice for those starting out as a single founder?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 124
+    },
+    {
+      "id": "8pNxKX1SUGE",
+      "title": "Dalton Caldwell - All About Pivoting",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1675
+    },
+    {
+      "id": "8yiOcCPvyNE",
+      "title": "How to Apply and Succeed at Y Combinator by Dalton Caldwell",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2421
+    },
+    {
+      "id": "9NhEBVPlJs4",
+      "title": "How Much Equity to Give Your Cofounder - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 258
+    },
+    {
+      "id": "9qWZALyGSmg",
+      "title": "Carolynn Levy - Modern Startup Funding",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1726
+    },
+    {
+      "id": "9v0v5TLZKzA",
+      "title": "Elad Gil: When do you know you have Product Market Fit?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 109
+    },
+    {
+      "id": "A3MmYbH1hbs",
+      "title": "How To Cold Email Investors - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 472
+    },
+    {
+      "id": "adtuntQ8rh4",
+      "title": "A Conversation with Werner Vogels",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3387
+    },
+    {
+      "id": "aengRJUUNLw",
+      "title": "Andrew Kortina of Venmo and Fin on Technological Determinism and Work's Relationship to Dignity",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 4153
+    },
+    {
+      "id": "AZidfpz9KfY",
+      "title": "Building an Engineering Team by Ammon Bartram and Harj Taggar",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 4301
+    },
+    {
+      "id": "b7N53KsEIlQ",
+      "title": "Monetizing Podcasts and Newsletters - Chris Best of Substack and Jonathan Gill of Backtracks",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2938
+    },
+    {
+      "id": "BSYExUUrmD4",
+      "title": "Users You Don't Want by Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 415
+    },
+    {
+      "id": "C1DlZWfI6rk",
+      "title": "Jared Friedman - Advice for Hard-tech and Biotech Founders",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1473
+    },
+    {
+      "id": "Cmzwq7hg17M",
+      "title": "What Successful Founders Focus On - Dalton Caldwell",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 102
+    },
+    {
+      "id": "coPCKJZ3CRA",
+      "title": "Ooshma Garg: What are some of the challenges you face as the CEO of your startup?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 94
+    },
+    {
+      "id": "CQAcLW6qdQY",
+      "title": "Leonard Susskind on Richard Feynman, the Holographic Principle, and Unanswered Questions in Physics",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3979
+    },
+    {
+      "id": "CRLzkbtKPGM",
+      "title": "How to Find a Cofounder - Kat Manalac",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 248
+    },
+    {
+      "id": "D56QeyyQMLI",
+      "title": "The Biggest Mistakes First-Time Founders Make - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 423
+    },
+    {
+      "id": "d7tDaFr5EYA",
+      "title": "How to Find a Technical Cofounder - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 323
+    },
+    {
+      "id": "Dk6JNTDec9I",
+      "title": "Understanding SAFEs and Priced Equity Rounds by Kirsty Nathoo",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2703
+    },
+    {
+      "id": "DOtCl5PU8F0",
+      "title": "Kevin Hale - How to Evaluate Startup Ideas",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1598
+    },
+    {
+      "id": "dy_QmBSSMqc",
+      "title": "Software Engineer Turned Youtuber - Jarvis Johnson",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3862
+    },
+    {
+      "id": "e_pN0P0zD8g",
+      "title": "A Conversation with Elizabeth Iorns - Advice for Biotech Founders",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3311
+    },
+    {
+      "id": "EEy2MYHxAe8",
+      "title": "When is the Right Time to Apply to Y Combinator? - Jared Friedman",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 121
+    },
+    {
+      "id": "EoffBerre24",
+      "title": "Cindy Mi and Qi Lu Share Advice for Entrepreneurs Building Global Companies",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3533
+    },
+    {
+      "id": "eygWnDC1zgg",
+      "title": "HubSpot CEO and Cofounder Brian Halligan with Wufoo Cofounder Kevin Hale",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2770
+    },
+    {
+      "id": "F_wwJYcJSIA",
+      "title": "Paul Graham: When should you launch your startup?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 101
+    },
+    {
+      "id": "fDcW_qb-uew",
+      "title": "Google Photos Product Lead and Bump Cofounder David Lieb with Gustaf Alströmer",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3391
+    },
+    {
+      "id": "FyhlY7XRxCo",
+      "title": "What Shutting Down Your Startup Feels Like - Avni Patel Thompson of Poppy with Kat Manalac",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3149
+    },
+    {
+      "id": "gcevHkNGrWQ",
+      "title": "Fundraising Fundamentals By Geoff Ralston",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3163
+    },
+    {
+      "id": "GurelYsSFeM",
+      "title": "Jay Reno of Feather, a Furniture Subscription Startup",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2299
+    },
+    {
+      "id": "gzLXS9DAI0A",
+      "title": "EconTalk Host Russ Roberts on Key Economic Concepts for Founders",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3581
+    },
+    {
+      "id": "hsMePYTcIik",
+      "title": "Analyzing Billions of Transactions to Understand Consumer Behavior - Michael Babineau and Kevin Hale",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3342
+    },
+    {
+      "id": "IGj7CK-K6q4",
+      "title": "Hiring Tips from Pebble Watch Founder Eric Migicovsky",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 283
+    },
+    {
+      "id": "Ir3hGtg0Wog",
+      "title": "The Path to $100B by Paul Buchheit",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3283
+    },
+    {
+      "id": "JaqUUAYi_Yo",
+      "title": "Ryan Hoover on Product Hunt's Acquisition and Lessons Learned About Launches with Dalton Caldwell",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3030
+    },
+    {
+      "id": "jiEtVpTE40g",
+      "title": "Jeremy Rossmann of Make School on Income Share Agreements and the Future of College",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2537
+    },
+    {
+      "id": "jkD2HxM1ZNY",
+      "title": "Tracking Political Manipulation Through Social Media - Samantha Bradshaw",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2028
+    },
+    {
+      "id": "jwXlo9gy_k4",
+      "title": "Kevin Hale - Startup Pricing 101",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "kyYHUXxyjvI",
+      "title": "Updates for Startup School 2019 and Office Hours with Kevin Hale",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3251
+    },
+    {
+      "id": "L325PVEvm7Q",
+      "title": "Vidit Aatrey on Building Meesho, India's Top Reselling Platform, with Adora Cheung",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2999
+    },
+    {
+      "id": "L8A2movTZGk",
+      "title": "YC's Director of Events Domonique Fines with Elpha CEO Cadran Cowansage",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1283
+    },
+    {
+      "id": "LBC16jhiwak",
+      "title": "Kirsty Nathoo - Managing Startup Finances",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1740
+    },
+    {
+      "id": "lI7wslGWIn0",
+      "title": "Michael Seibel: How do you decide what to build next?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 93
+    },
+    {
+      "id": "lL6GdUHIBsM",
+      "title": "Adora Cheung - How to Set KPIs and Goals",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1411
+    },
+    {
+      "id": "LLerCc7MOQo",
+      "title": "Ilya Volodarsky - Analytics for Startups",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1258
+    },
+    {
+      "id": "lM3jtRAwJlM",
+      "title": "Marques Brownlee on Building an Audience and Other Advice for Creators",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3127
+    },
+    {
+      "id": "MFqMaVn5r-Y",
+      "title": "Request for Startups: Government 2.0 - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 104
+    },
+    {
+      "id": "MT4Ig2uqjTc",
+      "title": "Eric Migicovsky - How to Talk to Users",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1897
+    },
+    {
+      "id": "N8deM6B4eE4",
+      "title": "How Do You Convince Someone to Join Your Startup? - Dalton Caldwell",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 319
+    },
+    {
+      "id": "NmEyx9TEkRw",
+      "title": "How to Create Luck - Dalton Caldwell, Y Combinator Partner",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 364
+    },
+    {
+      "id": "NprBQi0cSHU",
+      "title": "Running Your Company by Patrick Collison",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3434
+    },
+    {
+      "id": "oxgfehnJ7GE",
+      "title": "Camille Fournier on Managing Technical Teams",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2974
+    },
+    {
+      "id": "PaBx9WO1ruY",
+      "title": "Mathilde Collin on Feature Prioritization and Employee Retention at Front",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2904
+    },
+    {
+      "id": "PGqX9fpweyc",
+      "title": "Kevin Hale - How to Improve Conversion Rates",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1137
+    },
+    {
+      "id": "pQnOBHNKlgs",
+      "title": "How Pitching Investors is Different Than Pitching Customers - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 380
+    },
+    {
+      "id": "QAJQOXMM7ak",
+      "title": "Should I Use a Dev Shop? - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 380
+    },
+    {
+      "id": "qh8sHetf-Nk",
+      "title": "Why Should I Start a Startup? by Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 857
+    },
+    {
+      "id": "qnNHW6TYv5I",
+      "title": "Tim Brady - Building Culture",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1082
+    },
+    {
+      "id": "QzUQiIMtHSE",
+      "title": "Tracy Young on Scaling PlanGrid to 400+ People with YC Partner Kat Manalac",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3002
+    },
+    {
+      "id": "RxjZbmr1d1w",
+      "title": "Most Startups Are Undercharging - Dalton Caldwell",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 173
+    },
+    {
+      "id": "S2YCcdb1rG4",
+      "title": "After PMF: People, Customers, Sales by Mathilde Collin",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3298
+    },
+    {
+      "id": "t6fYl5f9iis",
+      "title": "A Conversation with Elad Gil",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3208
+    },
+    {
+      "id": "tsg4vcDUyJA",
+      "title": "Advice on Organizing and Running Growth Teams from Dan Hockenmaier and Gustaf Alströmer",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3668
+    },
+    {
+      "id": "tSW-GePDwn4",
+      "title": "Startup Technology - Technical Founder Advice",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3595
+    },
+    {
+      "id": "TYt5yuiGk9E",
+      "title": "Vinod Khosla : How to Build the Future",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2073
+    },
+    {
+      "id": "u3Gu0EX98Cg",
+      "title": "Brian Donohue on Operating Instapaper Through an Acquisition",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 4094
+    },
+    {
+      "id": "uEl2KUZ3JWA",
+      "title": "Sam Altman on Choosing Projects, Creating Value, and Finding Purpose",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2148
+    },
+    {
+      "id": "UKVmfinc8qE",
+      "title": "Startup Hiring Advice from Lever CEO Sarah Nahm with Holly Liu",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3486
+    },
+    {
+      "id": "uPrIsSWhW7o",
+      "title": "Starting a Startup After Business School - Reham Fagiri and Kalam Dennis of AptDeco",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3310
+    },
+    {
+      "id": "USyurlvZr68",
+      "title": "Diana Hu on Augmented Reality and Building a Startup in a New Market",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2145
+    },
+    {
+      "id": "UZYgqu4XzOA",
+      "title": "Can You Apply to YC Before You Have a US Visa? - Jared Friedman",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 71
+    },
+    {
+      "id": "vDXkpJw16os",
+      "title": "How to Get and Test Startup Ideas - Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 381
+    },
+    {
+      "id": "WmFJpv7-VyY",
+      "title": "Simone Giertz on Her Robots and Returning to Work After Brain Surgery",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2962
+    },
+    {
+      "id": "WvBSU4pjnX8",
+      "title": "Karn Saroya on the Capital-Light Way to Start an Insurance Business",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 2066
+    },
+    {
+      "id": "XcCmMOWuAF4",
+      "title": "Adora Cheung - How to Prioritize Your Time",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 993
+    },
+    {
+      "id": "xqSyeQ689WM",
+      "title": "Why Does Your Company Deserve More Money? by Michael Seibel",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 517
+    },
+    {
+      "id": "XvlKwwKfS5c",
+      "title": "Startup Advisor Equity? - Pebble Watch Founder Eric Migicovsky",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 221
+    },
+    {
+      "id": "xZi4kTJG-LE",
+      "title": "How to Sell by Tyler Bosmeny",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3153
+    },
+    {
+      "id": "ygr3qcERyRM",
+      "title": "Does YC Fund Solo Founders? - Jared Friedman",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 79
+    },
+    {
+      "id": "yhnP0LUXHBI",
+      "title": "Cannabis Startup Founders David Hua and Vincent Ning on Legalization, Banking, and Industry Trends",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3842
+    },
+    {
+      "id": "yjOyMqYEX_8",
+      "title": "Geoff Ralston: The Story of Your Startup",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 209
+    },
+    {
+      "id": "YzyatiQrQlQ",
+      "title": "Why You Should or Should Not Work at a Startup by Justin Kan",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 933
+    },
+    {
+      "id": "zF84IMiSP7I",
+      "title": "Mike Knoop on Product and Design Processes for Remote Teams with Kevin Hale",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 3809
+    },
+    {
+      "id": "Zj1WyGpSbrM",
+      "title": "Should You Move Your Company to Silicon Valley? - Eric Migicovsky, Pebble Founder",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 461
+    },
+    {
+      "id": "zVY-NF6ZvEQ",
+      "title": "Paul Buchheit: What traits do startups need to succeed?",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 92
+    },
+    {
+      "id": "_iM9Ts_3qEk",
+      "title": "Fermat's Library Cofounders João Batalha and Luís Batalha",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4421
+    },
+    {
+      "id": "0jrybODBUpA",
+      "title": "Scott Aaronson on Computational Complexity Theory and Quantum Computers",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4467
+    },
+    {
+      "id": "0lJKucu6HJc",
+      "title": "Sam Altman - How to Succeed with a Startup",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 967
+    },
+    {
+      "id": "0LNQxT9LvM0",
+      "title": "David Rusenko - How To Find Product Market Fit",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3517
+    },
+    {
+      "id": "2H15qBGa3Hs",
+      "title": "Keith Schacht and Doug Peltz on What Traction Feels Like - at YC Edtech Night",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1684
+    },
+    {
+      "id": "4WO5kJChg3w",
+      "title": "A Conversation with Paul Graham - Moderated by Geoff Ralston",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3791
+    },
+    {
+      "id": "5gj7Qb9w_Kk",
+      "title": "Don't Start a Blog, Start a Cult - Mr. Money Mustache",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3155
+    },
+    {
+      "id": "6bhlwWJDhtk",
+      "title": "Elad Gil Shares Advice from the High Growth Handbook, a Guide to Scaling Startups",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2555
+    },
+    {
+      "id": "7a9lsGtVziM",
+      "title": "Tim Urban of Wait But Why",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3301
+    },
+    {
+      "id": "7aiJlRS2i_w",
+      "title": "Geoff Ralston's Intro - Startup Investor School Day 1",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 612
+    },
+    {
+      "id": "82MhV6S8a5s",
+      "title": "Preston Silverman on Building out a Marketplace in Education - at YC Edtech Night",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1057
+    },
+    {
+      "id": "86AblikwSlg",
+      "title": "Jeff Clavier and Andrea Zurek - Startup Investor School Day 3",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3900
+    },
+    {
+      "id": "8d-cApFHjeY",
+      "title": "Jessica Livingston Shares 9 Things She Learned From Founding YC",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1641
+    },
+    {
+      "id": "9fzS6pZmO-w",
+      "title": "Cadran Cowansage Announces Leap at the Seattle Female Founders Conference",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 303
+    },
+    {
+      "id": "9jvdl24lAI4",
+      "title": "Female Founders Conference - Mountain View",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 11177
+    },
+    {
+      "id": "9urYWGx2uNk",
+      "title": "Design for Startups by Garry Tan (Part 1)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4005
+    },
+    {
+      "id": "AJDR-jMaFcg",
+      "title": "Startup Investor School Preview with Geoff Ralston",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2301
+    },
+    {
+      "id": "ajO-h8NEcqQ",
+      "title": "Cost vs Quality in Edtech – Keith Schacht, Avichal Garg, and Geoff Ralston",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3282
+    },
+    {
+      "id": "be0NSfPRoWg",
+      "title": "A.I. Policy and Public Perception - Miles Brundage and Tim Hwang",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2750
+    },
+    {
+      "id": "bgwqM6J3WeM",
+      "title": "Ron Conway - Startup Investor School Day 4",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1840
+    },
+    {
+      "id": "bSbPXrQ9Wf8",
+      "title": "Paul Buchheit - Startup Investor School Day 2",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3501
+    },
+    {
+      "id": "BTS-rFzROOg",
+      "title": "Geoff Ralston and Adora Cheung Discuss Startup School",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1544
+    },
+    {
+      "id": "BTShgZxiNV8",
+      "title": "Carolynn Levy And Panel (Jon Levy, Jason Kwon) - Startup Legal Mechanics",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3465
+    },
+    {
+      "id": "c-beGCkpcMs",
+      "title": "Advice for Students and Recent Graduates on Finding Jobs – Liz Wessel of WayUp",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2886
+    },
+    {
+      "id": "C27RVio2rOs",
+      "title": "Michael Seibel - Building Product",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3546
+    },
+    {
+      "id": "cN62reafxLg",
+      "title": "Work at a Startup Expo 2018",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 7026
+    },
+    {
+      "id": "DDSL5309H-A",
+      "title": "Alex Blumberg of Gimlet Media",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3076
+    },
+    {
+      "id": "EOw6izSfzSA",
+      "title": "The Number One Goal is Getting Started - Avni Patel Thompson of Poppy",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2850
+    },
+    {
+      "id": "EZgTD3pggpc",
+      "title": "Funding Is an Outcome of Building a Good Business - Porter Braswell of Jopwell",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2994
+    },
+    {
+      "id": "fE_kCkJ8fEA",
+      "title": "Crypto Investors - Linda Xie and Avichal Garg",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2981
+    },
+    {
+      "id": "gmA-BOIVKQU",
+      "title": "Mariya Nurislamova, Founder of Scentbird at the Female Founders Conference",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1068
+    },
+    {
+      "id": "GTUUVqee_yI",
+      "title": "Jessica Brillhart, Immersive Director, on VR and AR",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3492
+    },
+    {
+      "id": "hjUs7o-TnjY",
+      "title": "Ryan Petersen on Building Flexport, a Modern Freight Forwarder",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3553
+    },
+    {
+      "id": "ikCIUzX9myY",
+      "title": "Joan Lasenby on Applications of Geometric Algebra in Engineering",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3049
+    },
+    {
+      "id": "im2vOo3dEwg",
+      "title": "Leah Culver of Breaker and Tom Sparks of YC Answer Your Questions About Security and Podcasting",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3470
+    },
+    {
+      "id": "JitMHNVr-RA",
+      "title": "Mr. Robot's Co-Producer and Writer - Kor Adana",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3542
+    },
+    {
+      "id": "JL9yoVFHx-Q",
+      "title": "PR + Content for Growth by Kat Mañalac and Craig Cannon",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3173
+    },
+    {
+      "id": "l-vfn97QTr0",
+      "title": "Peter Reinhardt on Finding Product Market Fit at Segment",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2928
+    },
+    {
+      "id": "LHZKDTJJknE",
+      "title": "Simon Benjamin on Architectures for Quantum Computing",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4734
+    },
+    {
+      "id": "MABmQhOlmJA",
+      "title": "Suhail Doshi - How to Measure Your Product",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3543
+    },
+    {
+      "id": "mH11ImPJeDc",
+      "title": "Mark Zuckerberg On Yahoo's Billion Dollar Offer",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 259
+    },
+    {
+      "id": "muWW7QWUnGk",
+      "title": "Microbes, Robots, and Ambition - Robin Sloan on His Novel Sourdough",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3436
+    },
+    {
+      "id": "mUZKAhcxXWI",
+      "title": "Uncut Interview with Sam Altman on Masters of Scale [Audio]",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3531
+    },
+    {
+      "id": "n-3Pt6HoWmA",
+      "title": "Sarah Chou on Finding Product-Market Fit in the Education Industry - at YC Edtech Night",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1530
+    },
+    {
+      "id": "NlhujkRroJY",
+      "title": "Jocko Willink and Mike Sarraille - Helping Veterans Transition into the Private Sector",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 5037
+    },
+    {
+      "id": "o3hHO3S8Unk",
+      "title": "John Preskill on Quantum Computing",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 5588
+    },
+    {
+      "id": "O6uREh3G3sQ",
+      "title": "Design for Startups by Garry Tan (Part 2)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "Octm_7llbGA",
+      "title": "Avni Patel Thompson at the Seattle Female Founders Conference",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1722
+    },
+    {
+      "id": "Oh0sEkqSVxM",
+      "title": "Announcing Work at a Startup",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1546
+    },
+    {
+      "id": "OI29HkzUElE",
+      "title": "Kieran Snyder of Textio at the Seattle Female Founders Conference",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1701
+    },
+    {
+      "id": "OkrFzT5iLco",
+      "title": "Claire McDonnell and Jennifer Kim on Building an Inclusive Company Culture",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2679
+    },
+    {
+      "id": "OSZidU6R_mU",
+      "title": "Reshma Shetty, Founder of Ginkgo Bioworks at the Female Founders Conference",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1036
+    },
+    {
+      "id": "P6pQyB6ACrk",
+      "title": "Be Wary of Solving a Small, Rare Problem - Des Traynor of Intercom",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4178
+    },
+    {
+      "id": "PE0W4kEpNHo",
+      "title": "David Zeevi on Personalized Nutrition Based on Your Gut Microbiome",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3421
+    },
+    {
+      "id": "ppe59EPOItI",
+      "title": "Fireside Chat with Kat Mañalac, Kathryn Minshew, and Alex Cavoulacos",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1210
+    },
+    {
+      "id": "q_NbKjVc2l8",
+      "title": "A Conversation About Crypto-currencies and ICOs with Andy Bromberg",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4053
+    },
+    {
+      "id": "q0dzmQ1HvGY",
+      "title": "Helping Landlords Find Tenants – Sean Mitchell of Rezi",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3783
+    },
+    {
+      "id": "qGGFjUDXvrE",
+      "title": "Researching Psilocybin's Effects on Depression - Dr. Rosalind Watts",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3194
+    },
+    {
+      "id": "rvDvGM70oy4",
+      "title": "3D Home Printing for the Developing World – Alexandria Lafci and Brett Hagler of New Story Charity",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3744
+    },
+    {
+      "id": "s-4QqHHE16s",
+      "title": "Sam Altman - Startup Investor School Day 1",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2814
+    },
+    {
+      "id": "Sk5B2Ud1DVg",
+      "title": "Carolynn Levy and Kirsty Nathoo - Startup Investor School Day 1",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3557
+    },
+    {
+      "id": "szj-0iLZnlM",
+      "title": "Gaming Studio Founders - Patrick Moberg and Holly Liu",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3346
+    },
+    {
+      "id": "T6g2D92H1FQ",
+      "title": "Andy Bromberg - Startup Investor School Day 4",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3551
+    },
+    {
+      "id": "T9ikpoF2GH0",
+      "title": "Gustaf Alstromer - How to Get Users and Grow",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3855
+    },
+    {
+      "id": "tA5J79on7Vg",
+      "title": "A Conversation with Ooshma Garg - Moderated by Adora Cheung",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3363
+    },
+    {
+      "id": "tckGI4C7k10",
+      "title": "Communicate with Users, Build Something They Want - Ryan Hoover of Product Hunt",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2941
+    },
+    {
+      "id": "TINnOrH_jc4",
+      "title": "Mathematical Approaches to Image Processing with Carola Schönlieb",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 2491
+    },
+    {
+      "id": "tQ21eMrEP6c",
+      "title": "Experiments in Art and Technology with Artforum Editor Michelle Kuo",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3770
+    },
+    {
+      "id": "tvK-CgzxSdM",
+      "title": "Casey Neistat and Matt Hackett on Live Video's Struggle for Interestingness",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3749
+    },
+    {
+      "id": "UdIPveR__jw",
+      "title": "Building Dota Bots That Beat Pros - OpenAI's Greg Brockman, Szymon Sidor, and Sam Altman",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3624
+    },
+    {
+      "id": "ugmjf0fJY84",
+      "title": "Michael Seibel - Startup Investor School Day 2",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1709
+    },
+    {
+      "id": "uyTOFU0Pn6E",
+      "title": "Dalton Caldwell - Startup Investor School Day 2",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3567
+    },
+    {
+      "id": "vrBhB48qPUM",
+      "title": "A Conversation with Aileen Lee - Moderated by Geoff Ralston",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3634
+    },
+    {
+      "id": "VThN7kpjRpM",
+      "title": "Elad Gil and Pejman Nozad - Startup Investor School Day 3",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3930
+    },
+    {
+      "id": "wvMdXPt-Pq0",
+      "title": "It's Surprising How Much Small Teams Can Get Done - Sam Chaudhary of ClassDojo",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3590
+    },
+    {
+      "id": "xamF4CBk69Y",
+      "title": "There's an Art to Getting Brilliant People to Surprise Themselves - Kevin Slavin of The Shed",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3730
+    },
+    {
+      "id": "xBq4FN7dTZY",
+      "title": "Content Marketing Tips from Experts at First Round Capital and Andreessen Horowitz",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 4361
+    },
+    {
+      "id": "ZAkzs4rgjOo",
+      "title": "The Most Important Decision is Getting Started – Laura Behrens Wu",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1422
+    },
+    {
+      "id": "zYCU5s9Ed0M",
+      "title": "Breaking Down HackerRank's Survey of 40,000 Developers with Vivek Ravisankar",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 3215
+    },
+    {
+      "id": "zZN-3RpdjcY",
+      "title": "Anne Wojcicki : How to Build the Future",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1701
+    },
+    {
+      "id": "08J1eDW8q5M",
+      "title": "Scaling Culture | Jason Kilar, former Hulu CEO",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1703
+    },
+    {
+      "id": "0eWRcwmjNBQ",
+      "title": "Kat Manalac's Whale AMA",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 418
+    },
+    {
+      "id": "0JBOSmRo8js",
+      "title": "How to Raise Money with Marc Andreessen, Ron Conway, and Parker Conrad (HtSaS 2014: 9)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3022
+    },
+    {
+      "id": "0W5Jaip5_-g",
+      "title": "Building a Startup is About Solving a Problem - Avni Patel Thompson of Poppy",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1758
+    },
+    {
+      "id": "12D8zEdOPYo",
+      "title": "How to Build Products Users Love with Kevin Hale (How to Start a Startup 2014: Lecture 7)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2900
+    },
+    {
+      "id": "1D2j8nTjOZ4",
+      "title": "The Technical Challenges of Measuring Gravitational Waves - Rana Adhikari of LIGO",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 4652
+    },
+    {
+      "id": "1e4izfOsijE",
+      "title": "Building Product, Talking to Users, and Growing with Adora Cheung (How to Start a Startup 2014: 4)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3151
+    },
+    {
+      "id": "3Fx5Q8xGU8k",
+      "title": "Competition is for Losers with Peter Thiel (How to Start a Startup 2014: 5)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3028
+    },
+    {
+      "id": "45BvnJgwYjk",
+      "title": "Office Hours with Sam Altman",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1475
+    },
+    {
+      "id": "6kk03M3XfVY",
+      "title": "The Technical Advisor for Silicon Valley on HBO: Ed McManus",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1996
+    },
+    {
+      "id": "7D4fhLlnftA",
+      "title": "How To Be The Next Elon Musk According To Elon Musk",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 150
+    },
+    {
+      "id": "8JoTw_JuE78",
+      "title": "Elon Musk's Video Game Recommendations",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 112
+    },
+    {
+      "id": "9DXMc0y6eDE",
+      "title": "Spotting Ecommerce Trends in Shipping Data - Laura Behrens Wu",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2591
+    },
+    {
+      "id": "9u6-BL-Fskc",
+      "title": "How to Design Hardware Products with Hosain Rahman (How to Start a Startup 2014: Lecture 17)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2850
+    },
+    {
+      "id": "ANrzH3ra8e8",
+      "title": "Reham Fagiri and Kalam Dennis at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1555
+    },
+    {
+      "id": "ax24RdYqM54",
+      "title": "Jessica Livingston on Cofounder Disputes and Making Something People Want",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 232
+    },
+    {
+      "id": "bNvUW_IBz0g",
+      "title": "Diane Greene's Advice for Founders",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 780
+    },
+    {
+      "id": "bpJQN2WyD8g",
+      "title": "Q&A with YC Partners at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1688
+    },
+    {
+      "id": "bYf43D4nUPk",
+      "title": "Scaling Growth | Gustaf Alstromer, YC Partner (formerly Airbnb) & Ed Baker (formerly Uber)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2086
+    },
+    {
+      "id": "crMVJAf5TjA",
+      "title": "Team and Execution with Sam Altman (How to Start a Startup 2014: Lecture 2)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2790
+    },
+    {
+      "id": "d2GglPzOXfM",
+      "title": "Later Stage Advice with Sam Altman (How to Start a Startup 2014: Lecture 20)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2919
+    },
+    {
+      "id": "e2644ylntQQ",
+      "title": "Ben Huh on Therapy",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 376
+    },
+    {
+      "id": "egJeFaIXZLo",
+      "title": "Ideas, Products, Teams, and Execution with Dustin Moskovitz (How to Start a Startup 2014: Lecture 1)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2650
+    },
+    {
+      "id": "ex-fXyRJTU8",
+      "title": "Emily Weiss on the Insights That Grew Glossier - With Amy Buechler at the Female Founders Conference",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1627
+    },
+    {
+      "id": "f4_14pZlJBs",
+      "title": "Before the Startup with Paul Graham (How to Start a Startup 2014: Lecture 3)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2901
+    },
+    {
+      "id": "fcyf9z4gSeI",
+      "title": "Pitch Practice with Paul Buchheit and Sam Altman at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1985
+    },
+    {
+      "id": "g3mPvKUksag",
+      "title": "The CEO Who Pays Employees to De-Locate From the Bay",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2668
+    },
+    {
+      "id": "GzMvG8UO6Eg",
+      "title": "Chad Rigetti at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1442
+    },
+    {
+      "id": "haxZDcTWdOo",
+      "title": "Hiring Engineers with Ammon Bartram",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2502
+    },
+    {
+      "id": "HcStlHGpjN8",
+      "title": "Jeff Dean’s Lecture for YC AI",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 4146
+    },
+    {
+      "id": "hgzThPwCyHQ",
+      "title": "Morgan DeBaun on Reaching 20M Millennials - With Kat Manalac at the Female Founders Conference",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1571
+    },
+    {
+      "id": "hHpKa2iamF0",
+      "title": "An AI Primer with Wojciech Zaremba",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3300
+    },
+    {
+      "id": "HR4nKgDnPHs",
+      "title": "Your Whole Goal Is to Not Quit - Courtland Allen of Indie Hackers",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3587
+    },
+    {
+      "id": "i5DL6qsDd44",
+      "title": "Founders of Science Exchange, Goldbely, and The Flex Company Discuss Fundraising",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1632
+    },
+    {
+      "id": "iUVLuXjPAfg",
+      "title": "IPFS, CoinList, and the Filecoin ICO with Juan Benet and Dalton Caldwell",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 8064
+    },
+    {
+      "id": "j7tr3IlH5Ro",
+      "title": "How to Manage with Ben Horowitz (How to Start a Startup 2014: Lecture 15)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3000
+    },
+    {
+      "id": "JdC-wFSZhSU",
+      "title": "Ruchi Sanghvi on Sweating the Details",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 298
+    },
+    {
+      "id": "jRzsaVg_Cr4",
+      "title": "Artist Lauren McCarthy Will Be Your Home's Brain",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2932
+    },
+    {
+      "id": "K8tcouVhtI8",
+      "title": "Office Hours with Kat Manalac",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1677
+    },
+    {
+      "id": "Kd3CLs-vLtw",
+      "title": "Building for the Enterprise with Aaron Levie (How to Start a Startup 2014: Lecture 12)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2791
+    },
+    {
+      "id": "KeG7uf7e29E",
+      "title": "VMware Cofounder Diane Greene with Jessica Livingston at the Female Founders Conference",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1458
+    },
+    {
+      "id": "kEgeHOtsxrE",
+      "title": "At the Intersection of AI, Governments, and Google - Tim Hwang",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2406
+    },
+    {
+      "id": "KmfuIt96vU4",
+      "title": "Ooshma Garg at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1786
+    },
+    {
+      "id": "kTS7OIAMunM",
+      "title": "Hiring and Culture with Patrick and John Collison and Ben Silbermann (HtSaS 2014: 11)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3050
+    },
+    {
+      "id": "KxN9dJKPbD8",
+      "title": "How Should Business Schools Prepare Students for Startups? – Jeff Bussgang and Michael Seibel",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2041
+    },
+    {
+      "id": "LEgbK735lfw",
+      "title": "Erin Frey on Therapy",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 428
+    },
+    {
+      "id": "lHs9hQBSoJU",
+      "title": "How to Run a User Interview with Emmett Shear (How to Start a Startup 2014: Lecture 16)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2798
+    },
+    {
+      "id": "LzhXIBPYyxw",
+      "title": "Ben Silbermann at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1893
+    },
+    {
+      "id": "MdLgVgJkOlQ",
+      "title": "Building Your Board | Glenn Kelman",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1840
+    },
+    {
+      "id": "MYHb6yfFMmw",
+      "title": "Sam Altman's Whale AMA",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 448
+    },
+    {
+      "id": "NEOR0AJsziE",
+      "title": "Marc Andreessen at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2005
+    },
+    {
+      "id": "Om5XuTbXP1U",
+      "title": "Elon Musk On How To Be Most Useful",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 106
+    },
+    {
+      "id": "P-EMcAvE5YI",
+      "title": "The Challenges a Repeat Founder Faces - Tikhon Bernstam",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2902
+    },
+    {
+      "id": "PB64IQrkID8",
+      "title": "From Startup to Scaleup | Sam Altman and Reid Hoffman",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2463
+    },
+    {
+      "id": "PJge-MV3Z5w",
+      "title": "Dalton Caldwell's Whale AMA",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 895
+    },
+    {
+      "id": "pkAum45ubWc",
+      "title": "How to Be a Great Founder with Reid Hoffman (How to Start a Startup 2014: Lecture 13)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2998
+    },
+    {
+      "id": "px5rgcNjOTc",
+      "title": "Culture with Brian Chesky and Alfred Lin (How to Start a Startup 2014: Lecture 10)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3034
+    },
+    {
+      "id": "PzkyHKHRH2w",
+      "title": "Elizabeth Iorns on Biotech Companies in YC",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2442
+    },
+    {
+      "id": "Q4GJKcP_2FQ",
+      "title": "Know Why You're Starting a Company - Danae Ringelmann of Indiegogo",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 497
+    },
+    {
+      "id": "qszGzNoopTc",
+      "title": "How Elon Musk Spends His Time",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 146
+    },
+    {
+      "id": "RAOadSUNfIk",
+      "title": "Rick and Morty Writer: Ryan Ridley",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3127
+    },
+    {
+      "id": "sd9yLmJ1Jfk",
+      "title": "Legal and Accounting Basics for Startups with Kirsty Nathoo and Carolynn Levy  (HtSaS 2014: 18)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2906
+    },
+    {
+      "id": "sNk68_E2T84",
+      "title": "Ex Machina's Scientific Advisor - Murray Shanahan",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3164
+    },
+    {
+      "id": "sr0UabJd8qE",
+      "title": "How to Get Started, Doing Things that Don't Scale, and Press (How to Start a Startup 2014: 8)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 3145
+    },
+    {
+      "id": "sYMqVwsewSg",
+      "title": "Sam Altman : How to Build the Future",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1270
+    },
+    {
+      "id": "TCA_7RVo7Uo",
+      "title": "Scaling Product | Fireside with Joe Gebbia and Reid Hoffman",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1859
+    },
+    {
+      "id": "U_g-fBfPOF8",
+      "title": "Drew Houston : How to Build the Future",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1860
+    },
+    {
+      "id": "ur_4NE4ROt0",
+      "title": "Employee #1: Kickstarter",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 199
+    },
+    {
+      "id": "V7G-VHYg0Cc",
+      "title": "Jessica Livingston's Advice For Founders",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 368
+    },
+    {
+      "id": "vaRrq0qWAkQ",
+      "title": "Lessons From Doing YC Twice - Harj Taggar",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2013
+    },
+    {
+      "id": "VAUt2j6juHU",
+      "title": "Mark Zuckerberg on Taking Risks and Finding Talented People",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 310
+    },
+    {
+      "id": "vJqlG5ytLDs",
+      "title": "Growth with Alex Schultz (How to Start a Startup 2014: Lecture 6)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2853
+    },
+    {
+      "id": "vVnDE8wSrVo",
+      "title": "What Would Elon Musk Work On If He Were 22?",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 175
+    },
+    {
+      "id": "w19IBxDu2Y4",
+      "title": "How to Operate with Keith Rabois (How to Start a Startup 2014: Lecture 14)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2813
+    },
+    {
+      "id": "X6ndbpY2TYI",
+      "title": "Baidu's AI Lab Director on Advancing Speech Recognition and Simulation",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1829
+    },
+    {
+      "id": "Ygr3rx4hSsc",
+      "title": "Jessica Livingston - What's Different about \"Unicorns\"",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 866
+    },
+    {
+      "id": "YH1txRfa0oY",
+      "title": "Elon Musk On Fear",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 121
+    },
+    {
+      "id": "ysz1xLMd37Y",
+      "title": "Reid Hoffman at Startup School SV 2016",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1998
+    },
+    {
+      "id": "yz-fHidp1M8",
+      "title": "Making Music and Art Through Machine Learning - Doug Eck of Magenta",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 2662
+    },
+    {
+      "id": "A21qyXsAfME",
+      "title": "Gobble founder Ooshma Garg speaks at Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1594
+    },
+    {
+      "id": "Cmd5yOjnOqo",
+      "title": "The Muse's Kathryn Minshew Speaks at the Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 936
+    },
+    {
+      "id": "EHVzyc_Jl3Q",
+      "title": "Selina Tobaccowala at the Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1575
+    },
+    {
+      "id": "FI9eyGXsD5s",
+      "title": "Q&A with YC at the Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1071
+    },
+    {
+      "id": "JoqKkXv6-gI",
+      "title": "Reshma Shetty Speaks at Y Combinator's Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1419
+    },
+    {
+      "id": "Lb4IcGF5iTQ",
+      "title": "Mark Zuckerberg : How to Build the Future",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1527
+    },
+    {
+      "id": "nFOC-cgIWaY",
+      "title": "Jessica Livingston : How to Build the Future",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 2170
+    },
+    {
+      "id": "rHOm01lWd1o",
+      "title": "Urska Srsen Speaks at Y Combinator Female Founder Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1285
+    },
+    {
+      "id": "tnBQmEqBCY0",
+      "title": "Elon Musk : How to Build the Future",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "Ts9SOxgsbtw",
+      "title": "Fundraising Panel at Female Founders Conference 2016",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1665
+    },
+    {
+      "id": "_h_6xM36Z4g",
+      "title": "Kevin Systrom at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1614
+    },
+    {
+      "id": "-pKR212H5vQ",
+      "title": "Tracy Young Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1611
+    },
+    {
+      "id": "0-JL7bbQ0tw",
+      "title": "Eric Migicovsky at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1445
+    },
+    {
+      "id": "01FjJyBAOUE",
+      "title": "Ruchi Sanghvi Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1292
+    },
+    {
+      "id": "8-pJa11YvCs",
+      "title": "Jim Goetz and Jan Koum at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1753
+    },
+    {
+      "id": "8eKkwX9q_Lc",
+      "title": "Fundraising Panel at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 2039
+    },
+    {
+      "id": "8K1VXyoz7MQ",
+      "title": "Jessica Livingston Introduces Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 114
+    },
+    {
+      "id": "bJ2rUa_pHxo",
+      "title": "YC Panel at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1363
+    },
+    {
+      "id": "cQ3tZ05KCtw",
+      "title": "Emmett Shear at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1093
+    },
+    {
+      "id": "ftpoG2fSZBY",
+      "title": "Grace Garey Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1661
+    },
+    {
+      "id": "l58rp7JoVYQ",
+      "title": "Michelle Zatlyn and Matthew Prince at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1686
+    },
+    {
+      "id": "nef6uTa2a5w",
+      "title": "Reid Hoffman at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1718
+    },
+    {
+      "id": "NEp9aaQuYp4",
+      "title": "Jessica Livingston Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1398
+    },
+    {
+      "id": "qeeRsWofAv0",
+      "title": "Kimberly Bryant Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1324
+    },
+    {
+      "id": "QPbHf4i6CrQ",
+      "title": "Danae Ringelmann at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1694
+    },
+    {
+      "id": "qvHhhIfu7Lo",
+      "title": "Ron Conway at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 2019
+    },
+    {
+      "id": "uX9ldi32Xnc",
+      "title": "Andrew Mason at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1858
+    },
+    {
+      "id": "z7S7Kf88jog",
+      "title": "Olga Vidisheva Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1162
+    },
+    {
+      "id": "Z9C1kBmEdtY",
+      "title": "Adora Cheung Speaks at Female Founders Conference 2015",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1559
+    },
+    {
+      "id": "ZpINPjfSlZc",
+      "title": "Hosain Rahman at Startup School SV 2014",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1766
+    },
+    {
+      "id": "1z87RGFGuxQ",
+      "title": "Ron Conway at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 2300
+    },
+    {
+      "id": "5bJi7k-y1Lo",
+      "title": "Mark Zuckerberg at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1938
+    },
+    {
+      "id": "7bm-Xj2jMCk",
+      "title": "Ron Conway at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1623
+    },
+    {
+      "id": "97nJPjZwK2Y",
+      "title": "Elli Sharef at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 813
+    },
+    {
+      "id": "akOazwgDiSI",
+      "title": "Chris Dixon at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1398
+    },
+    {
+      "id": "bBGmSDQ1mAs",
+      "title": "Jessica Mah at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1097
+    },
+    {
+      "id": "CII2SmXOB60",
+      "title": "Elizabeth Iorns at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 965
+    },
+    {
+      "id": "cOubCHLXT6A",
+      "title": "Balaji Srinivasan at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 990
+    },
+    {
+      "id": "Dt-8Io0i_F4",
+      "title": "David Lee at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1621
+    },
+    {
+      "id": "fxIN9J3Vcv4",
+      "title": "Julia Hartz at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1317
+    },
+    {
+      "id": "GYtBR-APb7E",
+      "title": "Ian Hogarth",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1920
+    },
+    {
+      "id": "k4_3uluQsq4",
+      "title": "Dan Siroker at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1264
+    },
+    {
+      "id": "KEy_ocXnrdY",
+      "title": "Phil Libin at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1703
+    },
+    {
+      "id": "KQJ6zsNCA-4",
+      "title": "Jessica Livingston at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1586
+    },
+    {
+      "id": "ksDTT-pm73k",
+      "title": "Closing Remarks at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 165
+    },
+    {
+      "id": "KYQHPHYs2Os",
+      "title": "Ben Silbermann at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1455
+    },
+    {
+      "id": "lVDmyRxeGCo",
+      "title": "Adora Cheung",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1649
+    },
+    {
+      "id": "MGsalg2f9js",
+      "title": "Mark Zuckerberg at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 2183
+    },
+    {
+      "id": "mGTpU5XUAA8",
+      "title": "Tom Preston Werner at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1618
+    },
+    {
+      "id": "pPJf8KrvJXU",
+      "title": "Joel Spolsky at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1886
+    },
+    {
+      "id": "QWB8zO9yl24",
+      "title": "Urska Srsen",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1317
+    },
+    {
+      "id": "rQ6GoY2_Ujw",
+      "title": "Travis Kalanick at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1729
+    },
+    {
+      "id": "s4RBfIwUBgY",
+      "title": "Hiroki Takeuchi",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1236
+    },
+    {
+      "id": "sNrDEIYAMjE",
+      "title": "Jessica Livingston at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1396
+    },
+    {
+      "id": "syoqjYLDs48",
+      "title": "Office Hours at Startup School 2013 with Paul Graham and Sam Altman",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1748
+    },
+    {
+      "id": "T-D-JqxQtIY",
+      "title": "Alfred Lin with Justin Kan",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1863
+    },
+    {
+      "id": "tF7HXJJjRvY",
+      "title": "Hiroshi Mikitani at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1533
+    },
+    {
+      "id": "Ud4Q1Lzh5c8",
+      "title": "Office Hours with Kevin & Qasar",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 2493
+    },
+    {
+      "id": "v5w-0H-hq6E",
+      "title": "Paul Buchheit",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1254
+    },
+    {
+      "id": "Vp48ko2VJgE",
+      "title": "Shana Fisher at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1641
+    },
+    {
+      "id": "VuVhxwwvCXQ",
+      "title": "Introduction at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 282
+    },
+    {
+      "id": "wEQawgkCMOU",
+      "title": "Jack Dorsey at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1713
+    },
+    {
+      "id": "wKaJPZMOWVg",
+      "title": "Office Hours at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1578
+    },
+    {
+      "id": "wkmR7TYUt_c",
+      "title": "Apoorva Mehta at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1360
+    },
+    {
+      "id": "WlT3UhC7NwQ",
+      "title": "Chase Adam at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1556
+    },
+    {
+      "id": "XS-kKX9wQk0",
+      "title": "Kathryn Minshew at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1442
+    },
+    {
+      "id": "Ya0I6oz7q9U",
+      "title": "Nate Blecharczyk at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1760
+    },
+    {
+      "id": "ypLoGFaKdbU",
+      "title": "Zach Sims at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1720
+    },
+    {
+      "id": "Z8_8jNLsZms",
+      "title": "Chase Adam at Startup School NY 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1482
+    },
+    {
+      "id": "ZOeyYAfKXLI",
+      "title": "David Rusenko at Startup School 2012",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1131
+    },
+    {
+      "id": "zoF10tFmNmY",
+      "title": "Kathryn Minshew at Female Founders Conference 2014",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1125
+    },
+    {
+      "id": "zSEeFxq2X_c",
+      "title": "Diane Greene at Startup School 2013",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1684
+    },
+    {
+      "id": "ZTv4iO7e8bQ",
+      "title": "Y Combinator Partners Q&A",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 2099
+    }
+  ]
+}
