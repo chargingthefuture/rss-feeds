@@ -1,9 +1,8 @@
 name: Deploy to GitHub Pages
 
 # Builds dist/ — one feed per collected channel plus the index page — and
-# publishes it. Runs on every push to main and on request (the collector asks
-# for it after committing a refresh, since a commit made with the built-in
-# token starts no push workflow of its own).
+# publishes it. Runs on every push to main — merging a collector's pull request
+# is one — and on request.
 #
 # One-time setting, made by a person: Settings → Pages → Source: GitHub Actions.
 # The configure step tries to make it for you; if that is refused, make it by
