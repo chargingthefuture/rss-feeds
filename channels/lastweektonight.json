@@ -1,0 +1,5420 @@
+{
+  "slug": "lastweektonight",
+  "name": "lastweektonight",
+  "channelUrl": "https://www.youtube.com/@LastWeekTonight",
+  "collectedAt": "2026-09-25",
+  "cutoff": "2024-12-31",
+  "videos": [
+    {
+      "id": "h1pXm0GjLho",
+      "title": "UnitedHealthcare & UnitedHealth Group: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-09-22",
+      "approximateDate": true,
+      "duration": 2067
+    },
+    {
+      "id": "A9iZ10yIRwM",
+      "title": "Trump & Crypto: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1593
+    },
+    {
+      "id": "lnBPhelCdWE",
+      "title": "Police Surveillance Technology: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1834
+    },
+    {
+      "id": "PUPuhlJ3IuE",
+      "title": "Trump & the DOJ: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1713
+    },
+    {
+      "id": "sCSt45rev7w",
+      "title": "Fetal Personhood: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1514
+    },
+    {
+      "id": "Wko-2c7lZL8",
+      "title": "Subscriptions: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-08-26",
+      "approximateDate": true,
+      "duration": 1371
+    },
+    {
+      "id": "S0OiT5GOXaY",
+      "title": "Scranton's Train Set: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 484
+    },
+    {
+      "id": "x9U71_dAEC8",
+      "title": "Redistricting: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-07-26",
+      "approximateDate": true,
+      "duration": 1403
+    },
+    {
+      "id": "8qUxl3rl53M",
+      "title": "Russell Crowe & Blockbuster: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 728
+    },
+    {
+      "id": "crzxR8enx6o",
+      "title": "Trump’s Pardons: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1776
+    },
+    {
+      "id": "ERn0ygRYDao",
+      "title": "FIFA: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 642
+    },
+    {
+      "id": "fQhfUkJjoPM",
+      "title": "UK Satire Law: Last Week Tonight with John Oliver (Bonus Segment)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 336
+    },
+    {
+      "id": "jFMc07F1UUU",
+      "title": "New College of Florida: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1682
+    },
+    {
+      "id": "pGazYSkFFMw",
+      "title": "Feral Hogs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1636
+    },
+    {
+      "id": "RJ2_ragq3zw",
+      "title": "Ghanaian Movie Posters: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 626
+    },
+    {
+      "id": "RZL_TctrNco",
+      "title": "UK & Makerfield Election: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 1704
+    },
+    {
+      "id": "Tkkxm9V5Y1A",
+      "title": "Steven Joyce: Last Week Tonight with John Oliver (Bonus Segment)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 290
+    },
+    {
+      "id": "UMG5_6ybpV0",
+      "title": "Japan's District Mascots: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-06-26",
+      "approximateDate": true,
+      "duration": 465
+    },
+    {
+      "id": "LcrDC4ftXgM",
+      "title": "Structured Settlements & Factoring Companies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1702
+    },
+    {
+      "id": "mRZqHzDG_c8",
+      "title": "Gas Station Drugs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1829
+    },
+    {
+      "id": "pto3_LzK6wg",
+      "title": "USPS Postal Inspectors: Last Week Tonight with John Oliver (Bonus Segment)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 608
+    },
+    {
+      "id": "qKeq4CEZtm8",
+      "title": "The Shadow Docket: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1337
+    },
+    {
+      "id": "uZyKlCjpRmI",
+      "title": "Bolivian Traffic Zebras: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 702
+    },
+    {
+      "id": "wkq0cix0GdU",
+      "title": "Chechnya: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 747
+    },
+    {
+      "id": "Ykvf3MunGf8",
+      "title": "AI Chatbots: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-05-26",
+      "approximateDate": true,
+      "duration": 1783
+    },
+    {
+      "id": "3pnfscczXbo",
+      "title": "Danbury: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 870
+    },
+    {
+      "id": "RBRFTM_NWsY",
+      "title": "Rat Erotica: Last Week Tonight with John Oliver (Bonus Segments)",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 901
+    },
+    {
+      "id": "SkRw83GV-wA",
+      "title": "Viktor Orbán: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 1666
+    },
+    {
+      "id": "ZN4njIQcSR4",
+      "title": "Prediction Markets: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-04-26",
+      "approximateDate": true,
+      "duration": 1979
+    },
+    {
+      "id": "jP4_2soVZe0",
+      "title": "Police Body Cameras: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 1419
+    },
+    {
+      "id": "LqwJFuntco4",
+      "title": "Police Stings: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 1822
+    },
+    {
+      "id": "NtRPLCso0Sw",
+      "title": "J.D. Vance: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 1685
+    },
+    {
+      "id": "tU8S13xYJNM",
+      "title": "USAID: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-03-26",
+      "approximateDate": true,
+      "duration": 2014
+    },
+    {
+      "id": "5-KDUOHEZFk",
+      "title": "ICE & DHS: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 1946
+    },
+    {
+      "id": "p7ZG_xWYLzI",
+      "title": "Twitter: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 1833
+    },
+    {
+      "id": "PawUmci7JuU",
+      "title": "Season 13 Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-02-26",
+      "approximateDate": true,
+      "duration": 79
+    },
+    {
+      "id": "dm5IwjiGT80",
+      "title": "Air Bud Pt. III: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 659
+    },
+    {
+      "id": "Ejoi9yfLVCc",
+      "title": "Medicare Advantage: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 1882
+    },
+    {
+      "id": "wVFXUkFx5Y8",
+      "title": "Police Chases: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 1426
+    },
+    {
+      "id": "Y93ljB7sfco",
+      "title": "Felony Murder: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 1237
+    },
+    {
+      "id": "yknMJOgy2pA",
+      "title": "Public Media: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-11-26",
+      "approximateDate": true,
+      "duration": 2109
+    },
+    {
+      "id": "0_Bwix9IjOE",
+      "title": "Netanyahu: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2050
+    },
+    {
+      "id": "dB1-lg-xZWc",
+      "title": "Presidential Libraries: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 1766
+    },
+    {
+      "id": "gieTx_P6INQ",
+      "title": "Bari Weiss: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 2065
+    },
+    {
+      "id": "s9FsxWK0f1A",
+      "title": "Air Bud Pt. II: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2025-10-26",
+      "approximateDate": true,
+      "duration": 1207
+    },
+    {
+      "id": "_c0TJUwa_YI",
+      "title": "S8 E17: Health Care Sharing Ministries & ItalyGate: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1932
+    },
+    {
+      "id": "-5b-sBN0_2g",
+      "title": "S7 E29: Election Results 2020: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1728
+    },
+    {
+      "id": "-DAa16tC68I",
+      "title": "S8 E18: Housing Discrimination & Covid Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2405
+    },
+    {
+      "id": "07JQr5W3970",
+      "title": "Trump & The Press: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1710
+    },
+    {
+      "id": "0Ift1lz3NnY",
+      "title": "S7 E15: Facial Recognition & BLM Protests: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "0UEhMDAlX1Y",
+      "title": "Mass Deportations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1150
+    },
+    {
+      "id": "0z5rwGil0EU",
+      "title": "S8 E7: National Debt, Matt Gaetz & Amazon: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1932
+    },
+    {
+      "id": "1D0kkEi9JI4",
+      "title": "S7 E8: Coronavirus IV & Rat Erotica Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1744
+    },
+    {
+      "id": "1vyYMDPNGJg",
+      "title": "S7 E20: U.S. History & Covid Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2230
+    },
+    {
+      "id": "2ExOsj2-w10",
+      "title": "S6 E22: Filibuster, Trump & Boris Johnson: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1773
+    },
+    {
+      "id": "2nloMLGX5ig",
+      "title": "S8 E23: Lukashenko & Texas Abortion Law: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1732
+    },
+    {
+      "id": "2s-mc4Ro9Bs",
+      "title": "S6 E21: Bias in Medicine, Greenland & Hong Kong Protests: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "3lzfH86avIc",
+      "title": "Make America Healthy Again: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1993
+    },
+    {
+      "id": "5CZNlaeZAtw",
+      "title": "TikTok Ban: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1643
+    },
+    {
+      "id": "5Hpgu7wSUQQ",
+      "title": "ICE Detention: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1459
+    },
+    {
+      "id": "5zQ0WewZY50",
+      "title": "Trump & Tariffs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1626
+    },
+    {
+      "id": "6eJuEiwpu2E",
+      "title": "S7 E11: USPS, Michael Flynn & Trump Covid Response: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1739
+    },
+    {
+      "id": "74jbsiElhFE",
+      "title": "S7 E3: Coronavirus & Phillie Phanatic: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1784
+    },
+    {
+      "id": "7GDeVL7jTQA",
+      "title": "S8 E12: Stand Your Ground & Isreal-Palestine Conflict: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1952
+    },
+    {
+      "id": "7qOi5pSNDJI",
+      "title": "S7 E26: The World Health Organization & Danbury Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "7Yd9nLQx3qQ",
+      "title": "Tasers & Excited Delirium: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1837
+    },
+    {
+      "id": "81ZLoXMI-ak",
+      "title": "S8 E5: Tucker Carlson, Cuomo Scandal & Biden Stimulus Bill: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2107
+    },
+    {
+      "id": "89R9ZxKaIOw",
+      "title": "Tipping: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1495
+    },
+    {
+      "id": "8H34jcpEsFs",
+      "title": "RFK Jr. & HHS: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2175
+    },
+    {
+      "id": "93C9zU1fXyQ",
+      "title": "S7 E16: Coronavirus VIII: Prisons & Jails & K-Pop Stans: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1685
+    },
+    {
+      "id": "9JwEBiZMWrM",
+      "title": "S6 E17: Warehouses, North Korea & Jared Kushner: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1765
+    },
+    {
+      "id": "9Mm57Mts9Ao",
+      "title": "S6 E11: Green New Deal & Georgia Abortion Laws: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1767
+    },
+    {
+      "id": "9PfTIFMVhSQ",
+      "title": "S6 E26: Weather, Giuliani & Hong Kong: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1775
+    },
+    {
+      "id": "9shpDiix8b4",
+      "title": "S6 E27: Trump & Syria, Stupid Watergate II & Brexit: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "9sJz5GYcSHU",
+      "title": "S7 E14: Policing: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2059
+    },
+    {
+      "id": "B1X6UOg31Ng",
+      "title": "S7 E5: Coronavirus II: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1339
+    },
+    {
+      "id": "bA0x7w_tbZ4",
+      "title": "S6 E13: Medical Devices & Jared Kushner: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1736
+    },
+    {
+      "id": "bDQJo0V0RUY",
+      "title": "S8 E10: Vaccine Misinformation & Government Twitter Accounts: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1922
+    },
+    {
+      "id": "BfWjG6JFcEo",
+      "title": "S7 E22: Border Wall II, Virtual DNC & Roger Stone: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1779
+    },
+    {
+      "id": "bIUXSR0yRmE",
+      "title": "S6 E29: SLAPP Suits, Stupid Watergate II & Roger Stone: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2079
+    },
+    {
+      "id": "BMpkSex3I7E",
+      "title": "S6 E4: Robocalls, Bolsonaro & Trump: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "CFASOVzjfAY",
+      "title": "S6 E8: Opioids II, Brexit & Julian Assange: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1732
+    },
+    {
+      "id": "Ch9--kBhVOs",
+      "title": "S6 E12: Death Investigations, Eurovision & Trump Tariffs: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "CkK3W0lOKcc",
+      "title": "Election Subversion 2024: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1724
+    },
+    {
+      "id": "cw0F8G4-dMw",
+      "title": "Trump 2.0: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2092
+    },
+    {
+      "id": "CxEwV8T3keg",
+      "title": "S8 E22: Afghanistan & The Texas Hammer: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1959
+    },
+    {
+      "id": "D-0jbOgAQCg",
+      "title": "S7 E25: Election 2020, The Proud Boys & Museums: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2042
+    },
+    {
+      "id": "DF_3CN1aNV4",
+      "title": "S7 E19: China & Uyhgurs & Portland: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1796
+    },
+    {
+      "id": "DfTBhrkae74",
+      "title": "Immigration Enforcement: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1400
+    },
+    {
+      "id": "Di1i4v6DaG4",
+      "title": "S8 E13: Sponsored Content, Abortion Rights & Larry Krasner: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1956
+    },
+    {
+      "id": "dijMKwZMU2Q",
+      "title": "The Baileys: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 799
+    },
+    {
+      "id": "DiKbeEpKEh8",
+      "title": "S7 E24: The Supreme Court & Census Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1791
+    },
+    {
+      "id": "dSZ7pIBooUQ",
+      "title": "S7 E9: Coronavirus V & Wendy Williams: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1792
+    },
+    {
+      "id": "E8ygQ2wEwJw",
+      "title": "Traffic Stops: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1680
+    },
+    {
+      "id": "ecCls-MO7tk",
+      "title": "S8 E8: Long-Term Care, Matt Gaetz & Refugees: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1952
+    },
+    {
+      "id": "EDD2M-8jDPc",
+      "title": "S8 E14: Asian Americans, The UK & Bolsonaro: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2073
+    },
+    {
+      "id": "eRb4V6eyR6s",
+      "title": "S7 E13: Voting by Mail, George Floyd & UFC: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "F2hN3JKZ-Go",
+      "title": "Trump & Deportations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1555
+    },
+    {
+      "id": "fAfg-Sbugyo",
+      "title": "S8 E28: Homelessness & Build Back Better: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1881
+    },
+    {
+      "id": "Fiw7KGfupyM",
+      "title": "S6 E9: Mueller Report, Chiijohn & Queen Elizabeth: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "flSS1tjoxf0",
+      "title": "Trans Athletes: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2541
+    },
+    {
+      "id": "fnOOV6vcAv0",
+      "title": "S6 E19: Prison Labor, Boris Johnson & John Ratcliffe: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1899
+    },
+    {
+      "id": "hm42viKN_9Q",
+      "title": "S6 E18: Boris Johnson & Puerto Rico: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2002
+    },
+    {
+      "id": "hq2s7RMRsgs",
+      "title": "Disability Benefits: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1446
+    },
+    {
+      "id": "HwezhqnDZoo",
+      "title": "S6 E5: Public Shaming, Christchurch & Brexit: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2260
+    },
+    {
+      "id": "I5bJX-TFd7k",
+      "title": "S6 E15: Impeachment & Duncan Hunter: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1791
+    },
+    {
+      "id": "iCJ_kh6Ksjs",
+      "title": "S8 E11: Hair, Voting Restrictions & Arizona Recount: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1913
+    },
+    {
+      "id": "j_I7x6WXFVo",
+      "title": "S8 E24: Voting Rights, Duck Stamps & Haiti: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2458
+    },
+    {
+      "id": "j3w8-d_fnqE",
+      "title": "Federal Courts: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1631
+    },
+    {
+      "id": "j48yZ9YxZX4",
+      "title": "S7 E28: Trump & the Coronavirus & William Barr: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2701
+    },
+    {
+      "id": "jNGkDT8e87Q",
+      "title": "S7 E7: OAN, Coronavirus Update & Rat Erotica Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1737
+    },
+    {
+      "id": "jR2jTxiu0AU",
+      "title": "S8 E1: The Next Pandemic, Impeachment Trial & State Republicans: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "Jxb-Szj8jVU",
+      "title": "S7 E6: Coronavirus III & Rat Erotica: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1868
+    },
+    {
+      "id": "lDTNFxfOHiM",
+      "title": "S6 E20: Gurbanguly Berdimuhamedov, Mass Shootings & the NRA: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1808
+    },
+    {
+      "id": "Lh5lEONAWgc",
+      "title": "S7 E23: The 2020 RNC, Kenosha & Danbury: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1778
+    },
+    {
+      "id": "LU2atCWyAos",
+      "title": "Trump’s Reelection: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2174
+    },
+    {
+      "id": "mH47m_SJzw8",
+      "title": "S7 E18: Conspiracy Theories & School Re-openings: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "MKUD7VDLJns",
+      "title": "S8 E16: PACE Loans & 2021 Olympics: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1943
+    },
+    {
+      "id": "MPnarumTlE0",
+      "title": "S8 E15: Prison Heat, NY Mayoral Race & Car Commercials: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1956
+    },
+    {
+      "id": "mwUocEoQ0Uk",
+      "title": "S8 E9: Bankruptcy, Daunte Wright & Darius the Bunny: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1960
+    },
+    {
+      "id": "nD2p1vHuLDw",
+      "title": "S6 E2: Psychics, Bernie Sanders & North Carolina: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "nf7XHR3EVHo",
+      "title": "Facebook & Content Moderation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1780
+    },
+    {
+      "id": "njk_Po2K4EE",
+      "title": "S6 E6: WWE, David Bernhardt & the Mueller Report: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "NsFTuKb3eqQ",
+      "title": "S6 E25: One Child Policy & Stupid Watergate II Update: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2057
+    },
+    {
+      "id": "NuOgNqAHOqU",
+      "title": "S7 E4: Sheriffs, Coronvirus & Hotstar: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1810
+    },
+    {
+      "id": "ObXfs3Unxhg",
+      "title": "S6 E3: Automation, Kim Jong Un & Jared Kushner: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "ohPToBog_-g",
+      "title": "Jimmy Kimmel & the FCC: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1652
+    },
+    {
+      "id": "Ol2_LZKDX4M",
+      "title": "S8 E27: Taiwan & Police Covid Resignations: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1893
+    },
+    {
+      "id": "P6grAoS-muM",
+      "title": "Lee Greenwood: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1072
+    },
+    {
+      "id": "Pxvfy4qQRog",
+      "title": "Sports Betting: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1941
+    },
+    {
+      "id": "Pya-kt5M7uY",
+      "title": "Juvenile Justice: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2212
+    },
+    {
+      "id": "pz3I81dVpTQ",
+      "title": "Trump’s Businesses: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1343
+    },
+    {
+      "id": "pzggl8C2fvs",
+      "title": "Med Spas: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1586
+    },
+    {
+      "id": "Q3jToHteSec",
+      "title": "S8 E19: Emergency Medical Services & Afghan Translators: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1912
+    },
+    {
+      "id": "Qtg6CgwZN-o",
+      "title": "S8 E6: Plastics, Atlanta Mass Shooting & Anti-Asian Hate Crimes: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1934
+    },
+    {
+      "id": "qXiEGPWVjGU",
+      "title": "S6 E10: Lethal Injections, William Barr & Australian Elections: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1751
+    },
+    {
+      "id": "rlR8d9JVWtQ",
+      "title": "Gang Databases: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1482
+    },
+    {
+      "id": "RO1Yxl26CV4",
+      "title": "S7 E17: Coronavirus IX: Evictions & Papa John’s:  Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "sCAuHH5EYnE",
+      "title": "Alliance Defending Freedom: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1829
+    },
+    {
+      "id": "SGq-ZbPJAos",
+      "title": "S8 E3: Raids & Cuomo Covid Deaths: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2094
+    },
+    {
+      "id": "SnZLBvePL0o",
+      "title": "S7 E12: Coronavirus VII: Sports, Richard Burr & Marbles: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1764
+    },
+    {
+      "id": "t-ZXW-KLt7A",
+      "title": "S6 E1: Brexit III, Trump & New Zealand: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "T4WYtMbpexM",
+      "title": "S8 E21: Ransomware & School Mask Mandates: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1977
+    },
+    {
+      "id": "TkMopKZgGKw",
+      "title": "S6 E24: Compounding Pharmacies & Stupid Watergate II: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1809
+    },
+    {
+      "id": "TWpg1RmzAbc",
+      "title": "AI Slop: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1745
+    },
+    {
+      "id": "tWZAbKU-JzE",
+      "title": "Election 2024: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 866
+    },
+    {
+      "id": "uBX10Jjah50",
+      "title": "S8 E29: The Power Grid, Ed Durr & COP-26: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "UWOw-sCRVq8",
+      "title": "S7 E27: Asylum & 2020 Presidential Campaigns: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "UZtEBXLDssQ",
+      "title": "S7 E1: Medicare for All, Roger Stone & William Barr: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1792
+    },
+    {
+      "id": "vGqfTp9Fb6U",
+      "title": "S8 E2: Meatpacking & Texas Blackout: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1879
+    },
+    {
+      "id": "ViaSEoqPR9U",
+      "title": "S6 E30: The Census, Stupid Watergate II & 2019 Wrap Up: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2110
+    },
+    {
+      "id": "vjFL-cBcjKc",
+      "title": "Trump’s One Big Beautiful Bill: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1502
+    },
+    {
+      "id": "VP3gcfls0No",
+      "title": "S6 E16: Mount Everest & Iran: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1771
+    },
+    {
+      "id": "VSn3c7twkw8",
+      "title": "S6 E7: Mobile Homes, Herman Cain & Baltimore: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1759
+    },
+    {
+      "id": "W3V1oswZM-o",
+      "title": "Mike Lindell & MyStore: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 728
+    },
+    {
+      "id": "wDSlvMp5knk",
+      "title": "S6 E23: Legal Immigration & Moscow Elections: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1809
+    },
+    {
+      "id": "X-b00wd7YIs",
+      "title": "S6 E14: Equal Rights Amendment & Theresa May: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "xHzCRkt1f6c",
+      "title": "S8 E25: PFAS & Congress: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1733
+    },
+    {
+      "id": "xk94il8L820",
+      "title": "Trump vs. Higher Education: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1736
+    },
+    {
+      "id": "xNo8Ve-Ej6U",
+      "title": "Deferred Prosecution Agreements: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1528
+    },
+    {
+      "id": "Xrdri8nalPA",
+      "title": "Season 12 Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 103
+    },
+    {
+      "id": "XvjDDM3GLFI",
+      "title": "S7 E21: Juries, Kamala Harris & Marjorie Taylor Greene: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "Xw-26i-1hDU",
+      "title": "S8 E20: The Sacklers & Russian Olympic Committee: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1942
+    },
+    {
+      "id": "yc_Ys0t9AjY",
+      "title": "S8 E26: Misinformation, OAN & Idaho: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1769
+    },
+    {
+      "id": "YeABJbvcJ_k",
+      "title": "Air Traffic Control: Last Week Tonight with John Oliver (HBO)",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1772
+    },
+    {
+      "id": "yI15h4s6ppM",
+      "title": "S6 E28: Voting Machines & Stupid Watergate II: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1772
+    },
+    {
+      "id": "YiShIU7XTuA",
+      "title": "S7 E10: Coronavirus VI: Testing, Tara Reade & Cats: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1880
+    },
+    {
+      "id": "ymG9ZMOYjaw",
+      "title": "S8 E30: Union Busting, January 6th & AOC: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 2393
+    },
+    {
+      "id": "zEFgnxZbADQ",
+      "title": "S8 E4: Unemployment, Covid Restrictions & Dr. Seuss: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1964
+    },
+    {
+      "id": "zxb4dp1WDuQ",
+      "title": "S7 E2: Narendra Modi & Mike Bloomberg: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1797
+    },
+    {
+      "id": "ZYoDqox4O24",
+      "title": "S7 E30: Trump & Election Results & Season Finale: Last Week Tonight with John Oliver",
+      "date": "2025-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "_Z_CNYuNxz0",
+      "title": "S1 E21: Translators, Supreme Court & Ebola: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "-_HnshzZfFM",
+      "title": "S2 E26: LGBT Discrimination, Church Update & Korea: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1746
+    },
+    {
+      "id": "-98oRTd6MsU",
+      "title": "S4 E7: Marijuana, Zebra Update & Brexit: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "-FGcescG_yQ",
+      "title": "S2 E19: Transgender Rights, Obamacare & Leap Seconds: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "-YypArYDcjA",
+      "title": "School Lunch: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1568
+    },
+    {
+      "id": "0aEZwp0QYrA",
+      "title": "S5 E26: Saudi Arabia & 2018 Midterms: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2042
+    },
+    {
+      "id": "0GkhtkoBhf4",
+      "title": "S2 E16: Bail, FIFA Update & China Hack: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "0Jjl8P8AXdw",
+      "title": "S2 E21: Food Waste, Iran & El Chapo: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "18IT4V0295E",
+      "title": "S5 E11: Venezuela & Michael Cohen: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1725
+    },
+    {
+      "id": "1gUP_43J7wY",
+      "title": "RFK Jr.: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1892
+    },
+    {
+      "id": "1psG_N9Wzfk",
+      "title": "S2 E34: Daily Fantasy Sports, France & India: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "2d9uagP9oeo",
+      "title": "S3 E12: 911, Trump & Queen Elizabeth: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "2lU8l5oxJ8w",
+      "title": "S3 E10: Puerto Rico, Obama & Norway: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "2REhjrGp8FQ",
+      "title": "S5 E28: Family Separation & 2018 Midterms: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1792
+    },
+    {
+      "id": "2Y3nNEqVXsM",
+      "title": "S5 E18: Workplace Sexual Harassment, Stupid Watergate & Facebook: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2336
+    },
+    {
+      "id": "36A8v5hsvok",
+      "title": "S1 E6: FIFA, Syria & Tiananmen Square: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1806
+    },
+    {
+      "id": "3EsaIt9TAEQ",
+      "title": "S2 E10: Patents, Doomsday & Polar Bears: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "3ikJEZggcp8",
+      "title": "S5 E14: Stupid Watergate II, Duterte & North Korea: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "3UL9AaxA9pY",
+      "title": "S1 E18: Miss America, Cuba Embargo & Scotland Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "3v6y2pY1pZ0",
+      "title": "A History of Chuck E. Cheese: Last Squeak Tonight with John Oliver (Web Exclusive)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1719
+    },
+    {
+      "id": "42xZB80sZaI",
+      "title": "Libraries: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1674
+    },
+    {
+      "id": "4Vn4yksR4LI",
+      "title": "S2 E15: FIFA II, Nebraska Death Penalty & Ireland: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "4wvnSStEK9M",
+      "title": "S4 E9: French Elections, Trump & Syria: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1793
+    },
+    {
+      "id": "57bhj1O9s4Y",
+      "title": "S5 E1: Trump vs. the World, Parkland & Australia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "5DgEVxqtJOI",
+      "title": "S4 E30: Trump Presidency, Kim Jong Un & Catheter Cowboy: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "5vdVQnvYjjY",
+      "title": "S4 E14: Paris Agreement, London Terror Attack & Russia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "5XtkBngQHn4",
+      "title": "S4 E26: Confederacy, Birth Control & Trump's Cabinet: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "6am_LubDVCQ",
+      "title": "S3 E1: Voting, New Zealand & Antonin Scalia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "6eH2BItdo0M",
+      "title": "Abortion Rights: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1366
+    },
+    {
+      "id": "6fChicI6n9g",
+      "title": "S1 E11: Prisons, Singapore & Sesame Street: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "6ihHEQNLkeQ",
+      "title": "S1 E13: Native Advertising, Argentinian Default & Uganda: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1780
+    },
+    {
+      "id": "7iivkoW98Qs",
+      "title": "S4 E10: Ivanka & Jared, North Korea & Erdowan: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2104
+    },
+    {
+      "id": "82QYlbiawJI",
+      "title": "Prison Health Care: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1147
+    },
+    {
+      "id": "8FqEJf6l5IQ",
+      "title": "S2 E25: Televangelism & New Zealand's Flag: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "9tex6qPDNeQ",
+      "title": "S3 E29: Multilevel Marketing & 2016 Election Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2400
+    },
+    {
+      "id": "AEt1C8rev3I",
+      "title": "S3 E15: Retirement Plans & 2016 Election Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1886
+    },
+    {
+      "id": "AFdwGYHqN04",
+      "title": "S4 E17: Vaccines, Bob Murray & James Comey Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2404
+    },
+    {
+      "id": "aFsfJYWpqII",
+      "title": "Food Delivery Apps: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1571
+    },
+    {
+      "id": "AiOUojVd6xQ",
+      "title": "McKinsey: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1602
+    },
+    {
+      "id": "AJ2keSJzYyY",
+      "title": "Freight Trains: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1660
+    },
+    {
+      "id": "aPtCYRuJMKk",
+      "title": "S1 E3: Kentucky, Climate Change & Ukraine: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1796
+    },
+    {
+      "id": "ARslZU4_uME",
+      "title": "S1 E8: Dr. Oz, Iraq, Thailand & Antarctica: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1808
+    },
+    {
+      "id": "axsgzg3RyF0",
+      "title": "RNC & ”Migrant Crime”: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1542
+    },
+    {
+      "id": "b1_CNmOy914",
+      "title": "S2 E3: Elected Judges, Chinese New Year & Greece: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1792
+    },
+    {
+      "id": "b8oKcBu_OYs",
+      "title": "S3 E16: Brexit & the NRA: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "BUfJuc9rxhQ",
+      "title": "S5 E2: Italian Election, Murray Lawsuit Update & Parkland: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2013
+    },
+    {
+      "id": "bVIsnOfNfCo",
+      "title": "Medicaid: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1693
+    },
+    {
+      "id": "BWQOiQ7FQyY",
+      "title": "S5 E6: Immigration Courts, Trump's Health & Egypt Election: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1752
+    },
+    {
+      "id": "C6lbW6JUYM8",
+      "title": "S2 E23: Washington DC Statehood, the Taliban & Chechnya: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1795
+    },
+    {
+      "id": "CMMalyy0Qlw",
+      "title": "S1 E22: Sugar, Doug Ford & More Ebola: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "CMq8aMZJmTA",
+      "title": "S3 E25: Guantánamo, Chechnya Update & Trump: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2394
+    },
+    {
+      "id": "CzHd9FdUHjg",
+      "title": "S3 E19: DNC, North Carolina & Turkey: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "d9ueNLAwFU0",
+      "title": "S5 E17: Gene Editing & Justice Kennedy: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1742
+    },
+    {
+      "id": "DBT4Naaqo1s",
+      "title": "S4 E12: Dialysis, James Comey & Eminem Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2405
+    },
+    {
+      "id": "dl8rM5rKv0U",
+      "title": "S5 E3: NRA TV, Trump Staff & Trump's Tarrifs: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1745
+    },
+    {
+      "id": "DWyuSC21LTM",
+      "title": "S4 E4: Dalai Lama, Jeff Sessions & Russia Investigation: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1775
+    },
+    {
+      "id": "E6frBeVCMpI",
+      "title": "S5 E5: Mike Pence, Rex Tillerson & Russia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1756
+    },
+    {
+      "id": "eElaGUsVIHs",
+      "title": "S2 E22: Mandatory Minimums, Iran & FIFA Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "EEwVKqHcUfk",
+      "title": "S2 E7: Municipal Violations, Israel & Starbucks: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1779
+    },
+    {
+      "id": "ENuNwywzsco",
+      "title": "S5 E30: Authoritarianism & Season 5 Finale: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2332
+    },
+    {
+      "id": "Eo3zORUGCbM",
+      "title": "Elon Musk: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1863
+    },
+    {
+      "id": "f0Qxe1kBwKY",
+      "title": "S5 E23: Facebook, Trump & Christine Blasey Ford: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1780
+    },
+    {
+      "id": "F9-p2zVI8yw",
+      "title": "S2 E11: Fashion, Armenian Genocide & Dr. Oz: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1793
+    },
+    {
+      "id": "FLkg5nPG5qg",
+      "title": "S5 E21: Trade, Giuliani & Australia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1786
+    },
+    {
+      "id": "frhBpkwTU84",
+      "title": "S5 E15: Xi Jinping, North Korea & Family Separation: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1793
+    },
+    {
+      "id": "FuWMVAMLNnw",
+      "title": "S1 E24: The Lottery, Erdogan & a Fish Cannon: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "FVPWL6A6ZM4",
+      "title": "S1 E9: Hobby Lobby, Uganda & Boko Haram: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "FwHMDjc7qJ8",
+      "title": "Chocolate: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1381
+    },
+    {
+      "id": "GA9ZidJHiWI",
+      "title": "S2 E17: Torture, Jack Warner & Putin: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1788
+    },
+    {
+      "id": "GE-VJrdHMug",
+      "title": "Supreme Court Ethics: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1821
+    },
+    {
+      "id": "GEQXe4YWFxw",
+      "title": "S1 E4: GM, Protests in Turkey & Gay Nintendo: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1795
+    },
+    {
+      "id": "gJcybtVuC6k",
+      "title": "S5 E8: Corporate Taxes, James Comey & Syria: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1770
+    },
+    {
+      "id": "GSK-sCDBdK0",
+      "title": "S4 E15: Brexit II, James Comey & Buckethead: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1772
+    },
+    {
+      "id": "gYwqpx6lp_s",
+      "title": "Trump’s Second Term: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1755
+    },
+    {
+      "id": "H09I2x4EOYI",
+      "title": "S5 E29: Drain the Swamp, Midterms & Jeff Sessions: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2290
+    },
+    {
+      "id": "h6Em04qAR6M",
+      "title": "S1 E16: Student Debt, Gecko Update & ISIS: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1789
+    },
+    {
+      "id": "HDByNV39GrA",
+      "title": "S3 E6: Border Wall, Merrick Garland & Brazil: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1795
+    },
+    {
+      "id": "HJAcmSbtURo",
+      "title": "S1 E1: India, Pomegranates & Lisa Loeb: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1808
+    },
+    {
+      "id": "hmt816o8R7c",
+      "title": "S1 E7: Immigration, Stephen Hawking & Football: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1793
+    },
+    {
+      "id": "Hqz1LFs2JA4",
+      "title": "S2 E27: Public Defenders, Church Shutdown & Queen Elizabeth: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "i0QeW9iTHPA",
+      "title": "S3 E2: Abortion Laws, Donald Trump & the Supreme Court: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1794
+    },
+    {
+      "id": "i1KnSyXjE5Q",
+      "title": "Last Week Tonight Full Episode Library Coming Soon!",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 89
+    },
+    {
+      "id": "iGpyTMdAfWE",
+      "title": "S1 E17: Scottish Independence, Twitter & Bagpipes: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "iHHkJKtYYnc",
+      "title": "S2 E28: Migrants & Refugees, the Pope & Volkswagen: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1765
+    },
+    {
+      "id": "ihjo83ny6fA",
+      "title": "S4 E19: Alex Jones, John McCain & Transgender Military Ban: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1937
+    },
+    {
+      "id": "InSiKiGsoeQ",
+      "title": "S2 E30: North Dakota, Syria & FIFA: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1795
+    },
+    {
+      "id": "Io0yuH1CiA0",
+      "title": "Opioid Settlements: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1509
+    },
+    {
+      "id": "iOzLGthFmHE",
+      "title": "S2 E33: Prisoner Re-entry, Bilal Chatman & UK Surveillance: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1768
+    },
+    {
+      "id": "iQNr5dnK7Y4",
+      "title": "S5 E25: Brazil Elections, Trump Tax Fraud & Kavanaugh: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1714
+    },
+    {
+      "id": "j_krJ0K83BM",
+      "title": "S4 E18: Sinclair, Wax Presidents & Trump Travel Ban: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2105
+    },
+    {
+      "id": "j8DxdibHibU",
+      "title": "Hawaii: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1563
+    },
+    {
+      "id": "JfvWnFbClp0",
+      "title": "S4 E20: Border Patrol, Stephen Miller & Trump: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "jgY60jynMO4",
+      "title": "S2 E4: Infrastructure, Net Neutrality & Gerbils: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "JiZp1EyoEYM",
+      "title": "S2 E29: Mental Health, Russia & The UN: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1784
+    },
+    {
+      "id": "jS9zYYM7x40",
+      "title": "S3 E14: Debt Buyers & Trump Lawsuits: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2099
+    },
+    {
+      "id": "JTwaXIUepdk",
+      "title": "Indian Elections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1405
+    },
+    {
+      "id": "jVIYbgVks7E",
+      "title": "State Medical Boards: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1376
+    },
+    {
+      "id": "kkfX1mpsMKk",
+      "title": "S3 E3: Donald Trump, Egypt & Guantánamo Bay: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "KLhdWhGLrd0",
+      "title": "S1 E20: Civil Forfeiture, Hong Kong Protests & Brazil: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1784
+    },
+    {
+      "id": "l9GtiuB4D2o",
+      "title": "S1 E10: The Wealth Gap, CIA Twitter & Japan: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "LdA46CTeaYo",
+      "title": "S2 E1: Marketing to Doctors, Ecuador & Radio Shack: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "Lkz3s6QVKPQ",
+      "title": "S4 E11: Net Neutrality II, Obamacare & Eminem: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "lzsZP9o7SlI",
+      "title": "Homeschooling: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1465
+    },
+    {
+      "id": "MESS6iefA1E",
+      "title": "S4 E24: Corporate Consolidation, NFL & Scranton Train Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1797
+    },
+    {
+      "id": "mGrytEhEWGE",
+      "title": "S4 E22: Nuclear Waste, Steve Bannon & Charlottesville: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1734
+    },
+    {
+      "id": "MI78WOW_u-Q",
+      "title": "Corn: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1494
+    },
+    {
+      "id": "MJ8cH0i9OGI",
+      "title": "S1 E19: Drones, Kansas & Afghanistan: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1798
+    },
+    {
+      "id": "MuoDWUDMgtI",
+      "title": "S3 E26: Third Parties & Donald Trump: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "N-qsKNRSb4g",
+      "title": "S5 E16: Mexican Elections, Family Separation & Norway: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "n5C139Y3hTo",
+      "title": "S2 E13: Paid Family Leave, Mascots & UK Elections: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "n7ldLYSEiwk",
+      "title": "S3 E11: Scientific Studies, Trump & North Korea: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "nD2oRKAnKB8",
+      "title": "S2 E20: Stadiums, Iran & the Confederate Flag: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1745
+    },
+    {
+      "id": "NnoGHlSEiJM",
+      "title": "S3 E24: Police Accountability, Wells Fargo & 2016 Election: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2189
+    },
+    {
+      "id": "NpWH7EB9bg0",
+      "title": "S4 E25: Forensic Science, Puerto Rico & Tax Reform: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1756
+    },
+    {
+      "id": "NqK3_n6pdDY",
+      "title": "The West Bank: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1838
+    },
+    {
+      "id": "nv3UExlRO8k",
+      "title": "S4 E1: Trump vs. Truth & Trump Cabinet Picks: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "OjYL7oTeCNU",
+      "title": "S5 E19: Prosecutors, Stupid Watergate & Paul Manafort: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "OSwXWxMCMPY",
+      "title": "S2 E24: Sex Education, GOP debate & Whole Foods: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "p4QGOHahiVM",
+      "title": "Dollar Stores: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1314
+    },
+    {
+      "id": "PCe2c4rHtmg",
+      "title": "S1 E5: Net Neutrality, Spelling Bees & EU Elections: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1752
+    },
+    {
+      "id": "pDpjyf-6oI8",
+      "title": "S5 E10: Rudy Giuliani, Russel Crowe & West Virginia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "pJ9PKQbkJv8",
+      "title": "Israel-Hamas War: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1914
+    },
+    {
+      "id": "pLPpl2ISKTg",
+      "title": "Pig Butchering Scams: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1468
+    },
+    {
+      "id": "PN8QufaS0Ug",
+      "title": "S4 E2: Putin, Trump & North Korea: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "q1bb2ZljRtc",
+      "title": "S5 E20: Astroturfing, Unite the Right & Saudi Arabia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1714
+    },
+    {
+      "id": "Q8oCilY4szc",
+      "title": "Boeing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1956
+    },
+    {
+      "id": "qcIHauGxOTU",
+      "title": "S3 E18: RNC, 2016 Election Update & Brexit Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1795
+    },
+    {
+      "id": "QgND0iPRrlo",
+      "title": "S2 E35: Pennies, Paris & Finale: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1787
+    },
+    {
+      "id": "qHKu1zMriyc",
+      "title": "S4 E5: American Health Care Act, Wikileaks & Samsung: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1794
+    },
+    {
+      "id": "qW7CGTK-1vA",
+      "title": "Deep-Sea Mining: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1399
+    },
+    {
+      "id": "r5U_74z_Nxs",
+      "title": "S2 E12: Standardized Testing, Baltimore & Bud Light: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "r7-AbyFrbiw",
+      "title": "S4 E21: North Korea & Charlottesville: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2104
+    },
+    {
+      "id": "RaMRa8E_Le0",
+      "title": "S1 E12: Nuclear Weapons, Russian Geckos & Thailand: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "rBxhqRqdP-8",
+      "title": "S5 E24: Brett Kavanaugh, the UN & Gritty: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "RKtjZexepc0",
+      "title": "S5 E22: Felony Disenfranchisement, NYT Op-Ed & Kavanaugh: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1768
+    },
+    {
+      "id": "rKVqK6sKuSs",
+      "title": "S2 E18: Online Harassment, Charleston & Putin Theme Park: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1772
+    },
+    {
+      "id": "rwF6FPgJTyk",
+      "title": "S4 E28: Floods, Roy Moore & the Opioid Crisis: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2249
+    },
+    {
+      "id": "s698Ee33J7c",
+      "title": "S3 E4: Special Districts, 2016 Election & Texas Republicans: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1770
+    },
+    {
+      "id": "SeyOlaHz0aU",
+      "title": "S1 E23: State Legislatures, ALEC & New Zealand's Flag: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1790
+    },
+    {
+      "id": "sGChECfK71g",
+      "title": "S4 E23: Joe Arpaio, DACA & Scranton Train: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1791
+    },
+    {
+      "id": "SgTQDp1jwBw",
+      "title": "S2 E8: Government Surveillance, Edward Snowden & Iran: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2710
+    },
+    {
+      "id": "SmbQ-g492wc",
+      "title": "S3 E7: Congressional Fundraising, Nuclear Powers & The Yankees: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "sngVjVPleTk",
+      "title": "S4 E3: Obamacare, Neil Gorsuch & Immigration: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1799
+    },
+    {
+      "id": "SoKWfZF9tik",
+      "title": "S3 E23: Scandals, Charlotte & Wells Fargo: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "SOn3wba8c-Y",
+      "title": "Executions: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1711
+    },
+    {
+      "id": "sTA-T1u7zAg",
+      "title": "S4 E13: Stupid Watergate, Anderson Cooper & TSA: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1779
+    },
+    {
+      "id": "T3c9m7DYruI",
+      "title": "S3 E17: Doping & Brexit: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1805
+    },
+    {
+      "id": "T9DJj6tKdM4",
+      "title": "S3 E28: School Segregation & 2016 Election Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "tcMvRC9mczc",
+      "title": "S4 E8: Gerrymandering, Neil Gorsuch & Syria: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2099
+    },
+    {
+      "id": "Ti_Gwa_TFhQ",
+      "title": "S3 E22: Charter Schools, Trump & the Olympics: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2092
+    },
+    {
+      "id": "tkAqwHiAR-g",
+      "title": "UK Elections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1767
+    },
+    {
+      "id": "tLrn3A7HxIs",
+      "title": "S1 E15: Ferguson, the Gender Wage Gap & Iran: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1801
+    },
+    {
+      "id": "Tn7egDQ9lPg",
+      "title": "Organ & Body Donations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1897
+    },
+    {
+      "id": "tzBcGN-cpHk",
+      "title": "S2 E5: U.S. Territories, Ferguson & Israel: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1789
+    },
+    {
+      "id": "u2ii0DCREzA",
+      "title": "Hospice: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1735
+    },
+    {
+      "id": "U34RWZ4IjvE",
+      "title": "S4 E6: Federal Budget, Angela Merkel & Bolivian Traffic Zebras: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "Ud5V7MOXS9k",
+      "title": "S5 E4: Cryptocurrency, International Women's Day & Kim Jong Un: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2105
+    },
+    {
+      "id": "ufwK63Ovzjs",
+      "title": "S3 E21: Auto Lending, 2016 Election Update & the Olympics: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1790
+    },
+    {
+      "id": "ULghbKUykQ0",
+      "title": "S3 E30: President-Elect Trump: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1751
+    },
+    {
+      "id": "ULz9AcPnIQI",
+      "title": "S3 E20: Journalism & the Olympics: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1796
+    },
+    {
+      "id": "UoGvlEtNQmI",
+      "title": "S3 E9: Lead, Putin & Germany: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "uRKIxgsi0pU",
+      "title": "S2 E31: Canadian Elections, Misquotes & Mexico: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1758
+    },
+    {
+      "id": "vfpWf5pzLdM",
+      "title": "S1 E14: Predatory Lending, Russian Sanctions & Iraq: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1741
+    },
+    {
+      "id": "Vjc782yvwAk",
+      "title": "Season 11 Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 98
+    },
+    {
+      "id": "vlZtWCKLA9Y",
+      "title": "S5 E9: Iran Deal, Michael Cohen & Ryan Zinke: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1793
+    },
+    {
+      "id": "VW-KWUrV7yU",
+      "title": "S5 E13: Guardianship, North Korea & Babchenko: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1794
+    },
+    {
+      "id": "vZcQPZq8hkQ",
+      "title": "S3 E5: Encryption, Trump Rally & International Women's Day: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1726
+    },
+    {
+      "id": "wdlT2d79N6s",
+      "title": "S1 E2: The Death Penalty, Brunei & Ukraine: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1777
+    },
+    {
+      "id": "wKobMz1bbo8",
+      "title": "S4 E27: Equifax & Iran Nuclear Deal: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1749
+    },
+    {
+      "id": "Wn5sK9B5Gwg",
+      "title": "S5 E7: Crisis Pregnancy Centers, Scott Pruitt & Hungary Election: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2081
+    },
+    {
+      "id": "x1yD7FzXtec",
+      "title": "S2 E2: Tobacco, Yemen & Ecuador: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1806
+    },
+    {
+      "id": "X372Jg1d2G0",
+      "title": "S2 E32: Medicaid Gap, China & Syria: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1800
+    },
+    {
+      "id": "x71eHoVzV7g",
+      "title": "S2 E9: The IRS, Hillary Clinton & Cuba: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1803
+    },
+    {
+      "id": "XeZVGB6uOL4",
+      "title": "S4 E29: Economic Development, USPS & Stupid Watergate: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2377
+    },
+    {
+      "id": "xVDfkeiQx3M",
+      "title": "S2 E6: NCAA, ISIS & Brazil: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1750
+    },
+    {
+      "id": "xyhyOgDKiFs",
+      "title": "S3 E8: Credit Reports, Panama Papers & Alabama: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "Y3dGKVyCqxs",
+      "title": "S3 E13: Primaries & Caucuses, Chechnya & Venezuela: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1757
+    },
+    {
+      "id": "yD3M3DYGQIk",
+      "title": "S5 E12: Rehab, Royal Wedding & North Korea: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1734
+    },
+    {
+      "id": "YuysiivHH0g",
+      "title": "S5 E27: State Attorneys General, Pittsburgh & Saudi Arabia: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1804
+    },
+    {
+      "id": "z3-Jc2fPjS8",
+      "title": "S3 E27: Opioids & 2016 Election Update: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 2097
+    },
+    {
+      "id": "z3YtQleycpg",
+      "title": "S2 E14: Chicken Farming, the NSA & FIFA: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1797
+    },
+    {
+      "id": "Za45bT41sXg",
+      "title": "Food Safety: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1223
+    },
+    {
+      "id": "zN2_0WC7UfU",
+      "title": "Student Loans: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1802
+    },
+    {
+      "id": "zRdhoYqCAQg",
+      "title": "UFOs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1578
+    },
+    {
+      "id": "ZYjJ2-UsbSQ",
+      "title": "S4 E16: Coal, Mr. Nutterbutter & AHCA: Last Week Tonight with John Oliver",
+      "date": "2024-09-26",
+      "approximateDate": true,
+      "duration": 1890
+    },
+    {
+      "id": "_uSZwErdH3I",
+      "title": "Solitary Confinement: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1212
+    },
+    {
+      "id": "18PL6enCwh8",
+      "title": "Last Week Tonight with John Oliver: FYC",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 156
+    },
+    {
+      "id": "41vETgarh_8",
+      "title": "Farmworkers: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1501
+    },
+    {
+      "id": "a546lxxJIhE",
+      "title": "Psychedelic Assisted Therapy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1288
+    },
+    {
+      "id": "Bd2bbHoVQSM",
+      "title": "Timeshares: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1532
+    },
+    {
+      "id": "eJPLiT1kCSM",
+      "title": "Museums: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 2049
+    },
+    {
+      "id": "HkvQywg_uZA",
+      "title": "Trash: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 546
+    },
+    {
+      "id": "kCOnGjvYKI0",
+      "title": "Crime Reporting: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1629
+    },
+    {
+      "id": "KWterDbJKjY",
+      "title": "The Monarchy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1681
+    },
+    {
+      "id": "M81-GM0mTc4",
+      "title": "Ron DeSantis: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1538
+    },
+    {
+      "id": "Ns8NvPPHX5Y",
+      "title": "Transgender Rights II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1593
+    },
+    {
+      "id": "o7zazuy_UfI",
+      "title": "Cryptocurrencies II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1453
+    },
+    {
+      "id": "qrizmAo17Os",
+      "title": "Homeowners Associations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1528
+    },
+    {
+      "id": "s3gUpyEI_rQ",
+      "title": "Season 10 Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 113
+    },
+    {
+      "id": "Sqa8Zo2XWc4",
+      "title": "Artificial Intelligence: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1673
+    },
+    {
+      "id": "sy5VQvDGKd4",
+      "title": "Biden & The Border: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1184
+    },
+    {
+      "id": "UMqLDhl8PXw",
+      "title": "Qatar World Cup: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1488
+    },
+    {
+      "id": "uySgklnlX3Y",
+      "title": "Bolsonaro: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1177
+    },
+    {
+      "id": "wJDk-czsivk",
+      "title": "TANF: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1365
+    },
+    {
+      "id": "xQLqIWbc9VM",
+      "title": "Bail Reform: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1598
+    },
+    {
+      "id": "Y0LA7Ff2hgs",
+      "title": "Election Subversion: Last Week Tonight with John Oliver (HBO)",
+      "date": "2023-09-26",
+      "approximateDate": true,
+      "duration": 1985
+    },
+    {
+      "id": "-_Y7uqqEFnY",
+      "title": "Tickets: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1190
+    },
+    {
+      "id": "-gd8yUptg0Q",
+      "title": "Sex Work: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1518
+    },
+    {
+      "id": "-v0XiUQlRLw",
+      "title": "Environmental Racism: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1311
+    },
+    {
+      "id": "0nqJvjUNlRA",
+      "title": "Local Car Commercials Update: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 395
+    },
+    {
+      "id": "3YNku5FKWjw",
+      "title": "AI Images: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 641
+    },
+    {
+      "id": "6p8zAbFKpW0",
+      "title": "Carbon Offsets: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1418
+    },
+    {
+      "id": "6RxqNv6bEug",
+      "title": "Beach Dolls: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 557
+    },
+    {
+      "id": "8Kfx2fANELo",
+      "title": "Snack Video Games: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 610
+    },
+    {
+      "id": "9W74aeuqsiU",
+      "title": "PFAS: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1198
+    },
+    {
+      "id": "9Y18-07g39g",
+      "title": "Taiwan: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1339
+    },
+    {
+      "id": "AEa3sK1iZxc",
+      "title": "Rocks: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1043
+    },
+    {
+      "id": "bl-ABuxeWrE",
+      "title": "Duck Stamps: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 726
+    },
+    {
+      "id": "C-YRSqaPtMg",
+      "title": "Utilities: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1468
+    },
+    {
+      "id": "DNy6F7ZwX8I",
+      "title": "Law & Order: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1649
+    },
+    {
+      "id": "EICp1vGlh_U",
+      "title": "Critical Race Theory: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1688
+    },
+    {
+      "id": "EN9OdruH_qM",
+      "title": "Voting Rights: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1188
+    },
+    {
+      "id": "FtdVglihDok",
+      "title": "Philippines Election: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1229
+    },
+    {
+      "id": "Gk8dUXRpoy8",
+      "title": "Union Busting: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1417
+    },
+    {
+      "id": "Hk011WMM7t0",
+      "title": "Air Bud: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 889
+    },
+    {
+      "id": "jDdYFhzVCDM",
+      "title": "Subway: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1607
+    },
+    {
+      "id": "jtIZZs-GAOA",
+      "title": "Mental Health Care: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1522
+    },
+    {
+      "id": "jtxew5XUVbQ",
+      "title": "Water: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1427
+    },
+    {
+      "id": "jXf04bhcjbg",
+      "title": "Tech Monopolies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1610
+    },
+    {
+      "id": "KgwqQGvYt0g",
+      "title": "School Police: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1602
+    },
+    {
+      "id": "kpYYdCzTpps",
+      "title": "Wrongful Convictions: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1285
+    },
+    {
+      "id": "L4qmDnYli2E",
+      "title": "Rent: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1328
+    },
+    {
+      "id": "l5jtFqWq5iU",
+      "title": "Misinformation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1202
+    },
+    {
+      "id": "liptMbjF3EE",
+      "title": "Homelessness: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1496
+    },
+    {
+      "id": "MalsOLSFvX0",
+      "title": "Abortion Ruling: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1106
+    },
+    {
+      "id": "MBo4GViDxzc",
+      "title": "Inflation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1463
+    },
+    {
+      "id": "obCNQ0xksZ4",
+      "title": "Police Interrogations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1483
+    },
+    {
+      "id": "phieTCxQRLA",
+      "title": "Trucks: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1442
+    },
+    {
+      "id": "pQcFCFZIuZI",
+      "title": "Monkeypox: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1407
+    },
+    {
+      "id": "qBpiXcyB7wU",
+      "title": "The Power Grid: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1349
+    },
+    {
+      "id": "RMpCGD7b_H4",
+      "title": "Harm Reduction: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1077
+    },
+    {
+      "id": "wqn3gR1WTcA",
+      "title": "Data Brokers: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1510
+    },
+    {
+      "id": "x2hw_ghPcQs",
+      "title": "Afghanistan: Last Week Tonight with John Oliver (HBO)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 1243
+    },
+    {
+      "id": "xX5IV9n223M",
+      "title": "Da Vinci Code: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2022-09-26",
+      "approximateDate": true,
+      "duration": 527
+    },
+    {
+      "id": "_-0J49_9lwc",
+      "title": "Housing Discrimination: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1928
+    },
+    {
+      "id": "_v-U3K1sw9U",
+      "title": "The Next Pandemic: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1229
+    },
+    {
+      "id": "27FpoRiStgk",
+      "title": "Lukashenko: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1121
+    },
+    {
+      "id": "29lXsOYBaow",
+      "title": "Asian Americans: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1622
+    },
+    {
+      "id": "2xlol-SNQRU",
+      "title": "Long-Term Care: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1361
+    },
+    {
+      "id": "6fiRDJLjL94",
+      "title": "Prison Heat: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 806
+    },
+    {
+      "id": "7g0Jh4h5E1E",
+      "title": "The World Health Organization: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1111
+    },
+    {
+      "id": "A51mJjFyG_w",
+      "title": "John Dillermand: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 419
+    },
+    {
+      "id": "abuQk-6M5R4",
+      "title": "Cereal: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 417
+    },
+    {
+      "id": "aSZ-hogD8mg",
+      "title": "Octopuses: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 546
+    },
+    {
+      "id": "AytDzZ2ecCc",
+      "title": "Election 2020: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1230
+    },
+    {
+      "id": "cMz_sTgoydQ",
+      "title": "Trump & Election Results: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1078
+    },
+    {
+      "id": "dykZyuWci3g",
+      "title": "Afghanistan: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1420
+    },
+    {
+      "id": "EzlCOg-37hI",
+      "title": "Season 7 Finale: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 659
+    },
+    {
+      "id": "Ezv8sdTLxKo",
+      "title": "Emergency Medical Services: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1301
+    },
+    {
+      "id": "Fiu9GSOmt8E",
+      "title": "Plastics: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1344
+    },
+    {
+      "id": "gPHgRp70H8o",
+      "title": "Covid Vaccines: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1468
+    },
+    {
+      "id": "GzFG0Cdh8D8",
+      "title": "Bankruptcy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1273
+    },
+    {
+      "id": "IhO1FcjDMV4",
+      "title": "Meatpacking: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1122
+    },
+    {
+      "id": "IuVo4fnpLC8",
+      "title": "Trump & the Coronavirus: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1270
+    },
+    {
+      "id": "jm9YKT0dItk",
+      "title": "Unemployment: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1274
+    },
+    {
+      "id": "LyC855KdBKo",
+      "title": "Election Results 2020: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1626
+    },
+    {
+      "id": "NvpKES_kcYg",
+      "title": "Last Week Tonight's Masterpiece Gallery Tour",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 137
+    },
+    {
+      "id": "Of3fbIgSqeU",
+      "title": "Lost Graphics Vol. 4 (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 197
+    },
+    {
+      "id": "oFetFqrVBNc",
+      "title": "Health Care Sharing Ministries: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1374
+    },
+    {
+      "id": "pkpfFuiZkcs",
+      "title": "The Supreme Court: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1273
+    },
+    {
+      "id": "qIUb3bjh42Y",
+      "title": "Pringles Update: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 336
+    },
+    {
+      "id": "S5_4wPW6jJQ",
+      "title": "Season 8 Official Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 107
+    },
+    {
+      "id": "sE63HmOYGps",
+      "title": "William Barr: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1146
+    },
+    {
+      "id": "sIi_QS1tdFM",
+      "title": "Sponsored Content: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1282
+    },
+    {
+      "id": "uaCaIhfETsM",
+      "title": "Opioids III: The Sacklers: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1440
+    },
+    {
+      "id": "Uf1c0tEGfrU",
+      "title": "Hair: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1464
+    },
+    {
+      "id": "vTF-Kz_7L0c",
+      "title": "Stand Your Ground: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1158
+    },
+    {
+      "id": "WqD-ATqw3js",
+      "title": "Ransomware: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1327
+    },
+    {
+      "id": "WYdi1bL6s10",
+      "title": "Raids: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1555
+    },
+    {
+      "id": "XMGxxRRtmHc",
+      "title": "Tucker Carlson: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1493
+    },
+    {
+      "id": "xtdU5RPDZqI",
+      "title": "Asylum: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1285
+    },
+    {
+      "id": "yq_E3HquRJY",
+      "title": "The National Debt: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1346
+    },
+    {
+      "id": "zeBjxv4oqGU",
+      "title": "Census Update: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 287
+    },
+    {
+      "id": "zv8ZPFOxJEc",
+      "title": "PACE: Last Week Tonight with John Oliver (HBO)",
+      "date": "2021-09-26",
+      "approximateDate": true,
+      "duration": 1314
+    },
+    {
+      "id": "_066dEkycr4",
+      "title": "Coronavirus II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1331
+    },
+    {
+      "id": "_TfCgeYHiBE",
+      "title": "SantaCon: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 358
+    },
+    {
+      "id": "0b_eHBZLM6U",
+      "title": "Coronavirus: Conspiracy Theories: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1339
+    },
+    {
+      "id": "17oCQakzIl8",
+      "title": "China & Uighurs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1252
+    },
+    {
+      "id": "1aheRpmurAo",
+      "title": "The Census: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1058
+    },
+    {
+      "id": "1f2iawp0y5Y",
+      "title": "Juries: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1237
+    },
+    {
+      "id": "1Nqa4XKkXp4",
+      "title": "Thailand feat. Rip Taylor",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 384
+    },
+    {
+      "id": "2u_pZ-SgACk",
+      "title": "Trump & Syria: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1183
+    },
+    {
+      "id": "3ZRE6uVMDAo",
+      "title": "Border Wall II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1293
+    },
+    {
+      "id": "6s4Bx7mzNkM",
+      "title": "Coronavirus IV: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1238
+    },
+    {
+      "id": "7rl4c-jr7g0",
+      "title": "Coronavirus VI: Testing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1394
+    },
+    {
+      "id": "7Z2XRg3dy9k",
+      "title": "Medicare for All: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1194
+    },
+    {
+      "id": "c09m5f7Gnic",
+      "title": "Coronavirus: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1210
+    },
+    {
+      "id": "dRFbwjwQ4VE",
+      "title": "Coronavirus V: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1258
+    },
+    {
+      "id": "ElIf2DBrWzU",
+      "title": "Coronavirus III: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1169
+    },
+    {
+      "id": "hsxukOPEdgg",
+      "title": "U.S. History: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1709
+    },
+    {
+      "id": "IoL8g0W9gAQ",
+      "title": "USPS: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1095
+    },
+    {
+      "id": "jZjmlJPJgug",
+      "title": "Facial Recognition: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1271
+    },
+    {
+      "id": "kxatzHnl7Q8",
+      "title": "Push Notifications: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 305
+    },
+    {
+      "id": "l-nEHkgm_Gk",
+      "title": "Voting by Mail: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1152
+    },
+    {
+      "id": "MuxnH0VAkAM",
+      "title": "Coronavirus VIII: Prisons & Jails: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1113
+    },
+    {
+      "id": "Nuzi7LlSDVo",
+      "title": "Compounding Pharmacies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1155
+    },
+    {
+      "id": "qMGn9T37eR8",
+      "title": "Weather: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 987
+    },
+    {
+      "id": "qVIXUhZ2AWs",
+      "title": "Modi: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1128
+    },
+    {
+      "id": "R652nwUcJRA",
+      "title": "Coronavirus IX: Evictions: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1139
+    },
+    {
+      "id": "rBu0BRTx2x8",
+      "title": "RNC 2020 & Kenosha: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1210
+    },
+    {
+      "id": "SE_ccFHjL_w",
+      "title": "One Child Policy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1385
+    },
+    {
+      "id": "svEuG_ekNT0",
+      "title": "Voting Machines: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1162
+    },
+    {
+      "id": "UN8bJb8biZU",
+      "title": "SLAPP Suits: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1585
+    },
+    {
+      "id": "UnSILVWDKL8",
+      "title": "OAN: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1086
+    },
+    {
+      "id": "v_kak7kAdNw",
+      "title": "Sheriffs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 993
+    },
+    {
+      "id": "Wf4cea5oObY",
+      "title": "Police: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 2013
+    },
+    {
+      "id": "xa0oY7LQmtg",
+      "title": "Chiijohn: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 447
+    },
+    {
+      "id": "z4gBMw64aqk",
+      "title": "Coronavirus VII: Sports: Last Week Tonight with John Oliver (HBO)",
+      "date": "2020-09-26",
+      "approximateDate": true,
+      "duration": 1306
+    },
+    {
+      "id": "_h1ooyyFkF0",
+      "title": "Automation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1188
+    },
+    {
+      "id": "-9QYu8LtH2E",
+      "title": "Gurbanguly Berdimuhamedov: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1241
+    },
+    {
+      "id": "-qCKR6wy94U",
+      "title": "Opioids II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1281
+    },
+    {
+      "id": "-tIdzNlExrw",
+      "title": "Medical Devices: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1146
+    },
+    {
+      "id": "0lTczPEG8iI",
+      "title": "Lethal Injections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1162
+    },
+    {
+      "id": "3y1QA6OeAcQ",
+      "title": "Filibuster: Last Week Tonight with John Oliver",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1147
+    },
+    {
+      "id": "5HS2TstPfW4",
+      "title": "Drain the Swamp: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 997
+    },
+    {
+      "id": "AjqaNQ018zU",
+      "title": "Prison Labor: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1089
+    },
+    {
+      "id": "bCBYJZ6QbUI",
+      "title": "Equal Rights Amendment: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 940
+    },
+    {
+      "id": "Bchx0mS7XOY",
+      "title": "Everest: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1323
+    },
+    {
+      "id": "CdDBi0DheMw",
+      "title": "Season 6 Official Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 126
+    },
+    {
+      "id": "d9m7d07k22A",
+      "title": "Warehouses: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1278
+    },
+    {
+      "id": "dXyO_MC9g3k",
+      "title": "Boris Johnson: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1323
+    },
+    {
+      "id": "f4fVdf4pNEc",
+      "title": "Chiitan: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 771
+    },
+    {
+      "id": "FO0iG_P0P6M",
+      "title": "Robocalls: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1066
+    },
+    {
+      "id": "FsZ3p9gOkpY",
+      "title": "Brazilian Elections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 974
+    },
+    {
+      "id": "HaBQfSAVt0s",
+      "title": "Brexit III: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1287
+    },
+    {
+      "id": "hnoMsftQPY8",
+      "title": "Death Investigations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1341
+    },
+    {
+      "id": "jCC8fPQOaxU",
+      "title": "Mobile Homes: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 939
+    },
+    {
+      "id": "JDcro7dPqpA",
+      "title": "Green New Deal: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1168
+    },
+    {
+      "id": "m8UQ4O7UiDs",
+      "title": "WWE: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1387
+    },
+    {
+      "id": "MdHmp5EX5bE",
+      "title": "Brexit Update - UK Version: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 402
+    },
+    {
+      "id": "opi8X9hQ7q8",
+      "title": "Brett Kavanaugh: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1752
+    },
+    {
+      "id": "TATSAHJKRd8",
+      "title": "Bias In Medicine: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1358
+    },
+    {
+      "id": "TB_wx0dAPU0",
+      "title": "The Wax and the Furious: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 458
+    },
+    {
+      "id": "tXqnRMU1fTs",
+      "title": "Legal Immigration: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1182
+    },
+    {
+      "id": "UpdMYOtAmKY",
+      "title": "State Attorneys General: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1147
+    },
+    {
+      "id": "ViDPIyiszoo",
+      "title": "Saudi Arabia: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1091
+    },
+    {
+      "id": "WhMGcp9xIhY",
+      "title": "Psychics: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1267
+    },
+    {
+      "id": "ximgPmJ9A5s",
+      "title": "Authoritarianism: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1109
+    },
+    {
+      "id": "ygVX1z6tDGI",
+      "title": "Family Separation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1099
+    },
+    {
+      "id": "YMBj_tU7HRU",
+      "title": "Mueller Report: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 910
+    },
+    {
+      "id": "Yq7Eh6JTKIg",
+      "title": "Public Shaming: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1605
+    },
+    {
+      "id": "zxT8CM8XntA",
+      "title": "Impeachment: Last Week Tonight with John Oliver (HBO)",
+      "date": "2019-09-26",
+      "approximateDate": true,
+      "duration": 1221
+    },
+    {
+      "id": "_ECYMvjU52E",
+      "title": "NRA: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 758
+    },
+    {
+      "id": "1ZAPwfrtAFY",
+      "title": "The Trump Presidency: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1431
+    },
+    {
+      "id": "2nXYbGmF3_Q",
+      "title": "Retractions: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 241
+    },
+    {
+      "id": "4NNpkv3Us1I",
+      "title": "Crisis Pregnancy Centers: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1269
+    },
+    {
+      "id": "5xnZ_CeTqyM",
+      "title": "Iran Deal: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1282
+    },
+    {
+      "id": "8-hahRWhFvg",
+      "title": "Mexican Elections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1209
+    },
+    {
+      "id": "8bl19RoR7lc",
+      "title": "Economic Development: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 896
+    },
+    {
+      "id": "9fB0GBwJ2QA",
+      "title": "Immigration Courts: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1072
+    },
+    {
+      "id": "AJm8PeWkiEU",
+      "title": "Gene Editing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1179
+    },
+    {
+      "id": "dFnN2toxFaY",
+      "title": "Lost Graphics Vol. 3 (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 183
+    },
+    {
+      "id": "dHiAls8loz4",
+      "title": "Workplace Sexual Harassment: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1724
+    },
+    {
+      "id": "ET_b78GSBUs",
+      "title": "Prosecutors: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1184
+    },
+    {
+      "id": "etkd57lPfPU",
+      "title": "Trade: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1274
+    },
+    {
+      "id": "Fmh4RdIwswE",
+      "title": "Astroturfing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1114
+    },
+    {
+      "id": "g6iDZspbRMg",
+      "title": "Cryptocurrencies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1521
+    },
+    {
+      "id": "hWQiXv0sn9Y",
+      "title": "Rehab: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1147
+    },
+    {
+      "id": "IYfgvS0FA7U",
+      "title": "Venezuela: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "J5b_-TZwQ0I",
+      "title": "Confederacy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1299
+    },
+    {
+      "id": "LdhQzXHYLZ4",
+      "title": "Italian Election: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1272
+    },
+    {
+      "id": "LEcbagW4O-s",
+      "title": "NRA TV: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1201
+    },
+    {
+      "id": "mOVPStnVgvU",
+      "title": "Stupid Watergate II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1070
+    },
+    {
+      "id": "mPjgRKW_Jmk",
+      "title": "Equifax: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 922
+    },
+    {
+      "id": "mXQuto1fMp4",
+      "title": "Rudy Giuliani: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 937
+    },
+    {
+      "id": "nG2pEffLEJo",
+      "title": "Guardianship: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 962
+    },
+    {
+      "id": "NpPyLcQ2vdI",
+      "title": "Felony Disenfranchisement: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 802
+    },
+    {
+      "id": "OjPYmEZxACM",
+      "title": "Facebook: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1181
+    },
+    {
+      "id": "OubM8bD9kck",
+      "title": "Xi Jinping: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1226
+    },
+    {
+      "id": "pf1t7cs9dkc",
+      "title": "Floods: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1169
+    },
+    {
+      "id": "QCjk_NPsIqU",
+      "title": "Trump vs. The World: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1155
+    },
+    {
+      "id": "RKjk0ECXjiQ",
+      "title": "Corporate Taxes: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 963
+    },
+    {
+      "id": "rs2RlZQVXBU",
+      "title": "Mike Pence: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1227
+    },
+    {
+      "id": "ScmJvmzDcG0",
+      "title": "Forensic Science: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 1131
+    },
+    {
+      "id": "seGgZp-XYdM",
+      "title": "Wax Presidents Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 114
+    },
+    {
+      "id": "wrpeEitIEpA",
+      "title": "Season 5 Official Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2018-09-26",
+      "approximateDate": true,
+      "duration": 70
+    },
+    {
+      "id": "-rSDUsMwakI",
+      "title": "President-Elect Trump: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1741
+    },
+    {
+      "id": "-Z668Qc0P4Q",
+      "title": "Dancing Zebra Footage: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1413
+    },
+    {
+      "id": "00wQYmvfhn4",
+      "title": "Corporate Consolidation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 910
+    },
+    {
+      "id": "0utzB6oDan0",
+      "title": "Putin: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1206
+    },
+    {
+      "id": "1ZNZY-gd3K0",
+      "title": "Joe Arpaio: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 858
+    },
+    {
+      "id": "5cBV8KFFasY",
+      "title": "Harding: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 534
+    },
+    {
+      "id": "5pdPrQFjo2o",
+      "title": "Opioids: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1163
+    },
+    {
+      "id": "5scez5dqtAc",
+      "title": "Paris Agreement: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1258
+    },
+    {
+      "id": "7VG_s2PCH_c",
+      "title": "Vaccines: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1635
+    },
+    {
+      "id": "92vuuZt7wak",
+      "title": "Net Neutrality II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1173
+    },
+    {
+      "id": "A-4dIImaodQ",
+      "title": "Gerrymandering: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1174
+    },
+    {
+      "id": "aw6RsUhw1Q8",
+      "title": "Coal: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1461
+    },
+    {
+      "id": "BcR_Wg42dv8",
+      "title": "Marijuana: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1012
+    },
+    {
+      "id": "bLY45o6rHm0",
+      "title": "Dalai Lama: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1132
+    },
+    {
+      "id": "cBUeipXFisQ",
+      "title": "Trump University: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 758
+    },
+    {
+      "id": "Cy-O4myeUzg",
+      "title": "Mercadeo Multinivel: Last Week Tonight With John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1949
+    },
+    {
+      "id": "e0bMfS-_pjM",
+      "title": "Voting On Tuesday - How Is This Still A Thing?: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 233
+    },
+    {
+      "id": "ekoETowzmAo",
+      "title": "Season 4 Official Trailer: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 85
+    },
+    {
+      "id": "FVFdsl29s_Q",
+      "title": "Stupid Watergate: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1446
+    },
+    {
+      "id": "fyVz5vgqBhE",
+      "title": "Brexit II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1151
+    },
+    {
+      "id": "GvtNyOzGogc",
+      "title": "Sinclair Broadcast Group: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1140
+    },
+    {
+      "id": "h1Lfd1aB9YI",
+      "title": "Scandals: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1276
+    },
+    {
+      "id": "hkZir1L7fSY",
+      "title": "French Elections: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1089
+    },
+    {
+      "id": "Ifi9M7DRazI",
+      "title": "American Health Care Act: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1111
+    },
+    {
+      "id": "k3O01EfM5fU",
+      "title": "Third Parties: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1119
+    },
+    {
+      "id": "KEbFtMgGhPY",
+      "title": "Guantánamo: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1241
+    },
+    {
+      "id": "NnW5EjwtE2U",
+      "title": "Border Patrol: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1221
+    },
+    {
+      "id": "o8yiYCHMAlM",
+      "title": "School Segregation: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1079
+    },
+    {
+      "id": "qI5y-_sqJT0",
+      "title": "Net Neutrality Update: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 386
+    },
+    {
+      "id": "s6MwGeOm8iI",
+      "title": "Multilevel Marketing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1918
+    },
+    {
+      "id": "TrS0uNBuG9c",
+      "title": "North Korea: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1620
+    },
+    {
+      "id": "wD8AwgO0AQI",
+      "title": "Ivanka & Jared: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1348
+    },
+    {
+      "id": "WyGq6cjcc3Q",
+      "title": "Alex Jones: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1342
+    },
+    {
+      "id": "xecEV4dSAXE",
+      "title": "Trump vs. Truth: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1430
+    },
+    {
+      "id": "YEGpriv2TAc",
+      "title": "Obamacare: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1133
+    },
+    {
+      "id": "ySTQk6updjQ",
+      "title": "Federal Budget: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 725
+    },
+    {
+      "id": "yw_nqzVfxFQ",
+      "title": "Dialysis: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1450
+    },
+    {
+      "id": "zaD84DTGULo",
+      "title": "Police Accountability: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1195
+    },
+    {
+      "id": "ZwY2E0hjGuU",
+      "title": "Nuclear Waste: Last Week Tonight with John Oliver (HBO)",
+      "date": "2017-09-26",
+      "approximateDate": true,
+      "duration": 1097
+    },
+    {
+      "id": "_kZsOISarzg",
+      "title": "Refugee Crisis: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 632
+    },
+    {
+      "id": "_S2G8jhhUHg",
+      "title": "Primaries and Caucuses: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 868
+    },
+    {
+      "id": "_tyszHg96KI",
+      "title": "Pennies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 576
+    },
+    {
+      "id": "0Rnq1NpHdmw",
+      "title": "Scientific Studies: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1168
+    },
+    {
+      "id": "0V5ckcTSYu8",
+      "title": "Canadian Election: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 921
+    },
+    {
+      "id": "32n4h0kn-88",
+      "title": "Campaign Songs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 446
+    },
+    {
+      "id": "3saU5racsGE",
+      "title": "Special Districts: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 920
+    },
+    {
+      "id": "4U2eDJnwz_s",
+      "title": "Auto Lending: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1076
+    },
+    {
+      "id": "5d3nASKtGas",
+      "title": "Medicaid Gap: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 845
+    },
+    {
+      "id": "7-LPcVo7gC0",
+      "title": "Olympics Opening Ceremony: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 530
+    },
+    {
+      "id": "8l2Y6Z-maAU",
+      "title": "Birds: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 194
+    },
+    {
+      "id": "A-XlyB_QQYs",
+      "title": "911: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 957
+    },
+    {
+      "id": "apumpVGBpP8",
+      "title": "Labor Day: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 155
+    },
+    {
+      "id": "aRrDsbUdY_k",
+      "title": "Credit Reports: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1126
+    },
+    {
+      "id": "BgyqAD5Z6_A",
+      "title": "Doping: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1233
+    },
+    {
+      "id": "bq2_wSsDwkQ",
+      "title": "Journalism: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1163
+    },
+    {
+      "id": "BUCnjlTfXDw",
+      "title": "Democratic National Convention: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1090
+    },
+    {
+      "id": "cQtYlkwR8lM",
+      "title": "Fan Mail Vol. 2 (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 247
+    },
+    {
+      "id": "DgOgdGpWqzQ",
+      "title": "Lost Graphics Vol. 2 (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 194
+    },
+    {
+      "id": "DnpO_RTSNmQ",
+      "title": "Donald Trump: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1314
+    },
+    {
+      "id": "dNV7COWz8ME",
+      "title": "International Women's Day: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 229
+    },
+    {
+      "id": "DRauXXz6t0Y",
+      "title": "Abortion Laws: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 961
+    },
+    {
+      "id": "f0X-8tSgiuA",
+      "title": "Season 3: Promo: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 60
+    },
+    {
+      "id": "fNS4lecOaAc",
+      "title": "Conspiracies (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 272
+    },
+    {
+      "id": "GjatG8QFoOk",
+      "title": "Regifting (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 228
+    },
+    {
+      "id": "gJtYRxH5G2k",
+      "title": "Prisoner Re-entry: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1125
+    },
+    {
+      "id": "GUizvEjR-0U",
+      "title": "Lead: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1113
+    },
+    {
+      "id": "gvZSpET11ZY",
+      "title": "Retirement Plans: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1290
+    },
+    {
+      "id": "hxUAntt1z2c",
+      "title": "Debt Buyers: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1251
+    },
+    {
+      "id": "iAgKHSNqxa8",
+      "title": "Brexit: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 939
+    },
+    {
+      "id": "IQwMCQFgQgo",
+      "title": "Independence Day (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 159
+    },
+    {
+      "id": "jYusNNldesc",
+      "title": "North Dakota: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1174
+    },
+    {
+      "id": "l_htSPGAY7I",
+      "title": "Charter Schools: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1093
+    },
+    {
+      "id": "Mq785nJ0FXQ",
+      "title": "Daily Fantasy Sports: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1143
+    },
+    {
+      "id": "NcA_j23HuDU",
+      "title": "How Is This Not A Thing? (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 186
+    },
+    {
+      "id": "NGY6DqB1HX8",
+      "title": "Mental Health: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 715
+    },
+    {
+      "id": "nh0ac5HUpDU",
+      "title": "Brexit Update: Last Week Tonight With John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 291
+    },
+    {
+      "id": "o5E7cG54VoA",
+      "title": "Cicadas (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 213
+    },
+    {
+      "id": "pxM3tvHowaM",
+      "title": "Revised Resolutions (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 205
+    },
+    {
+      "id": "rHFOwlMCdto",
+      "title": "Voting: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 849
+    },
+    {
+      "id": "Tt-mpuR_QHQ",
+      "title": "Puerto Rico: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1282
+    },
+    {
+      "id": "umqvYhb3wf4",
+      "title": "Migrants and Refugees: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1076
+    },
+    {
+      "id": "voxfqkrO5ww",
+      "title": "Endorsements (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 177
+    },
+    {
+      "id": "vU8dCYocuyI",
+      "title": "Border Wall: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1113
+    },
+    {
+      "id": "XebG4TO_xss",
+      "title": "Whitewashing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 277
+    },
+    {
+      "id": "XzCgVltuzEk",
+      "title": "Johnny Strong: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 253
+    },
+    {
+      "id": "Ylomy1Aw9Hk",
+      "title": "Congressional Fundraising: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1285
+    },
+    {
+      "id": "zNdkrtfZP8I",
+      "title": "Republican National Convention: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 692
+    },
+    {
+      "id": "zsjZ2r9Ygzw",
+      "title": "Encryption: Last Week Tonight with John Oliver (HBO)",
+      "date": "2016-09-26",
+      "approximateDate": true,
+      "duration": 1081
+    },
+    {
+      "id": "_8m8cQI4DgM",
+      "title": "Ayn Rand - How Is This Still A Thing?: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 221
+    },
+    {
+      "id": "0UjpmT5noto",
+      "title": "Municipal Violations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1075
+    },
+    {
+      "id": "2bbskco60g4",
+      "title": "Season 2: Digital Promo: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 35
+    },
+    {
+      "id": "2sWRXr2Yu9g",
+      "title": "UK Labour Party: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 238
+    },
+    {
+      "id": "3bxcc3SM_KA",
+      "title": "Patents: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 664
+    },
+    {
+      "id": "3FCioWz7aps",
+      "title": "Goodbye, RadioShack: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 191
+    },
+    {
+      "id": "3kEpZWGgJks",
+      "title": "Civil Forfeiture: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 990
+    },
+    {
+      "id": "4Z4j2CrJRn4",
+      "title": "Washington DC Statehood: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1023
+    },
+    {
+      "id": "5d667Bb_iYA",
+      "title": "LGBT Discrimination: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 886
+    },
+    {
+      "id": "6UsHHOCH4q8",
+      "title": "Tobacco: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1091
+    },
+    {
+      "id": "7y1xJAVZxXg",
+      "title": "Televangelists: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1206
+    },
+    {
+      "id": "9PK-netuhHA",
+      "title": "The Lottery: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 876
+    },
+    {
+      "id": "ACwenVzN2oU",
+      "title": "History Lies (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 216
+    },
+    {
+      "id": "aIMgfBZrrZ8",
+      "title": "State Legislatures and ALEC: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1038
+    },
+    {
+      "id": "boI4D1FlIVs",
+      "title": "Home Depot Commercial: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 329
+    },
+    {
+      "id": "br0NW9ufUUw",
+      "title": "Daylight Saving Time - How Is This Still A Thing?: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 197
+    },
+    {
+      "id": "CesHr99ezWE",
+      "title": "U.S. Territories: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 791
+    },
+    {
+      "id": "CQ2noSR1qdY",
+      "title": "Back To School (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 242
+    },
+    {
+      "id": "DeQqe0oj5Ls",
+      "title": "Pumpkin Spice (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 192
+    },
+    {
+      "id": "eAFnby2184o",
+      "title": "New Year's Eve (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 225
+    },
+    {
+      "id": "EjpJqcM3X94",
+      "title": "People Prematurely Declaring The End of Obamacare: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 104
+    },
+    {
+      "id": "eKEwL-10s7E",
+      "title": "Columbus Day - How Is This Still A Thing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 157
+    },
+    {
+      "id": "fesi92d1p68",
+      "title": "HBO NOW: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 125
+    },
+    {
+      "id": "fJ9prhPV2PI",
+      "title": "Supreme Court Dogs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 340
+    },
+    {
+      "id": "fPloDzu_wcI",
+      "title": "Fifty Shades #NotMyChristian Apology (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 246
+    },
+    {
+      "id": "hkYzuHMcP64",
+      "title": "Narendra Modi In New York: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 138
+    },
+    {
+      "id": "hmoAX9f6MOc",
+      "title": "Transgender Rights: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1007
+    },
+    {
+      "id": "i8xwLWb0lLY",
+      "title": "Food Waste: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1070
+    },
+    {
+      "id": "IS5mwymTIJU",
+      "title": "Bail: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1070
+    },
+    {
+      "id": "izUzqUrhbh0",
+      "title": "Dr. Jane Goodall Interview: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 359
+    },
+    {
+      "id": "J6lyURyVz7k",
+      "title": "Standardized Testing: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1082
+    },
+    {
+      "id": "K4NRJoCNHIs",
+      "title": "Drones: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 777
+    },
+    {
+      "id": "kXYXuXX48m8",
+      "title": "April Fools' Day (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 268
+    },
+    {
+      "id": "L0jQz6jqQS0",
+      "title": "Sex Education: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1265
+    },
+    {
+      "id": "l8QNDRbjong",
+      "title": "Sports Illustrated Swimsuit Issue - How Is This Still a Thing?: Last Week Tonight with John Oliver",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 188
+    },
+    {
+      "id": "l9qA8c-E_oA",
+      "title": "Salmon Cannon: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 267
+    },
+    {
+      "id": "MepXBJjsNxs",
+      "title": "Sugar: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 694
+    },
+    {
+      "id": "Nn_Zln_4pA8",
+      "title": "The IRS: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1107
+    },
+    {
+      "id": "P1EtSBxm0S4",
+      "title": "Season 2 Promo: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 96
+    },
+    {
+      "id": "pDVmldTurqk",
+      "title": "Mandatory Minimums: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 925
+    },
+    {
+      "id": "Pk2oW4SDDxY",
+      "title": "Shallow Dives (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 177
+    },
+    {
+      "id": "poL7l-Uk3I8",
+      "title": "Elected Judges: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 807
+    },
+    {
+      "id": "PuNIwYsz7PI",
+      "title": "Online Harassment: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1010
+    },
+    {
+      "id": "pX8BXH3SJn0",
+      "title": "The NCAA: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1254
+    },
+    {
+      "id": "QplQL5eAxlY",
+      "title": "Translators: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 967
+    },
+    {
+      "id": "qr6ar3xJL_Q",
+      "title": "FIFA II: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 793
+    },
+    {
+      "id": "ResvfWhi3k8",
+      "title": "Jeff Goldblum Outtakes: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 56
+    },
+    {
+      "id": "tug71xZL7yc",
+      "title": "Real Animals, Fake Paws Footage: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 640
+    },
+    {
+      "id": "U2WlQZf9zSg",
+      "title": "Leap Second: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 151
+    },
+    {
+      "id": "UC_gXD5OE88",
+      "title": "Doomsday Video: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 390
+    },
+    {
+      "id": "uiN_-AEhTpk",
+      "title": "Red-Tailed Hawks: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 292
+    },
+    {
+      "id": "USkEzLuzmZ4",
+      "title": "Public Defenders: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 900
+    },
+    {
+      "id": "VdLf4fihP78",
+      "title": "Fashion: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1030
+    },
+    {
+      "id": "W_gRZcI1lto",
+      "title": "Lost Graphics (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 269
+    },
+    {
+      "id": "Wpzvaqypav8",
+      "title": "Infrastructure: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1274
+    },
+    {
+      "id": "x3Md3O_XfoI",
+      "title": "Finale Preview: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 56
+    },
+    {
+      "id": "X8Buy2X0kFo",
+      "title": "Turkey Pardoning (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 129
+    },
+    {
+      "id": "X9wHzt6gBgI",
+      "title": "Chickens: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1102
+    },
+    {
+      "id": "xcwJt4bcnXs",
+      "title": "Stadiums: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1148
+    },
+    {
+      "id": "XEVlyP4_11M",
+      "title": "Government Surveillance: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1994
+    },
+    {
+      "id": "XXCbffp7jLM",
+      "title": "1,000,000 YouTube Subscribers (Web Exclusive): Last Week Tonight with John Oliver",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 122
+    },
+    {
+      "id": "YQZ2UeOTO3I",
+      "title": "Marketing to Doctors: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 1033
+    },
+    {
+      "id": "yzGzB-yYKcc",
+      "title": "Edward Snowden on Passwords: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 178
+    },
+    {
+      "id": "zIhKAQX5izw",
+      "title": "Paid Family Leave: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 741
+    },
+    {
+      "id": "zmeF2rzsZSU",
+      "title": "Torture: Last Week Tonight with John Oliver (HBO)",
+      "date": "2015-09-26",
+      "approximateDate": true,
+      "duration": 913
+    },
+    {
+      "id": "_Pz3syET3DY",
+      "title": "Prison: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1063
+    },
+    {
+      "id": "-YkLPxQp_y0",
+      "title": "Scottish Independence: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 919
+    },
+    {
+      "id": "1Y1ya-yF35g",
+      "title": "Nuclear Weapons: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 922
+    },
+    {
+      "id": "3lKYPp2Kp6s",
+      "title": "iTunes, Assad, and Right Said Fred: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 214
+    },
+    {
+      "id": "44fCfJQV7yQ",
+      "title": "New York's Port Authority: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 172
+    },
+    {
+      "id": "4Otsft59HuA",
+      "title": "President Obama Visits Native American Territory: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 61
+    },
+    {
+      "id": "6clJRsPyuhc",
+      "title": "Fireworks (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 201
+    },
+    {
+      "id": "6GLuuqrNqxQ",
+      "title": "Critics Quote: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 36
+    },
+    {
+      "id": "75bWsqwwOgQ",
+      "title": "Other Countries' Presidents - François Hollande: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 150
+    },
+    {
+      "id": "8q7esuODnQI",
+      "title": "GOP - Whatevs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 36
+    },
+    {
+      "id": "8YQ_HGvrHEU",
+      "title": "India Election Update: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 72
+    },
+    {
+      "id": "9vxT1uAhFxA",
+      "title": "Episode Preview: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 21
+    },
+    {
+      "id": "AJKfs4ZnbNE",
+      "title": "The Washington Redskins: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 249
+    },
+    {
+      "id": "b436uUuf_VI",
+      "title": "#GoGetThoseGeckos: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 218
+    },
+    {
+      "id": "Bml8KwCmob8",
+      "title": "Letter of the Week -- POM Wonderful (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 237
+    },
+    {
+      "id": "c3IaKVmkXuk",
+      "title": "Tony Abbott, President of the USA of Australia: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 239
+    },
+    {
+      "id": "cjuGCJJUGsg",
+      "title": "Climate Change Debate: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 267
+    },
+    {
+      "id": "dH573B1bkHI",
+      "title": "Don't Visit Antarctica: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 172
+    },
+    {
+      "id": "Dh9munYYoqQ",
+      "title": "\"Oregon Spirit\" by Lisa Loeb: Last Week Tonight With John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 154
+    },
+    {
+      "id": "DlJEt2KU33I",
+      "title": "FIFA and the World Cup: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 794
+    },
+    {
+      "id": "E_F5GxCwizc",
+      "title": "Native Advertising: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 683
+    },
+    {
+      "id": "EZdH94R6XwQ",
+      "title": "Fareed Zakaria Interview Pt. 1: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 257
+    },
+    {
+      "id": "fDTX_mwj0_8",
+      "title": "Activists and Corporations: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 43
+    },
+    {
+      "id": "fpbOEoRrHyU",
+      "title": "Net Neutrality: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 798
+    },
+    {
+      "id": "fYWtbMb8Fhw",
+      "title": "John Oliver Literally Destroys Piñatas (Web Exclusive): Last Week Tonight with John Oliver",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 172
+    },
+    {
+      "id": "G2W41pvvZs0",
+      "title": "Uganda and Pepe Julian Onziema Pt. 1: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 1054
+    },
+    {
+      "id": "gdQCtWlhx90",
+      "title": "GOP - Hashtag Awesomesauce: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 37
+    },
+    {
+      "id": "hkjkQ-wCZ5A",
+      "title": "Tom Wheeler Is Not A Dingo: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 187
+    },
+    {
+      "id": "HKMNKS-9ugY",
+      "title": "Singapore's Gambling Problem: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 200
+    },
+    {
+      "id": "HNPRad65-Kg",
+      "title": "#GoodbyeGeckos: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 365
+    },
+    {
+      "id": "IAR3cb1V_ss",
+      "title": "Fareed Zakaria Interview Pt. 2 (Web Exclusive): Last Week Tonight with John Oliver",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 743
+    },
+    {
+      "id": "iFaRkscKn_Y",
+      "title": "#WeGotThoseGeckos: Last Week Tonight with John Oliver (Web Exclusive)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 217
+    },
+    {
+      "id": "InSJBzZr414",
+      "title": "Cookie Monster's Ideas (Web Exclusive): Last Week Tonight With John Oliver",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 124
+    },
+    {
+      "id": "j6IZ2TroruU",
+      "title": "GM Ad: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 148
+    },
+    {
+      "id": "k8lJ85pfb_E",
+      "title": "General Keith Alexander Extended Interview: Last Week Tonight With John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 566
+    },
+    {
+      "id": "knbw0gJHHBk",
+      "title": "Fan Mail Vol. 1 (Web Exclusive): Last Week Tonight with John Oliver",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 251
+    },
+    {
+      "id": "KUdHIatS36A",
+      "title": "Ferguson, MO and Police Militarization: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 910
+    },
+    {
+      "id": "Kye2oX-b39E",
+      "title": "Death Penalty: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 744
+    },
+    {
+      "id": "LfgSEwjAeno",
+      "title": "Wealth Gap: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 850
+    },
+    {
+      "id": "LxQq8HTtb4A",
+      "title": "Dressing Up As Other Races (How Is This Still a Thing?): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 172
+    },
+    {
+      "id": "mxyKJisUgJo",
+      "title": "Workplace of the Week - The NFL: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 109
+    },
+    {
+      "id": "nJ24vcyJxDs",
+      "title": "Nerd Prom: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 73
+    },
+    {
+      "id": "NUkjfd95bDM",
+      "title": "World Cup Excitement: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 80
+    },
+    {
+      "id": "oDPCmmZifE8",
+      "title": "Miss America Pageant: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 925
+    },
+    {
+      "id": "OPV3D7f3bHY",
+      "title": "Stephen Hawking Extended Interview: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 459
+    },
+    {
+      "id": "P8pjd1QEA0c",
+      "title": "Student Debt: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 977
+    },
+    {
+      "id": "PDylgzybWAw",
+      "title": "Predatory Lending: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 992
+    },
+    {
+      "id": "PsB1e-1BB4Y",
+      "title": "Wage Gap: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 438
+    },
+    {
+      "id": "QJkiWwMKwSo",
+      "title": "Pepe Julian Onziema Interview Pt. II (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 667
+    },
+    {
+      "id": "r-ERajkMXw0",
+      "title": "Right To Be Forgotten: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 420
+    },
+    {
+      "id": "rrawNvcF64g",
+      "title": "Warren G. Harding's Love Letters: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 187
+    },
+    {
+      "id": "T8y5EXFMD4s",
+      "title": "Stephen Hawking Interview: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 366
+    },
+    {
+      "id": "UkBvsCMxrNU",
+      "title": "Climate Change (Abbreviated): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 104
+    },
+    {
+      "id": "w2jtOFfiF80",
+      "title": "Last Week's News...We Think (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 262
+    },
+    {
+      "id": "W6JhcjbWEwg",
+      "title": "Simon Ostrovsky Interview (Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 402
+    },
+    {
+      "id": "WA0wKeokWUU",
+      "title": "Dr. Oz and Nutritional Supplements: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 986
+    },
+    {
+      "id": "We1IvUe6KLo",
+      "title": "Eurovision and Crimea Coin: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 416
+    },
+    {
+      "id": "WHCQndalv94",
+      "title": "Last Week Tonight with John Oliver: President Obama Meets a Robot Web Exclusive (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 38
+    },
+    {
+      "id": "xAnw2atT628",
+      "title": "Step Up, Peru: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 138
+    },
+    {
+      "id": "xM8qVuc32Rc",
+      "title": "Roger Goodell (Extended Web Exclusive): Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 168
+    },
+    {
+      "id": "XV5w8OFrm6U",
+      "title": "Nintendo Gay Marriage: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 187
+    },
+    {
+      "id": "yCY6vYGEN3Q",
+      "title": "The Buzz: Last Week Tonight with John Oliver: Red Carpet Event (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 46
+    },
+    {
+      "id": "zSQCH1qyIDo",
+      "title": "Hobby Lobby: Last Week Tonight with John Oliver (HBO)",
+      "date": "2014-09-26",
+      "approximateDate": true,
+      "duration": 370
+    }
+  ]
+}
