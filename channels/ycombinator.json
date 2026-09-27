@@ -2,9 +2,16 @@
   "slug": "ycombinator",
   "name": "ycombinator",
   "channelUrl": "https://www.youtube.com/@ycombinator",
-  "collectedAt": "2026-09-25",
+  "collectedAt": "2026-09-27",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "Jv5B5CEaPJI",
+      "title": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 1789
+    },
     {
       "id": "yslXlV2BP_Y",
       "title": "The State of Startups in 2026",

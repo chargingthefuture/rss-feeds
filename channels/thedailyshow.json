@@ -2,9 +2,16 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-09-25",
+  "collectedAt": "2026-09-27",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "IU0eY96lAoI",
+      "title": "Jon Stewart on MAGA's Embrace of AI & Desi Lydic on Trump's U.N. Rant and Xi Meetup | The Daily Show",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 2493
+    },
     {
       "id": "-vydnMiw1PM",
       "title": "Midterm Anal-a-Zone: Hot Dog Rage, BDSM Pics & Salsa with a Side of Racism | The Daily Show",

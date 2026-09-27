@@ -2,9 +2,16 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-09-25",
+  "collectedAt": "2026-09-27",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "1gxnANAbLuE",
+      "title": "The ALL RAZER Gaming Setup",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 1529
+    },
     {
       "id": "DLOQOUWmRpI",
       "title": "The Apple Product I Still Fanboy Over - AirPods 5 Review",
