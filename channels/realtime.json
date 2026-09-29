@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-09-25",
+  "collectedAt": "2026-09-27",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "0VAEW2c1iek",
+      "title": "New Rule: Collab Request | Real Time with Bill Maher (HBO)",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 469
+    },
+    {
+      "id": "3zmgBzIImso",
+      "title": "Overtime with Bill Maher: Andrew Huberman, Jonathan Swan, James Kirchick (HBO)",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 788
+    },
+    {
+      "id": "XlELriww_6s",
+      "title": "Andrew Huberman: Healthy vs. Health Trend | Real Time with Bill Maher (HBO)",
+      "date": "2026-09-26",
+      "approximateDate": true,
+      "duration": 311
+    },
     {
       "id": "9L2wpRVstkE",
       "title": "Monologue: A Different Kind of Politician | Real Time with Bill Maher (HBO)",
