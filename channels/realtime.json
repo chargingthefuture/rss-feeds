@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "-uKhjXC0ms4",
+      "title": "Overtime with Bill Maher: Malcolm Gladwell, Fareed Zakaria, Anand Giridharadas (HBO)",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 939
+    },
+    {
+      "id": "K6n4Im6ZLFI",
+      "title": "New Rule: Generation TMZ | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 435
+    },
+    {
+      "id": "MvzPPOhod4s",
+      "title": "Why Can't We End Homelessness? | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 263
+    },
     {
       "id": "0VAEW2c1iek",
       "title": "New Rule: Collab Request | Real Time with Bill Maher (HBO)",

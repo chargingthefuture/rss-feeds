@@ -2,9 +2,44 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "79s8O7Cipl0",
+      "title": "I Spent Over 10 Hours Upgrading my Controllers",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1811
+    },
+    {
+      "id": "fOJ1UkSPW4Y",
+      "title": "LMG Learns Life Skills - Oil Changing | Episode 3",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1109
+    },
+    {
+      "id": "LzxC-RzdfKg",
+      "title": "They Reviewed Our Products, But Is THEIR Shirt Worth It?",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1138
+    },
+    {
+      "id": "1H20xp8Brnc",
+      "title": "I Have Strong Feelings About Air Conditioning in the Tech House",
+      "date": "2026-10-02",
+      "approximateDate": true,
+      "duration": 1264
+    },
+    {
+      "id": "y1hZ3EalPQU",
+      "title": "I Found these Computers in a Ditch…",
+      "date": "2026-09-29",
+      "approximateDate": true,
+      "duration": 1625
+    },
     {
       "id": "1gxnANAbLuE",
       "title": "The ALL RAZER Gaming Setup",
