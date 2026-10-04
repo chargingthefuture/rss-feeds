@@ -2,9 +2,16 @@
   "slug": "sailinguma",
   "name": "sailinguma",
   "channelUrl": "https://www.youtube.com/@SailingUma",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "uMDCwPSlrJc",
+      "title": "We Ditched Our Steering Wheel (And Built Something Better)  | Step 496",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 1379
+    },
     {
       "id": "iyvsMnV0emE",
       "title": "We're Finally Setting Sail Again!",
