@@ -2,9 +2,16 @@
   "slug": "unboxtherapy",
   "name": "unboxtherapy",
   "channelUrl": "https://www.youtube.com/@unboxtherapy",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "6NLHltCsTsQ",
+      "title": "The Ultimate All-In-One Workstation",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 702
+    },
     {
       "id": "I6nYySJavMg",
       "title": "iPhone 18 Pro Max Unboxing: Worth the Upgrade?",

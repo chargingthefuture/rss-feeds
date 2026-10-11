@@ -2,9 +2,23 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "_ZLfJkjHKgY",
+      "title": "How am I going to afford to build a 62ft CATAMARAN? - (Episode 384)",
+      "date": "2026-10-05",
+      "approximateDate": true,
+      "duration": 1494
+    },
+    {
+      "id": "7zhyVTJ_cYQ",
+      "title": "When Sailors Let Their Egos Takeover 🤣 - (Episode 383)",
+      "date": "2026-09-28",
+      "approximateDate": true,
+      "duration": 1270
+    },
     {
       "id": "iFe5kcYC4Ro",
       "title": "Should We Build our Aluminum Catamaran in TAIWAN? - (Episode 382)",
