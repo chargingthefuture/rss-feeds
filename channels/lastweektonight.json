@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "XQ-Xnzj_uz4",
+      "title": "The Secret Service: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-10-05",
+      "approximateDate": true,
+      "duration": 2030
+    },
     {
       "id": "MIYCek92ICQ",
       "title": "Brazil Elections 2026: Last Week Tonight with John Oliver (HBO)",

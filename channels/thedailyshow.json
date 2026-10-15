@@ -2,22 +2,106 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
     {
-      "id": "b4_ShEnsVuU",
-      "title": "Jon Stewart on Trump's Xi Summit & Jordan Klepper on Hegseth's Anti-Weirdo Crusade | The Daily Show",
-      "date": "2026-10-03",
+      "id": "UE8eLLH9e6M",
+      "title": "Jon Stewart on AI's \"Better Future\" & Kosta on Kimberly Guilfoyle's $100K Amex Bill | The Daily Show",
+      "date": "2026-10-10",
       "approximateDate": true,
-      "duration": 3118
+      "duration": 2163
     },
     {
-      "id": "NP_HYeaKm4I",
-      "title": "Nick Offerman Salutes Gen Z for Easing Off Tech & Embracing Their Hobbies | The Daily Show",
-      "date": "2026-10-03",
+      "id": "Eb8Ki9-Uqiw",
+      "title": "Kimberly Guilfoyle Caught Begging Trump Donor to Pay Her $100K Amex Bill | The Daily Show",
+      "date": "2026-10-09",
       "approximateDate": true,
-      "duration": 427
+      "duration": 540
+    },
+    {
+      "id": "G3jgGFTluR8",
+      "title": "Kyle MacLachlan Reckons with His Characters in “Fictional Selves” | The Daily Show",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 868
+    },
+    {
+      "id": "hxegtvGzEYY",
+      "title": "Trump's New Border Wall Might C**kblock Jaguars & Grace Kuhlenschmidt Investigates | The Daily Show",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 367
+    },
+    {
+      "id": "60Ps1-ssOIU",
+      "title": "Biohackers Go to Extremes to Live Longer & Lewis Black Doesn't Get It | The Daily Show",
+      "date": "2026-10-08",
+      "approximateDate": true,
+      "duration": 357
+    },
+    {
+      "id": "nHFDl3J5YZw",
+      "title": "Sebastian Stan On the Complexities of “Fjord” | The Daily Show",
+      "date": "2026-10-08",
+      "approximateDate": true,
+      "duration": 987
+    },
+    {
+      "id": "RSouSfZwXYA",
+      "title": "Russia's Plague Scare and America's Sinkholes Ruin Kosta’s Quarantine Plans | The Daily Show",
+      "date": "2026-10-08",
+      "approximateDate": true,
+      "duration": 507
+    },
+    {
+      "id": "Ad13VhMQbL0",
+      "title": "Ramaswamy Nearly Drops a Kid, Paxton's Ad Backfires & Trump Wants to Fix Your Clock | The Daily Show",
+      "date": "2026-10-07",
+      "approximateDate": true,
+      "duration": 685
+    },
+    {
+      "id": "C_EUGhdLedA",
+      "title": "Aaron Sorkin Revisits Mark Zuckerberg 16 Years Later In \"The Social Reckoning\" | The Daily Show",
+      "date": "2026-10-07",
+      "approximateDate": true,
+      "duration": 826
+    },
+    {
+      "id": "ZBcLkaJPa78",
+      "title": "Jordan Klepper Sits Down with a January 6er Who Wants a Refund | The Daily Show",
+      "date": "2026-10-07",
+      "approximateDate": true,
+      "duration": 375
+    },
+    {
+      "id": "hUPjkXr1hIg",
+      "title": "Vivek Ramaswamy Almost Drops a Kid & Mamdani Holds Hands with Ex-Rival Curtis Sliwa | The Daily Show",
+      "date": "2026-10-06",
+      "approximateDate": true,
+      "duration": 2057
+    },
+    {
+      "id": "lnLDjXy2kRA",
+      "title": "Jacob Coxon On Witnessing the Existential Threat of AI from the Inside | The Daily Show",
+      "date": "2026-10-06",
+      "approximateDate": true,
+      "duration": 1559
+    },
+    {
+      "id": "S18jxWZntUo",
+      "title": "Jon Stewart Unpacks AI’s Dubious Promise of a \"Better Future\" | The Daily Show",
+      "date": "2026-10-06",
+      "approximateDate": true,
+      "duration": 1270
+    },
+    {
+      "id": "b4_ShEnsVuU",
+      "title": "Jon Stewart on Trump's Xi Summit & Jordan Klepper on Hegseth's Anti-Weirdo Crusade | The Daily Show",
+      "date": "2026-10-04",
+      "approximateDate": true,
+      "duration": 3118
     },
     {
       "id": "JSuiWyrR2bY",
@@ -27,18 +111,18 @@
       "duration": 660
     },
     {
+      "id": "NP_HYeaKm4I",
+      "title": "Nick Offerman Salutes Gen Z for Easing Off Tech & Embracing Their Hobbies | The Daily Show",
+      "date": "2026-10-02",
+      "approximateDate": true,
+      "duration": 427
+    },
+    {
       "id": "ofWw4QWRXoA",
       "title": "John Wilson On Making A Feature Documentary About Concrete | The Daily Show",
       "date": "2026-10-02",
       "approximateDate": true,
       "duration": 1100
-    },
-    {
-      "id": "a7LbyRwgm50",
-      "title": "In Memoriam: Michael Kosta Pays Tribute to All the Great Americans We've Lost | The Daily Show",
-      "date": "2026-10-01",
-      "approximateDate": true,
-      "duration": 237
     },
     {
       "id": "bhINc77YZYc",
@@ -60,6 +144,13 @@
       "date": "2026-10-01",
       "approximateDate": true,
       "duration": 732
+    },
+    {
+      "id": "a7LbyRwgm50",
+      "title": "In Memoriam: Michael Kosta Pays Tribute to All the Great Americans We've Lost | The Daily Show",
+      "date": "2026-09-30",
+      "approximateDate": true,
+      "duration": 237
     },
     {
       "id": "Ep04QpLCqyc",

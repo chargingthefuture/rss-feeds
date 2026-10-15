@@ -2,9 +2,16 @@
   "slug": "gonewiththewynns",
   "name": "gonewiththewynns",
   "channelUrl": "https://www.youtube.com/@gonewiththewynns",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "M8C_gJLwGjQ",
+      "title": "Fix One Thing, Break Another",
+      "date": "2026-10-05",
+      "approximateDate": true,
+      "duration": 2052
+    },
     {
       "id": "v5UrCsKoULI",
       "title": "These Waves Hit Harder Than Expected",

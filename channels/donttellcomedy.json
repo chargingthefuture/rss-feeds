@@ -2,13 +2,27 @@
   "slug": "donttellcomedy",
   "name": "donttellcomedy",
   "channelUrl": "https://www.youtube.com/@DontTellComedy",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
     {
+      "id": "IRBitykb7LY",
+      "title": "White Guilt is a Beautiful Thing | Carolina Montesquieu | Stand Up Comedy",
+      "date": "2026-10-08",
+      "approximateDate": true,
+      "duration": 673
+    },
+    {
+      "id": "Jc0h89IFscg",
+      "title": "The Night I Met Taylor Swift | Alex English | Stand Up Comedy",
+      "date": "2026-10-06",
+      "approximateDate": true,
+      "duration": 861
+    },
+    {
       "id": "phzABamGKv4",
-      "title": "Funniest Comedy About Being Hispanic & Latino | Stand Up Comedy Compilation",
-      "date": "2026-10-03",
+      "title": "6 Hilarious Hispanic & Latino Comedians | Stand Up Comedy Compilation",
+      "date": "2026-10-04",
       "approximateDate": true,
       "duration": 3804
     },

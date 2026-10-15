@@ -2,13 +2,62 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
     {
+      "id": "fr0WIIZxvx0",
+      "title": "Pros Try Fake AI Photoshop",
+      "date": "2026-10-10",
+      "approximateDate": true,
+      "duration": 680
+    },
+    {
+      "id": "6BnWaewokes",
+      "title": "Extras - Finishing What we Started Seven Years Ago",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 1129
+    },
+    {
+      "id": "LttGyjX-QxE",
+      "title": "Finishing What we Started Seven Years Ago",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 1881
+    },
+    {
+      "id": "RomFraj-AtY",
+      "title": "Extras - The All COSTCO Gaming Setup",
+      "date": "2026-10-07",
+      "approximateDate": true,
+      "duration": 1075
+    },
+    {
+      "id": "t28bEMboL9Y",
+      "title": "The All COSTCO Gaming Setup",
+      "date": "2026-10-07",
+      "approximateDate": true,
+      "duration": 1538
+    },
+    {
+      "id": "evOOH_G2ti4",
+      "title": "Extras - I spent over 10 hours upgrading my controllers",
+      "date": "2026-10-06",
+      "approximateDate": true,
+      "duration": 1087
+    },
+    {
+      "id": "ijFSEb2W6_8",
+      "title": "I’ve Wanted This Robot for 10 Years",
+      "date": "2026-10-05",
+      "approximateDate": true,
+      "duration": 832
+    },
+    {
       "id": "79s8O7Cipl0",
-      "title": "I Spent Over 10 Hours Upgrading my Controllers",
-      "date": "2026-10-03",
+      "title": "Don’t Buy a \"Pro\" Controller. Do This Instead",
+      "date": "2026-10-04",
       "approximateDate": true,
       "duration": 1811
     },

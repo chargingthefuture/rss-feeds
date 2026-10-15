@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-10-04",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "1lgazYj5-SY",
+      "title": "Overtime with Bill Maher: Sen. Thom Tillis, Sara Eisen (HBO)",
+      "date": "2026-10-10",
+      "approximateDate": true,
+      "duration": 484
+    },
+    {
+      "id": "ktXu9H5yNHE",
+      "title": "Michael Douglas: One Helluva Ride | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-10",
+      "approximateDate": true,
+      "duration": 119
+    },
+    {
+      "id": "u70BHk5kIOA",
+      "title": "New Rule: Greek Out | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-10",
+      "approximateDate": true,
+      "duration": 512
+    },
     {
       "id": "-uKhjXC0ms4",
       "title": "Overtime with Bill Maher: Malcolm Gladwell, Fareed Zakaria, Anand Giridharadas (HBO)",
