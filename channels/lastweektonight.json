@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "MIYCek92ICQ",
+      "title": "Brazil Elections 2026: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-09-28",
+      "approximateDate": true,
+      "duration": 1545
+    },
     {
       "id": "h1pXm0GjLho",
       "title": "UnitedHealthcare & UnitedHealth Group: Last Week Tonight with John Oliver (HBO)",

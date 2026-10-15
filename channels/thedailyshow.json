@@ -2,9 +2,100 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "b4_ShEnsVuU",
+      "title": "Jon Stewart on Trump's Xi Summit & Jordan Klepper on Hegseth's Anti-Weirdo Crusade | The Daily Show",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 3118
+    },
+    {
+      "id": "NP_HYeaKm4I",
+      "title": "Nick Offerman Salutes Gen Z for Easing Off Tech & Embracing Their Hobbies | The Daily Show",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 427
+    },
+    {
+      "id": "JSuiWyrR2bY",
+      "title": "Pete Hegseth Purges Weirdos and Wimps & Trump Drops a New Hispanic Stereotype | The Daily Show",
+      "date": "2026-10-02",
+      "approximateDate": true,
+      "duration": 660
+    },
+    {
+      "id": "ofWw4QWRXoA",
+      "title": "John Wilson On Making A Feature Documentary About Concrete | The Daily Show",
+      "date": "2026-10-02",
+      "approximateDate": true,
+      "duration": 1100
+    },
+    {
+      "id": "a7LbyRwgm50",
+      "title": "In Memoriam: Michael Kosta Pays Tribute to All the Great Americans We've Lost | The Daily Show",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 237
+    },
+    {
+      "id": "bhINc77YZYc",
+      "title": "CMAT On Embodying Funeral Humor in “Euro-Country” | The Daily Show",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 921
+    },
+    {
+      "id": "lihg13wuGzQ",
+      "title": "CMAT Performs \"Euro-Country\" | The Daily Show",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 345
+    },
+    {
+      "id": "Rb0KxHkguOo",
+      "title": "AI Leaders Sign Trump's \"Self-Policing\" Pact & Eric Schmitt's Ambush Backfires | The Daily Show",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 732
+    },
+    {
+      "id": "Ep04QpLCqyc",
+      "title": "Marlon James Shares the Truth Within “The Disappearers” | The Daily Show",
+      "date": "2026-09-30",
+      "approximateDate": true,
+      "duration": 860
+    },
+    {
+      "id": "H5VxuVNEn4w",
+      "title": "GOP Pushes for DEI in Welfare-to-Work Ad & Trump Launches America.gov AI | The Daily Show",
+      "date": "2026-09-30",
+      "approximateDate": true,
+      "duration": 861
+    },
+    {
+      "id": "f31fBMgYfWY",
+      "title": "Will Republicans Divorce Trump Over Xi Embrace? Probably Not | The Daily Show",
+      "date": "2026-09-29",
+      "approximateDate": true,
+      "duration": 1380
+    },
+    {
+      "id": "LysJH31-MpE",
+      "title": "Evan Gershkovich - Why Imprisoning a Journalist Is a Bad Idea | The Daily Show",
+      "date": "2026-09-29",
+      "approximateDate": true,
+      "duration": 1625
+    },
+    {
+      "id": "s2WGo47xP7w",
+      "title": "Trump-Xi Summit Produces Pandas, Tuberville Warns of Furries & Meta Launches Muse | The Daily Show",
+      "date": "2026-09-29",
+      "approximateDate": true,
+      "duration": 2833
+    },
     {
       "id": "IU0eY96lAoI",
       "title": "Jon Stewart on MAGA's Embrace of AI & Desi Lydic on Trump's U.N. Rant and Xi Meetup | The Daily Show",

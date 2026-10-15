@@ -2,9 +2,16 @@
   "slug": "ycombinator",
   "name": "ycombinator",
   "channelUrl": "https://www.youtube.com/@ycombinator",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "xc2FTBGRSJo",
+      "title": "What If We Stopped Using GPUs? | YC Paper Club",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 4835
+    },
     {
       "id": "Jv5B5CEaPJI",
       "title": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",

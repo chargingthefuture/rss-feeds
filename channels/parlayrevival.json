@@ -2,9 +2,16 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "7zhyVTJ_cYQ",
+      "title": "When Sailors Let Their Egos Takeover 🤣 - (Episode 383)",
+      "date": "2026-09-28",
+      "approximateDate": true,
+      "duration": 1270
+    },
     {
       "id": "iFe5kcYC4Ro",
       "title": "Should We Build our Aluminum Catamaran in TAIWAN? - (Episode 382)",

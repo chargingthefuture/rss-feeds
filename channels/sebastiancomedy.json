@@ -2,9 +2,16 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "ur9GZdLbndY",
+      "title": "The Sebastian Maniscalco Show | The End Of Cash & Sleeping At Your Own Party",
+      "date": "2026-09-30",
+      "approximateDate": true,
+      "duration": 3287
+    },
     {
       "id": "rL_ZC_0ou8M",
       "title": "We Got Company | Robby Hoffman",

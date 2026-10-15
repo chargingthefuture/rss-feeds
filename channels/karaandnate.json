@@ -2,9 +2,16 @@
   "slug": "karaandnate",
   "name": "karaandnate",
   "channelUrl": "https://www.youtube.com/@KaraandNate",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "mOzTG34W6gk",
+      "title": "72 Hours in Turkey! (Mongol Rally Ep. 6)",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1789
+    },
     {
       "id": "hmhIZkGXK0c",
       "title": "We Drove a School Bus to Asia (Mongol Rally Ep. 5)",

@@ -2,9 +2,16 @@
   "slug": "howitshouldhaveended",
   "name": "howitshouldhaveended",
   "channelUrl": "https://www.youtube.com/@HowItShouldHaveEnded",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "DTZ8g7OPT6M",
+      "title": "How Avengers Endgame Encore Should Have Ended",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1110
+    },
     {
       "id": "MGboSWeEpLk",
       "title": "How Spider-Man Brand New Day Should Have Ended",

@@ -2,9 +2,16 @@
   "slug": "wildlingsailing",
   "name": "wildlingsailing",
   "channelUrl": "https://www.youtube.com/@WildlingSailing",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-04",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "BXCkZE_RKUw",
+      "title": "One Step Back, One Step Sideways & One Step Forward | My Budget Catamaran Refit",
+      "date": "2026-10-03",
+      "approximateDate": true,
+      "duration": 1634
+    },
     {
       "id": "470TVajv-6w",
       "title": "I Lifted Her Out For a Very Important Rebuild.",
