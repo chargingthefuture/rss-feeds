@@ -2,9 +2,16 @@
   "slug": "sailingzatara",
   "name": "sailingzatara",
   "channelUrl": "https://www.youtube.com/@SailingZatara",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "mHM6rgKkEK4",
+      "title": "The (harsh) Reality of Taking Over Zatara!",
+      "date": "2026-10-09",
+      "approximateDate": true,
+      "duration": 1384
+    },
     {
       "id": "uQAn_ofspmw",
       "title": "It's Official: Zatara is SOLD!",

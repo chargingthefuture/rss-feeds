@@ -2,9 +2,16 @@
   "slug": "brandonbalfour",
   "name": "brandonbalfour",
   "channelUrl": "https://www.youtube.com/@BrandonBalfour",
-  "collectedAt": "2026-09-27",
+  "collectedAt": "2026-10-11",
   "cutoff": "2024-12-31",
   "videos": [
+    {
+      "id": "rSf4ojfglEU",
+      "title": "I Redesigned My Followers' Rooms",
+      "date": "2026-10-05",
+      "approximateDate": true,
+      "duration": 849
+    },
     {
       "id": "MSiU70-qO6w",
       "title": "$300 vs $1,000 vs $2,000 Fall Outfits — Is More Expensive Better?",
