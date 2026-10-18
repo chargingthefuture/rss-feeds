@@ -2,9 +2,30 @@
   "slug": "donttellcomedy",
   "name": "donttellcomedy",
   "channelUrl": "https://www.youtube.com/@DontTellComedy",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "bTUsicw0598",
+      "title": "7 Underground Comics To Watch | Stand Up Comedy Compilation",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 4700
+    },
+    {
+      "id": "RA-dbJ4IqOU",
+      "title": "Teachers Should Record Diss Tracks | Anthony Moore | Stand Up Comedy",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 704
+    },
+    {
+      "id": "HjEqGrrLrVE",
+      "title": "Immigrants vs. Robots | Sam Froum | Stand Up Comedy",
+      "date": "2026-10-13",
+      "approximateDate": true,
+      "duration": 653
+    },
     {
       "id": "IRBitykb7LY",
       "title": "White Guilt is a Beautiful Thing | Carolina Montesquieu | Stand Up Comedy",

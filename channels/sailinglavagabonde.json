@@ -2,9 +2,16 @@
   "slug": "sailinglavagabonde",
   "name": "sailinglavagabonde",
   "channelUrl": "https://www.youtube.com/@SailingLaVagabonde",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "R2CM2SVDE8U",
+      "title": "Riley Makes an Illegal Emergency Stop.. 4m Waves, Electrics Down",
+      "date": "2026-10-13",
+      "approximateDate": true,
+      "duration": 2043
+    },
     {
       "id": "Zwhae5BpR4I",
       "title": "We bought land in the tropics.. and have a LOT to do before he gets here!",

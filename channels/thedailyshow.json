@@ -2,9 +2,30 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "bPWOLXXHMlo",
+      "title": "Jon Stewart & The News Team Recap the Endless War in Iran Pt. 2 | The Daily Show",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 1945
+    },
+    {
+      "id": "yAGGkDvbjAs",
+      "title": "Jon Stewart and The News Team Tackle the 2026 Midterm Candidates | The Daily Show",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 1286
+    },
+    {
+      "id": "PzoYmikU10o",
+      "title": "Jon Stewart & The News Team Recap the Endless War in Iran Pt. 1 | The Daily Show",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 2507
+    },
     {
       "id": "UE8eLLH9e6M",
       "title": "Jon Stewart on AI's \"Better Future\" & Kosta on Kimberly Guilfoyle's $100K Amex Bill | The Daily Show",

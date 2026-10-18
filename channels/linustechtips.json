@@ -2,9 +2,58 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "aV81SqB6HQg",
+      "title": "NVIDIA Tried to Tell me How to Benchmark RTX Spark",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 820
+    },
+    {
+      "id": "sjuisARFWn8",
+      "title": "My First 15 Minutes with RTX Spark",
+      "date": "2026-10-16",
+      "approximateDate": true,
+      "duration": 876
+    },
+    {
+      "id": "idp4sgW-mII",
+      "title": "When a Livestream Makes WAN Late... - Why is WAN Late Episode 25",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 1812
+    },
+    {
+      "id": "Ndzz-YWvtkg",
+      "title": "This Upgrade Proved I'm Weak - AMD $5000 Ultimate Tech Upgrade",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 1901
+    },
+    {
+      "id": "xCvqBqurBlA",
+      "title": "Extras - AMD Upgrade Victor Zhang",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 558
+    },
+    {
+      "id": "TD74a5g5rp0",
+      "title": "Everything Apple announced in under 10 mins - Welcome Home 2026",
+      "date": "2026-10-14",
+      "approximateDate": true,
+      "duration": 597
+    },
+    {
+      "id": "_2i-dhRl9wo",
+      "title": "This is an Official Sony Product",
+      "date": "2026-10-13",
+      "approximateDate": true,
+      "duration": 1096
+    },
     {
       "id": "fr0WIIZxvx0",
       "title": "Pros Try Fake AI Photoshop",

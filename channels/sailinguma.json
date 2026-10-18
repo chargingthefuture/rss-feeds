@@ -2,9 +2,16 @@
   "slug": "sailinguma",
   "name": "sailinguma",
   "channelUrl": "https://www.youtube.com/@SailingUma",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "AVFI4t-aFIA",
+      "title": "Making Our Small Cockpit Twice as Useful | Step 497",
+      "date": "2026-10-13",
+      "approximateDate": true,
+      "duration": 1044
+    },
     {
       "id": "uMDCwPSlrJc",
       "title": "We Ditched Our Steering Wheel (And Built Something Better)  | Step 496",

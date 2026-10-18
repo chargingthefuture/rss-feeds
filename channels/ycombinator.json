@@ -2,9 +2,16 @@
   "slug": "ycombinator",
   "name": "ycombinator",
   "channelUrl": "https://www.youtube.com/@ycombinator",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "X7oI4Umt3DU",
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 5827
+    },
     {
       "id": "ofxAtQhV-xA",
       "title": "How Jeetu Patel Runs Cisco Like the World’s Largest Startup",

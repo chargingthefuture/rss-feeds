@@ -2,9 +2,16 @@
   "slug": "doctorly",
   "name": "doctorly",
   "channelUrl": "https://www.youtube.com/@Doctorly",
-  "collectedAt": "2026-10-15",
+  "collectedAt": "2026-10-18",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "Y3EZR8Nse4w",
+      "title": "Dermatologist Reveals His ENTIRE Skincare Routine (Morning & Night)",
+      "date": "2026-10-16",
+      "approximateDate": true,
+      "duration": 1238
+    },
     {
       "id": "IExPQ_pzK-8",
       "title": "When to SAVE & When to SPLURGE on Skincare",
