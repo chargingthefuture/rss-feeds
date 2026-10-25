@@ -2,9 +2,16 @@
   "slug": "eamonandbec",
   "name": "eamonandbec",
   "channelUrl": "https://www.youtube.com/@eamonandbec",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "sHecZ92XDzQ",
+      "title": "Our Cabin Finally Has a Kitchen Again",
+      "date": "2026-10-19",
+      "approximateDate": true,
+      "duration": 2629
+    },
     {
       "id": "tJewQDZL-2I",
       "title": "This Changes Everything!",

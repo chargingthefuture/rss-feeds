@@ -2,9 +2,23 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "EnduLfRLkA4",
+      "title": "CRAZY WEEK! - 20ft Shark + Emergency Surgery! - (Episode 386)",
+      "date": "2026-10-19",
+      "approximateDate": true,
+      "duration": 1473
+    },
+    {
+      "id": "TFD23vP4wEo",
+      "title": "Nervous First Sail After 6 Month Refit in Thailand! - (Episode 385)",
+      "date": "2026-10-12",
+      "approximateDate": true,
+      "duration": 1445
+    },
     {
       "id": "_ZLfJkjHKgY",
       "title": "How am I going to afford to build a 62ft CATAMARAN? - (Episode 384)",

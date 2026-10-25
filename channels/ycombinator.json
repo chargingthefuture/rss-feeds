@@ -2,9 +2,37 @@
   "slug": "ycombinator",
   "name": "ycombinator",
   "channelUrl": "https://www.youtube.com/@ycombinator",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "mHNKuH-9OxU",
+      "title": "Why Inference Matters 12x More Than Training | YC Paper Club",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 6649
+    },
+    {
+      "id": "v12aSIZIXUs",
+      "title": "This Is How You Should Actually Make Launch Videos",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 2829
+    },
+    {
+      "id": "2tZT2-pS_pI",
+      "title": "How To Stand Out In A World Of AI Designs",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 2863
+    },
+    {
+      "id": "X7oI4Umt3DU",
+      "title": "AI Safety Fact vs. Fiction | YC Paper Club",
+      "date": "2026-10-18",
+      "approximateDate": true,
+      "duration": 5827
+    },
     {
       "id": "ofxAtQhV-xA",
       "title": "How Jeetu Patel Runs Cisco Like the World’s Largest Startup",

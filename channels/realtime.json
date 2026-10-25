@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "3gNREfz1tGU",
+      "title": "New Rule: Moocher Nation | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 499
+    },
+    {
+      "id": "cxouDNIcMVs",
+      "title": "Overtime with Bill Maher: Gov. Andy Beshear, Steve Hilton",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 612
+    },
+    {
+      "id": "k3Sos16613E",
+      "title": "Karoline Leavitt on Lame Duck Trump | Real Time with Bill Maher (HBO)",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 177
+    },
     {
       "id": "1lgazYj5-SY",
       "title": "Overtime with Bill Maher: Sen. Thom Tillis, Sara Eisen (HBO)",

@@ -2,9 +2,23 @@
   "slug": "gonewiththewynns",
   "name": "gonewiththewynns",
   "channelUrl": "https://www.youtube.com/@gonewiththewynns",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "MH4DKZXsVtU",
+      "title": "Whatever You Do, Don't Call It Champagne",
+      "date": "2026-10-19",
+      "approximateDate": true,
+      "duration": 2042
+    },
+    {
+      "id": "4xtFhHyClBk",
+      "title": "ONE CHARGE. ONE LONG TIDAL RIVER.",
+      "date": "2026-10-12",
+      "approximateDate": true,
+      "duration": 1586
+    },
     {
       "id": "M8C_gJLwGjQ",
       "title": "Fix One Thing, Break Another",

@@ -2,9 +2,30 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "wZc_QFDBxvQ",
+      "title": "The Sebastian Maniscalco Show | Why Not Use A Wheelchair?",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 3948
+    },
+    {
+      "id": "86xSLdinraI",
+      "title": "We Got Company | David Chang",
+      "date": "2026-10-16",
+      "approximateDate": true,
+      "duration": 3885
+    },
+    {
+      "id": "c9tAhhoxPu0",
+      "title": "The Sebastian Maniscalco Show | The Doctor Dilemma",
+      "date": "2026-10-14",
+      "approximateDate": true,
+      "duration": 3223
+    },
     {
       "id": "DSM7caWw5VQ",
       "title": "The Sebastian Maniscalco Show | 24/7 365 Parenting",

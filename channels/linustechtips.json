@@ -2,9 +2,100 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "DN953UW8iJ8",
+      "title": "dbrand Forced me to do This Review",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 951
+    },
+    {
+      "id": "7mJCEWXiZ-A",
+      "title": "Get a Tech Question Wrong, Pull the Trigger - Tech Roulette Episode 4",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 553
+    },
+    {
+      "id": "FH5SoaRx2TA",
+      "title": "There’s a Secret (Better) Netflix for Millionaires",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 1079
+    },
+    {
+      "id": "LGA4ZFr-hfo",
+      "title": "Hard Drives are Expensive...What if I Compress my Windows folder instead?",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 721
+    },
+    {
+      "id": "LvCtTbfm2O8",
+      "title": "LMG Who Wants to be in a Family Jeparody Family Fued Millionaire of Fortune!",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 2107
+    },
+    {
+      "id": "U-QiUAMda7Y",
+      "title": "This video was pain and suffering - Tech House",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 1429
+    },
+    {
+      "id": "aV81SqB6HQg",
+      "title": "NVIDIA Tried to Tell me How to Benchmark RTX Spark",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 820
+    },
+    {
+      "id": "sjuisARFWn8",
+      "title": "My First 15 Minutes with RTX Spark",
+      "date": "2026-10-16",
+      "approximateDate": true,
+      "duration": 876
+    },
+    {
+      "id": "idp4sgW-mII",
+      "title": "When a Livestream Makes WAN Late... - Why is WAN Late Episode 25",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 1812
+    },
+    {
+      "id": "Ndzz-YWvtkg",
+      "title": "This Upgrade Proved I'm Weak - AMD $5000 Ultimate Tech Upgrade",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 1901
+    },
+    {
+      "id": "xCvqBqurBlA",
+      "title": "Extras - AMD Upgrade Victor Zhang",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 558
+    },
+    {
+      "id": "TD74a5g5rp0",
+      "title": "Everything Apple announced in under 10 mins - Welcome Home 2026",
+      "date": "2026-10-14",
+      "approximateDate": true,
+      "duration": 597
+    },
+    {
+      "id": "_2i-dhRl9wo",
+      "title": "This is an Official Sony Product",
+      "date": "2026-10-13",
+      "approximateDate": true,
+      "duration": 1096
+    },
     {
       "id": "fr0WIIZxvx0",
       "title": "Pros Try Fake AI Photoshop",

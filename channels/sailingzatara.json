@@ -2,9 +2,16 @@
   "slug": "sailingzatara",
   "name": "sailingzatara",
   "channelUrl": "https://www.youtube.com/@SailingZatara",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "tXdzGv0lhbU",
+      "title": "3 WEEKS BOAT-SOBER! (but we still have the itch...)",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 735
+    },
     {
       "id": "mHM6rgKkEK4",
       "title": "The (harsh) Reality of Taking Over Zatara!",
