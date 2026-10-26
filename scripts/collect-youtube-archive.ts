@@ -33,13 +33,14 @@
  * Usage:
  *   pnpm collect -- --channel @SomeChannel
  *   pnpm collect -- --channel @SomeChannel --cutoff 2024-12-31
+ *   pnpm collect -- --channel @SomeChannel --remove # delete the channel's archive
  *   pnpm collect                                   # refresh every archive
  *
  * Requires yt-dlp on PATH.
  */
 
 import { execFileSync } from 'node:child_process';
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, unlinkSync } from 'node:fs';
 import { resolve, dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -198,6 +199,21 @@ function main(): void {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(cutoff) || Number.isNaN(Date.parse(`${cutoff}T12:00:00Z`))) {
       throw new Error(`--cutoff must be a real date written YYYY-MM-DD, not "${cutoff}".`);
     }
+  }
+
+  if (args.includes('--remove')) {
+    if (channel === undefined || channel === '') {
+      throw new Error('--remove deletes one channel, so it needs --channel beside it.');
+    }
+    // The same slug the channel was collected under, so the handle typed to add it removes it.
+    const slug = slugFor(uploadsUrl(channel));
+    const path = join(ARCHIVE_DIR, `${slug}.json`);
+    if (!existsSync(path)) {
+      throw new Error(`No channel is collected as channels/${slug}.json, so there is nothing to remove for ${channel}.`);
+    }
+    unlinkSync(path);
+    console.log(`✓ Removed channels/${slug}.json`);
+    return;
   }
 
   if (channel !== undefined && channel !== '') {
