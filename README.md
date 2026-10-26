@@ -13,18 +13,24 @@ it is the same text the site's front page shows.
 | `channels/<slug>.json` | A channel's collected upload list: id, title, date, and whether the date is approximate. Committed, because it cannot be rebuilt on demand. May carry a `cutoff`. |
 | `scripts/collect-youtube-archive.ts` | Reads a channel's upload list with yt-dlp (metadata only, no video, no API key) and merges it into the archive. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, plus the site's index page. |
-| `.github/workflows/collect.yml` | Runs the collector for one channel or all of them and opens a pull request with what changed. Merging it starts the deploy. |
+| `.github/workflows/collect.yml` | Adds, refreshes or removes a channel, or refreshes all of them, and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
-## Adding a channel
+## Adding or removing a channel
 
-Actions → "Collect a channel's uploads" → Run workflow. Give the channel as `@handle` or a full
-address. Optionally give a cutoff date, `YYYY-MM-DD`: the archive still collects everything, but the
-feed stops there — videos dated on or after the date are never written into it. The date is kept
-on later refreshes; run again with the channel and a new date to change it. Leave the channel box
-empty to refresh every channel already collected.
+Actions → "Add or remove a channel" → Run workflow. Give the channel as `@handle` or a full address.
 
-A run that finds something new opens a pull request with it; the feed goes live once that is
+- **add** (the default) collects the channel. The cutoff box starts filled with `2024-09-01`: the
+  archive still collects everything, but the feed stops there — videos dated on or after the date
+  are never written into it. Change the date, or clear the box for no cutoff. The date is kept on
+  later refreshes; run again with the channel and a new date to change it.
+- **remove** deletes the channel's archive, so its feed comes off the site once merged. Use the same
+  handle it was added with. Git history keeps the file.
+
+Leave the channel box empty with **add** to refresh every channel already collected; each keeps its
+own cutoff.
+
+A run that changes something opens a pull request with it; the change goes live once that is
 merged. The run's summary prints each feed's address. Subscribe to it in a reader.
 
 ## Dates

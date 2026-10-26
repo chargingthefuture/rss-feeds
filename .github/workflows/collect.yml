@@ -1,4 +1,4 @@
-name: Collect a channel's uploads
+name: Add or remove a channel
 
 # Builds a feed carrying every upload of a YouTube channel, not the newest
 # handful its own feed carries.
@@ -10,7 +10,8 @@ name: Collect a channel's uploads
 # deploy turns it into a feed at https://chargingthefuture.github.io/rss-feeds/youtube/<slug>.xml.
 #
 # Run it with a channel to add one, or with the box empty to refresh every
-# channel already collected. Newly found videos are added; an entry already in
+# channel already collected. Choose "remove" with a channel to delete that
+# channel's archive, which takes its feed off the site once merged. Newly found videos are added; an entry already in
 # the archive is left exactly as it is.
 #
 # A channel can carry a cutoff date. The archive still collects everything, but
@@ -32,14 +33,23 @@ name: Collect a channel's uploads
 on:
   workflow_dispatch:
     inputs:
+      action:
+        description: 'add collects the channel (or refreshes it); remove deletes it.'
+        required: true
+        type: choice
+        options:
+          - add
+          - remove
+        default: add
       channel:
         description: 'Channel to add or refresh — @handle or full address. Leave empty to refresh every channel already collected.'
         required: false
         type: string
       cutoff:
-        description: 'Optional, with a channel: YYYY-MM-DD. The feed then stops there — videos dated on or after it are left out. Kept on later refreshes.'
+        description: 'With a channel being added: YYYY-MM-DD. The feed stops there — videos dated on or after it are left out. Clear the box for no cutoff. Ignored for remove and for a refresh of every channel.'
         required: false
         type: string
+        default: '2024-09-01'
   schedule:
     # Weekly, Sundays. New uploads matter little here — the archive is for what
     # came before — so this only keeps the list from drifting far behind.
@@ -71,18 +81,22 @@ jobs:
 
       - name: Collect
         env:
+          ACTION: ${{ inputs.action }}
           CHANNEL: ${{ inputs.channel }}
           CUTOFF: ${{ inputs.cutoff }}
         run: |
-          if [ -n "$CUTOFF" ] && [ -z "$CHANNEL" ]; then
-            echo "::error title=Cutoff needs a channel::A cutoff names a date for one channel. Give the channel beside it."
-            exit 1
-          fi
-          if [ -n "$CHANNEL" ] && [ -n "$CUTOFF" ]; then
+          if [ "$ACTION" = "remove" ]; then
+            if [ -z "$CHANNEL" ]; then
+              echo "::error title=Remove needs a channel::Give the handle of the channel to remove."
+              exit 1
+            fi
+            pnpm collect -- --channel "$CHANNEL" --remove
+          elif [ -n "$CHANNEL" ] && [ -n "$CUTOFF" ]; then
             pnpm collect -- --channel "$CHANNEL" --cutoff "$CUTOFF"
           elif [ -n "$CHANNEL" ]; then
             pnpm collect -- --channel "$CHANNEL"
           else
+            # A refresh of every channel keeps each one's own cutoff, so the box is ignored.
             pnpm collect
           fi
 
@@ -92,6 +106,7 @@ jobs:
         # The merge is a push to main, which starts the deploy.
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTION: ${{ inputs.action }}
           CHANNEL: ${{ inputs.channel }}
           CUTOFF: ${{ inputs.cutoff }}
         run: |
@@ -102,7 +117,9 @@ jobs:
             echo "Nothing new."
             exit 0
           fi
-          if [ -n "$CHANNEL" ]; then
+          if [ "$ACTION" = "remove" ]; then
+            title="chore: remove the feed of $CHANNEL"
+          elif [ -n "$CHANNEL" ]; then
             title="chore: collect the uploads of $CHANNEL"
           else
             title='chore: refresh the collected uploads'
@@ -115,7 +132,9 @@ jobs:
           git commit -m "$title"
           git push -u origin "$branch"
           body="Collected by run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
-          if [ -n "$CUTOFF" ]; then
+          if [ "$ACTION" = "remove" ]; then
+            body="Removed by run ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Merging it takes the feed off the site; git history keeps the file."
+          elif [ -n "$CHANNEL" ] && [ -n "$CUTOFF" ]; then
             body="$body Feed cut before $CUTOFF."
           fi
           if ! gh pr create --base main --head "$branch" --title "$title" --body "$body"; then
