@@ -2,9 +2,142 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "-Ik4f77ELoc",
+      "title": "Sneak Peek: Jordan Klepper Fingers the Pulse: Red Flags | The Daily Show",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 190
+    },
+    {
+      "id": "D-7dtLPTadg",
+      "title": "Jon Stewart on French Riots, Kosta on Midterm Meltdowns & Ronny on Vance's New Laugh |The Daily Show",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 2433
+    },
+    {
+      "id": "jO4tb799vtU",
+      "title": "Meet the GOP Operative Who Keeps Republicans in the Dark About Trump | The Daily Show",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 254
+    },
+    {
+      "id": "c-eY9tqoFhU",
+      "title": "Jimmy O. Yang on Returning to Hong Kong After 25 Years in “Finally Home” | The Daily Show",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 1035
+    },
+    {
+      "id": "LTc4kp_liiI",
+      "title": "Trump Is Hot for Tim Scott & Susan Collins Side-Eyes Troy Jackson's Second Cousin | The Daily Show",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 735
+    },
+    {
+      "id": "ZDDQh9R00QI",
+      "title": "Mo Amer: Abdul El-Sayed Is Defying Islamophobic Attacks with Charisma | The Daily Show",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 397
+    },
+    {
+      "id": "66GQiUl7LjI",
+      "title": "Taika Waititi on Filming “Klara and the Sun” in His Home Country of New Zealand | The Daily Show",
+      "date": "2026-10-22",
+      "approximateDate": true,
+      "duration": 854
+    },
+    {
+      "id": "9cMMX1Cxk90",
+      "title": "Trump Nixes Hegseth's Livestream Execution & JD Vance Unleashes New Laugh | The Daily Show",
+      "date": "2026-10-22",
+      "approximateDate": true,
+      "duration": 473
+    },
+    {
+      "id": "Va2UzRSJ1qc",
+      "title": "Hello & Goodbye Katie Zacharia, Trump's Press Secretary Who Lasted Five Whole Days | The Daily Show",
+      "date": "2026-10-22",
+      "approximateDate": true,
+      "duration": 337
+    },
+    {
+      "id": "fvoHkUrg64o",
+      "title": "Ben Gibbard On Death Cab for Cutie’s “I Built You a Tower” | The Daily Show",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 682
+    },
+    {
+      "id": "mISlVcnLu1o",
+      "title": "Death Cab for Cutie Performs “Stone Over Water”",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 224
+    },
+    {
+      "id": "ymQhixom0g0",
+      "title": "Trump Drools Over Sen. Jon Husted’s Ass & Fayette County Candidate Gets Piss Drunk? | The Daily Show",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 626
+    },
+    {
+      "id": "A9OuNrlbENw",
+      "title": "Trump Kills Hegseth's Firing Squad Livestream & What's in Guilfoyle's Burn Book? | The Daily Show",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 2554
+    },
+    {
+      "id": "IRUhdhS29Vc",
+      "title": "David Corn - Trump’s Man Crush on Putin & “How Russia Won” | The Daily Show",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 1165
+    },
+    {
+      "id": "JjI3TM__A5o",
+      "title": "Paris Protests Erupt Over High Fuel Costs & Trump Cuts Diesel Deal with Russia | The Daily Show",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 1247
+    },
+    {
+      "id": "ZiA4bRYqBXc",
+      "title": "The Best F**king News Team Covers Affordability in America Ahead of the Midterms | The Daily Show",
+      "date": "2026-10-19",
+      "approximateDate": true,
+      "duration": 662
+    },
+    {
+      "id": "yAGGkDvbjAs",
+      "title": "Jon Stewart and The News Team Tackle the 2026 Midterm Candidates | The Daily Show",
+      "date": "2026-10-18",
+      "approximateDate": true,
+      "duration": 1286
+    },
+    {
+      "id": "bPWOLXXHMlo",
+      "title": "Jon Stewart & The News Team Recap the Endless War in Iran Pt. 2 | The Daily Show",
+      "date": "2026-10-17",
+      "approximateDate": true,
+      "duration": 1945
+    },
+    {
+      "id": "PzoYmikU10o",
+      "title": "Jon Stewart & The News Team Recap the Endless War in Iran Pt. 1 | The Daily Show",
+      "date": "2026-10-15",
+      "approximateDate": true,
+      "duration": 2507
+    },
     {
       "id": "UE8eLLH9e6M",
       "title": "Jon Stewart on AI's \"Better Future\" & Kosta on Kimberly Guilfoyle's $100K Amex Bill | The Daily Show",

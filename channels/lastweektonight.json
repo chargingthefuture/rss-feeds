@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-10-11",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "TM1EbMKhT4Y",
+      "title": "Generic Drugs: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-10-12",
+      "approximateDate": true,
+      "duration": 1432
+    },
     {
       "id": "XQ-Xnzj_uz4",
       "title": "The Secret Service: Last Week Tonight with John Oliver (HBO)",

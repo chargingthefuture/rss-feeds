@@ -2,9 +2,37 @@
   "slug": "drmattdrmike",
   "name": "drmattdrmike",
   "channelUrl": "https://www.youtube.com/@DrMattDrMike",
-  "collectedAt": "2026-10-15",
+  "collectedAt": "2026-10-25",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "-MbAjiUB06M",
+      "title": "Episode 7 | \"Medication\"",
+      "date": "2026-10-24",
+      "approximateDate": true,
+      "duration": 444
+    },
+    {
+      "id": "-qHcRF2U4pI",
+      "title": "Integumentary System | Structure & Function",
+      "date": "2026-10-23",
+      "approximateDate": true,
+      "duration": 2218
+    },
+    {
+      "id": "OdTIEypWldM",
+      "title": "Inflammatory Bowel Disease (IBD) | An Overview",
+      "date": "2026-10-21",
+      "approximateDate": true,
+      "duration": 1837
+    },
+    {
+      "id": "dpCmKUvvJU8",
+      "title": "Ulcerative Colitis | Inflammatory Bowel Disease",
+      "date": "2026-10-20",
+      "approximateDate": true,
+      "duration": 1663
+    },
     {
       "id": "aEj10F_Peuo",
       "title": "Mean Arterial Pressure (MAP) | Made Easy!",
