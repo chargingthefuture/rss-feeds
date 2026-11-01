@@ -2,9 +2,23 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "0NuqQYaKlqo",
+      "title": "We Got Company | Alex Rodriguez",
+      "date": "2026-10-31",
+      "approximateDate": true,
+      "duration": 3663
+    },
+    {
+      "id": "M5-yJWs8DTs",
+      "title": "The Sebastian Maniscalco Show | Matching Costumes and Midnight Stitches",
+      "date": "2026-10-29",
+      "approximateDate": true,
+      "duration": 3142
+    },
     {
       "id": "wZc_QFDBxvQ",
       "title": "The Sebastian Maniscalco Show | Why Not Use A Wheelchair?",

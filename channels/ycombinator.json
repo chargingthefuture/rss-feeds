@@ -2,9 +2,23 @@
   "slug": "ycombinator",
   "name": "ycombinator",
   "channelUrl": "https://www.youtube.com/@ycombinator",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "vl7HiMdGfjo",
+      "title": "When Agents Become Your Users",
+      "date": "2026-11-01",
+      "approximateDate": true,
+      "duration": 2926
+    },
+    {
+      "id": "eojywvxqoLc",
+      "title": "The New Full-Stack Designer",
+      "date": "2026-10-28",
+      "approximateDate": true,
+      "duration": 3944
+    },
     {
       "id": "mHNKuH-9OxU",
       "title": "Why Inference Matters 12x More Than Training | YC Paper Club",

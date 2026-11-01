@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "OjQZ6obDeO4",
+      "title": "New Rule: Halloween Safetyism | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-01",
+      "approximateDate": true,
+      "duration": 508
+    },
+    {
+      "id": "T07Y0gxJG7k",
+      "title": "Monologue: The Whole Truth | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-01",
+      "approximateDate": true,
+      "duration": 271
+    },
+    {
+      "id": "V7USS32lvfk",
+      "title": "Overtime with Bill Maher: Ted Cruz, Kid Rock, Jim VandeHei (HBO)",
+      "date": "2026-11-01",
+      "approximateDate": true,
+      "duration": 834
+    },
     {
       "id": "3gNREfz1tGU",
       "title": "New Rule: Moocher Nation | Real Time with Bill Maher (HBO)",

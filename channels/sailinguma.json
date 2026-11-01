@@ -2,9 +2,16 @@
   "slug": "sailinguma",
   "name": "sailinguma",
   "channelUrl": "https://www.youtube.com/@SailingUma",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "3qsGe3LtgxM",
+      "title": "One Last Step Before We Launch! | Step 499",
+      "date": "2026-10-28",
+      "approximateDate": true,
+      "duration": 1274
+    },
     {
       "id": "AVFI4t-aFIA",
       "title": "Making Our Small Cockpit Twice as Useful | Step 498",

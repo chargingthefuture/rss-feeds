@@ -2,9 +2,16 @@
   "slug": "karaandnate",
   "name": "karaandnate",
   "channelUrl": "https://www.youtube.com/@KaraandNate",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "ew2js_-v94Q",
+      "title": "96 Hours in Asia’s Least Visited Country (Mongol Rally Ep.9)",
+      "date": "2026-10-31",
+      "approximateDate": true,
+      "duration": 2644
+    },
     {
       "id": "il2-GI1w7I0",
       "title": "78 Hours on an Old Soviet Ferry (Mongol Rally Ep. 8)",

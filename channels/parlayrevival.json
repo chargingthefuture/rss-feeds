@@ -2,9 +2,16 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "znomy5lhzuc",
+      "title": "Passage Planning During MONSOON SEASON Ain't Easy! - (Episode 387)",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 1325
+    },
     {
       "id": "EnduLfRLkA4",
       "title": "CRAZY WEEK! - 20ft Shark + Emergency Surgery! - (Episode 386)",
