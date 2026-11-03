@@ -2,9 +2,30 @@
   "slug": "donttellcomedy",
   "name": "donttellcomedy",
   "channelUrl": "https://www.youtube.com/@DontTellComedy",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "Z3H7yBjXMH0",
+      "title": "13 Comedians You Need To Know | Stand Up Comedy Compilation",
+      "date": "2026-10-31",
+      "approximateDate": true,
+      "duration": 8326
+    },
+    {
+      "id": "u0M0FpOHxNk",
+      "title": "Black Thoughts, White Words | Gary Simons | Stand Up Comedy",
+      "date": "2026-10-29",
+      "approximateDate": true,
+      "duration": 525
+    },
+    {
+      "id": "OCaY4tobtxk",
+      "title": "Humiliated at the STD Clinic | Bret Raybould | Stand Up Comedy",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 702
+    },
     {
       "id": "kmz0-G2kw6A",
       "title": "My Dad Came Out Before Me | Asha Ward | Stand Up Comedy",

@@ -2,9 +2,51 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "H3Cnyj0I62c",
+      "title": "I Doubled My GPU’s Memory…",
+      "date": "2026-10-31",
+      "approximateDate": true,
+      "duration": 1695
+    },
+    {
+      "id": "1KxqLC7F0iE",
+      "title": "I was wrong about Augmented Reality",
+      "date": "2026-10-29",
+      "approximateDate": true,
+      "duration": 1048
+    },
+    {
+      "id": "7JOW7TTOGfI",
+      "title": "Apple Made a MacBook for ME",
+      "date": "2026-10-29",
+      "approximateDate": true,
+      "duration": 683
+    },
+    {
+      "id": "KxiUncxSnIo",
+      "title": "Accidentally Buying $93.87 of Candy While Buying a Pumpkin for a Livestream",
+      "date": "2026-10-29",
+      "approximateDate": true,
+      "duration": 916
+    },
+    {
+      "id": "DZSYaQmxBLM",
+      "title": "Pros Try AI-Cloned Engineering Tools",
+      "date": "2026-10-28",
+      "approximateDate": true,
+      "duration": 925
+    },
+    {
+      "id": "P6pcTK0wTYA",
+      "title": "How to Switch to Linux",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 955
+    },
     {
       "id": "DN953UW8iJ8",
       "title": "dbrand Forced me to do This Review",

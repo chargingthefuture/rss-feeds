@@ -2,9 +2,30 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "SnsBI4YxwIs",
+      "title": "The Republican Party & The Far Right: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-10-26",
+      "approximateDate": true,
+      "duration": 2172
+    },
+    {
+      "id": "zVwhVOB3ulU",
+      "title": "S13 E27: The Republican Party & The Far Right: 10/25/26: Last Week Tonight with John Oliver",
+      "date": "2026-10-26",
+      "approximateDate": true,
+      "duration": 2366
+    },
+    {
+      "id": "d_DnFsuIWtA",
+      "title": "S13 E26: Kimberly Guilfoyle & Generic Drugs: 10/11/26: Last Week Tonight with John Oliver",
+      "date": "2026-10-18",
+      "approximateDate": true,
+      "duration": 2345
+    },
     {
       "id": "TM1EbMKhT4Y",
       "title": "Generic Drugs: Last Week Tonight with John Oliver (HBO)",
@@ -13,11 +34,32 @@
       "duration": 1432
     },
     {
+      "id": "eJaySIQaDsQ",
+      "title": "S13 E25: Midterms & The Secret Service: 10/4/26: Last Week Tonight with John Oliver",
+      "date": "2026-10-11",
+      "approximateDate": true,
+      "duration": 2375
+    },
+    {
       "id": "XQ-Xnzj_uz4",
       "title": "The Secret Service: Last Week Tonight with John Oliver (HBO)",
       "date": "2026-10-05",
       "approximateDate": true,
       "duration": 2030
+    },
+    {
+      "id": "iXSKsjpiClQ",
+      "title": "S13 E24: Texas Midterms & Brazil Elections 2026: 9/27/26: Last Week Tonight with John Oliver",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 2379
+    },
+    {
+      "id": "Oz0y4CdYmvI",
+      "title": "S13 E23: UnitedHealthcare & UnitedHealth Group: 9/20/26: Last Week Tonight with John Oliver",
+      "date": "2026-10-01",
+      "approximateDate": true,
+      "duration": 2404
     },
     {
       "id": "MIYCek92ICQ",
@@ -32,6 +74,251 @@
       "date": "2026-09-22",
       "approximateDate": true,
       "duration": 2067
+    },
+    {
+      "id": "-BRWR6iK2iY",
+      "title": "S10 E14: Bob Menendez & McKinsey: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2295
+    },
+    {
+      "id": "0y91DFVClQ8",
+      "title": "S10 E6: French Retirement Protests & Solitary Confinement: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2110
+    },
+    {
+      "id": "14xmIVd1I78",
+      "title": "S9 E30: Elon Musk, Twitter & Qatar World Cup: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2408
+    },
+    {
+      "id": "1BqWBJmLyy8",
+      "title": "S9 E28: Election Subversion: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2108
+    },
+    {
+      "id": "27bhd57rDD4",
+      "title": "S10 E2: Project Veritas & Artificial Intelligence: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2352
+    },
+    {
+      "id": "7WRG9UVcGgU",
+      "title": "S10 E5: Silicon Valley Bank & Timeshares: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2097
+    },
+    {
+      "id": "AMzHGmgjQfo",
+      "title": "S10 E21: Elon Musk & Season Finale: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2340
+    },
+    {
+      "id": "ciCIrZHUgL4",
+      "title": "S10 E10: King Charles' Coronation Quiche, Biden & The Border: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2227
+    },
+    {
+      "id": "Ex9FKp7FPMw",
+      "title": "S10 E3: Ron DeSantis & Radiant Plumbing: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2080
+    },
+    {
+      "id": "FG4RX9uC6dE",
+      "title": "S10 E13: Gaza War, Congress & Food Safety: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2108
+    },
+    {
+      "id": "GQwFXp1uYuw",
+      "title": "S10 E8: Mifepristone Ruling & Farmworkers: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2081
+    },
+    {
+      "id": "ikFe0NcKv2c",
+      "title": "S9 E26: Ukraine War & Transgender Rights: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2057
+    },
+    {
+      "id": "J7GXS7WGgOo",
+      "title": "S10 E4: Randy McNally & TANF: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2072
+    },
+    {
+      "id": "jEaSeKBkNG4",
+      "title": "S10 E7: Tennessee Mass Shooting & Homeowners Associations: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2042
+    },
+    {
+      "id": "JhoYRrb7Ve4",
+      "title": "S10 E1: Train Derailment & Psychedelic Assisted Therapy: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2097
+    },
+    {
+      "id": "JSzcDcDkmqU",
+      "title": "S10 E9: Bud Light Trans Rights Panic & Cryptocurrencies Update: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2075
+    },
+    {
+      "id": "juCyYV7kauw",
+      "title": "S10 E12: Tennessee Mayoral Race & Homeschooling: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2401
+    },
+    {
+      "id": "kYjRBnFKNN4",
+      "title": "S10 E16: Bird of the Year & Abortion Rights: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2365
+    },
+    {
+      "id": "oMEbXtaFVnE",
+      "title": "S9 E24: Liz Truss & Museums: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2409
+    },
+    {
+      "id": "Rsgqav1Ua2U",
+      "title": "S10 E17: Bird of the Year Update & Gaza War: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2364
+    },
+    {
+      "id": "RXTJOqZdDe0",
+      "title": "S10 E18: Congress, Dollar Stores & BOTY Update II: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2377
+    },
+    {
+      "id": "sPXxPcQoAZA",
+      "title": "S13 E20: Trump and the DOJ & Buc-ee’s: 8/9/26: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2404
+    },
+    {
+      "id": "SqLJz--S-1w",
+      "title": "S10 E15: Argentina & Chocolate: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2157
+    },
+    {
+      "id": "sYYuW9YJshU",
+      "title": "S9 E29: Midterm Election Results & The Monarchy: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2056
+    },
+    {
+      "id": "U5378zFEVLQ",
+      "title": "S10 E20: Mike Johnson & Freight Trains: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2318
+    },
+    {
+      "id": "u6CpbUohKyg",
+      "title": "S9 E23: DeSantis, Puerto Rico & Bolsonaro: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 1958
+    },
+    {
+      "id": "vhjWNIhOm6s",
+      "title": "S9 E21: Alaska Primaries 2022 & Carbon Offsets: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2094
+    },
+    {
+      "id": "vo7cYJHVpUQ",
+      "title": "S9 E27: Rishi Sunak & Bail Reform: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2110
+    },
+    {
+      "id": "w0Vwq8kbDFA",
+      "title": "S9 E22: Law & Order, Queen Elizabeth & Liz Truss: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2097
+    },
+    {
+      "id": "wagYax-0yJI",
+      "title": "S13 E19: Cyclospora & Police Surveillance Technology: 8/2/26: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2362
+    },
+    {
+      "id": "WaJsPikptyo",
+      "title": "S13 E22: Sean Duffy & Subscriptions: 8/23/26: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2342
+    },
+    {
+      "id": "wB9bkcHwq4w",
+      "title": "S10 E11: Return from WGA Strike & Prison Healthcare: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2326
+    },
+    {
+      "id": "xD7i7CYmuSs",
+      "title": "S10 E19: Organ and Body Donations & George Santos: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2316
+    },
+    {
+      "id": "Z4pKbk20QkY",
+      "title": "S9 E25: Iran Protests & Crime Reporting: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2083
+    },
+    {
+      "id": "z8vvaDqAgJI",
+      "title": "S13 E21: Iran War, Soap Operas & Fetal Personhood: 8/16/26: Last Week Tonight with John Oliver",
+      "date": "2026-09-01",
+      "approximateDate": true,
+      "duration": 2408
     },
     {
       "id": "A9iZ10yIRwM",
@@ -69,6 +356,153 @@
       "duration": 1371
     },
     {
+      "id": "1d1_wPJqeIY",
+      "title": "S9 E10: Supreme Court Leak & The Philippines: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2514
+    },
+    {
+      "id": "22wIXBLLVZg",
+      "title": "S9 E18: UK PM Candidates & Mental Health Care: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2034
+    },
+    {
+      "id": "74lpwDODypc",
+      "title": "S9 E16: Supreme Court Overturns Roe & Water: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2109
+    },
+    {
+      "id": "9SSkH7t6pN0",
+      "title": "S9 E8: Dr. Oz & Police Interrogations: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2095
+    },
+    {
+      "id": "A4fxBltUs8A",
+      "title": "S9 E19: Alex Jones & Monkeypox: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2085
+    },
+    {
+      "id": "a5nGaBHqGhQ",
+      "title": "S9 E14: 2022 Midterms & Tech Monopolies: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2093
+    },
+    {
+      "id": "AGvr2TUsVys",
+      "title": "S9 E13: Uvalde Update & School Police: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2104
+    },
+    {
+      "id": "ApnvjT8Opws",
+      "title": "John Oliver on the Jan. 6th Hearings, Midterms & Rent (Last Week Tonight S9 E15)",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2068
+    },
+    {
+      "id": "D10nBR4m9rg",
+      "title": "S9 E17: Inflation & Beach Dolls Update: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2083
+    },
+    {
+      "id": "FuTEz_VGiBg",
+      "title": "S9 E3: Ukrainian Resistance & Wrongful Convictions: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 1738
+    },
+    {
+      "id": "G3oB-1qAj-Q",
+      "title": "S13 E18: Trump & Crypto, Buc-ee’s: 7/26/26: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2668
+    },
+    {
+      "id": "HooV1HF49P0",
+      "title": "John Oliver on Madison Cawthorn & the Trucking Industry (Last Week Tonight S9 E6)",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2096
+    },
+    {
+      "id": "hWNhI74-Z2A",
+      "title": "S9 E11: Alabama Trans Youth Ban & Utilities: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2082
+    },
+    {
+      "id": "kGbY6db4cjw",
+      "title": "S9 E5: England's Royal Tour & Harm Reduction: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2399
+    },
+    {
+      "id": "ME7AUUSlnmo",
+      "title": "S9 E20: Afghanistan Update & AI Images: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2101
+    },
+    {
+      "id": "QpjCAqv3Y9U",
+      "title": "S9 E1: Canadian Vaccine Protests & Critical Race Theory: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2102
+    },
+    {
+      "id": "r6BR0Nk6lIM",
+      "title": "S9 E4: \"Don't Say Gay\" Bill & Event Tickets: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 1807
+    },
+    {
+      "id": "RoI5QUmvJmw",
+      "title": "John Oliver on Russia's Invasion of Ukraine & Sex Work (Last Week Tonight S9 E2)",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2406
+    },
+    {
+      "id": "TNDgVRlOnkE",
+      "title": "S9 E12: 2022 Midterms & Subway: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2055
+    },
+    {
+      "id": "Wapyt_Gi_8E",
+      "title": "S9 E7: Russian State TV & Data Brokers: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2103
+    },
+    {
+      "id": "ZGw7kj2rTuo",
+      "title": "S9 E9: 2022 Elections & Environmental Racism: Last Week Tonight with John Oliver",
+      "date": "2026-08-01",
+      "approximateDate": true,
+      "duration": 2089
+    },
+    {
       "id": "S0OiT5GOXaY",
       "title": "Scranton's Train Set: Last Week Tonight with John Oliver (Bonus Segments)",
       "date": "2026-07-26",
@@ -81,6 +515,34 @@
       "date": "2026-07-26",
       "approximateDate": true,
       "duration": 1403
+    },
+    {
+      "id": "FsUNze_X-QA",
+      "title": "S13 E15: Iran, FIFA & UK Elections: 6/14/26: Last Week Tonight with John Oliver",
+      "date": "2026-07-01",
+      "approximateDate": true,
+      "duration": 2404
+    },
+    {
+      "id": "n3SPA3_EoFE",
+      "title": "S13 E14: Primaries & New College of Florida: 6/7/26: Last Week Tonight with John Oliver",
+      "date": "2026-07-01",
+      "approximateDate": true,
+      "duration": 2399
+    },
+    {
+      "id": "PscLPIHmuNw",
+      "title": "S13 E16: Iran Peace Deal & Feral Hogs: 6/21/26: Last Week Tonight with John Oliver",
+      "date": "2026-07-01",
+      "approximateDate": true,
+      "duration": 2405
+    },
+    {
+      "id": "UGRLw4DSCyk",
+      "title": "S13 E17: Trump’s Reflecting Pool, Redistricting & Soaps: 6/28/26: Last Week Tonight with John Oliver",
+      "date": "2026-07-01",
+      "approximateDate": true,
+      "duration": 2378
     },
     {
       "id": "8qUxl3rl53M",
@@ -153,6 +615,34 @@
       "duration": 465
     },
     {
+      "id": "J1xUky5QIIs",
+      "title": "S13 E11: Epic Fury, Project Freedom & The Shadow Docket: 5/10/26: Last Week Tonight with John Oliver",
+      "date": "2026-06-01",
+      "approximateDate": true,
+      "duration": 2298
+    },
+    {
+      "id": "owosAu5aycM",
+      "title": "S13 E10: Trump, Supreme Court & Gas Station Drugs: 5/3/26: Last Week Tonight with John Oliver",
+      "date": "2026-06-01",
+      "approximateDate": true,
+      "duration": 2394
+    },
+    {
+      "id": "PsOCCb7zkbo",
+      "title": "S13 E12: Trump’s Ballroom & Structured Settlements: 5/17/26: Last Week Tonight with John Oliver",
+      "date": "2026-06-01",
+      "approximateDate": true,
+      "duration": 2353
+    },
+    {
+      "id": "vsXOhTmboGI",
+      "title": "S13 E13: Freedom 250, Trump’s Pardons & Ghana Posters: 5/31/26: Last Week Tonight with John Oliver",
+      "date": "2026-06-01",
+      "approximateDate": true,
+      "duration": 2840
+    },
+    {
       "id": "LcrDC4ftXgM",
       "title": "Structured Settlements & Factoring Companies: Last Week Tonight with John Oliver (HBO)",
       "date": "2026-05-26",
@@ -202,6 +692,20 @@
       "duration": 1783
     },
     {
+      "id": "mcIdCZ3TRrU",
+      "title": "S13 E09: Iran, Capitol Hill & AI Chatbots: 4/26/26: Last Week Tonight with John Oliver",
+      "date": "2026-05-01",
+      "approximateDate": true,
+      "duration": 2407
+    },
+    {
+      "id": "sxiMe8Dlzlw",
+      "title": "S13 E08: Iran, The Pope & Prediction Markets: 4/19/26: Last Week Tonight with John Oliver",
+      "date": "2026-05-01",
+      "approximateDate": true,
+      "duration": 2397
+    },
+    {
       "id": "3pnfscczXbo",
       "title": "Danbury: Last Week Tonight with John Oliver (Bonus Segments)",
       "date": "2026-04-26",
@@ -228,6 +732,41 @@
       "date": "2026-04-26",
       "approximateDate": true,
       "duration": 1979
+    },
+    {
+      "id": "2JjKn7uhKqY",
+      "title": "S13 E05: Iran & J.D. Vance: 3/15/26: Last Week Tonight with John Oliver",
+      "date": "2026-04-01",
+      "approximateDate": true,
+      "duration": 2388
+    },
+    {
+      "id": "3MbCGYpIz0U",
+      "title": "S13 E07: Iran, Viktor Orbán & National Parks Pass: 3/29/26: Last Week Tonight with John Oliver",
+      "date": "2026-04-01",
+      "approximateDate": true,
+      "duration": 2374
+    },
+    {
+      "id": "bCroWm39-gY",
+      "title": "S13 E04: Iran, USAID & Soap Operas: 3/8/26: Last Week Tonight with John Oliver",
+      "date": "2026-04-01",
+      "approximateDate": true,
+      "duration": 2986
+    },
+    {
+      "id": "MhIQ3dmHusU",
+      "title": "S13 E03: Kash Patel & Police Body Cameras: 3/1/26: Last Week Tonight with John Oliver",
+      "date": "2026-04-01",
+      "approximateDate": true,
+      "duration": 2333
+    },
+    {
+      "id": "OwY14eAH3Mg",
+      "title": "S13 E06: Iran & Police Stings: 3/22/26: Last Week Tonight with John Oliver",
+      "date": "2026-04-01",
+      "approximateDate": true,
+      "duration": 2304
     },
     {
       "id": "jP4_2soVZe0",
@@ -258,6 +797,20 @@
       "duration": 2014
     },
     {
+      "id": "-_4s56ewrnM",
+      "title": "S13 E02: Epstein Files & Twitter: 2/22/26: Last Week Tonight with John Oliver",
+      "date": "2026-03-01",
+      "approximateDate": true,
+      "duration": 2369
+    },
+    {
+      "id": "NpPWFsONyiM",
+      "title": "S13 E01: Olympics, ICE & DHS: 2/15/26: Last Week Tonight with John Oliver",
+      "date": "2026-03-01",
+      "approximateDate": true,
+      "duration": 2357
+    },
+    {
       "id": "5-KDUOHEZFk",
       "title": "ICE & DHS: Last Week Tonight with John Oliver (HBO)",
       "date": "2026-02-26",
@@ -277,6 +830,27 @@
       "date": "2026-02-26",
       "approximateDate": true,
       "duration": 79
+    },
+    {
+      "id": "-iRUq-Dy7QE",
+      "title": "S12 E30: Trump, Epstein’s Emails & Public Media: 11/16/25: Last Week Tonight with John Oliver",
+      "date": "2025-12-01",
+      "approximateDate": true,
+      "duration": 2385
+    },
+    {
+      "id": "0qmNAOCgbgY",
+      "title": "S12 E28: U.S. Government Shutdown & Police Chases: 11/2/25: Last Week Tonight with John Oliver",
+      "date": "2025-12-01",
+      "approximateDate": true,
+      "duration": 2973
+    },
+    {
+      "id": "LmmeWg_DHdc",
+      "title": "S12 E29: Mamdani & Felony Murder: 11/9/25: Last Week Tonight with John Oliver",
+      "date": "2025-12-01",
+      "approximateDate": true,
+      "duration": 2347
     },
     {
       "id": "dm5IwjiGT80",
@@ -312,6 +886,216 @@
       "date": "2025-11-26",
       "approximateDate": true,
       "duration": 2109
+    },
+    {
+      "id": "2psRpQvFSno",
+      "title": "S12 E20: Immigration Enforcement & The Baileys: 8/10/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2390
+    },
+    {
+      "id": "3MH2ePC9e3w",
+      "title": "S12 E17: NYC Elections & Trump’s Big Beautiful Bill: 6/29/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2370
+    },
+    {
+      "id": "4RHMcjzw2Yg",
+      "title": "S12 E14: Trump, Musk, Mike Lindell & Med Spas: 6/8/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2345
+    },
+    {
+      "id": "4T-CHSNHx6U",
+      "title": "S12 E22: Vaccine Mandates & Trump vs. Higher Education: 9/7/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2336
+    },
+    {
+      "id": "73iQpsIE0i8",
+      "title": "S12 E27: Trump’s Week & Medicare Advantage: 10/26/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2337
+    },
+    {
+      "id": "7nAIsnn_2Io",
+      "title": "S12 E15: ICE Protests & Juvenile Justice: 6/15/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2952
+    },
+    {
+      "id": "9iZK_DurYOo",
+      "title": "S12 E26: Gaza Ceasefire & Bari Weiss: 10/12/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2290
+    },
+    {
+      "id": "cP6FRnZBLhQ",
+      "title": "S11 E30: TikTok Ban, Matt Gaetz & Finale: 11/17/24: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2340
+    },
+    {
+      "id": "E02gokpa7Ug",
+      "title": "S12 E21:DC Takeover & MAHA: 8/17/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2654
+    },
+    {
+      "id": "EDi78Q7ocNs",
+      "title": "S12 E16: Israel, Iran, the US & AI Slop: 6/22/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2407
+    },
+    {
+      "id": "Eeq6nd5LsSc",
+      "title": "S12 E02: DOGE, National Parks & Content Moderation: 2/23/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2330
+    },
+    {
+      "id": "evHowXCJ7kI",
+      "title": "S12 E07: Trump’s Tariffs & Trans Athletes: 4/6/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2891
+    },
+    {
+      "id": "fsaOXUcRuJo",
+      "title": "S12 E08: Trump and Tariffs & Fish Doorbell: 4/13/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2407
+    },
+    {
+      "id": "G97ew5P68vI",
+      "title": "S12 E24: Trump, Comey & Netanyahu: 9/28/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2662
+    },
+    {
+      "id": "gZlw0gKXQAI",
+      "title": "S12 E23: Jimmy Kimmel & Bernd: 9/21/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2396
+    },
+    {
+      "id": "hFjOpVODTBE",
+      "title": "S12 E03: The FBI, Ukraine & Tipping: 3/2/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2383
+    },
+    {
+      "id": "kKqV3BEnwPQ",
+      "title": "S12 E04: Trump, GOP Town Halls & ICE Detention: 3/9/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2366
+    },
+    {
+      "id": "MZARkhJP3v4",
+      "title": "S12 E13: Trump Pardons & Air Traffic Control: 6/1/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2319
+    },
+    {
+      "id": "NtHZ7IR88dg",
+      "title": "S12 E25: US Military, ICE & Presidential Libraries: 10/5/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2381
+    },
+    {
+      "id": "q4gOjBpSl70",
+      "title": "S12 E05: Mahmoud Khalil & Sports Betting: 3/16/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2617
+    },
+    {
+      "id": "R-NHkonDsok",
+      "title": "S12 E06: Signalgate, Immigration Arrests & Tasers: 3/30/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2380
+    },
+    {
+      "id": "s76vrcwpLMo",
+      "title": "S11 E29: Trump’s Reelection: 11/10/24: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2174
+    },
+    {
+      "id": "t5lVEMpfRDI",
+      "title": "S11 E28: Trump’s Businesses & Election 2024: 11/3/24: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2371
+    },
+    {
+      "id": "TfgAd3Y0A3c",
+      "title": "S12 E10: Trump and Deportations & MiLB Teams: 5/4/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2396
+    },
+    {
+      "id": "Tj06ISUo5mg",
+      "title": "S12 E12: Trump and The Press & MiLB Update: 5/18/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2405
+    },
+    {
+      "id": "TMk28nV9nkI",
+      "title": "S12 E19: Gaza & Deferred Prosecution Agreements: 8/3/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2366
+    },
+    {
+      "id": "Vg_ovX4jiRo",
+      "title": "S12 E01: Trump 2.0: 2/16/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2409
+    },
+    {
+      "id": "vTf4lB3Ysfc",
+      "title": "S12 E09: RFK Jr. & HHS: 4/27/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2393
+    },
+    {
+      "id": "xKju7fqjE6Q",
+      "title": "S12 E18: Epstein, Gang Databases & Moon Mammoths: 7/27/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2564
+    },
+    {
+      "id": "ZgWXGF4wH-s",
+      "title": "S12 E11: Trump’s Trade War & Alliance Defending Freedom: 5/11/25: Last Week Tonight with John Oliver",
+      "date": "2025-11-01",
+      "approximateDate": true,
+      "duration": 2398
     },
     {
       "id": "0_Bwix9IjOE",
@@ -1222,6 +2006,202 @@
       "date": "2025-09-26",
       "approximateDate": true,
       "duration": 1807
+    },
+    {
+      "id": "_hIOdiYYSnc",
+      "title": "S11 E23: Disability Benefits, Trump, Vance & Haiti: 9/22/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2405
+    },
+    {
+      "id": "_m4JMTixTTM",
+      "title": "S11 E01: Supreme Court Ethics, Rat Hole & Gaza: 2/18/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2301
+    },
+    {
+      "id": "3UCqtnr-pF8",
+      "title": "S11 E22: School Lunch & J.D. Vance: 9/8/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2378
+    },
+    {
+      "id": "5juExgl1OLY",
+      "title": "S11 E17: “Migrant Crime,” the RNC & the World Games: 7/21/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2339
+    },
+    {
+      "id": "7CkZTHQJ0RI",
+      "title": "S11 E02: Pig Butchering, Book Bans & Frozen Embryos: 02/25/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2336
+    },
+    {
+      "id": "7TNAyvx-ymI",
+      "title": "S11 E19: RFK Jr., The Olympics & Trump at the NABJ: 8/4/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2307
+    },
+    {
+      "id": "93F616Cmzr8",
+      "title": "S11 E12: Corn, Commencements & Germany: 5/19/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2233
+    },
+    {
+      "id": "9Eo7ioe5Xfo",
+      "title": "S11 E10: Libraries, Campus Protests & Gaza: 5/5/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2365
+    },
+    {
+      "id": "DNVwnkgTzbY",
+      "title": "S11 E05: Student Loans, House Republicans & TikTok: 3/17/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2356
+    },
+    {
+      "id": "esymd1F1cRY",
+      "title": "S11 E27: Mass Deportations & Lee Greenwood: 10/27/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2344
+    },
+    {
+      "id": "f4RlTpgGOps",
+      "title": "S11 E04: Medical Boards, Gaza & Mark Robinson: 3/10/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2322
+    },
+    {
+      "id": "G-dJMqpGvjM",
+      "title": "S11 E03: Boeing, Gaza & Clarence Thomas: 3/3/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2386
+    },
+    {
+      "id": "KiOc61C4518",
+      "title": "S11 E11: Opioid Settlements, Rishi Sunak & Eurovision: 5/12/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2313
+    },
+    {
+      "id": "LCXdbtlY9WM",
+      "title": "S11 E18: The West Bank, JD Vance & Kamala Harris: 7/28/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2631
+    },
+    {
+      "id": "lG_rsKe9YVc",
+      "title": "S11 E25: Traffic Stops & VP Debates: 10/6/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2329
+    },
+    {
+      "id": "lvXq2cq7yGQ",
+      "title": "S11 E08: Medicaid & Arizona’s Abortion Law: 4/14/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2318
+    },
+    {
+      "id": "nhXAmbgTSyI",
+      "title": "S11 E20: Hawaii, J.D. Vance & Tim Walz: 8/11/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2383
+    },
+    {
+      "id": "NP8IWBOmc_g",
+      "title": "S11 E16: UK Elections, Flag Controversies & Louisiana: 6/23/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2302
+    },
+    {
+      "id": "oDJWD7021HI",
+      "title": "S11 E13: Indian Elections, Trump & Red Lobster: 6/2/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2376
+    },
+    {
+      "id": "PbzW9qcVBJ0",
+      "title": "Good News! Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 112
+    },
+    {
+      "id": "PHKICYdzRW0",
+      "title": "S11 E09: UFOs, Gaza Protests & Islamophobia: 4/21/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2371
+    },
+    {
+      "id": "pJiUPYNfGyI",
+      "title": "S11 E24: Federal Courts & Eric Adams: 9/29/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2367
+    },
+    {
+      "id": "pkVQzk9qGHM",
+      "title": "S11 E14: Deep-Sea Mining, Olympics & Red Lobster Update: 6/9/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2338
+    },
+    {
+      "id": "QAbDif3Rq0M",
+      "title": "S11 E26: Election Subversion 2024 & Waffle House: 10/13/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2314
+    },
+    {
+      "id": "QCRySbsLKiA",
+      "title": "S11 E15: Trump’s Second Term, MLK & Red Lobster Update: 6/16/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2339
+    },
+    {
+      "id": "vNKsfXfyRrk",
+      "title": "S11 E21: Hospice, Vance & Republican Primary Candidates: 8/11/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2343
+    },
+    {
+      "id": "VOhHKYRXXhs",
+      "title": "S11 E06: Food Delivery Apps, Murrieta Police & Trump: 3/31/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2358
+    },
+    {
+      "id": "WKaLePvHsco",
+      "title": "S11 E07: Executions, Earthquakes & Stock Photos: 4/7/24: Last Week Tonight with John Oliver",
+      "date": "2024-11-01",
+      "approximateDate": true,
+      "duration": 2408
     },
     {
       "id": "_Z_CNYuNxz0",

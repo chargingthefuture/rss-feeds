@@ -2,9 +2,16 @@
   "slug": "sailinglavagabonde",
   "name": "sailinglavagabonde",
   "channelUrl": "https://www.youtube.com/@SailingLaVagabonde",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "CJGFGMK89M4",
+      "title": "He Survived the Sail. His Moustache Didn't.",
+      "date": "2026-10-28",
+      "approximateDate": true,
+      "duration": 1681
+    },
     {
       "id": "R2CM2SVDE8U",
       "title": "Riley Makes an Illegal Emergency Stop.. 4m Waves, Electrics Down",

@@ -2,9 +2,37 @@
   "slug": "drmattdrmike",
   "name": "drmattdrmike",
   "channelUrl": "https://www.youtube.com/@DrMattDrMike",
-  "collectedAt": "2026-10-25",
+  "collectedAt": "2026-11-01",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "kfbPBWGtzhk",
+      "title": "Episode 8 | \"Impermanence\"",
+      "date": "2026-10-30",
+      "approximateDate": true,
+      "duration": 180
+    },
+    {
+      "id": "cddQTfMTR6s",
+      "title": "Systolic, Diastolic, and Pulse Pressure | Podcast",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 3445
+    },
+    {
+      "id": "N116goYLYx4",
+      "title": "Heparin | Pharmacology",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 954
+    },
+    {
+      "id": "wXAA6yt-RHI",
+      "title": "Practice Questions | Acidosis & Alkalosis",
+      "date": "2026-10-27",
+      "approximateDate": true,
+      "duration": 2832
+    },
     {
       "id": "-MbAjiUB06M",
       "title": "Episode 7 | \"Medication\"",
