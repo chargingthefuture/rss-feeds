@@ -48,6 +48,7 @@ const OUT_DIR = resolve(DIST_DIR, 'youtube');
 const DISCLAIMER = resolve(REPO_ROOT, 'DISCLAIMER.md');
 
 const SITE = 'https://chargingthefuture.github.io/rss-feeds';
+const PAGE = `${SITE}/`;
 
 type Video = {
   id: string;
@@ -197,7 +198,9 @@ function feedFor(archive: Archive): string {
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">',
     '  <channel>',
-    `    <title>${xml(archive.name)} (archive)</title>`,
+    // The feed's own address, not the channel's name: a link preview shows this title, and the
+    // address says exactly what the link is without naming anybody.
+    `    <title>${xml(`${SITE}/youtube/${archive.slug}.xml`)}</title>`,
     `    <link>${xml(archive.channelUrl)}</link>`,
     `    <description>${xml(description)}</description>`,
     '    <language>en-us</language>',
@@ -238,12 +241,19 @@ function indexPage(archives: Archive[]): string {
     '<head>',
     '  <meta charset="utf-8">',
     '  <meta name="viewport" content="width=device-width, initial-scale=1">',
-    '  <title>rss-feeds</title>',
+    // Every name a link preview can read is the page's own address, so a shared link shows
+    // exactly where it goes. Without these, a preview fell back to another name entirely.
+    `  <title>${xml(PAGE)}</title>`,
+    `  <meta property="og:title" content="${xml(PAGE)}">`,
+    `  <meta property="og:site_name" content="${xml(PAGE)}">`,
+    `  <meta property="og:url" content="${xml(PAGE)}">`,
+    '  <meta property="og:type" content="website">',
+    `  <meta name="twitter:title" content="${xml(PAGE)}">`,
     '  <style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:2rem auto;padding:0 1rem;line-height:1.6}code{word-break:break-all}li{margin:.75rem 0}</style>',
     '</head>',
     '<body>',
     '  <main>',
-    '    <h1>rss-feeds</h1>',
+    `    <h1>${xml(PAGE)}</h1>`,
     paragraphs,
     '    <h2>Feeds</h2>',
     '    <ul>',
