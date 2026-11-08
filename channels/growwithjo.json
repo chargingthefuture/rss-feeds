@@ -2,9 +2,16 @@
   "slug": "growwithjo",
   "name": "growwithjo",
   "channelUrl": "https://www.youtube.com/@growwithjo",
-  "collectedAt": "2026-10-29",
+  "collectedAt": "2026-11-08",
   "cutoff": "2023-12-31",
   "videos": [
+    {
+      "id": "KNTlyK7xEvo",
+      "title": "20 Min Worship + Weights | Breathe On It, The Room Is Yours, What A Miracle Feels Like",
+      "date": "2026-11-03",
+      "approximateDate": true,
+      "duration": 1316
+    },
     {
       "id": "kYoNzY047_s",
       "title": "Get Your Power Back - Justin Bieber That Power",

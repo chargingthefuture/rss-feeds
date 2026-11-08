@@ -2,9 +2,16 @@
   "slug": "nutritionmadesimple",
   "name": "nutritionmadesimple",
   "channelUrl": "https://www.youtube.com/@NutritionMadeSimple",
-  "collectedAt": "2026-10-30",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "rOteZSblzYA",
+      "title": "The NAD Supplement Story Just Changed (New Evidence)",
+      "date": "2026-11-05",
+      "approximateDate": true,
+      "duration": 430
+    },
     {
       "id": "HO3EtjISxgM",
       "title": "Scientist Ranks Every Popular Diet",

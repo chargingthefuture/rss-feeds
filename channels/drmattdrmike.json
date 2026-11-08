@@ -2,9 +2,16 @@
   "slug": "drmattdrmike",
   "name": "drmattdrmike",
   "channelUrl": "https://www.youtube.com/@DrMattDrMike",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "6JkH_9VWBbo",
+      "title": "Female Reproduction | Full Overview",
+      "date": "2026-11-07",
+      "approximateDate": true,
+      "duration": 2192
+    },
     {
       "id": "kfbPBWGtzhk",
       "title": "Episode 8 | \"Impermanence\"",

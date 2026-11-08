@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "Np7_mlvXFcA",
+      "title": "Midterms 2026: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-11-03",
+      "approximateDate": true,
+      "duration": 1538
+    },
     {
       "id": "SnsBI4YxwIs",
       "title": "The Republican Party & The Far Right: Last Week Tonight with John Oliver (HBO)",

@@ -2,9 +2,65 @@
   "slug": "linustechtips",
   "name": "linustechtips",
   "channelUrl": "https://www.youtube.com/@LinusTechTips",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "7hlTu95nOCw",
+      "title": "I’ve never seen this before (and it’s 20 years old.)",
+      "date": "2026-11-07",
+      "approximateDate": true,
+      "duration": 1559
+    },
+    {
+      "id": "Ao9IQyaH0fk",
+      "title": "“Tesla Hater” Finally Tries Full Self Driving",
+      "date": "2026-11-07",
+      "approximateDate": true,
+      "duration": 1974
+    },
+    {
+      "id": "AAraNufcrW4",
+      "title": "Good PC Deals Still Exist!",
+      "date": "2026-11-06",
+      "approximateDate": true,
+      "duration": 981
+    },
+    {
+      "id": "CNbsMah32Ss",
+      "title": "Extras - GTA 6 on PC May be Sooner than We Thought",
+      "date": "2026-11-06",
+      "approximateDate": true,
+      "duration": 1348
+    },
+    {
+      "id": "tuiP5ZFD8fA",
+      "title": "David Week - What a Week of David Looks like",
+      "date": "2026-11-06",
+      "approximateDate": true,
+      "duration": 844
+    },
+    {
+      "id": "F3IO30jF_CA",
+      "title": "David Week - We Asked David 22 of Your Burning Questions! | Q&A",
+      "date": "2026-11-04",
+      "approximateDate": true,
+      "duration": 1860
+    },
+    {
+      "id": "vDmjw-c_R2k",
+      "title": "My F-You To Sam Altman",
+      "date": "2026-11-04",
+      "approximateDate": true,
+      "duration": 1850
+    },
+    {
+      "id": "g9IOdTisQyM",
+      "title": "GTA 6 on PC May be Coming Sooner than We Thought",
+      "date": "2026-11-03",
+      "approximateDate": true,
+      "duration": 1533
+    },
     {
       "id": "H3Cnyj0I62c",
       "title": "I Doubled My GPU’s Memory…",
