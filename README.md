@@ -20,7 +20,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-33 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+32 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | Feed |
 |---|---|---|---|
@@ -55,7 +55,6 @@ it is the same text the site's front page shows.
 | `svdelos` | https://www.youtube.com/@svdelos | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/svdelos.xml |
 | `thedailyshow` | https://www.youtube.com/@TheDailyShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/thedailyshow.xml |
 | `theodd1sout` | https://www.youtube.com/@TheOdd1sOut | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/theodd1sout.xml |
-| `unboxtherapy` | https://www.youtube.com/@unboxtherapy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/unboxtherapy.xml |
 | `wildlingsailing` | https://www.youtube.com/@WildlingSailing | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/wildlingsailing.xml |
 <!-- channels:end -->
 
