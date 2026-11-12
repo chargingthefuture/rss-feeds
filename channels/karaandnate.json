@@ -2,9 +2,16 @@
   "slug": "karaandnate",
   "name": "karaandnate",
   "channelUrl": "https://www.youtube.com/@KaraandNate",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "Z-gYpM5S0pk",
+      "title": "Our Favorite Country of the Mongol Rally! (Ep. 10)",
+      "date": "2026-11-08",
+      "approximateDate": true,
+      "duration": 2148
+    },
     {
       "id": "ew2js_-v94Q",
       "title": "96 Hours in Asia’s Least Visited Country (Mongol Rally Ep.9)",

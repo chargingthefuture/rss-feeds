@@ -2,9 +2,16 @@
   "slug": "gonewiththewynns",
   "name": "gonewiththewynns",
   "channelUrl": "https://www.youtube.com/@gonewiththewynns",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "UWNyJddvEtY",
+      "title": "We Had To Call An Ambulance From Our Boat",
+      "date": "2026-11-02",
+      "approximateDate": true,
+      "duration": 2096
+    },
     {
       "id": "MH4DKZXsVtU",
       "title": "Whatever You Do, Don't Call It Champagne",
