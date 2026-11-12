@@ -1,0 +1,23 @@
+{
+  "slug": "therealmarksmalls",
+  "name": "therealmarksmalls",
+  "channelUrl": "https://www.youtube.com/@therealmarksmalls",
+  "collectedAt": "2026-11-03",
+  "cutoff": "2024-09-01",
+  "videos": [
+    {
+      "id": "MHlvcj1bTbk",
+      "title": "COMEDIAN BATTLES A TABLE FULL OF GAYS | MARK SMALLS | THIS IS NOT A SPECIAL 2",
+      "date": "2025-11-04",
+      "approximateDate": true,
+      "duration": 1896
+    },
+    {
+      "id": "YyD2wxR0hzI",
+      "title": "COMEDIAN GETS HECKLED BY CHILDHOOD FRIEND // MARK SMALLS FULL 45 MIN COMEDY SPECIAL ",
+      "date": "2023-11-04",
+      "approximateDate": true,
+      "duration": 2662
+    }
+  ]
+}
