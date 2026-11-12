@@ -2,13 +2,20 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
     {
+      "id": "lFq4GRE1psc",
+      "title": "The Sebastian Maniscalco Show | The Golden Ratio with Anastasia Soare",
+      "date": "2026-11-11",
+      "approximateDate": true,
+      "duration": 3905
+    },
+    {
       "id": "UtQAdVQ7vWc",
       "title": "The Sebastian Maniscalco Show | The Show Considers A Side Business",
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "approximateDate": true,
       "duration": 4496
     },

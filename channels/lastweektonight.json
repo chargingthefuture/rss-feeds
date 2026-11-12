@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "LO5iHyYa0XM",
+      "title": "Pete Hegseth: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-11-10",
+      "approximateDate": true,
+      "duration": 2124
+    },
     {
       "id": "Np7_mlvXFcA",
       "title": "Midterms 2026: Last Week Tonight with John Oliver (HBO)",

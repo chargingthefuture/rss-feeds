@@ -2,13 +2,20 @@
   "slug": "nutritionmadesimple",
   "name": "nutritionmadesimple",
   "channelUrl": "https://www.youtube.com/@NutritionMadeSimple",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-09-01",
   "videos": [
     {
+      "id": "lb6TfuOeeYE",
+      "title": "What Creatine does Even if You DON´T Work Out (New Evidence)",
+      "date": "2026-11-10",
+      "approximateDate": true,
+      "duration": 659
+    },
+    {
       "id": "rOteZSblzYA",
       "title": "The NAD Supplement Story Just Changed (New Evidence)",
-      "date": "2026-11-05",
+      "date": "2026-11-04",
       "approximateDate": true,
       "duration": 430
     },

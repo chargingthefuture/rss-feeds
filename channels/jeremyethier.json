@@ -2,9 +2,16 @@
   "slug": "jeremyethier",
   "name": "jeremyethier",
   "channelUrl": "https://www.youtube.com/@JeremyEthier",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "C-KqNLIKrXM",
+      "title": "It’s Tough, But Burns Fat 4x Faster Than 10K Steps/Day",
+      "date": "2026-11-09",
+      "approximateDate": true,
+      "duration": 1316
+    },
     {
       "id": "wI2WVevL_lk",
       "title": "I Proved (Almost) Everyone Is Wasting Time In The Gym",

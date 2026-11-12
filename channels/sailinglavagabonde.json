@@ -2,9 +2,16 @@
   "slug": "sailinglavagabonde",
   "name": "sailinglavagabonde",
   "channelUrl": "https://www.youtube.com/@SailingLaVagabonde",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "RMkZcDdKPqI",
+      "title": "Our Family Home REVEALED! (Architectural Deep Dive)",
+      "date": "2026-11-10",
+      "approximateDate": true,
+      "duration": 2817
+    },
     {
       "id": "CJGFGMK89M4",
       "title": "He Survived the Sail. His Moustache Didn't.",

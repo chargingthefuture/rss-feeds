@@ -2,13 +2,20 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-11-08",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
     {
+      "id": "YHYy3pHyGso",
+      "title": "EMERGENCY trip to hospital leaves crew STRANDED ON THE BOAT! - (Episode 389)",
+      "date": "2026-11-09",
+      "approximateDate": true,
+      "duration": 1468
+    },
+    {
       "id": "RQhc29kFPDU",
-      "title": "Meet The New Crew: Ladies take over Parlay!  - (Episode 388)",
-      "date": "2026-11-03",
+      "title": "Meet The New Crew: Ladies take over the boat!  - (Episode 388)",
+      "date": "2026-11-02",
       "approximateDate": true,
       "duration": 1445
     },
