@@ -2,9 +2,37 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "30qDuCBcRMk",
+      "title": "New Rule: We Want Deal! | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-08",
+      "approximateDate": true,
+      "duration": 481
+    },
+    {
+      "id": "ltrsYEqVFDE",
+      "title": "Who Will Lead the Democrats? | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-08",
+      "approximateDate": true,
+      "duration": 123
+    },
+    {
+      "id": "Q8LNs7EcP7Q",
+      "title": "Overtime with Bill Maher: Ali Vitali, Coleman Hughes (HBO)",
+      "date": "2026-11-08",
+      "approximateDate": true,
+      "duration": 551
+    },
+    {
+      "id": "Qtv9ZI5oNBE",
+      "title": "Monologue: A Historic Thumping | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-08",
+      "approximateDate": true,
+      "duration": 125
+    },
     {
       "id": "OjQZ6obDeO4",
       "title": "New Rule: Halloween Safetyism | Real Time with Bill Maher (HBO)",

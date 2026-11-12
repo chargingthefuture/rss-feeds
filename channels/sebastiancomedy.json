@@ -2,9 +2,16 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-08",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "UtQAdVQ7vWc",
+      "title": "The Sebastian Maniscalco Show | The Show Considers A Side Business",
+      "date": "2026-11-05",
+      "approximateDate": true,
+      "duration": 4496
+    },
     {
       "id": "0NuqQYaKlqo",
       "title": "We Got Company | Alex Rodriguez",
