@@ -20,7 +20,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-33 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+35 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | Feed |
 |---|---|---|---|
@@ -30,7 +30,9 @@ it is the same text the site's front page shows.
 | `doctorly` | https://www.youtube.com/@Doctorly | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/doctorly.xml |
 | `donttellcomedy` | https://www.youtube.com/@DontTellComedy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/donttellcomedy.xml |
 | `drmattdrmike` | https://www.youtube.com/@DrMattDrMike | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/drmattdrmike.xml |
+| `dustinnickerson` | https://www.youtube.com/@DustinNickerson | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/dustinnickerson.xml |
 | `eamonandbec` | https://www.youtube.com/@eamonandbec | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/eamonandbec.xml |
+| `ericarhodescomedy` | https://www.youtube.com/@ericarhodescomedy | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/ericarhodescomedy.xml |
 | `expeditionevans` | https://www.youtube.com/@ExpeditionEvans | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/expeditionevans.xml |
 | `flashgitz` | https://www.youtube.com/@Flashgitz | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/flashgitz.xml |
 | `gonewiththewynns` | https://www.youtube.com/@gonewiththewynns | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/gonewiththewynns.xml |
@@ -55,8 +57,10 @@ it is the same text the site's front page shows.
 | `svdelos` | https://www.youtube.com/@svdelos | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/svdelos.xml |
 | `thedailyshow` | https://www.youtube.com/@TheDailyShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/thedailyshow.xml |
 | `theodd1sout` | https://www.youtube.com/@TheOdd1sOut | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/theodd1sout.xml |
+| `therealmarksmalls` | https://www.youtube.com/@therealmarksmalls | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/therealmarksmalls.xml |
 | `unboxtherapy` | https://www.youtube.com/@unboxtherapy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/unboxtherapy.xml |
 | `wildlingsailing` | https://www.youtube.com/@WildlingSailing | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/wildlingsailing.xml |
+| `zachnoetowers` | https://www.youtube.com/@ZachNoeTowers | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/zachnoetowers.xml |
 <!-- channels:end -->
 
 ## Adding or removing a channel
