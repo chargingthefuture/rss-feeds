@@ -2,9 +2,16 @@
   "slug": "sailinguma",
   "name": "sailinguma",
   "channelUrl": "https://www.youtube.com/@SailingUma",
-  "collectedAt": "2026-11-01",
+  "collectedAt": "2026-11-12",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "WS2e1_5V5ec",
+      "title": "Finally Launching Our Sailboat After a 3 Year Rebuild | Step 500",
+      "date": "2026-11-10",
+      "approximateDate": true,
+      "duration": 1580
+    },
     {
       "id": "3qsGe3LtgxM",
       "title": "One Last Step Before We Launch! | Step 499",
