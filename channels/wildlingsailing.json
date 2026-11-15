@@ -2,9 +2,16 @@
   "slug": "wildlingsailing",
   "name": "wildlingsailing",
   "channelUrl": "https://www.youtube.com/@WildlingSailing",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "bmtjhW5NkHw",
+      "title": "Everything I Need To Do Before Crossing the Atlantic",
+      "date": "2026-11-15",
+      "approximateDate": true,
+      "duration": 1599
+    },
     {
       "id": "fGbwhOYD7Gs",
       "title": "A Big Job Done from the Pre-Atlantic Checklist.",

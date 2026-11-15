@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "GC0dAsRl0ao",
+      "title": "Sean Duffy: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 736
+    },
     {
       "id": "LO5iHyYa0XM",
       "title": "Pete Hegseth: Last Week Tonight with John Oliver (HBO)",

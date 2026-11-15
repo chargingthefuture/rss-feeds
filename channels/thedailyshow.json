@@ -2,9 +2,58 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "auMligQUxas",
+      "title": "Trash Ladies: Grace Meets the Pond-Diving Grannies Cleaning Up Cape Cod | The Daily Show",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 284
+    },
+    {
+      "id": "RX59M5t7240",
+      "title": "Jensen Huang Steps Down as Affairs Pile Up & Scott Colom Paints Mississippi Blue | The Daily Show",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 535
+    },
+    {
+      "id": "W-o2X4C24lg",
+      "title": "Heather Cox Richardson on America’s Political History  & “Letters from an American” | The Daily Show",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 751
+    },
+    {
+      "id": "zpUnm09lTUk",
+      "title": "Jon Stewart on Stephen Miller & Desi on Scott Colom's Mississippi Win | The Daily Show",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 2382
+    },
+    {
+      "id": "SC033ROD-2s",
+      "title": "Ron Howard on Richard Avedon’s Creative Courage & Preserving Artistry | The Daily Show",
+      "date": "2026-11-13",
+      "approximateDate": true,
+      "duration": 640
+    },
+    {
+      "id": "tVBJ3JhFKGE",
+      "title": "Pet Tarot Readings, Designer Collars & Doggy BBLs? Lewis Black on Pampered Pets | The Daily Show",
+      "date": "2026-11-13",
+      "approximateDate": true,
+      "duration": 379
+    },
+    {
+      "id": "xpzI21vOJLE",
+      "title": "Hegseth Impeachment Fails After 11 Dems Play Hooky & Blue Wave Comes for Boebert | The Daily Show",
+      "date": "2026-11-13",
+      "approximateDate": true,
+      "duration": 558
+    },
     {
       "id": "_QxRaeBF9nw",
       "title": "Sports War: Tomlin Tackles Minecraft & Ailing Dutchman Gets the Gift of Gambling | The Daily Show",

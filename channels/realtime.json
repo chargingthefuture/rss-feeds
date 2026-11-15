@@ -2,9 +2,37 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "5TJgf-8dJ6o",
+      "title": "Monologue: Red Flags | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-15",
+      "approximateDate": true,
+      "duration": 158
+    },
+    {
+      "id": "CXXfd-aC-fI",
+      "title": "The Clipping Economy | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-15",
+      "approximateDate": true,
+      "duration": 61
+    },
+    {
+      "id": "dwU8tJvcfu8",
+      "title": "Overtime with Bill Maher: Sarah Huckabee Sanders, Aaron Parnas, Dasha Burns (HBO)",
+      "date": "2026-11-15",
+      "approximateDate": true,
+      "duration": 1068
+    },
+    {
+      "id": "xf2itZHqLw8",
+      "title": "New Rule: Let's VIbe | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-15",
+      "approximateDate": true,
+      "duration": 411
+    },
     {
       "id": "30qDuCBcRMk",
       "title": "New Rule: We Want Deal! | Real Time with Bill Maher (HBO)",

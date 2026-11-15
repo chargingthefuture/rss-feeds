@@ -2,9 +2,16 @@
   "slug": "dustinnickerson",
   "name": "dustinnickerson",
   "channelUrl": "https://www.youtube.com/@DustinNickerson",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "zfwMR1zGXzE",
+      "title": "Dustin Nickerson: Is That Your Dad?! (TRAILER)",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 68
+    },
     {
       "id": "ribSM9VQh7g",
       "title": "This Is What Marriage Actually Looks Like | Dustin Nickerson Comedy",
