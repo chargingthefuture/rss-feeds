@@ -2,9 +2,16 @@
   "slug": "sebastiancomedy",
   "name": "sebastiancomedy",
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "JpAvD0IlqTA",
+      "title": "We Got Company | Ray Romano",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 4022
+    },
     {
       "id": "lFq4GRE1psc",
       "title": "The Sebastian Maniscalco Show | The Golden Ratio with Anastasia Soare",

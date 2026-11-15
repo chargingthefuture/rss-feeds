@@ -2,9 +2,16 @@
   "slug": "doctorly",
   "name": "doctorly",
   "channelUrl": "https://www.youtube.com/@Doctorly",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "EQGs0PpzLQI",
+      "title": "GLP-1 (Ozempic, Wegovy, Zepbound) Side Effects NOBODY Warns You About",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 996
+    },
     {
       "id": "Y3EZR8Nse4w",
       "title": "Dermatologist Reveals His ENTIRE Skincare Routine (Morning & Night)",

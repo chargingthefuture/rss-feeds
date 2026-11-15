@@ -2,9 +2,16 @@
   "slug": "donttellcomedy",
   "name": "donttellcomedy",
   "channelUrl": "https://www.youtube.com/@DontTellComedy",
-  "collectedAt": "2026-11-12",
+  "collectedAt": "2026-11-15",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "ZzLX3OeVdAQ",
+      "title": "5 Comics To Watch in 2026 | Stand Up Comedy Compilation",
+      "date": "2026-11-14",
+      "approximateDate": true,
+      "duration": 2842
+    },
     {
       "id": "XDVAUwIN1z0",
       "title": "Where Mouth Breathers Come From | Joe Nunnink | Stand Up Comedy",
