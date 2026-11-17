@@ -20,7 +20,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-37 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+36 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | Feed |
 |---|---|---|---|
@@ -44,7 +44,6 @@ it is the same text the site's front page shows.
 | `karaandnate` | https://www.youtube.com/@KaraandNate | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/karaandnate.xml |
 | `lastweektonight` | https://www.youtube.com/@LastWeekTonight | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/lastweektonight.xml |
 | `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
-| `mutilpe` | https://www.youtube.com/@mutilpe | none | https://chargingthefuture.github.io/rss-feeds/youtube/mutilpe.xml |
 | `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
 | `nutritionmadesimple` | https://www.youtube.com/@NutritionMadeSimple | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/nutritionmadesimple.xml |
 | `parlayrevival` | https://www.youtube.com/@ParlayRevival | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/parlayrevival.xml |
