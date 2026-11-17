@@ -20,10 +20,11 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-36 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+37 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | Feed |
 |---|---|---|---|
+| `avenhood` | https://www.youtube.com/@Avenhood | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
 | `carolinegirvan` | https://youtube.com/@carolinegirvan | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/carolinegirvan.xml |
 | `christitustechnical` | https://youtube.com/@ChrisTitusTechnical | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/christitustechnical.xml |
 | `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
