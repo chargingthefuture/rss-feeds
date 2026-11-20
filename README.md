@@ -20,7 +20,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-38 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+39 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | Feed |
 |---|---|---|---|
