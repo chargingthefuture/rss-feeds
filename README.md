@@ -30,6 +30,7 @@ it is the same text the site's front page shows.
 | `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
 | `doctorly` | https://www.youtube.com/@Doctorly | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/doctorly.xml |
 | `donttellcomedy` | https://www.youtube.com/@DontTellComedy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/donttellcomedy.xml |
+| `driver61` | https://www.youtube.com/@Driver61 | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/driver61.xml |
 | `drmattdrmike` | https://www.youtube.com/@DrMattDrMike | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/drmattdrmike.xml |
 | `dustinnickerson` | https://www.youtube.com/@DustinNickerson | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/dustinnickerson.xml |
 | `eamonandbec` | https://www.youtube.com/@eamonandbec | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/eamonandbec.xml |
