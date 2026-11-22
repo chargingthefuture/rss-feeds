@@ -2,9 +2,16 @@
   "slug": "drmattdrmike",
   "name": "drmattdrmike",
   "channelUrl": "https://www.youtube.com/@DrMattDrMike",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "dYaKVxRNurw",
+      "title": "Cerebellum | Vestibulocerebellum, Spinocerebellum, and Cerebrocerebellum",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 1414
+    },
     {
       "id": "-dX9wlWJjPY",
       "title": "Inflammatory Bowel Disease | Podcast",

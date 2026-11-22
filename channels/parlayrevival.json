@@ -2,9 +2,16 @@
   "slug": "parlayrevival",
   "name": "parlayrevival",
   "channelUrl": "https://www.youtube.com/@ParlayRevival",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "jLIEA9rzLXU",
+      "title": "This STUPID mistake cost me $2000 - ( Episode 390)",
+      "date": "2026-11-17",
+      "approximateDate": true,
+      "duration": 1418
+    },
     {
       "id": "YHYy3pHyGso",
       "title": "EMERGENCY trip to hospital leaves crew STRANDED ON THE BOAT! - (Episode 389)",

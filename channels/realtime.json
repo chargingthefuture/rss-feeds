@@ -2,9 +2,30 @@
   "slug": "realtime",
   "name": "realtime",
   "channelUrl": "https://www.youtube.com/@RealTime",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "2xka88cA1TE",
+      "title": "Overtime with Bill Maher: Oz the Mentalist, Bobby Pulido, Jacob Soboroff (HBO)",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 677
+    },
+    {
+      "id": "cZ2qn6_xcQw",
+      "title": "New Rule: America's Hot Again | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 485
+    },
+    {
+      "id": "LmbrB4UCiXA",
+      "title": "Are They Lying About Tech Outages? | Real Time with Bill Maher (HBO)",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 144
+    },
     {
       "id": "5TJgf-8dJ6o",
       "title": "Monologue: Red Flags | Real Time with Bill Maher (HBO)",

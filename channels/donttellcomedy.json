@@ -2,9 +2,30 @@
   "slug": "donttellcomedy",
   "name": "donttellcomedy",
   "channelUrl": "https://www.youtube.com/@DontTellComedy",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "4EHRqje1DQ0",
+      "title": "Smoke If Ya Got 'Em | Adam Gilbert | Stand Up Comedy Special",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 1338
+    },
+    {
+      "id": "AB7Q0XP6i9o",
+      "title": "Why is Gen Z so Triggered!? | MESHELLE | Stand Up Comedy",
+      "date": "2026-11-20",
+      "approximateDate": true,
+      "duration": 540
+    },
+    {
+      "id": "XMcscgQcB14",
+      "title": "\"Autism is a Choice\" | Lucas Connolly | Stand Up Comedy",
+      "date": "2026-11-18",
+      "approximateDate": true,
+      "duration": 831
+    },
     {
       "id": "ZzLX3OeVdAQ",
       "title": "5 Comics To Watch in 2026 | Stand Up Comedy Compilation",

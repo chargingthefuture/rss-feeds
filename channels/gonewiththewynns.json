@@ -2,9 +2,16 @@
   "slug": "gonewiththewynns",
   "name": "gonewiththewynns",
   "channelUrl": "https://www.youtube.com/@gonewiththewynns",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "YkUUOZTa_Po",
+      "title": "3 Days to Prepare Our Boat for Winter",
+      "date": "2026-11-17",
+      "approximateDate": true,
+      "duration": 2335
+    },
     {
       "id": "UWNyJddvEtY",
       "title": "We Had To Call An Ambulance From Our Boat",

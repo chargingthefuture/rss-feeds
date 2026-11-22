@@ -2,9 +2,16 @@
   "slug": "theodd1sout",
   "name": "theodd1sout",
   "channelUrl": "https://www.youtube.com/@TheOdd1sOut",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "67XGWzRbdGA",
+      "title": "Awkward Fan Encounters",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 489
+    },
     {
       "id": "ppH2tdpwUGY",
       "title": "YouTube has Changed (me)",
