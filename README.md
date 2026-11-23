@@ -13,7 +13,8 @@ it is the same text the site's front page shows.
 | `channels/<slug>.json` | A channel's collected upload list: id, title, date, and whether the date is approximate. Committed, because it cannot be rebuilt on demand. May carry a `cutoff`. |
 | `scripts/collect-youtube-archive.ts` | Reads a channel's upload list with yt-dlp (metadata only, no video, no API key) and merges it into the archive. |
 | `scripts/update-readme.ts` | Rewrites the channel list below from `channels/`. |
-| `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, plus the site's index page. |
+| `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, the site's index page, and the watch page's lists into `dist/watch/data/`. |
+| `reader/index.html` | The watch page, https://chargingthefuture.github.io/rss-feeds/watch/ — channels A to Z, 50 videos a page, a Watched button. Copied to `dist/watch/` by the build. |
 | `.github/workflows/collect.yml` | Adds, refreshes or removes a channel, or refreshes all of them, rewrites the README's channel list, and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
@@ -81,6 +82,19 @@ own cutoff.
 
 A run that changes something rewrites the channel list above and opens a pull request with both; the change goes live once that is
 merged. The run's summary prints each feed's address. Subscribe to it in a reader.
+
+## The watch page
+
+https://chargingthefuture.github.io/rss-feeds/watch/ reads the same lists the feeds carry, with no
+feed reader in between.
+
+- Channels A to Z, each with how many videos are not yet marked watched.
+- A channel's videos 50 to a page, newest or oldest first, with the page number in the address.
+- A title opens the video in the browser; Play here plays it on the page.
+- Nothing is marked watched until Watched is pressed. The video then leaves the list, with Undo.
+- A channel reopens at the video last opened, or the page last viewed.
+- What is watched is kept in that browser only. Back up or restore, at the foot of the channel
+  list, copies it out and pastes it back.
 
 ## Dates
 
