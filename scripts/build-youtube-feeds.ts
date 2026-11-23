@@ -34,7 +34,8 @@
  * reads: dist/watch/data/channels.json and one dist/watch/data/<slug>.json per channel, cut the
  * same way the feed is. A feed reader marks an entry read the moment it is opened, keeps no
  * place in a list of thousands, and plays these videos badly on a phone; the page does none of
- * that. It keeps its state in the visitor's browser, so nothing about who watched what leaves it.
+ * that. It keeps its state in the visitor's browser and, only if they connect one, in a private
+ * GitHub repository of their own; it sends nothing anywhere else.
  *
  * Generated, never hand-edited, and not committed: `pnpm build` writes dist/,
  * and the deploy workflow publishes it. The archive it reads IS committed,
