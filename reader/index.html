@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en" style="color-scheme: dark; background: #111111">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex">
+  <title>https://chargingthefuture.github.io/rss-feeds/watch/</title>
+  <meta property="og:title" content="https://chargingthefuture.github.io/rss-feeds/watch/">
+  <meta property="og:url" content="https://chargingthefuture.github.io/rss-feeds/watch/">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#111111">
+  <meta name="supported-color-schemes" content="dark">
+  <!--
+    The watch page. One file, no build step, no account: it reads the per-channel lists the
+    build writes beside it (data/*.json) and keeps what you have watched in this browser, and, once
+    connected, in a file in a private GitHub repository of the reader's own so devices stay in step.
+
+    Nothing is marked watched until the Watched button is pressed. Opening a video, playing it,
+    scrolling past it or reloading the page changes nothing. A channel reopens at the video last
+    opened, or the page last viewed, whichever came later.
+
+    Lists are paged, never an endless scroll, with the page number in the address so reload and
+    the back button keep your place.
+
+    Nothing loads from YouTube until a player is opened: no thumbnails, no scripts.
+  -->
+  <style>
+    /* Dark only. color-scheme: dark (here and in the meta tag) tells the browser the page is
+       already dark, so a browser that darkens pages on its own (DuckDuckGo, Chrome's auto-dark,
+       Samsung Internet) leaves these colors alone, and its own controls and scrollbars are dark. */
+    :root {
+      color-scheme: dark;
+      --bg: #111111; --fg: #f2f2f2; --muted: #a3a3a3; --line: #2a2a2a; --card: #1b1b1b;
+      --accent: #fb923c; --accent-fg: #111111; --focus: #93c5fd; --here: #2a1d10;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0; background: var(--bg); color: var(--fg);
+      font: 17px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 44rem; margin: 0 auto; padding: 0 16px 6rem; }
+    header.bar {
+      position: sticky; top: 0; z-index: 5; background: var(--bg);
+      border-bottom: 1px solid var(--line); padding: 10px 16px;
+      display: flex; align-items: center; gap: 10px; min-height: 56px;
+    }
+    header.bar h1 { font-size: 1.1rem; margin: 0; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    header.bar .sub { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+    a { color: inherit; }
+    button, .btn {
+      font: inherit; font-size: .95rem; min-height: 44px; padding: 0 14px; border-radius: 10px;
+      border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer;
+      display: inline-flex; align-items: center; justify-content: center; text-decoration: none; gap: 6px;
+    }
+    button.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); font-weight: 600; }
+    button:disabled { opacity: .4; cursor: default; }
+    :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+    ul.plain { list-style: none; margin: 0; padding: 0; }
+    .channels li a {
+      display: flex; justify-content: space-between; align-items: center; gap: 12px;
+      padding: 14px 4px; border-bottom: 1px solid var(--line); text-decoration: none; min-height: 56px;
+    }
+    .channels .name { font-weight: 600; overflow-wrap: anywhere; }
+    .channels .left { color: var(--muted); font-size: .9rem; white-space: nowrap; }
+    .channels .done .name { color: var(--muted); font-weight: 400; }
+    .continue { display: block; margin: 16px 0 4px; padding: 14px; border-radius: 12px; background: var(--here); text-decoration: none; }
+    .continue small { display: block; color: var(--muted); }
+    .range { color: var(--muted); font-size: .9rem; margin: 14px 0 8px; }
+    .videos li { border-bottom: 1px solid var(--line); padding: 14px 0; }
+    .videos li.here { background: var(--here); margin: 0 -16px; padding: 14px 16px; }
+    .videos li.here::before { content: "You were here"; display: block; font-size: .8rem; color: var(--accent); font-weight: 600; margin-bottom: 4px; }
+    .videos .title { font-weight: 600; overflow-wrap: anywhere; text-decoration: none; display: block; }
+    .videos .title:visited { color: var(--muted); }
+    .videos .meta { color: var(--muted); font-size: .88rem; margin: 4px 0 10px; }
+    .videos .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .player { position: relative; width: 100%; aspect-ratio: 16 / 9; margin-top: 10px; background: #000; border-radius: 10px; overflow: hidden; }
+    .player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+    nav.pager { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin: 18px 0; flex-wrap: wrap; }
+    nav.pager select { font: inherit; min-height: 44px; padding: 0 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
+    .tools { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+    .empty { color: var(--muted); padding: 2rem 0; }
+    details { margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+    summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+    textarea { width: 100%; min-height: 8rem; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 8px; }
+    .note { color: var(--muted); font-size: .9rem; }
+    .steps { padding-left: 1.2rem; }
+    .steps li { margin: .4rem 0; }
+    .form { display: grid; gap: 8px; margin-top: 10px; }
+    .form input { font: inherit; min-height: 44px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); width: 100%; }
+    #toast {
+      position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%);
+      background: var(--fg); color: var(--bg); padding: 8px 8px 8px 16px; border-radius: 12px;
+      display: none; align-items: center; gap: 12px; max-width: calc(100% - 32px); z-index: 10;
+    }
+    #toast.show { display: flex; }
+    #toast button { background: transparent; color: var(--bg); border-color: transparent; font-weight: 700; text-decoration: underline; }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <header class="bar" id="bar"></header>
+  <main id="main" tabindex="-1"><p class="empty">Loading…</p></main>
+  <div id="toast" role="status" aria-live="polite"><span id="toast-text"></span><button type="button" id="toast-undo">Undo</button></div>
+
+  <script>
+  (() => {
+    'use strict';
+    const PER_PAGE = 50;
+    const KEY = 'rss-feeds-watch-v1';
+    const bar = document.getElementById('bar');
+    const main = document.getElementById('main');
+
+    // ---------- saved state ----------
+    // Kept in this browser, and, once a private GitHub repository is connected, in a file there
+    // that every device reads and writes.
+    // watched: { slug: { videoId: ms marked } }        (an older copy may hold 'YYYY-MM-DD')
+    // undone:  { slug: { videoId: ms unmarked } }      so Undo on one device reaches the others
+    // pos:     { slug: { id?: videoId, page?: n, t: ms } }  — the later of the two wins
+    // order:   { slug: 'new' | 'old' }
+    // recent:  slug of the channel opened last, at recentAt (ms)
+    function blank() { return { watched: {}, undone: {}, pos: {}, order: {}, recent: null, recentAt: 0 }; }
+    function shape(raw) {
+      if (!raw || typeof raw !== 'object') return blank();
+      return {
+        watched: raw.watched || {}, undone: raw.undone || {}, pos: raw.pos || {}, order: raw.order || {},
+        recent: raw.recent || null, recentAt: raw.recentAt || 0,
+      };
+    }
+    function load() {
+      try { return shape(JSON.parse(localStorage.getItem(KEY) || 'null')); } catch { return blank(); }
+    }
+    let state = load();
+    let storageOk = true;
+    function saveLocal() {
+      try { localStorage.setItem(KEY, JSON.stringify(state)); storageOk = true; }
+      catch { storageOk = false; }
+    }
+    function save() { saveLocal(); markDirty(); }
+    // Another tab marked something watched: pick it up.
+    window.addEventListener('storage', (e) => { if (e.key === KEY) { state = load(); route(); } });
+
+    const watchedOf = (slug) => (state.watched[slug] ||= {});
+    const today = () => new Date().toISOString().slice(0, 10);
+    const stamp = (v) => (typeof v === 'number' ? v : Date.parse(v) || 0);
+
+    function markWatched(slug, id) {
+      watchedOf(slug)[id] = Date.now();
+      save();
+    }
+    function unmarkWatched(slug, id) {
+      delete watchedOf(slug)[id];
+      (state.undone[slug] ||= {})[id] = Date.now();
+      save();
+    }
+
+    /**
+     * Fold another copy (a backup, or the file on GitHub) into `into`. The later mark or unmark of
+     * each video wins, the later place in each channel wins. Returns whether anything visible changed.
+     */
+    function merge(into, raw) {
+      const from = shape(raw);
+      let changed = false;
+      const slugs = new Set([...Object.keys(from.watched), ...Object.keys(from.undone)]);
+      for (const slug of slugs) {
+        const W = (into.watched[slug] ||= {});
+        const U = (into.undone[slug] ||= {});
+        for (const [id, v] of Object.entries(from.watched[slug] || {})) {
+          if (!(id in W)) { if (!(id in U) || stamp(v) > U[id]) { W[id] = v; changed = true; } }
+          else if (stamp(v) > stamp(W[id])) W[id] = v;
+        }
+        for (const [id, v] of Object.entries(from.undone[slug] || {})) {
+          if (!(id in U) || v > U[id]) U[id] = v;
+          if (id in W && stamp(W[id]) <= U[id]) { delete W[id]; changed = true; }
+        }
+      }
+      for (const [slug, p] of Object.entries(from.pos)) {
+        const mine = into.pos[slug];
+        if (p && (!mine || (p.t || 0) > (mine.t || 0))) { into.pos[slug] = p; changed = true; }
+      }
+      for (const [slug, o] of Object.entries(from.order)) if (!into.order[slug]) into.order[slug] = o;
+      if (from.recent && from.recentAt > (into.recentAt || 0)) { into.recent = from.recent; into.recentAt = from.recentAt; }
+      return changed;
+    }
+
+    // ---------- keeping devices in step: a file in a private GitHub repository ----------
+    // The repository and its access token are kept in this browser, and in the sync link, which is
+    // a bookmark: clearing the browser's data forgets them, and opening the bookmark restores them.
+    // The token should be fine-grained, limited to that one repository, with Contents read and write.
+    const SYNC_KEY = 'rss-feeds-watch-sync-v1';
+    const SYNC_FILE = 'watched.json';
+    function loadSync() {
+      try {
+        const v = JSON.parse(localStorage.getItem(SYNC_KEY) || 'null');
+        return v && v.repo && v.token ? v : null;
+      } catch { return null; }
+    }
+    let sync = loadSync();
+    function saveSync() {
+      try { sync ? localStorage.setItem(SYNC_KEY, JSON.stringify(sync)) : localStorage.removeItem(SYNC_KEY); } catch {}
+    }
+    let remoteSha = null;
+    let syncBusy = null;
+    let pushTimer = null;
+    let syncNote = '';
+
+    function markDirty() {
+      if (!sync) return;
+      if (!sync.dirty) { sync.dirty = true; saveSync(); }
+      clearTimeout(pushTimer);
+      pushTimer = setTimeout(() => syncNow(false), 2500);
+    }
+    function setSyncNote(text) {
+      syncNote = text;
+      const n = document.getElementById('sync-note');
+      if (n) n.textContent = text;
+    }
+    function b64(text) {
+      const bytes = new TextEncoder().encode(text);
+      let bin = '';
+      for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+      return btoa(bin);
+    }
+    function unb64(text) {
+      const bin = atob(text.replace(/\s/g, ''));
+      return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
+    }
+    function gh(path, opts = {}) {
+      return fetch(`https://api.github.com/repos/${sync.repo}${path}`, {
+        ...opts,
+        cache: 'no-store',
+        headers: {
+          Authorization: `Bearer ${sync.token}`,
+          Accept: 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+          ...(opts.body ? { 'Content-Type': 'application/json' } : {}),
+        },
+      });
+    }
+    function refusal(status, doing) {
+      if (status === 401) return `GitHub refused the token while ${doing}: it has expired or was revoked. Make a new one and connect again.`;
+      if (status === 403) return `GitHub refused while ${doing}: the token cannot write to ${sync.repo}, or GitHub is limiting requests. Check the token has Contents read and write on that repository.`;
+      if (status === 404) return `GitHub could not find ${sync.repo} while ${doing}: the name is wrong, or the token was not given that repository.`;
+      return `GitHub answered ${status} while ${doing}.`;
+    }
+    async function pull() {
+      const r = await gh(`/contents/${SYNC_FILE}`);
+      if (r.status === 404) { remoteSha = null; return null; }
+      if (!r.ok) throw new Error(refusal(r.status, 'reading the watched list'));
+      const j = await r.json();
+      remoteSha = j.sha;
+      if (!j.content) throw new Error(`${SYNC_FILE} in ${sync.repo} is too large for GitHub to send this way.`);
+      return JSON.parse(unb64(j.content));
+    }
+
+    /** Read the file, fold it in, and write back whatever this device has that the file lacks. */
+    function syncNow(rerender) {
+      if (!sync) return Promise.resolve();
+      if (syncBusy) return syncBusy;
+      clearTimeout(pushTimer);
+      syncBusy = (async () => {
+        try {
+          for (let attempt = 0; attempt < 4; attempt++) {
+            const remote = await pull();
+            const changed = remote ? merge(state, remote) : false;
+            if (changed) { saveLocal(); if (rerender) route(); }
+            if (remote && !sync.dirty) break;
+            const body = JSON.stringify({ ...state, savedAt: new Date().toISOString() });
+            const r = await gh(`/contents/${SYNC_FILE}`, {
+              method: 'PUT',
+              body: JSON.stringify({ message: 'Update the watched list', content: b64(body), ...(remoteSha ? { sha: remoteSha } : {}) }),
+            });
+            if (r.ok) {
+              remoteSha = (await r.json()).content.sha;
+              sync.dirty = false; saveSync();
+              break;
+            }
+            // Another device wrote first: read again and fold that in before writing.
+            if (r.status === 409 || r.status === 422) continue;
+            throw new Error(refusal(r.status, 'saving the watched list'));
+          }
+          sync.lastAt = Date.now(); saveSync();
+          setSyncNote(`Saved to ${sync.repo} at ${new Date(sync.lastAt).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}.`);
+        } catch (err) {
+          const msg = err && err.message ? err.message : String(err);
+          setSyncNote(`Not saved to GitHub: ${msg} Marks are still kept in this browser and will be sent once it works.`);
+          toast('Not saved to GitHub. Details under "Keep devices in step".');
+        } finally {
+          syncBusy = null;
+        }
+      })();
+      return syncBusy;
+    }
+    // Coming back from the video: pick up anything another device marked. Leaving: send what is waiting.
+    document.addEventListener('visibilitychange', () => {
+      if (!sync) return;
+      if (document.visibilityState === 'visible') syncNow(true);
+      else if (sync.dirty) syncNow(false);
+    });
+
+    /** The sync link: #sync=owner/repo:token. Read once, kept, and taken out of the address bar. */
+    function takeSyncLink() {
+      const m = location.hash.match(/^#sync=([^:]+):(.+)$/);
+      if (!m) return false;
+      sync = { repo: decodeURIComponent(m[1]), token: decodeURIComponent(m[2]), dirty: true };
+      saveSync();
+      history.replaceState(null, '', '#/');
+      return true;
+    }
+    const syncLink = () => `${location.origin}${location.pathname}#sync=${encodeURIComponent(sync.repo)}:${encodeURIComponent(sync.token)}`;
+
+    // ---------- data ----------
+    let index = null;
+    const cache = new Map();
+    async function getIndex() {
+      if (!index) {
+        const r = await fetch('data/channels.json', { cache: 'no-cache' });
+        if (!r.ok) throw new Error(`The channel list did not load (HTTP ${r.status}).`);
+        index = await r.json();
+      }
+      return index;
+    }
+    async function getChannel(slug) {
+      if (!cache.has(slug)) {
+        const r = await fetch(`data/${encodeURIComponent(slug)}.json`, { cache: 'no-cache' });
+        if (!r.ok) throw new Error(`This channel's list did not load (HTTP ${r.status}).`);
+        const c = await r.json();
+        // Rows are [id, title, date, approximate, seconds], newest first.
+        c.list = c.videos.map(([id, title, date, approx, secs]) => ({ id, title, date, approx: !!approx, secs }));
+        cache.set(slug, c);
+      }
+      return cache.get(slug);
+    }
+
+    // ---------- helpers ----------
+    function el(tag, attrs, ...kids) {
+      const n = document.createElement(tag);
+      for (const [k, v] of Object.entries(attrs || {})) {
+        if (v === undefined || v === null || v === false) continue;
+        if (k === 'on') for (const [ev, fn] of Object.entries(v)) n.addEventListener(ev, fn);
+        else if (k === 'class') n.className = v;
+        else n.setAttribute(k, v === true ? '' : v);
+      }
+      for (const kid of kids.flat()) if (kid !== null && kid !== undefined && kid !== false) n.append(kid);
+      return n;
+    }
+    const n0 = (n) => n.toLocaleString('en-US');
+    function duration(secs) {
+      if (!secs) return '';
+      const h = Math.floor(secs / 3600), m = Math.floor((secs % 3600) / 60), s = secs % 60;
+      return h ? `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}` : `${m}:${String(s).padStart(2, '0')}`;
+    }
+    function niceDate(iso) {
+      const [y, m, d] = iso.split('-').map(Number);
+      if (!y) return iso;
+      return new Date(Date.UTC(y, m - 1, d, 12)).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+    }
+    const watchUrl = (id) => `https://www.youtube.com/watch?v=${encodeURIComponent(id)}`;
+
+    let toastTimer = null;
+    function toast(text, undo) {
+      const t = document.getElementById('toast');
+      document.getElementById('toast-text').textContent = text;
+      const b = document.getElementById('toast-undo');
+      b.style.display = undo ? '' : 'none';
+      b.onclick = () => { t.classList.remove('show'); if (undo) undo(); };
+      t.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => t.classList.remove('show'), 7000);
+    }
+
+    // ---------- routing: #/  or  #/c/<slug>  or  #/c/<slug>?page=N ----------
+    function parse() {
+      const h = location.hash.replace(/^#/, '');
+      const m = h.match(/^\/c\/([^?]+)(?:\?page=(\d+))?$/);
+      if (m) return { view: 'channel', slug: decodeURIComponent(m[1]), page: m[2] ? Number(m[2]) : null };
+      return { view: 'home' };
+    }
+    window.addEventListener('hashchange', route);
+    async function route() {
+      const r = parse();
+      try {
+        if (r.view === 'channel') await showChannel(r.slug, r.page);
+        else await showHome();
+      } catch (err) {
+        bar.replaceChildren(el('h1', {}, 'Something did not load'));
+        main.replaceChildren(
+          el('p', {}, String(err && err.message ? err.message : err)),
+          el('p', {}, 'Check the connection and reload. Your watched list is kept in this browser and is not affected.'),
+          el('p', {}, el('a', { href: '#/' }, 'Back to channels')),
+        );
+      }
+    }
+
+    // ---------- home: channels A to Z ----------
+    async function showHome() {
+      const idx = await getIndex();
+      document.title = 'Watch';
+      bar.replaceChildren(el('h1', {}, 'Channels'), el('span', { class: 'sub' }, `${idx.channels.length} channels`));
+
+      const channels = idx.channels.slice().sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+      const leftOf = (c) => Math.max(0, c.count - Object.keys(state.watched[c.slug] || {}).length);
+
+      const parts = [];
+      const recent = state.recent && channels.find((c) => c.slug === state.recent);
+      if (recent) {
+        parts.push(el('a', { class: 'continue', href: `#/c/${encodeURIComponent(recent.slug)}` },
+          el('strong', {}, `Pick up in ${recent.name}`),
+          el('small', {}, `${n0(leftOf(recent))} not yet watched`)));
+      }
+      parts.push(el('ul', { class: 'plain channels' }, channels.map((c) => {
+        const left = leftOf(c);
+        return el('li', { class: left === 0 ? 'done' : '' },
+          el('a', { href: `#/c/${encodeURIComponent(c.slug)}` },
+            el('span', { class: 'name' }, c.name),
+            el('span', { class: 'left' }, left === 0 ? 'All watched' : `${n0(left)} left`)));
+      })));
+      parts.push(syncSection());
+      parts.push(backupSection());
+      parts.push(el('p', { class: 'note' },
+        'What a listing here means: ', el('a', { href: '../' }, 'the disclaimer'), '.'));
+      main.replaceChildren(...parts);
+      window.scrollTo(0, 0);
+    }
+
+    // ---------- one channel, paged ----------
+    async function showChannel(slug, pageFromUrl) {
+      const c = await getChannel(slug);
+      if (state.recent !== slug) { state.recent = slug; state.recentAt = Date.now(); save(); }
+      const order = state.order[slug] === 'old' ? 'old' : 'new';
+      const all = order === 'old' ? c.list.slice().reverse() : c.list;
+      const w = watchedOf(slug);
+      const left = all.filter((v) => !w[v.id]);
+      const pages = Math.max(1, Math.ceil(left.length / PER_PAGE));
+
+      let page = pageFromUrl;
+      let focusId = null;
+      if (!page) {
+        // Hop to where you were: the video last opened, or the next one not yet watched after it.
+        const pos = state.pos[slug] || {};
+        if (pos.id) {
+          const at = all.findIndex((v) => v.id === pos.id);
+          if (at >= 0) {
+            const next = all.slice(at).find((v) => !w[v.id]);
+            if (next) { focusId = next.id; page = Math.floor(left.indexOf(next) / PER_PAGE) + 1; }
+          }
+        }
+        if (!page) page = pos.page || 1;
+        page = Math.min(Math.max(1, page), pages);
+        history.replaceState(null, '', `#/c/${encodeURIComponent(slug)}?page=${page}`);
+      }
+      page = Math.min(Math.max(1, page), pages);
+      const lastId = (state.pos[slug] || {}).id;
+      if (!focusId && lastId && left.some((v) => v.id === lastId)) focusId = lastId;
+
+      document.title = `${c.name} — Watch`;
+      let leftN = left.length;
+      const leftCount = el('span', { class: 'sub' }, `${n0(left.length)} left`);
+      bar.replaceChildren(
+        el('a', { class: 'btn', href: '#/', 'aria-label': 'All channels' }, '← Channels'),
+        el('h1', {}, c.name), leftCount);
+
+      const start = (page - 1) * PER_PAGE;
+      const shown = left.slice(start, start + PER_PAGE);
+
+      const goto = (p) => {
+        state.pos[slug] = { page: p, t: Date.now() }; save();
+        location.hash = `#/c/${encodeURIComponent(slug)}?page=${p}`;
+      };
+      const pager = () => el('nav', { class: 'pager', 'aria-label': 'Pages' },
+        el('button', { type: 'button', disabled: page <= 1, on: { click: () => goto(page - 1) } }, '← ' + (order === 'old' ? 'Earlier' : 'Newer')),
+        el('label', {}, el('span', { class: 'visually-hidden' }, 'Page'),
+          el('select', { on: { change: (e) => goto(Number(e.target.value)) } },
+            Array.from({ length: pages }, (_, i) => el('option', { value: i + 1, selected: i + 1 === page }, `Page ${i + 1} of ${pages}`)))),
+        el('button', { type: 'button', disabled: page >= pages, on: { click: () => goto(page + 1) } }, (order === 'old' ? 'Later' : 'Older') + ' →'));
+
+      const markOpened = (id) => { state.pos[slug] = { id, page, t: Date.now() }; save(); };
+
+      const row = (v) => {
+        const li = el('li', { id: `v-${v.id}`, class: v.id === focusId ? 'here' : '' });
+        const playBtn = el('button', { type: 'button' }, 'Play here');
+        playBtn.addEventListener('click', () => {
+          const open = li.querySelector('.player');
+          if (open) { open.remove(); playBtn.textContent = 'Play here'; return; }
+          markOpened(v.id);
+          li.append(el('div', { class: 'player' }, el('iframe', {
+            src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&playsinline=1`,
+            title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: true,
+          })));
+          playBtn.textContent = 'Close player';
+        });
+        const doneBtn = el('button', { type: 'button', class: 'primary' }, 'Watched');
+        doneBtn.addEventListener('click', () => {
+          markWatched(slug, v.id);
+          li.remove();
+          leftN -= 1;
+          leftCount.textContent = `${n0(Math.max(0, leftN))} left`;
+          toast(`Marked watched: ${v.title}`, () => { unmarkWatched(slug, v.id); route(); });
+          if (!main.querySelector('.videos li')) route();
+        });
+        li.append(
+          el('a', { class: 'title', href: watchUrl(v.id), target: '_blank', rel: 'noopener noreferrer', on: { click: () => markOpened(v.id) } }, v.title),
+          el('div', { class: 'meta' }, [
+            (v.approx ? 'about ' : '') + niceDate(v.date),
+            duration(v.secs),
+          ].filter(Boolean).join(' · ')),
+          el('div', { class: 'actions' }, playBtn, doneBtn),
+        );
+        return li;
+      };
+
+      const sortBtn = el('button', { type: 'button', on: { click: () => {
+        state.order[slug] = order === 'old' ? 'new' : 'old';
+        state.pos[slug] = { page: 1, t: Date.now() }; save();
+        location.hash = `#/c/${encodeURIComponent(slug)}?page=1`;
+      } } }, order === 'old' ? 'Showing oldest first' : 'Showing newest first');
+
+      const parts = [
+        el('div', { class: 'tools' }, sortBtn, el('a', { class: 'btn', href: c.channelUrl, target: '_blank', rel: 'noopener noreferrer' }, 'Channel on YouTube')),
+      ];
+      if (left.length === 0) {
+        parts.push(el('p', { class: 'empty' }, `All ${n0(all.length)} videos in this list are marked watched.`));
+      } else {
+        parts.push(
+          el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + shown.length)} of ${n0(left.length)} not yet watched` +
+            (c.cutoff ? ` · list stops before ${niceDate(c.cutoff)}` : '')),
+          pager(),
+          el('ul', { class: 'plain videos' }, shown.map(row)),
+          pager(),
+        );
+      }
+      if (!storageOk) parts.unshift(el('p', { class: 'note' }, 'This browser is refusing to save, so Watched marks and your place will be lost on reload.'));
+      main.replaceChildren(...parts);
+
+      const target = focusId && document.getElementById(`v-${focusId}`);
+      if (target) target.scrollIntoView({ block: 'center' });
+      else window.scrollTo(0, 0);
+    }
+
+    // ---------- keep devices in step ----------
+    function syncSection() {
+      if (sync) {
+        return el('details', { open: !!(syncNote && syncNote.startsWith('Not saved')) },
+          el('summary', {}, 'Keep devices in step: connected'),
+          el('p', { class: 'note', id: 'sync-note' }, syncNote || `Saving to ${sync.repo}.`),
+          el('p', { class: 'note' },
+            'Bookmark the sync link on each phone or browser. After clearing the browser\'s data, open the bookmark and everything comes back. ' +
+            'The link holds the access token: keep it to yourself.'),
+          el('div', { class: 'tools' },
+            el('button', { type: 'button', class: 'primary', on: { click: async () => {
+              try { await navigator.clipboard.writeText(syncLink()); toast('Sync link copied. Bookmark it.'); }
+              catch { prompt('Copy this sync link and bookmark it:', syncLink()); }
+            } } }, 'Copy sync link'),
+            el('button', { type: 'button', on: { click: () => syncNow(true) } }, 'Save now'),
+            el('button', { type: 'button', on: { click: () => {
+              if (!confirm('Stop saving to GitHub from this browser? The file on GitHub is kept.')) return;
+              sync = null; saveSync(); route();
+            } } }, 'Disconnect'),
+          ));
+      }
+      const repo = el('input', { type: 'text', placeholder: 'owner/repository', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Repository' });
+      const token = el('input', { type: 'password', placeholder: 'github_pat_…', autocomplete: 'off', 'aria-label': 'Access token' });
+      const status = el('p', { class: 'note', role: 'status' });
+      return el('details', {},
+        el('summary', {}, 'Keep devices in step'),
+        el('p', { class: 'note' }, 'Without this, the watched list lives in this browser only, and clearing its data erases it. Connected, it is saved to a file in a private GitHub repository of yours, and every device reads the same file.'),
+        el('ol', { class: 'note steps' },
+          el('li', {}, 'Make a private repository on GitHub. Any name; it can stay empty.'),
+          el('li', {}, 'Make a fine-grained access token: ',
+            el('a', { href: 'https://github.com/settings/personal-access-tokens/new', target: '_blank', rel: 'noopener noreferrer' }, 'new token'),
+            '. Repository access: only that repository. Permissions: Contents, read and write. Nothing else.'),
+          el('li', {}, 'Enter both here and press Connect, then copy the sync link and bookmark it.')),
+        el('div', { class: 'form' }, repo, token),
+        el('div', { class: 'tools' }, el('button', { type: 'button', class: 'primary', on: { click: async () => {
+          const name = repo.value.trim().replace(/^https?:\/\/github\.com\//, '').replace(/\.git$/, '').replace(/\/$/, '');
+          if (!/^[\w.-]+\/[\w.-]+$/.test(name)) { status.textContent = 'Enter the repository as owner/name.'; return; }
+          if (!token.value.trim()) { status.textContent = 'Enter the access token.'; return; }
+          sync = { repo: name, token: token.value.trim(), dirty: true };
+          status.textContent = 'Checking…';
+          try {
+            const r = await gh('');
+            if (!r.ok) throw new Error(refusal(r.status, 'opening the repository'));
+            const info = await r.json();
+            if (!info.private) throw new Error(`${name} is public. Use a private repository, so the list is yours alone.`);
+            if (info.permissions && !info.permissions.push) throw new Error(`The token can read ${name} but not write to it. Give it Contents read and write.`);
+          } catch (err) {
+            sync = null;
+            status.textContent = err && err.message ? err.message : String(err);
+            return;
+          }
+          saveSync();
+          await syncNow(false);
+          route();
+        } } }, 'Connect')),
+        status);
+    }
+
+    // ---------- backup and restore ----------
+    function backupSection() {
+      const box = el('textarea', { 'aria-label': 'Backup text', spellcheck: 'false' });
+      const count = Object.values(state.watched).reduce((n, m) => n + Object.keys(m).length, 0);
+      return el('details', {},
+        el('summary', {}, `Back up or restore (${n0(count)} marked watched)`),
+        el('p', { class: 'note' },
+          'A copy of your watched list and your place in each channel, to keep or to paste into another browser.'),
+        el('div', { class: 'tools' },
+          el('button', { type: 'button', on: { click: async () => {
+            const text = JSON.stringify({ ...state, savedAt: new Date().toISOString() });
+            box.value = text;
+            try { await navigator.clipboard.writeText(text); toast('Backup copied.'); }
+            catch { box.select(); toast('Backup is in the box below. Copy it from there.'); }
+          } } }, 'Copy backup'),
+          el('button', { type: 'button', on: { click: () => {
+            const blob = new Blob([JSON.stringify({ ...state, savedAt: new Date().toISOString() })], { type: 'application/json' });
+            const a = el('a', { href: URL.createObjectURL(blob), download: `watch-backup-${today()}.json` });
+            document.body.append(a); a.click(); a.remove();
+          } } }, 'Download backup'),
+        ),
+        el('p', { class: 'note' }, 'To restore, paste a backup below. It is combined with what is here: for each video, the later mark or unmark wins.'),
+        box,
+        el('div', { class: 'tools' }, el('button', { type: 'button', class: 'primary', on: { click: () => {
+          let incoming;
+          try { incoming = JSON.parse(box.value); } catch { toast('That is not a backup from this page.'); return; }
+          if (!incoming || typeof incoming.watched !== 'object') { toast('That is not a backup from this page.'); return; }
+          const before = Object.values(state.watched).reduce((n, m) => n + Object.keys(m).length, 0);
+          merge(state, incoming);
+          save();
+          const after = Object.values(state.watched).reduce((n, m) => n + Object.keys(m).length, 0);
+          toast(`Restored. ${n0(after)} marked watched (was ${n0(before)}).`);
+          route();
+        } } }, 'Restore')),
+      );
+    }
+
+    const fromLink = takeSyncLink();
+    route();
+    if (sync) syncNow(true).then(() => { if (fromLink && !syncNote.startsWith('Not saved')) toast('Connected. Your watched list is loaded.'); });
+  })();
+  </script>
+</body>
+</html>

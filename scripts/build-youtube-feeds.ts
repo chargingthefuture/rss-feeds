@@ -30,13 +30,20 @@
  * records whether its date is approximate, and the generated feed says so in
  * the channel description rather than letting a reader assume otherwise.
  *
+ * It also writes the watch page (reader/index.html, copied to dist/watch/) and the lists it
+ * reads: dist/watch/data/channels.json and one dist/watch/data/<slug>.json per channel, cut the
+ * same way the feed is. A feed reader marks an entry read the moment it is opened, keeps no
+ * place in a list of thousands, and plays these videos badly on a phone; the page does none of
+ * that. It keeps its state in the visitor's browser and, only if they connect one, in a private
+ * GitHub repository of their own; it sends nothing anywhere else.
+ *
  * Generated, never hand-edited, and not committed: `pnpm build` writes dist/,
  * and the deploy workflow publishes it. The archive it reads IS committed,
  * because it cannot be rebuilt on demand — it depends on a service that
  * refuses a data center address often enough to matter.
  */
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync } from 'node:fs';
 import { resolve, dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -46,6 +53,9 @@ const ARCHIVE_DIR = resolve(REPO_ROOT, 'channels');
 const DIST_DIR = resolve(REPO_ROOT, 'dist');
 const OUT_DIR = resolve(DIST_DIR, 'youtube');
 const DISCLAIMER = resolve(REPO_ROOT, 'DISCLAIMER.md');
+const READER = resolve(REPO_ROOT, 'reader', 'index.html');
+const WATCH_DIR = resolve(DIST_DIR, 'watch');
+const WATCH_DATA_DIR = resolve(WATCH_DIR, 'data');
 
 const SITE = 'https://chargingthefuture.github.io/rss-feeds';
 const PAGE = `${SITE}/`;
@@ -171,9 +181,7 @@ function feedFor(archive: Archive): string {
         ' entry near a cutoff may fall on the wrong side of it.'
       : '');
 
-  const items = videos
-    .slice()
-    .sort((a, b) => (b.date.localeCompare(a.date) !== 0 ? b.date.localeCompare(a.date) : a.id.localeCompare(b.id)))
+  const items = newestFirst(videos)
     .map((video) => {
       const url = `https://www.youtube.com/watch?v=${encodeURIComponent(video.id)}`;
       const when = pubDate(video.date);
@@ -211,6 +219,36 @@ function feedFor(archive: Archive): string {
     '</rss>',
     '',
   ].join('\n');
+}
+
+/** Newest first, the same order the feed uses. */
+function newestFirst(videos: Video[]): Video[] {
+  return videos
+    .slice()
+    .sort((a, b) => (b.date.localeCompare(a.date) !== 0 ? b.date.localeCompare(a.date) : a.id.localeCompare(b.id)));
+}
+
+/**
+ * The watch page and its lists. Rows are arrays rather than objects because the longest
+ * channel runs past ten thousand videos and a phone downloads the list each time it opens one.
+ */
+function writeWatchPage(archives: Archive[]): void {
+  mkdirSync(WATCH_DATA_DIR, { recursive: true });
+  copyFileSync(READER, join(WATCH_DIR, 'index.html'));
+  const channels = archives.map((archive) => {
+    const videos = newestFirst(published(archive));
+    const data = {
+      slug: archive.slug,
+      name: archive.name,
+      channelUrl: archive.channelUrl,
+      cutoff: archive.cutoff ?? null,
+      videos: videos.map((v) => [v.id, v.title, v.date, v.approximateDate ? 1 : 0, v.duration ?? null]),
+    };
+    writeFileSync(join(WATCH_DATA_DIR, `${archive.slug}.json`), JSON.stringify(data), 'utf8');
+    return { slug: archive.slug, name: archive.name, count: videos.length };
+  });
+  writeFileSync(join(WATCH_DATA_DIR, 'channels.json'), JSON.stringify({ channels }), 'utf8');
+  console.log(`✓ watch page and ${channels.length} lists → ${relative(REPO_ROOT, WATCH_DIR)}`);
 }
 
 /**
@@ -255,6 +293,7 @@ function indexPage(archives: Archive[]): string {
     '  <main>',
     `    <h1>${xml(PAGE)}</h1>`,
     paragraphs,
+    `    <p><a href="${SITE}/watch/">Watch page</a>: every channel below, one list each, with a Watched button. Nothing is marked watched until you press it, and each channel opens where you left off.</p>`,
     '    <h2>Feeds</h2>',
     '    <ul>',
     rows,
@@ -284,6 +323,7 @@ function main() {
   const index = join(DIST_DIR, 'index.html');
   writeFileSync(index, indexPage(archives), 'utf8');
   console.log(`✓ ${archives.length} feeds listed → ${relative(REPO_ROOT, index)}`);
+  writeWatchPage(archives);
 }
 
 main();
