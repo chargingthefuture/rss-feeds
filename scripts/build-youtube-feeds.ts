@@ -24,6 +24,14 @@
  * reading and the date is theirs (owner decision, 2026-09-23); the feed says
  * plainly that it is cut and where.
  *
+ * On the title filter. An archive can also carry `titleFilter`, applied the same
+ * way as the cutoff: at publish time, never by deleting from the archive. An
+ * entry stays in the feed only when its title matches `include`, does not match
+ * `exclude` (both case-insensitive regular expressions), and, when
+ * `minMinutes` is set, it runs at least that long. It is for a channel that
+ * posts one show among others under titles that are not written the same way
+ * twice. The feed says it is filtered and by what.
+ *
  * On dates. Collected without a YouTube API key, an upload date comes from a
  * relative label on the channel page — "2 years ago" — so it is approximate and
  * an entry near a date boundary can fall on the wrong side of it. Each entry
@@ -76,7 +84,18 @@ type Archive = {
   collectedAt?: string;
   /** YYYY-MM-DD. Videos dated on or after this are left out of the feed on purpose. */
   cutoff?: string;
+  /** Entries whose title or length do not pass this are left out of the feed on purpose. */
+  titleFilter?: TitleFilter;
   videos: Video[];
+};
+
+type TitleFilter = {
+  /** Case-insensitive regular expression a title must match. */
+  include?: string;
+  /** Case-insensitive regular expression a title must not match. */
+  exclude?: string;
+  /** Entries shorter than this, or with no length recorded, are left out. */
+  minMinutes?: number;
 };
 
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
@@ -159,12 +178,33 @@ function videoHtml(id: string, title: string, date: string, approximate: boolean
   ].join('');
 }
 
-/** What the feed carries: everything, or everything dated before the archive's cutoff. */
+/** What the feed carries: everything, less what the cutoff and the title filter leave out. */
 function published(archive: Archive): Video[] {
   const cutoff = archive.cutoff;
-  if (!cutoff) return archive.videos;
-  // Dates are YYYY-MM-DD, so a string comparison is a date comparison.
-  return archive.videos.filter((video) => video.date < cutoff);
+  const filter = archive.titleFilter;
+  const include = filter?.include ? new RegExp(filter.include, 'i') : null;
+  const exclude = filter?.exclude ? new RegExp(filter.exclude, 'i') : null;
+  const minSeconds = filter?.minMinutes ? filter.minMinutes * 60 : 0;
+  return archive.videos.filter(
+    (video) =>
+      // Dates are YYYY-MM-DD, so a string comparison is a date comparison.
+      (!cutoff || video.date < cutoff) &&
+      (!include || include.test(video.title)) &&
+      (!exclude || !exclude.test(video.title)) &&
+      (!minSeconds || (video.duration ?? 0) >= minSeconds),
+  );
+}
+
+/** One sentence naming the title filter, or nothing. Says what is kept, never why. */
+function filterNote(archive: Archive): string {
+  const f = archive.titleFilter;
+  if (!f) return '';
+  const parts = [
+    f.include ? `titles matching /${f.include}/i` : '',
+    f.exclude ? `titles not matching /${f.exclude}/i` : '',
+    f.minMinutes ? `videos at least ${f.minMinutes} minutes long` : '',
+  ].filter(Boolean);
+  return ` Filtered on purpose: only ${parts.join(', ')} are kept.`;
 }
 
 function feedFor(archive: Archive): string {
@@ -176,6 +216,7 @@ function feedFor(archive: Archive): string {
         `alongside newest. Videos dated on or after ${archive.cutoff} are left out on purpose.`
       : `Every upload collected from ${archive.name}, oldest kept alongside newest, so a reader can ` +
         `filter by date.`) +
+    filterNote(archive) +
     (anyApproximate
       ? ' Dates are approximate: they were read from relative labels on the channel page, so an' +
         ' entry near a cutoff may fall on the wrong side of it.'
@@ -242,6 +283,7 @@ function writeWatchPage(archives: Archive[]): void {
       name: archive.name,
       channelUrl: archive.channelUrl,
       cutoff: archive.cutoff ?? null,
+      filtered: archive.titleFilter ? 1 : 0,
       videos: videos.map((v) => [v.id, v.title, v.date, v.approximateDate ? 1 : 0, v.duration ?? null]),
     };
     writeFileSync(join(WATCH_DATA_DIR, `${archive.slug}.json`), JSON.stringify(data), 'utf8');
@@ -269,7 +311,8 @@ function indexPage(archives: Archive[]): string {
     .map((archive) => {
       const href = `${SITE}/youtube/${archive.slug}.xml`;
       const kept = published(archive).length;
-      const cut = archive.cutoff ? `, cut before ${xml(archive.cutoff)}` : '';
+      const cut =
+        (archive.cutoff ? `, cut before ${xml(archive.cutoff)}` : '') + (archive.titleFilter ? ', filtered by title' : '');
       return `      <li><a href="${xml(href)}">${xml(archive.name)}</a> — ${kept} videos${cut}<br><code>${xml(href)}</code></li>`;
     })
     .join('\n');
@@ -317,7 +360,8 @@ function main() {
     const out = join(OUT_DIR, `${archive.slug}.xml`);
     writeFileSync(out, feedFor(archive), 'utf8');
     const kept = published(archive).length;
-    const cut = archive.cutoff ? ` (${archive.videos.length - kept} dated on or after ${archive.cutoff} left out)` : '';
+    const cut =
+      archive.cutoff || archive.titleFilter ? ` (${archive.videos.length - kept} left out by cutoff or filter)` : '';
     console.log(`✓ ${kept} videos${cut} → ${relative(REPO_ROOT, out)}`);
   }
   const index = join(DIST_DIR, 'index.html');

@@ -4,6 +4,11 @@
   "channelUrl": "https://www.youtube.com/@sebastiancomedy",
   "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
+  "titleFilter": {
+    "include": "pete\\s+(&|and)\\s+sebastian",
+    "exclude": "clip|patreon|preview|bonus",
+    "minMinutes": 20
+  },
   "videos": [
     {
       "id": "czkyz8ZWdTM",
