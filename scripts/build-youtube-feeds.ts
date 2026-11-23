@@ -64,6 +64,8 @@ const DISCLAIMER = resolve(REPO_ROOT, 'DISCLAIMER.md');
 const READER = resolve(REPO_ROOT, 'reader', 'index.html');
 const WATCH_DIR = resolve(DIST_DIR, 'watch');
 const WATCH_DATA_DIR = resolve(WATCH_DIR, 'data');
+/** The shared copy of the watch page: no sign-in, lists kept in the browser and backed up by hand. */
+const READ_DIR = resolve(DIST_DIR, 'read');
 
 const SITE = 'https://chargingthefuture.github.io/rss-feeds';
 const PAGE = `${SITE}/`;
@@ -276,6 +278,13 @@ function newestFirst(videos: Video[]): Video[] {
 function writeWatchPage(archives: Archive[]): void {
   mkdirSync(WATCH_DATA_DIR, { recursive: true });
   copyFileSync(READER, join(WATCH_DIR, 'index.html'));
+  mkdirSync(READ_DIR, { recursive: true });
+  const reader = readFileSync(READER, 'utf8');
+  const shared = reader
+    .replace('<html lang="en"', '<html lang="en" data-mode="open"')
+    .replaceAll(`${SITE}/watch/`, `${SITE}/read/`);
+  if (!shared.includes('data-mode="open"')) throw new Error('reader/index.html: <html lang="en" not found.');
+  writeFileSync(join(READ_DIR, 'index.html'), shared, 'utf8');
   const channels = archives.map((archive) => {
     const videos = newestFirst(published(archive));
     const data = {
@@ -290,7 +299,7 @@ function writeWatchPage(archives: Archive[]): void {
     return { slug: archive.slug, name: archive.name, count: videos.length };
   });
   writeFileSync(join(WATCH_DATA_DIR, 'channels.json'), JSON.stringify({ channels }), 'utf8');
-  console.log(`✓ watch page and ${channels.length} lists → ${relative(REPO_ROOT, WATCH_DIR)}`);
+  console.log(`✓ watch page and ${channels.length} lists → ${relative(REPO_ROOT, WATCH_DIR)}, shared copy → ${relative(REPO_ROOT, READ_DIR)}`);
 }
 
 /**
@@ -337,6 +346,7 @@ function indexPage(archives: Archive[]): string {
     `    <h1>${xml(PAGE)}</h1>`,
     paragraphs,
     `    <p><a href="${SITE}/watch/">Watch page</a>: every channel below, one list each, with a Watched button. Nothing is marked watched until you press it, and each channel opens where you left off.</p>`,
+    `    <p><a href="${SITE}/read/">Shared watch page</a>: the same lists with no sign-in, for anyone. What you mark there stays in that browser, so download a backup to keep it.</p>`,
     '    <h2>Feeds</h2>',
     '    <ul>',
     rows,
