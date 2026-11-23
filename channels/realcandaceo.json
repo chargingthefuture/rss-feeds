@@ -2,9 +2,16 @@
   "slug": "realcandaceo",
   "name": "realcandaceo",
   "channelUrl": "https://www.youtube.com/@RealCandaceO",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "GBtUDZpvDOo",
+      "title": "Candace x CNN | The Interview",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 1482
+    },
     {
       "id": "SKNJPul29zU",
       "title": "Candace Owens x Ana Kasparian",

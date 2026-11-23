@@ -2,9 +2,16 @@
   "slug": "lastweektonight",
   "name": "lastweektonight",
   "channelUrl": "https://www.youtube.com/@LastWeekTonight",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "dtKt6BiTfFk",
+      "title": "Alligator Alcatraz: Last Week Tonight with John Oliver (HBO)",
+      "date": "2026-11-17",
+      "approximateDate": true,
+      "duration": 1311
+    },
     {
       "id": "GC0dAsRl0ao",
       "title": "Sean Duffy: Last Week Tonight with John Oliver (HBO)",

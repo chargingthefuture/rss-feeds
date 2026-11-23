@@ -2,9 +2,100 @@
   "slug": "thedailyshow",
   "name": "thedailyshow",
   "channelUrl": "https://www.youtube.com/@TheDailyShow",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "_wN_Cw2V8SU",
+      "title": "Jon Stewart on Unregulated AI & Michael Kosta on Tech Outages and Trump's APEC Nap | The Daily Show",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 2568
+    },
+    {
+      "id": "5U4397ea-uQ",
+      "title": "NEW MAGA MERCH: Introducing Trump Muffs for a Gloat-Free Thanksgiving | The Daily Show",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 99
+    },
+    {
+      "id": "KLoKOHNrlv4",
+      "title": "Gemma Chan on Sundance Award-Winner “Josephine” | The Daily Show",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 519
+    },
+    {
+      "id": "wf98yIbLwSg",
+      "title": "Sleepy Trump Gets Chummy with Putin and Xi & Accomplishes “Nothing of Substance” | The Daily Show",
+      "date": "2026-11-21",
+      "approximateDate": true,
+      "duration": 524
+    },
+    {
+      "id": "kcYOv3f_O2E",
+      "title": "Michelle Wolf Diagnoses What's Wrong with Women's Healthcare | The Daily Show",
+      "date": "2026-11-20",
+      "approximateDate": true,
+      "duration": 445
+    },
+    {
+      "id": "ORuXRjti77Y",
+      "title": "Peltola Beats Dan Sullivan x2 in Alaska & Manila Gives Trump a Warm \"YMCA\" Welcome | The Daily Show",
+      "date": "2026-11-20",
+      "approximateDate": true,
+      "duration": 626
+    },
+    {
+      "id": "qNQRioHhI8c",
+      "title": "Chloe Radcliffe on Her Comedy Central Stand-up Special “Eyes Down Here” | The Daily Show",
+      "date": "2026-11-20",
+      "approximateDate": true,
+      "duration": 698
+    },
+    {
+      "id": "nZvsuU0-F5Y",
+      "title": "Daniel Susskind on Raising Kids in the Age of AI | The Daily Show",
+      "date": "2026-11-19",
+      "approximateDate": true,
+      "duration": 1267
+    },
+    {
+      "id": "roK-JOtgEOA",
+      "title": "Trump Shrugs Off Nationwide Outages & Iran Is So Pissed They Might Dirty Bomb Him | The Daily Show",
+      "date": "2026-11-19",
+      "approximateDate": true,
+      "duration": 647
+    },
+    {
+      "id": "srK8GMd89kw",
+      "title": "Can Polarized Identical Twins Solve America's Political Divide? Grace Finds Out | The Daily Show",
+      "date": "2026-11-19",
+      "approximateDate": true,
+      "duration": 343
+    },
+    {
+      "id": "896lwT0hFuk",
+      "title": "Colom's Historic Win, Bessent's Bunker Move & Nvidia's Huang Hangover - Precap | The Daily Show",
+      "date": "2026-11-18",
+      "approximateDate": true,
+      "duration": 2314
+    },
+    {
+      "id": "m09PWB5d9dA",
+      "title": "Ad-Rock & Mike D on Beastie Boys’ Debut Album “Licensed to Ill”’s 40th Anniversary | The Daily Show",
+      "date": "2026-11-18",
+      "approximateDate": true,
+      "duration": 1206
+    },
+    {
+      "id": "now0emhNT4A",
+      "title": "The FAA Crashes Out Over a Router & Why Is Trump Protecting AI and Jensen Huang? | The Daily Show",
+      "date": "2026-11-18",
+      "approximateDate": true,
+      "duration": 1287
+    },
     {
       "id": "auMligQUxas",
       "title": "Trash Ladies: Grace Meets the Pond-Diving Grannies Cleaning Up Cape Cod | The Daily Show",

@@ -2,9 +2,16 @@
   "slug": "growwithjo",
   "name": "growwithjo",
   "channelUrl": "https://www.youtube.com/@growwithjo",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2023-12-31",
   "videos": [
+    {
+      "id": "ZHB09YP2fMc",
+      "title": "30 Min FAST Walk for Fat Loss | Walk the Weight Off!",
+      "date": "2026-11-17",
+      "approximateDate": true,
+      "duration": 1875
+    },
     {
       "id": "tbeO8wfxOs0",
       "title": "Do This Every Morning to Shape & Tone Your Body",

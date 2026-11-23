@@ -2,9 +2,16 @@
   "slug": "eamonandbec",
   "name": "eamonandbec",
   "channelUrl": "https://www.youtube.com/@eamonandbec",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-10-01",
   "videos": [
+    {
+      "id": "idW9ZON1a0o",
+      "title": "Life Update (Bec's Health & More)",
+      "date": "2026-11-17",
+      "approximateDate": true,
+      "duration": 1677
+    },
     {
       "id": "sHecZ92XDzQ",
       "title": "Our Cabin Finally Has a Kitchen Again",

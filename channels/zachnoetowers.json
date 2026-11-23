@@ -2,9 +2,16 @@
   "slug": "zachnoetowers",
   "name": "zachnoetowers",
   "channelUrl": "https://www.youtube.com/@ZachNoeTowers",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "wQLb_hHCLEg",
+      "title": "\"MISS CUMGENIALITY\" with JONAH WHEELER",
+      "date": "2026-11-19",
+      "approximateDate": true,
+      "duration": 3350
+    },
     {
       "id": "pFlnTy_nKxk",
       "title": "\"POLITICS & CONDOMS\" with LIZ PLANK",

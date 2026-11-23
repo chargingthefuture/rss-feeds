@@ -2,9 +2,23 @@
   "slug": "nutritionmadesimple",
   "name": "nutritionmadesimple",
   "channelUrl": "https://www.youtube.com/@NutritionMadeSimple",
-  "collectedAt": "2026-11-15",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "0BQXxyPOzHM",
+      "title": "The Fastest Ways to Stop Cancer (Science-Backed)",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 779
+    },
+    {
+      "id": "bizObaPxNz0",
+      "title": "#1 Best At-Home Test for Fatty Liver",
+      "date": "2026-11-18",
+      "approximateDate": true,
+      "duration": 240
+    },
     {
       "id": "-Aad-G0qXGA",
       "title": "Exposing the crazy world of peptides",

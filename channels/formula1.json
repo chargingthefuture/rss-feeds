@@ -2,9 +2,51 @@
   "slug": "formula1",
   "name": "formula1",
   "channelUrl": "https://www.youtube.com/@formula1",
-  "collectedAt": "2026-11-20",
+  "collectedAt": "2026-11-22",
   "cutoff": "2024-09-01",
   "videos": [
+    {
+      "id": "3QgJip5ljEk",
+      "title": "Drivers React To Qualifying | 2026 Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 532
+    },
+    {
+      "id": "GwwlbV_hG7c",
+      "title": "Drivers React After The Race | 2026 Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 742
+    },
+    {
+      "id": "jiBlTDJ-mFw",
+      "title": "Qualifying Highlights | 2026 Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 481
+    },
+    {
+      "id": "tlr72TUMQxc",
+      "title": "FP3 Highlights | 2026 Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 287
+    },
+    {
+      "id": "Vyk_6bNm7lo",
+      "title": "Race Highlights | 2026 Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 494
+    },
+    {
+      "id": "WILHYHpbOy4",
+      "title": "Kimi Antonelli Sets The Fastest Qualifying Time In Las Vegas | Pirelli",
+      "date": "2026-11-22",
+      "approximateDate": true,
+      "duration": 124
+    },
     {
       "id": "_S_PbjvHOcs",
       "title": "Drivers Look Ahead To Race Weekend | 2026 Las Vegas Grand Prix",
