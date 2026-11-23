@@ -104,6 +104,8 @@ feed reader in between.
   saves and fills them; they are never put in an address, so they are not in the browser's
   history. Every device reads the same file, picks up changes when the page comes back into view,
   and sends its own a few seconds after each press.
+- ☆ Save on any video keeps it under Saved videos, at the top of the channel list, whether or not
+  it is marked watched. Saved videos travel with the watched list when signed in.
 - Back up or restore copies the list out as text and pastes it back.
 
 ## Dates
