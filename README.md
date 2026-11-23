@@ -97,12 +97,13 @@ feed reader in between.
 - A title opens the video in the browser; Play here plays it on the page.
 - Nothing is marked watched until Watched is pressed. The video then leaves the list, with Undo.
 - A channel reopens at the video last opened, or the page last viewed.
-- What is watched is kept in that browser. Keep devices in step, at the foot of the channel list,
-  also saves it to `watched.json` in a private GitHub repository of the reader's own, through a
-  fine-grained access token limited to that repository (Contents, read and write). Every device
-  reads the same file, picks up changes when the page comes back into view, and sends its own a
-  few seconds after each press. The repository and token travel in a sync link to bookmark, so
-  clearing the browser's data loses nothing: open the bookmark again.
+- What is watched is kept in that browser. Signing in, at the foot of the channel list, also saves
+  it to `watched.json` in a private GitHub repository of the reader's own, through a fine-grained
+  access token limited to that repository (Contents, read and write). The sign-in form takes the
+  repository as the username and the token as the password, so the browser's password manager
+  saves and fills them; they are never put in an address, so they are not in the browser's
+  history. Every device reads the same file, picks up changes when the page comes back into view,
+  and sends its own a few seconds after each press.
 - Back up or restore copies the list out as text and pastes it back.
 
 ## Dates
