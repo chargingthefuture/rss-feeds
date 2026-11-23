@@ -55,6 +55,7 @@
     }
     button.primary { background: var(--accent); color: var(--accent-fg); border-color: var(--accent); font-weight: 600; }
     button:disabled { opacity: .4; cursor: default; }
+    button.on { color: var(--accent); border-color: var(--accent); }
     :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
     ul.plain { list-style: none; margin: 0; padding: 0; }
     .channels li a {
@@ -119,12 +120,15 @@
     // pos:     { slug: { id?: videoId, page?: n, t: ms } }  — the later of the two wins
     // order:   { slug: 'new' | 'old' }
     // recent:  slug of the channel opened last, at recentAt (ms)
-    function blank() { return { watched: {}, undone: {}, pos: {}, order: {}, recent: null, recentAt: 0 }; }
+    // saved:   { slug: { videoId: { t: ms saved, title, date, approx, secs } } }  — bookmarks
+    // unsaved: { slug: { videoId: ms removed } }       so a removal on one device reaches the others
+    function blank() { return { watched: {}, undone: {}, pos: {}, order: {}, recent: null, recentAt: 0, saved: {}, unsaved: {} }; }
     function shape(raw) {
       if (!raw || typeof raw !== 'object') return blank();
       return {
         watched: raw.watched || {}, undone: raw.undone || {}, pos: raw.pos || {}, order: raw.order || {},
         recent: raw.recent || null, recentAt: raw.recentAt || 0,
+        saved: raw.saved || {}, unsaved: raw.unsaved || {},
       };
     }
     function load() {
@@ -148,6 +152,24 @@
       watchedOf(slug)[id] = Date.now();
       save();
     }
+    const isSaved = (slug, id) => !!(state.saved[slug] && state.saved[slug][id]);
+    function saveVideo(slug, v) {
+      (state.saved[slug] ||= {})[v.id] = { t: Date.now(), title: v.title, date: v.date, approx: !!v.approx, secs: v.secs || null };
+      save();
+    }
+    function unsaveVideo(slug, id) {
+      if (state.saved[slug]) delete state.saved[slug][id];
+      (state.unsaved[slug] ||= {})[id] = Date.now();
+      save();
+    }
+    function savedList() {
+      const out = [];
+      for (const [slug, ids] of Object.entries(state.saved)) {
+        for (const [id, b] of Object.entries(ids || {})) out.push({ slug, id, ...b });
+      }
+      return out.sort((a, b) => b.t - a.t);
+    }
+
     function unmarkWatched(slug, id) {
       delete watchedOf(slug)[id];
       (state.undone[slug] ||= {})[id] = Date.now();
@@ -172,6 +194,20 @@
         for (const [id, v] of Object.entries(from.undone[slug] || {})) {
           if (!(id in U) || v > U[id]) U[id] = v;
           if (id in W && stamp(W[id]) <= U[id]) { delete W[id]; changed = true; }
+        }
+      }
+      const savedSlugs = new Set([...Object.keys(from.saved), ...Object.keys(from.unsaved)]);
+      for (const slug of savedSlugs) {
+        const S = (into.saved[slug] ||= {});
+        const X = (into.unsaved[slug] ||= {});
+        for (const [id, b] of Object.entries(from.saved[slug] || {})) {
+          if (!b) continue;
+          if (!(id in S)) { if (!(id in X) || b.t > X[id]) { S[id] = b; changed = true; } }
+          else if (b.t > S[id].t) S[id] = b;
+        }
+        for (const [id, v] of Object.entries(from.unsaved[slug] || {})) {
+          if (!(id in X) || v > X[id]) X[id] = v;
+          if (id in S && S[id].t <= X[id]) { delete S[id]; changed = true; }
         }
       }
       for (const [slug, p] of Object.entries(from.pos)) {
@@ -360,9 +396,11 @@
       toastTimer = setTimeout(() => t.classList.remove('show'), 7000);
     }
 
-    // ---------- routing: #/  or  #/c/<slug>  or  #/c/<slug>?page=N ----------
+    // ---------- routing: #/  or  #/c/<slug>?page=N  or  #/saved?page=N ----------
     function parse() {
       const h = location.hash.replace(/^#/, '');
+      const sv = h.match(/^\/saved(?:\?page=(\d+))?$/);
+      if (sv) return { view: 'saved', page: sv[1] ? Number(sv[1]) : 1 };
       const m = h.match(/^\/c\/([^?]+)(?:\?page=(\d+))?$/);
       if (m) return { view: 'channel', slug: decodeURIComponent(m[1]), page: m[2] ? Number(m[2]) : null };
       return { view: 'home' };
@@ -372,6 +410,7 @@
       const r = parse();
       try {
         if (r.view === 'channel') await showChannel(r.slug, r.page);
+        else if (r.view === 'saved') await showSaved(r.page);
         else await showHome();
       } catch (err) {
         bar.replaceChildren(el('h1', {}, 'Something did not load'));
@@ -406,6 +445,11 @@
           el('strong', {}, `Pick up in ${recent.name}`),
           el('small', {}, `${n0(leftOf(recent))} not yet watched`)));
       }
+      const savedN = savedList().length;
+      if (savedN) {
+        parts.push(el('a', { class: 'continue', href: '#/saved' },
+          el('strong', {}, 'Saved videos'), el('small', {}, `${n0(savedN)} saved`)));
+      }
       parts.push(el('ul', { class: 'plain channels' }, channels.map((c) => {
         const left = leftOf(c);
         return el('li', { class: left === 0 ? 'done' : '' },
@@ -418,6 +462,82 @@
       parts.push(el('p', { class: 'note' },
         'What a listing here means: ', el('a', { href: '../' }, 'the disclaimer'), '.'));
       main.replaceChildren(...parts);
+      window.scrollTo(0, 0);
+    }
+
+    // ---------- pieces shared by a channel and the saved list ----------
+    function playButton(li, v, onOpen) {
+      const btn = el('button', { type: 'button' }, 'Play here');
+      btn.addEventListener('click', () => {
+        const open = li.querySelector('.player');
+        if (open) { open.remove(); btn.textContent = 'Play here'; return; }
+        if (onOpen) onOpen();
+        li.append(el('div', { class: 'player' }, el('iframe', {
+          // No playsinline: on an iPhone the video then opens in the phone's own full-screen player,
+          // which has every control (scrubbing, captions on or off, rotate, picture in picture).
+          // Played inline, the embed's own controls are small and hidden while an ad runs.
+          // cc_load_policy=0 and iv_load_policy=3: captions off unless turned on, no annotations.
+          src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&controls=1&fs=1&cc_load_policy=0&iv_load_policy=3`,
+          title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: true,
+        })));
+        btn.textContent = 'Close player';
+      });
+      return btn;
+    }
+    function bookmarkButton(slug, v) {
+      const btn = el('button', { type: 'button' });
+      const paint = () => {
+        const on = isSaved(slug, v.id);
+        btn.textContent = on ? '★ Saved' : '☆ Save';
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btn.classList.toggle('on', on);
+      };
+      btn.addEventListener('click', () => {
+        if (isSaved(slug, v.id)) { unsaveVideo(slug, v.id); toast('Removed from saved.'); }
+        else { saveVideo(slug, v); toast('Saved. Find it under Saved videos on the channel list.'); }
+        paint();
+      });
+      paint();
+      return btn;
+    }
+    const metaLine = (v) => [(v.approx ? 'about ' : '') + niceDate(v.date), duration(v.secs)].filter(Boolean).join(' · ');
+
+    // ---------- saved videos, newest saved first, paged ----------
+    async function showSaved(pageFromUrl) {
+      const idx = await getIndex();
+      const names = Object.fromEntries(idx.channels.map((c) => [c.slug, c.name]));
+      const list = savedList();
+      const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
+      const page = Math.min(Math.max(1, pageFromUrl || 1), pages);
+      document.title = 'Saved — Watch';
+      bar.replaceChildren(
+        el('a', { class: 'btn', href: '#/', 'aria-label': 'All channels' }, '← Channels'),
+        el('h1', {}, 'Saved'), el('span', { class: 'sub' }, `${n0(list.length)} saved`));
+      if (!list.length) {
+        main.replaceChildren(el('p', { class: 'empty' }, 'Nothing saved. Press ☆ Save on any video to keep it here.'));
+        return;
+      }
+      const start = (page - 1) * PER_PAGE;
+      const go = (p) => { location.hash = `#/saved?page=${p}`; };
+      const pager = () => pages < 2 ? null : el('nav', { class: 'pager', 'aria-label': 'Pages' },
+        el('button', { type: 'button', disabled: page <= 1, on: { click: () => go(page - 1) } }, '← Previous'),
+        el('span', { class: 'note' }, `Page ${page} of ${pages}`),
+        el('button', { type: 'button', disabled: page >= pages, on: { click: () => go(page + 1) } }, 'Next →'));
+      const rows = list.slice(start, start + PER_PAGE).map((b) => {
+        const v = { id: b.id, title: b.title, date: b.date, approx: b.approx, secs: b.secs };
+        const li = el('li', {});
+        const watched = !!(state.watched[b.slug] && state.watched[b.slug][b.id]);
+        li.append(
+          el('a', { class: 'title', href: watchUrl(v.id), target: '_blank', rel: 'noopener noreferrer' }, v.title),
+          el('div', { class: 'meta' }, [names[b.slug] || b.slug, metaLine(v), watched ? 'watched' : ''].filter(Boolean).join(' · ')),
+          el('div', { class: 'actions' }, playButton(li, v), bookmarkButton(b.slug, v),
+            el('a', { class: 'btn', href: `#/c/${encodeURIComponent(b.slug)}` }, 'Channel')),
+        );
+        return li;
+      });
+      main.replaceChildren(
+        el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + rows.length)} of ${n0(list.length)} saved, newest saved first`),
+        pager(), el('ul', { class: 'plain videos' }, rows), pager());
       window.scrollTo(0, 0);
     }
 
@@ -476,21 +596,7 @@
 
       const row = (v) => {
         const li = el('li', { id: `v-${v.id}`, class: v.id === focusId ? 'here' : '' });
-        const playBtn = el('button', { type: 'button' }, 'Play here');
-        playBtn.addEventListener('click', () => {
-          const open = li.querySelector('.player');
-          if (open) { open.remove(); playBtn.textContent = 'Play here'; return; }
-          markOpened(v.id);
-          li.append(el('div', { class: 'player' }, el('iframe', {
-            // No playsinline: on an iPhone the video then opens in the phone's own full-screen player,
-            // which has every control (scrubbing, captions on or off, rotate, picture in picture).
-            // Played inline, the embed's own controls are small and hidden while an ad runs.
-            // cc_load_policy=0 and iv_load_policy=3: captions off unless turned on, no annotations.
-            src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&controls=1&fs=1&cc_load_policy=0&iv_load_policy=3`,
-            title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: true,
-          })));
-          playBtn.textContent = 'Close player';
-        });
+        const playBtn = playButton(li, v, () => markOpened(v.id));
         const doneBtn = el('button', { type: 'button', class: 'primary' }, 'Watched');
         doneBtn.addEventListener('click', () => {
           markWatched(slug, v.id);
@@ -502,11 +608,8 @@
         });
         li.append(
           el('a', { class: 'title', href: watchUrl(v.id), target: '_blank', rel: 'noopener noreferrer', on: { click: () => markOpened(v.id) } }, v.title),
-          el('div', { class: 'meta' }, [
-            (v.approx ? 'about ' : '') + niceDate(v.date),
-            duration(v.secs),
-          ].filter(Boolean).join(' · ')),
-          el('div', { class: 'actions' }, playBtn, doneBtn),
+          el('div', { class: 'meta' }, metaLine(v)),
+          el('div', { class: 'actions' }, playBtn, bookmarkButton(slug, v), doneBtn),
         );
         return li;
       };
