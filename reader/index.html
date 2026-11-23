@@ -23,6 +23,11 @@
     the back button keep your place.
 
     Nothing loads from YouTube until a player is opened: no thumbnails, no scripts.
+
+    The build also writes this file to dist/read/ with data-mode="open" on <html>: the shared
+    copy, for anyone. It has no sign-in, keeps its lists under its own storage key, reads the
+    lists from ../watch/data/, and shows a warning that its lists live in this browser only and
+    are kept by downloading a backup.
   -->
   <style>
     /* Dark only. color-scheme: dark (here and in the meta tag) tells the browser the page is
@@ -85,6 +90,9 @@
     summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
     textarea { width: 100%; min-height: 8rem; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 8px; }
     .note { color: var(--muted); font-size: .9rem; }
+    .warn { border: 2px solid #e0a100; background: #2a2200; color: var(--fg); border-radius: 12px; padding: 12px 14px; margin: 0 0 1rem; }
+    .warn p { margin: .3rem 0; }
+    .warn strong { color: #ffcc33; }
     .steps { padding-left: 1.2rem; }
     .steps li { margin: .4rem 0; }
     .form { display: grid; gap: 8px; margin-top: 10px; }
@@ -108,7 +116,10 @@
   (() => {
     'use strict';
     const PER_PAGE = 50;
-    const KEY = 'rss-feeds-watch-v1';
+    // The shared copy: no sign-in, its own storage key, the lists read from the watch page's folder.
+    const OPEN = document.documentElement.dataset.mode === 'open';
+    const KEY = OPEN ? 'rss-feeds-read-v1' : 'rss-feeds-watch-v1';
+    const DATA = OPEN ? '../watch/data/' : 'data/';
     const bar = document.getElementById('bar');
     const main = document.getElementById('main');
 
@@ -233,7 +244,7 @@
         return v && v.repo && v.token ? v : null;
       } catch { return null; }
     }
-    let sync = loadSync();
+    let sync = OPEN ? null : loadSync();
     function saveSync() {
       try { sync ? localStorage.setItem(SYNC_KEY, JSON.stringify(sync)) : localStorage.removeItem(SYNC_KEY); } catch {}
     }
@@ -341,7 +352,7 @@
     const cache = new Map();
     async function getIndex() {
       if (!index) {
-        const r = await fetch('data/channels.json', { cache: 'no-cache' });
+        const r = await fetch(`${DATA}channels.json`, { cache: 'no-cache' });
         if (!r.ok) throw new Error(`The channel list did not load (HTTP ${r.status}).`);
         index = await r.json();
       }
@@ -349,7 +360,7 @@
     }
     async function getChannel(slug) {
       if (!cache.has(slug)) {
-        const r = await fetch(`data/${encodeURIComponent(slug)}.json`, { cache: 'no-cache' });
+        const r = await fetch(`${DATA}${encodeURIComponent(slug)}.json`, { cache: 'no-cache' });
         if (!r.ok) throw new Error(`This channel's list did not load (HTTP ${r.status}).`);
         const c = await r.json();
         // Rows are [id, title, date, approximate, seconds], newest first.
@@ -432,7 +443,17 @@
       const leftOf = (c) => Math.max(0, c.count - Object.keys(state.watched[c.slug] || {}).length);
 
       const parts = [];
-      if (!sync) {
+      if (OPEN) {
+        parts.push(el('div', { class: 'warn', role: 'note' },
+          el('p', {}, el('strong', {}, '⚠️ No sign-in here. Back up to keep your lists.')),
+          el('p', {}, 'What you mark watched and the videos you save are kept in this browser only. They do not reach your other devices, and they are gone if this browser\'s data is cleared.'),
+          el('p', {}, 'To keep them, download a backup now and then. To move them to another device or browser, or to get them back, restore that backup there. ',
+            el('a', { href: '#/', on: { click: (e) => {
+              e.preventDefault();
+              const d = document.getElementById('backup');
+              if (d) { d.open = true; d.scrollIntoView({ block: 'start' }); }
+            } } }, 'Back up or restore'), '.')));
+      } else if (!sync) {
         parts.push(el('p', { class: 'note' }, el('a', { href: '#/', on: { click: (e) => {
           e.preventDefault();
           const d = document.getElementById('sign-in');
@@ -457,7 +478,7 @@
             el('span', { class: 'name' }, c.name),
             el('span', { class: 'left' }, left === 0 ? 'All watched' : `${n0(left)} left`)));
       })));
-      parts.push(syncSection());
+      if (!OPEN) parts.push(syncSection());
       parts.push(backupSection());
       parts.push(el('p', { class: 'note' },
         'What a listing here means: ', el('a', { href: '../' }, 'the disclaimer'), '.'));
@@ -700,10 +721,10 @@
     function backupSection() {
       const box = el('textarea', { 'aria-label': 'Backup text', spellcheck: 'false' });
       const count = Object.values(state.watched).reduce((n, m) => n + Object.keys(m).length, 0);
-      return el('details', {},
-        el('summary', {}, `Back up or restore (${n0(count)} marked watched)`),
+      return el('details', { id: 'backup' },
+        el('summary', {}, `${OPEN ? '⚠️ ' : ''}Back up or restore (${n0(count)} marked watched)`),
         el('p', { class: 'note' },
-          'A copy of your watched list and your place in each channel, to keep or to paste into another browser.'),
+          'A copy of your watched list, your saved videos and your place in each channel, to keep or to paste into another browser.'),
         el('div', { class: 'tools' },
           el('button', { type: 'button', on: { click: async () => {
             const text = JSON.stringify({ ...state, savedAt: new Date().toISOString() });

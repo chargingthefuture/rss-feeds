@@ -15,6 +15,7 @@ it is the same text the site's front page shows.
 | `scripts/update-readme.ts` | Rewrites the channel list below from `channels/`. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, the site's index page, and the watch page's lists into `dist/watch/data/`. |
 | `reader/index.html` | The watch page, https://chargingthefuture.github.io/rss-feeds/watch/ — channels A to Z, 50 videos a page, a Watched button. Copied to `dist/watch/` by the build. |
+| `dist/read/` | The shared copy of the watch page, https://chargingthefuture.github.io/rss-feeds/read/ — the same file with no sign-in. Lists stay in the browser; a warning says to download a backup to keep them. Written by the build. |
 | `.github/workflows/collect.yml` | Adds, refreshes or removes a channel, or refreshes all of them, rewrites the README's channel list, and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
