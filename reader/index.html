@@ -482,7 +482,11 @@
           if (open) { open.remove(); playBtn.textContent = 'Play here'; return; }
           markOpened(v.id);
           li.append(el('div', { class: 'player' }, el('iframe', {
-            src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&playsinline=1`,
+            // No playsinline: on an iPhone the video then opens in the phone's own full-screen player,
+            // which has every control (scrubbing, captions on or off, rotate, picture in picture).
+            // Played inline, the embed's own controls are small and hidden while an ad runs.
+            // cc_load_policy=0 and iv_load_policy=3: captions off unless turned on, no annotations.
+            src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&controls=1&fs=1&cc_load_policy=0&iv_load_policy=3`,
             title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: true,
           })));
           playBtn.textContent = 'Close player';
