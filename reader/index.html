@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="color-scheme: dark; background: #111111">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -7,7 +7,9 @@
   <title>https://chargingthefuture.github.io/rss-feeds/watch/</title>
   <meta property="og:title" content="https://chargingthefuture.github.io/rss-feeds/watch/">
   <meta property="og:url" content="https://chargingthefuture.github.io/rss-feeds/watch/">
+  <meta name="color-scheme" content="dark">
   <meta name="theme-color" content="#111111">
+  <meta name="supported-color-schemes" content="dark">
   <!--
     The watch page. One file, no build step, no account: it reads the per-channel lists the
     build writes beside it (data/*.json) and keeps what you have watched in this browser, and, once
@@ -23,15 +25,13 @@
     Nothing loads from YouTube until a player is opened: no thumbnails, no scripts.
   -->
   <style>
+    /* Dark only. color-scheme: dark (here and in the meta tag) tells the browser the page is
+       already dark, so a browser that darkens pages on its own (DuckDuckGo, Chrome's auto-dark,
+       Samsung Internet) leaves these colors alone, and its own controls and scrollbars are dark. */
     :root {
-      --bg: #ffffff; --fg: #111111; --muted: #5c5c5c; --line: #e4e4e4; --card: #f6f6f6;
-      --accent: #c2410c; --accent-fg: #ffffff; --focus: #2563eb; --here: #fff4e5;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #111111; --fg: #f2f2f2; --muted: #a3a3a3; --line: #2a2a2a; --card: #1b1b1b;
-        --accent: #fb923c; --accent-fg: #111111; --focus: #93c5fd; --here: #2a1d10;
-      }
+      color-scheme: dark;
+      --bg: #111111; --fg: #f2f2f2; --muted: #a3a3a3; --line: #2a2a2a; --card: #1b1b1b;
+      --accent: #fb923c; --accent-fg: #111111; --focus: #93c5fd; --here: #2a1d10;
     }
     * { box-sizing: border-box; }
     html { -webkit-text-size-adjust: 100%; }
