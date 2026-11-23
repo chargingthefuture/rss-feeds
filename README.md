@@ -10,7 +10,7 @@ it is the same text the site's front page shows.
 
 | Path | What |
 |---|---|
-| `channels/<slug>.json` | A channel's collected upload list: id, title, date, and whether the date is approximate. Committed, because it cannot be rebuilt on demand. May carry a `cutoff`. |
+| `channels/<slug>.json` | A channel's collected upload list: id, title, date, and whether the date is approximate. Committed, because it cannot be rebuilt on demand. May carry a `cutoff` and a `titleFilter`, both applied when the feed is built. |
 | `scripts/collect-youtube-archive.ts` | Reads a channel's upload list with yt-dlp (metadata only, no video, no API key) and merges it into the archive. |
 | `scripts/update-readme.ts` | Rewrites the channel list below from `channels/`. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, the site's index page, and the watch page's lists into `dist/watch/data/`. |

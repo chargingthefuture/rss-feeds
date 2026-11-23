@@ -63,6 +63,8 @@ type Archive = {
   collectedAt?: string;
   /** YYYY-MM-DD. Videos dated on or after this are kept in the archive but left out of the feed. */
   cutoff?: string;
+  /** Read by the feed builder. Kept as found on every refresh. */
+  titleFilter?: unknown;
   videos: Video[];
 };
 
@@ -175,6 +177,7 @@ function refresh(channelUrl: string, slug: string, existing: Archive | null, cut
     // A date given now wins; otherwise the one already recorded stays. Absent from the file when
     // there is none, rather than written as null.
     ...(cutoff ?? existing?.cutoff ? { cutoff: cutoff ?? existing?.cutoff } : {}),
+    ...(existing?.titleFilter ? { titleFilter: existing.titleFilter } : {}),
     videos,
   };
   mkdirSync(ARCHIVE_DIR, { recursive: true });

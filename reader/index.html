@@ -628,7 +628,8 @@
       } else {
         parts.push(
           el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + shown.length)} of ${n0(left.length)} not yet watched` +
-            (c.cutoff ? ` · list stops before ${niceDate(c.cutoff)}` : '')),
+            (c.cutoff ? ` · list stops before ${niceDate(c.cutoff)}` : '') +
+            (c.filtered ? ' · filtered by title' : '')),
           pager(),
           el('ul', { class: 'plain videos' }, shown.map(row)),
           pager(),
