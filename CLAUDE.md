@@ -22,6 +22,21 @@ here vouches for, accuses, or associates the project with any channel listed.
   to enforce a cutoff.
 - `dist/` is build output and never committed.
 
+## The watch page and its shared copy stay one page (owner decision, 2026-11-23)
+
+`/watch/` is the owner's page, with sign-in. `/read/` is the shared copy for anyone, with no sign-in.
+Both are built from the one file, `reader/index.html`; the build writes it to `dist/read/` with
+`data-mode="open"` on `<html>`.
+
+- Never copy the file to make `/read/` its own page. A change to one is a change to both.
+- The copies differ in four things only, all behind `OPEN` in the script: no sign-in, a storage key
+  of its own, lists read from `../watch/data/`, and the warning box that says to download a backup.
+  Anything else that has to differ is the owner's call; ask first.
+- After a change to the page, open both `/watch/` and `/read/` from a local build and check the
+  change shows in each.
+- The warning on `/read/` says to back up. It never tells anyone to keep their browser data or
+  cookies.
+
 ## Conventions
 
 - Branch names: `<type>/<short-description>`. Never work on an auto-generated `claude/<slug>` branch.
