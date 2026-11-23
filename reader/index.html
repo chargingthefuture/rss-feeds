@@ -184,8 +184,10 @@
     }
 
     // ---------- keeping devices in step: a file in a private GitHub repository ----------
-    // The repository and its access token are kept in this browser, and in the sync link, which is
-    // a bookmark: clearing the browser's data forgets them, and opening the bookmark restores them.
+    // The repository and its access token are kept in this browser's storage, and never in an
+    // address, so they are not in the browser's history. Clearing the browser's data forgets them;
+    // signing in again brings them back. The sign-in is a real username-and-password form, so the
+    // browser's password manager offers to save the token and fills it in next time.
     // The token should be fine-grained, limited to that one repository, with Contents read and write.
     const SYNC_KEY = 'rss-feeds-watch-sync-v1';
     const SYNC_FILE = 'watched.json';
@@ -298,17 +300,6 @@
       else if (sync.dirty) syncNow(false);
     });
 
-    /** The sync link: #sync=owner/repo:token. Read once, kept, and taken out of the address bar. */
-    function takeSyncLink() {
-      const m = location.hash.match(/^#sync=([^:]+):(.+)$/);
-      if (!m) return false;
-      sync = { repo: decodeURIComponent(m[1]), token: decodeURIComponent(m[2]), dirty: true };
-      saveSync();
-      history.replaceState(null, '', '#/');
-      return true;
-    }
-    const syncLink = () => `${location.origin}${location.pathname}#sync=${encodeURIComponent(sync.repo)}:${encodeURIComponent(sync.token)}`;
-
     // ---------- data ----------
     let index = null;
     const cache = new Map();
@@ -402,6 +393,13 @@
       const leftOf = (c) => Math.max(0, c.count - Object.keys(state.watched[c.slug] || {}).length);
 
       const parts = [];
+      if (!sync) {
+        parts.push(el('p', { class: 'note' }, el('a', { href: '#/', on: { click: (e) => {
+          e.preventDefault();
+          const d = document.getElementById('sign-in');
+          if (d) { d.open = true; d.scrollIntoView({ block: 'start' }); document.getElementById('sync-repo').focus(); }
+        } } }, 'Sign in'), ' to load your watched list from GitHub.'));
+      }
       const recent = state.recent && channels.find((c) => c.slug === state.recent);
       if (recent) {
         parts.push(el('a', { class: 'continue', href: `#/c/${encodeURIComponent(recent.slug)}` },
@@ -541,37 +539,33 @@
     function syncSection() {
       if (sync) {
         return el('details', { open: !!(syncNote && syncNote.startsWith('Not saved')) },
-          el('summary', {}, 'Keep devices in step: connected'),
+          el('summary', {}, `Signed in: ${sync.repo}`),
           el('p', { class: 'note', id: 'sync-note' }, syncNote || `Saving to ${sync.repo}.`),
-          el('p', { class: 'note' },
-            'Bookmark the sync link on each phone or browser. After clearing the browser\'s data, open the bookmark and everything comes back. ' +
-            'The link holds the access token: keep it to yourself.'),
           el('div', { class: 'tools' },
-            el('button', { type: 'button', class: 'primary', on: { click: async () => {
-              try { await navigator.clipboard.writeText(syncLink()); toast('Sync link copied. Bookmark it.'); }
-              catch { prompt('Copy this sync link and bookmark it:', syncLink()); }
-            } } }, 'Copy sync link'),
             el('button', { type: 'button', on: { click: () => syncNow(true) } }, 'Save now'),
-            el('button', { type: 'button', on: { click: () => {
-              if (!confirm('Stop saving to GitHub from this browser? The file on GitHub is kept.')) return;
-              sync = null; saveSync(); route();
-            } } }, 'Disconnect'),
+            el('button', { type: 'button', on: { click: async () => {
+              if (!confirm('Sign out of this browser? Your list stays on GitHub, and this browser forgets it.')) return;
+              if (sync.dirty) await syncNow(false);
+              if (sync.dirty && !confirm('The latest marks have not reached GitHub yet. Sign out and lose them?')) return;
+              sync = null; saveSync(); state = blank(); saveLocal(); route();
+            } } }, 'Sign out'),
           ));
       }
-      const repo = el('input', { type: 'text', placeholder: 'owner/repository', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Repository' });
-      const token = el('input', { type: 'password', placeholder: 'github_pat_…', autocomplete: 'off', 'aria-label': 'Access token' });
+      // name/autocomplete as a login form, so the password manager saves and fills them.
+      const repo = el('input', { type: 'text', name: 'username', id: 'sync-repo', placeholder: 'owner/repository', autocomplete: 'username', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Repository' });
+      const token = el('input', { type: 'password', name: 'password', id: 'sync-token', placeholder: 'github_pat_…', autocomplete: 'current-password', 'aria-label': 'Access token' });
       const status = el('p', { class: 'note', role: 'status' });
-      return el('details', {},
-        el('summary', {}, 'Keep devices in step'),
-        el('p', { class: 'note' }, 'Without this, the watched list lives in this browser only, and clearing its data erases it. Connected, it is saved to a file in a private GitHub repository of yours, and every device reads the same file.'),
+      return el('details', { id: 'sign-in' },
+        el('summary', {}, 'Sign in to keep your list'),
+        el('p', { class: 'note' }, 'Without signing in, the watched list lives in this browser only, and clearing its data erases it. Signed in, it is saved to a file in a private GitHub repository of yours, and every device reads the same file.'),
         el('ol', { class: 'note steps' },
           el('li', {}, 'Make a private repository on GitHub. Any name; it can stay empty.'),
           el('li', {}, 'Make a fine-grained access token: ',
             el('a', { href: 'https://github.com/settings/personal-access-tokens/new', target: '_blank', rel: 'noopener noreferrer' }, 'new token'),
             '. Repository access: only that repository. Permissions: Contents, read and write. Nothing else.'),
-          el('li', {}, 'Enter both here and press Connect, then copy the sync link and bookmark it.')),
-        el('div', { class: 'form' }, repo, token),
-        el('div', { class: 'tools' }, el('button', { type: 'button', class: 'primary', on: { click: async () => {
+          el('li', {}, 'Enter the repository as the username and the token as the password, press Sign in, and let the browser save the password. After clearing the browser\'s data, it fills both in again.')),
+        el('form', { class: 'form', method: 'post', action: '#', on: { submit: async (e) => {
+          e.preventDefault();
           const name = repo.value.trim().replace(/^https?:\/\/github\.com\//, '').replace(/\.git$/, '').replace(/\/$/, '');
           if (!/^[\w.-]+\/[\w.-]+$/.test(name)) { status.textContent = 'Enter the repository as owner/name.'; return; }
           if (!token.value.trim()) { status.textContent = 'Enter the access token.'; return; }
@@ -591,7 +585,7 @@
           saveSync();
           await syncNow(false);
           route();
-        } } }, 'Connect')),
+        } } }, repo, token, el('div', { class: 'tools' }, el('button', { type: 'submit', class: 'primary' }, 'Sign in'))),
         status);
     }
 
@@ -632,9 +626,8 @@
       );
     }
 
-    const fromLink = takeSyncLink();
     route();
-    if (sync) syncNow(true).then(() => { if (fromLink && !syncNote.startsWith('Not saved')) toast('Connected. Your watched list is loaded.'); });
+    if (sync) syncNow(true);
   })();
   </script>
 </body>
