@@ -90,6 +90,10 @@
     summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
     textarea { width: 100%; min-height: 8rem; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 10px; padding: 8px; }
     .note { color: var(--muted); font-size: .9rem; }
+    .article { margin-top: 10px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; overflow-wrap: anywhere; }
+    .article > :first-child { margin-top: 0; }
+    .media { display: block; width: 100%; margin-top: 10px; border-radius: 10px; background: #000; }
+    audio.media { background: transparent; }
     .warn { border: 2px solid #e0a100; background: #2a2200; color: var(--fg); border-radius: 12px; padding: 12px 14px; margin: 0 0 1rem; }
     .warn p { margin: .3rem 0; }
     .warn strong { color: #ffcc33; }
@@ -120,6 +124,17 @@
     const OPEN = document.documentElement.dataset.mode === 'open';
     const KEY = OPEN ? 'rss-feeds-read-v1' : 'rss-feeds-watch-v1';
     const DATA = OPEN ? '../watch/data/' : 'data/';
+    // The blog post that says how to ask for a YouTube channel to be collected and cut at a date.
+    const ASK_URL = 'https://chargingthefuture.github.io/chargingthefuture/article/wiki-site/a-watch-page-instead-of-a-hosted-reader';
+    // What the shared page shows before anything is added: the project's own three feeds. Each can
+    // be removed like any other. The owner's page lists the channels marked for it instead.
+    const DEFAULTS = OPEN ? [
+      { slug: 'f:https://chargingthefuture.github.io/chargingthefuture/feed.xml', name: 'Skills Economy blog' },
+      { slug: 'mutilpe', name: 'Skills Economy demo videos' },
+      { slug: 'f:https://app.lagatos.com/api/beacon/replays/feed', name: 'Skills Economy recorded broadcasts' },
+    ] : [];
+    // A source is a collected channel, named by its slug, or any other feed, named 'f:' + its address.
+    const isFeed = (slug) => slug.startsWith('f:');
     const bar = document.getElementById('bar');
     const main = document.getElementById('main');
 
@@ -133,13 +148,17 @@
     // recent:  slug of the channel opened last, at recentAt (ms)
     // saved:   { slug: { videoId: { t: ms saved, title, date, approx, secs } } }  — bookmarks
     // unsaved: { slug: { videoId: ms removed } }       so a removal on one device reaches the others
-    function blank() { return { watched: {}, undone: {}, pos: {}, order: {}, recent: null, recentAt: 0, saved: {}, unsaved: {} }; }
+    // wmeta:   { slug: { videoId: { title, date, approx, secs, link, yt, media } } }  — for the Watched list
+    // feeds:   { slug: { name, t: ms added } }          — feeds this reader added with the form
+    // hidden:  { slug: ms removed from the list }      unhidden: { slug: ms put back }
+    function blank() { return { watched: {}, undone: {}, pos: {}, order: {}, recent: null, recentAt: 0, saved: {}, unsaved: {}, wmeta: {}, feeds: {}, hidden: {}, unhidden: {} }; }
     function shape(raw) {
       if (!raw || typeof raw !== 'object') return blank();
       return {
         watched: raw.watched || {}, undone: raw.undone || {}, pos: raw.pos || {}, order: raw.order || {},
         recent: raw.recent || null, recentAt: raw.recentAt || 0,
         saved: raw.saved || {}, unsaved: raw.unsaved || {},
+        wmeta: raw.wmeta || {}, feeds: raw.feeds || {}, hidden: raw.hidden || {}, unhidden: raw.unhidden || {},
       };
     }
     function load() {
@@ -159,13 +178,18 @@
     const today = () => new Date().toISOString().slice(0, 10);
     const stamp = (v) => (typeof v === 'number' ? v : Date.parse(v) || 0);
 
-    function markWatched(slug, id) {
-      watchedOf(slug)[id] = Date.now();
+    const details = (v) => ({ title: v.title, date: v.date, approx: !!v.approx, secs: v.secs || null, link: v.link || null, yt: v.yt || null, media: v.media || null });
+    function markWatched(slug, v) {
+      watchedOf(slug)[v.id] = Date.now();
+      (state.wmeta[slug] ||= {})[v.id] = details(v);
       save();
     }
+    const isHidden = (slug) => !!state.hidden[slug] && !((state.unhidden[slug] || 0) > state.hidden[slug]);
+    function hideSource(slug) { state.hidden[slug] = Date.now(); save(); }
+    function unhideSource(slug) { state.unhidden[slug] = Date.now(); save(); }
     const isSaved = (slug, id) => !!(state.saved[slug] && state.saved[slug][id]);
     function saveVideo(slug, v) {
-      (state.saved[slug] ||= {})[v.id] = { t: Date.now(), title: v.title, date: v.date, approx: !!v.approx, secs: v.secs || null };
+      (state.saved[slug] ||= {})[v.id] = { t: Date.now(), ...details(v) };
       save();
     }
     function unsaveVideo(slug, id) {
@@ -226,6 +250,18 @@
         if (p && (!mine || (p.t || 0) > (mine.t || 0))) { into.pos[slug] = p; changed = true; }
       }
       for (const [slug, o] of Object.entries(from.order)) if (!into.order[slug]) into.order[slug] = o;
+      for (const [slug, ids] of Object.entries(from.wmeta)) {
+        const M = (into.wmeta[slug] ||= {});
+        for (const [id, m] of Object.entries(ids || {})) if (!M[id]) M[id] = m;
+      }
+      for (const [slug, f] of Object.entries(from.feeds)) {
+        if (f && (!into.feeds[slug] || (f.t || 0) > (into.feeds[slug].t || 0))) { into.feeds[slug] = f; changed = true; }
+      }
+      for (const key of ['hidden', 'unhidden']) {
+        for (const [slug, t] of Object.entries(from[key])) {
+          if (t > (into[key][slug] || 0)) { into[key][slug] = t; changed = true; }
+        }
+      }
       if (from.recent && from.recentAt > (into.recentAt || 0)) { into.recent = from.recent; into.recentAt = from.recentAt; }
       return changed;
     }
@@ -359,15 +395,163 @@
       return index;
     }
     async function getChannel(slug) {
+      if (isFeed(slug)) {
+        if (!cache.has(slug)) cache.set(slug, await loadFeed(slug.slice(2)));
+        return cache.get(slug);
+      }
       if (!cache.has(slug)) {
         const r = await fetch(`${DATA}${encodeURIComponent(slug)}.json`, { cache: 'no-cache' });
         if (!r.ok) throw new Error(`This channel's list did not load (HTTP ${r.status}).`);
         const c = await r.json();
         // Rows are [id, title, date, approximate, seconds], newest first.
-        c.list = c.videos.map(([id, title, date, approx, secs]) => ({ id, title, date, approx: !!approx, secs }));
+        c.list = c.videos.map(([id, title, date, approx, secs]) => ({ id, title, date, approx: !!approx, secs, yt: id, link: watchUrl(id) }));
         cache.set(slug, c);
       }
       return cache.get(slug);
+    }
+
+    // ---------- any other feed: read in the browser, so nothing passes through a server ----------
+    const kids = (node, name) => [...(node ? node.children : [])].filter((c) => c.localName === name);
+    const txt = (node, name) => { const n = kids(node, name)[0]; return n ? n.textContent.trim() : ''; };
+    function linkOf(node) {
+      for (const l of kids(node, 'link')) {
+        const href = l.getAttribute('href');
+        if (href) { const rel = l.getAttribute('rel'); if (!rel || rel === 'alternate') return href; }
+        else if (l.textContent.trim()) return l.textContent.trim();
+      }
+      return '';
+    }
+    function ytId(link) {
+      const m = String(link || '').match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);
+      return m ? m[1] : null;
+    }
+    function seconds(text) {
+      if (!text) return null;
+      if (/^\d+$/.test(text)) return Number(text);
+      const p = text.split(':').map(Number);
+      if (p.some(Number.isNaN)) return null;
+      return p.reduce((a, b) => a * 60 + b, 0);
+    }
+    async function fetchText(url) {
+      let r;
+      try { r = await fetch(url, { cache: 'no-cache' }); }
+      catch {
+        throw new Error(`${url} did not answer this page. Either it is offline, or the site does not let other web pages read its feed. A feed reader app can still read it.`);
+      }
+      if (!r.ok) throw new Error(`${url} answered with an error (HTTP ${r.status}).`);
+      return r.text();
+    }
+    async function loadFeed(url, depth = 0) {
+      const text = await fetchText(url);
+      let doc = new DOMParser().parseFromString(text, 'application/xml');
+      if (doc.querySelector('parsererror') || !/^(rss|feed|RDF)$/.test(doc.documentElement.localName)) {
+        // A web page rather than a feed: follow the feed it names, once.
+        const html = new DOMParser().parseFromString(text, 'text/html');
+        const alt = html.querySelector('link[rel="alternate"][type*="rss"], link[rel="alternate"][type*="atom"]');
+        if (alt && depth === 0) {
+          const next = new URL(alt.getAttribute('href'), url).href;
+          const c = await loadFeed(next, 1);
+          c.address = next;
+          return c;
+        }
+        throw new Error(`${url} is not a feed, and the page names none. Look on the site for a link marked RSS and paste that address.`);
+      }
+      const root = doc.documentElement;
+      const channel = root.localName === 'rss' ? kids(root, 'channel')[0] : root;
+      const items = [...doc.getElementsByTagNameNS('*', 'item'), ...doc.getElementsByTagNameNS('*', 'entry')];
+      const list = items.map((it) => {
+        const link = linkOf(it);
+        const when = txt(it, 'pubDate') || txt(it, 'published') || txt(it, 'updated') || txt(it, 'date');
+        const t = Date.parse(when);
+        const enc = kids(it, 'enclosure')[0] || kids(it, 'link').find((l) => l.getAttribute('rel') === 'enclosure');
+        const encUrl = enc && (enc.getAttribute('url') || enc.getAttribute('href'));
+        const encType = (enc && enc.getAttribute('type')) || '';
+        return {
+          id: txt(it, 'guid') || txt(it, 'id') || link || txt(it, 'title'),
+          title: txt(it, 'title') || '(no title)',
+          date: Number.isNaN(t) ? '' : new Date(t).toISOString().slice(0, 10),
+          ts: Number.isNaN(t) ? 0 : t,
+          approx: false,
+          secs: seconds(txt(it, 'duration')),
+          link,
+          yt: txt(it, 'videoId') || ytId(link),
+          media: encUrl && /^https?:/i.test(encUrl) && /^(audio|video)\//.test(encType) ? { url: encUrl, type: encType } : null,
+          html: txt(it, 'encoded') || txt(it, 'content') || txt(it, 'description') || txt(it, 'summary'),
+        };
+      }).filter((v) => v.id).sort((a, b) => b.ts - a.ts);
+      return { name: txt(channel, 'title') || url, channelUrl: linkOf(channel) || url, feed: true, list, address: url };
+    }
+
+    // A post's own text, rebuilt from plain parts. Nothing from the feed runs, and nothing loads from
+    // another site until it is tapped: a picture or an embedded player becomes a link to it.
+    const KEEP = new Set(['P', 'BR', 'A', 'EM', 'STRONG', 'B', 'I', 'U', 'S', 'SUB', 'SUP', 'UL', 'OL', 'LI', 'BLOCKQUOTE',
+      'H2', 'H3', 'H4', 'H5', 'H6', 'PRE', 'CODE', 'HR', 'TABLE', 'THEAD', 'TBODY', 'TR', 'TD', 'TH', 'FIGURE', 'FIGCAPTION', 'DL', 'DT', 'DD']);
+    function cleanHtml(html, base) {
+      const src = new DOMParser().parseFromString(html, 'text/html').body;
+      const out = el('div', { class: 'article' });
+      const abs = (u) => { try { const x = new URL(u, base || undefined); return /^https?:$/.test(x.protocol) ? x.href : null; } catch { return null; } };
+      const ext = (href, text) => el('a', { href, target: '_blank', rel: 'noopener noreferrer' }, text);
+      const walk = (from, to) => {
+        for (const n of from.childNodes) {
+          if (n.nodeType === 3) { to.append(n.textContent); continue; }
+          if (n.nodeType !== 1) continue;
+          let tag = n.tagName;
+          if (['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEMPLATE', 'FORM', 'OBJECT', 'EMBED'].includes(tag)) continue;
+          if (tag === 'IMG') {
+            const u = abs(n.getAttribute('src'));
+            if (u) to.append(el('p', {}, ext(u, `Picture: ${n.getAttribute('alt') || 'open it'}`)));
+            continue;
+          }
+          if (tag === 'IFRAME' || tag === 'VIDEO' || tag === 'AUDIO') {
+            const u = abs(n.getAttribute('src') || (n.querySelector('source') || { getAttribute: () => null }).getAttribute('src'));
+            if (u) to.append(el('p', {}, ext(u, 'Embedded player: open it')));
+            continue;
+          }
+          if (tag === 'H1') tag = 'H2';
+          if (!KEEP.has(tag)) { walk(n, to); continue; }
+          const c = document.createElement(tag);
+          if (tag === 'A') {
+            const u = abs(n.getAttribute('href'));
+            if (u) { c.href = u; c.target = '_blank'; c.rel = 'noopener noreferrer'; }
+          }
+          walk(n, c);
+          to.append(c);
+        }
+      };
+      walk(src, out);
+      return out;
+    }
+
+    // ---------- the list of sources ----------
+    function nameOf(slug, c) {
+      const d = DEFAULTS.find((x) => x.slug === slug);
+      if (d) return d.name;
+      if (state.feeds[slug] && state.feeds[slug].name) return state.feeds[slug].name;
+      const ch = index && index.channels.find((x) => x.slug === slug);
+      if (ch) return ch.name;
+      if (c && c.name) return c.name;
+      return isFeed(slug) ? slug.slice(2) : slug;
+    }
+    async function sourceList() {
+      const idx = await getIndex();
+      const out = [];
+      const seen = new Set();
+      const push = (slug, count) => { if (!seen.has(slug)) { seen.add(slug); out.push({ slug, name: nameOf(slug), count }); } };
+      for (const d of DEFAULTS) push(d.slug, null);
+      if (!OPEN) for (const c of idx.channels) push(c.slug, c.count);
+      for (const slug of Object.keys(state.feeds)) push(slug, null);
+      return { all: out, shown: out.filter((s) => !isHidden(s.slug)) };
+    }
+    // An address pasted into the form, as a source. A collected channel's own feed opens as that
+    // channel; YouTube's feeds refuse other pages, so a YouTube address gets the way to ask instead.
+    function sourceFor(raw) {
+      let u;
+      try { u = new URL(String(raw).trim()); } catch { return { error: 'That is not a web address. It starts with https://' }; }
+      if (!/^https?:$/.test(u.protocol)) return { error: 'That is not a web address. It starts with https://' };
+      const own = u.href.match(/\/rss-feeds\/youtube\/([a-z0-9-]+)\.xml$/i);
+      if (own) return { slug: own[1].toLowerCase() };
+      if (/(^|\.)youtube\.com$|^youtu\.be$/i.test(u.hostname)) return { youtube: true };
+      return { slug: `f:${u.href}` };
     }
 
     // ---------- helpers ----------
@@ -407,11 +591,11 @@
       toastTimer = setTimeout(() => t.classList.remove('show'), 7000);
     }
 
-    // ---------- routing: #/  or  #/c/<slug>?page=N  or  #/saved?page=N ----------
+    // ---------- routing: #/  or  #/c/<slug>?page=N  or  #/saved?page=N  or  #/watched?page=N ----------
     function parse() {
       const h = location.hash.replace(/^#/, '');
-      const sv = h.match(/^\/saved(?:\?page=(\d+))?$/);
-      if (sv) return { view: 'saved', page: sv[1] ? Number(sv[1]) : 1 };
+      const sv = h.match(/^\/(saved|watched)(?:\?page=(\d+))?$/);
+      if (sv) return { view: sv[1], page: sv[2] ? Number(sv[2]) : 1 };
       const m = h.match(/^\/c\/([^?]+)(?:\?page=(\d+))?$/);
       if (m) return { view: 'channel', slug: decodeURIComponent(m[1]), page: m[2] ? Number(m[2]) : null };
       return { view: 'home' };
@@ -422,6 +606,7 @@
       try {
         if (r.view === 'channel') await showChannel(r.slug, r.page);
         else if (r.view === 'saved') await showSaved(r.page);
+        else if (r.view === 'watched') await showWatched(r.page);
         else await showHome();
       } catch (err) {
         bar.replaceChildren(el('h1', {}, 'Something did not load'));
@@ -435,24 +620,28 @@
 
     // ---------- home: channels A to Z ----------
     async function showHome() {
-      const idx = await getIndex();
+      const { all: everySource, shown } = await sourceList();
       document.title = 'Watch';
-      bar.replaceChildren(el('h1', {}, 'Channels'), el('span', { class: 'sub' }, `${idx.channels.length} channels`));
+      bar.replaceChildren(el('h1', {}, 'Channels'), el('span', { class: 'sub' }, `${shown.length} in your list`));
 
-      const channels = idx.channels.slice().sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
+      // The project's own feeds first on the shared page, then everything A to Z.
+      const fixed = shown.filter((s) => DEFAULTS.some((d) => d.slug === s.slug));
+      const channels = fixed.concat(shown.filter((s) => !fixed.includes(s)).sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' })));
       const leftOf = (c) => Math.max(0, c.count - Object.keys(state.watched[c.slug] || {}).length);
 
       const parts = [];
       if (OPEN) {
         parts.push(el('div', { class: 'warn', role: 'note' },
           el('p', {}, el('strong', {}, '⚠️ No sign-in here. Back up to keep your lists.')),
-          el('p', {}, 'What you mark watched and the videos you save are kept in this browser only. They do not reach your other devices, and they are gone if this browser\'s data is cleared.'),
+          el('p', {}, 'Your list of feeds, what you mark watched and the videos you save are kept in this browser only. They do not reach your other devices, and they are gone if this browser\'s data is cleared.'),
           el('p', {}, 'To keep them, download a backup now and then. To move them to another device or browser, or to get them back, restore that backup there. ',
             el('a', { href: '#/', on: { click: (e) => {
               e.preventDefault();
               const d = document.getElementById('backup');
               if (d) { d.open = true; d.scrollIntoView({ block: 'start' }); }
             } } }, 'Back up or restore'), '.')));
+        parts.push(el('p', { class: 'note' }, 'To have a YouTube channel collected and cut at a date you choose: ',
+          el('a', { href: ASK_URL, target: '_blank', rel: 'noopener noreferrer' }, 'how to ask'), '.'));
       } else if (!sync) {
         parts.push(el('p', { class: 'note' }, el('a', { href: '#/', on: { click: (e) => {
           e.preventDefault();
@@ -464,20 +653,44 @@
       if (recent) {
         parts.push(el('a', { class: 'continue', href: `#/c/${encodeURIComponent(recent.slug)}` },
           el('strong', {}, `Pick up in ${recent.name}`),
-          el('small', {}, `${n0(leftOf(recent))} not yet watched`)));
+          recent.count === null ? null : el('small', {}, `${n0(leftOf(recent))} not yet watched`)));
+      }
+      const watchedN = Object.values(state.watched).reduce((n, m) => n + Object.keys(m || {}).length, 0);
+      if (watchedN) {
+        parts.push(el('a', { class: 'continue', href: '#/watched' },
+          el('strong', {}, 'Watched videos'), el('small', {}, `${n0(watchedN)} marked watched`)));
       }
       const savedN = savedList().length;
       if (savedN) {
         parts.push(el('a', { class: 'continue', href: '#/saved' },
           el('strong', {}, 'Saved videos'), el('small', {}, `${n0(savedN)} saved`)));
       }
+      if (!channels.length) parts.push(el('p', { class: 'empty' }, 'Your list is empty. Add a feed below, or put back one you removed.'));
       parts.push(el('ul', { class: 'plain channels' }, channels.map((c) => {
-        const left = leftOf(c);
-        return el('li', { class: left === 0 ? 'done' : '' },
-          el('a', { href: `#/c/${encodeURIComponent(c.slug)}` },
-            el('span', { class: 'name' }, c.name),
-            el('span', { class: 'left' }, left === 0 ? 'All watched' : `${n0(left)} left`)));
+        const leftText = (n) => (n === 0 ? 'All watched' : `${n0(n)} left`);
+        const leftEl = el('span', { class: 'left' }, c.count === null ? '…' : leftText(leftOf(c)));
+        const li = el('li', { class: c.count !== null && leftOf(c) === 0 ? 'done' : '' },
+          el('a', { href: `#/c/${encodeURIComponent(c.slug)}` }, el('span', { class: 'name' }, c.name), leftEl));
+        if (c.count === null) {
+          // A feed is read when the list opens; its count arrives when it has.
+          getChannel(c.slug).then((ch) => {
+            const w = state.watched[c.slug] || {};
+            const n = ch.list.filter((v) => !w[v.id]).length;
+            leftEl.textContent = leftText(n);
+            li.classList.toggle('done', n === 0);
+          }).catch(() => { leftEl.textContent = 'did not load'; });
+        }
+        return li;
       })));
+      parts.push(addFeedSection());
+      const removed = everySource.filter((s) => isHidden(s.slug));
+      if (removed.length) {
+        parts.push(el('details', {},
+          el('summary', {}, `Removed from your list (${removed.length})`),
+          el('ul', { class: 'plain channels' }, removed.map((s) => el('li', {},
+            el('span', { class: 'name' }, s.name),
+            el('button', { type: 'button', on: { click: () => { unhideSource(s.slug); toast(`Back in your list: ${s.name}`); route(); } } }, 'Put back'))))));
+      }
       if (!OPEN) parts.push(syncSection());
       parts.push(backupSection());
       parts.push(el('p', { class: 'note' },
@@ -498,7 +711,7 @@
           // which has every control (scrubbing, captions on or off, rotate, picture in picture).
           // Played inline, the embed's own controls are small and hidden while an ad runs.
           // cc_load_policy=0 and iv_load_policy=3: captions off unless turned on, no annotations.
-          src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&rel=0&controls=1&fs=1&cc_load_policy=0&iv_load_policy=3`,
+          src: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.yt)}?autoplay=1&rel=0&controls=1&fs=1&cc_load_policy=0&iv_load_policy=3`,
           title: v.title, allow: 'autoplay; encrypted-media; picture-in-picture; fullscreen', allowfullscreen: true,
         })));
         btn.textContent = 'Close player';
@@ -521,12 +734,47 @@
       paint();
       return btn;
     }
+    // A recording in the feed itself (a broadcast, a podcast): its own player, loaded on the tap.
+    function mediaButton(li, v, onOpen) {
+      const video = /^video\//.test(v.media.type);
+      const btn = el('button', { type: 'button' }, video ? 'Play here' : 'Listen here');
+      btn.addEventListener('click', () => {
+        const open = li.querySelector('.media');
+        if (open) { open.remove(); btn.textContent = video ? 'Play here' : 'Listen here'; return; }
+        if (onOpen) onOpen();
+        const m = el(video ? 'video' : 'audio', { class: 'media', controls: true, preload: 'none', src: v.media.url });
+        li.append(m);
+        m.play().catch(() => {});
+        btn.textContent = 'Close player';
+      });
+      return btn;
+    }
+    // A post's text, opened under its title.
+    function readButton(li, v, onOpen) {
+      const btn = el('button', { type: 'button' }, 'Read here');
+      btn.addEventListener('click', () => {
+        const open = li.querySelector('.article');
+        if (open) { open.remove(); btn.textContent = 'Read here'; return; }
+        if (onOpen) onOpen();
+        li.append(cleanHtml(v.html, v.link));
+        btn.textContent = 'Close';
+      });
+      return btn;
+    }
+    // Whatever opens this item here: a YouTube player, a recording, or the post's text.
+    function openButtons(li, v, onOpen) {
+      if (v.yt) return [playButton(li, v, onOpen)];
+      const out = [];
+      if (v.media) out.push(mediaButton(li, v, onOpen));
+      if (v.html) out.push(readButton(li, v, onOpen));
+      return out;
+    }
+    const hrefOf = (v) => v.link || (v.yt ? watchUrl(v.yt) : null);
     const metaLine = (v) => [(v.approx ? 'about ' : '') + niceDate(v.date), duration(v.secs)].filter(Boolean).join(' · ');
 
     // ---------- saved videos, newest saved first, paged ----------
     async function showSaved(pageFromUrl) {
-      const idx = await getIndex();
-      const names = Object.fromEntries(idx.channels.map((c) => [c.slug, c.name]));
+      await getIndex();
       const list = savedList();
       const pages = Math.max(1, Math.ceil(list.length / PER_PAGE));
       const page = Math.min(Math.max(1, pageFromUrl || 1), pages);
@@ -545,19 +793,74 @@
         el('span', { class: 'note' }, `Page ${page} of ${pages}`),
         el('button', { type: 'button', disabled: page >= pages, on: { click: () => go(page + 1) } }, 'Next →'));
       const rows = list.slice(start, start + PER_PAGE).map((b) => {
-        const v = { id: b.id, title: b.title, date: b.date, approx: b.approx, secs: b.secs };
+        // A video saved before saved entries kept their link is a collected channel's YouTube video.
+        const yt = b.yt !== undefined ? b.yt : (isFeed(b.slug) ? null : b.id);
+        const v = { id: b.id, title: b.title, date: b.date, approx: b.approx, secs: b.secs, yt, link: b.link || (yt ? watchUrl(yt) : null), media: b.media || null };
         const li = el('li', {});
         const watched = !!(state.watched[b.slug] && state.watched[b.slug][b.id]);
         li.append(
-          el('a', { class: 'title', href: watchUrl(v.id), target: '_blank', rel: 'noopener noreferrer' }, v.title),
-          el('div', { class: 'meta' }, [names[b.slug] || b.slug, metaLine(v), watched ? 'watched' : ''].filter(Boolean).join(' · ')),
-          el('div', { class: 'actions' }, playButton(li, v), bookmarkButton(b.slug, v),
+          el('a', { class: 'title', href: hrefOf(v), target: '_blank', rel: 'noopener noreferrer' }, v.title),
+          el('div', { class: 'meta' }, [nameOf(b.slug), metaLine(v), watched ? 'watched' : ''].filter(Boolean).join(' · ')),
+          el('div', { class: 'actions' }, ...openButtons(li, v), bookmarkButton(b.slug, v),
             el('a', { class: 'btn', href: `#/c/${encodeURIComponent(b.slug)}` }, 'Channel')),
         );
         return li;
       });
       main.replaceChildren(
         el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + rows.length)} of ${n0(list.length)} saved, newest saved first`),
+        pager(), el('ul', { class: 'plain videos' }, rows), pager());
+      window.scrollTo(0, 0);
+    }
+
+    // ---------- watched videos, the latest marked first, paged ----------
+    async function showWatched(pageFromUrl) {
+      await getIndex();
+      const all = [];
+      for (const [slug, ids] of Object.entries(state.watched)) {
+        for (const [id, t] of Object.entries(ids || {})) all.push({ slug, id, t: stamp(t) });
+      }
+      all.sort((a, b) => b.t - a.t);
+      const pages = Math.max(1, Math.ceil(all.length / PER_PAGE));
+      const page = Math.min(Math.max(1, pageFromUrl || 1), pages);
+      document.title = 'Watched — Watch';
+      bar.replaceChildren(
+        el('a', { class: 'btn', href: '#/', 'aria-label': 'All channels' }, '← Channels'),
+        el('h1', {}, 'Watched'), el('span', { class: 'sub' }, `${n0(all.length)} watched`));
+      if (!all.length) {
+        main.replaceChildren(el('p', { class: 'empty' }, 'Nothing marked watched yet. Press Watched on a video and it is listed here.'));
+        return;
+      }
+      const start = (page - 1) * PER_PAGE;
+      const shown = all.slice(start, start + PER_PAGE);
+      // A mark made before marks kept their title is looked up in its channel's list.
+      const found = {};
+      for (const slug of new Set(shown.filter((w) => !(state.wmeta[w.slug] || {})[w.id]).map((w) => w.slug))) {
+        try { const c = await getChannel(slug); found[slug] = Object.fromEntries(c.list.map((v) => [v.id, v])); } catch {}
+      }
+      const go = (p) => { location.hash = `#/watched?page=${p}`; };
+      const pager = () => pages < 2 ? null : el('nav', { class: 'pager', 'aria-label': 'Pages' },
+        el('button', { type: 'button', disabled: page <= 1, on: { click: () => go(page - 1) } }, '← Previous'),
+        el('span', { class: 'note' }, `Page ${page} of ${pages}`),
+        el('button', { type: 'button', disabled: page >= pages, on: { click: () => go(page + 1) } }, 'Next →'));
+      const rows = shown.map((w) => {
+        const m = (state.wmeta[w.slug] || {})[w.id] || (found[w.slug] || {})[w.id];
+        const v = m ? { id: w.id, ...m } : { id: w.id, title: w.id, date: '', yt: isFeed(w.slug) ? null : w.id };
+        if (!v.link && v.yt) v.link = watchUrl(v.yt);
+        const li = el('li', {});
+        const back = el('button', { type: 'button', on: { click: () => {
+          unmarkWatched(w.slug, w.id);
+          toast(`Back in its list: ${v.title}`, () => { markWatched(w.slug, v); route(); });
+          route();
+        } } }, 'Not watched');
+        li.append(
+          hrefOf(v) ? el('a', { class: 'title', href: hrefOf(v), target: '_blank', rel: 'noopener noreferrer' }, v.title) : el('span', { class: 'title' }, v.title),
+          el('div', { class: 'meta' }, [nameOf(w.slug), metaLine(v), `marked ${niceDate(new Date(w.t).toISOString().slice(0, 10))}`].filter(Boolean).join(' · ')),
+          el('div', { class: 'actions' }, ...openButtons(li, v), bookmarkButton(w.slug, v), back),
+        );
+        return li;
+      });
+      main.replaceChildren(
+        el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + rows.length)} of ${n0(all.length)} watched, the latest first`),
         pager(), el('ul', { class: 'plain videos' }, rows), pager());
       window.scrollTo(0, 0);
     }
@@ -592,12 +895,13 @@
       const lastId = (state.pos[slug] || {}).id;
       if (!focusId && lastId && left.some((v) => v.id === lastId)) focusId = lastId;
 
-      document.title = `${c.name} — Watch`;
+      const name = nameOf(slug, c);
+      document.title = `${name} — Watch`;
       let leftN = left.length;
       const leftCount = el('span', { class: 'sub' }, `${n0(left.length)} left`);
       bar.replaceChildren(
         el('a', { class: 'btn', href: '#/', 'aria-label': 'All channels' }, '← Channels'),
-        el('h1', {}, c.name), leftCount);
+        el('h1', {}, name), leftCount);
 
       const start = (page - 1) * PER_PAGE;
       const shown = left.slice(start, start + PER_PAGE);
@@ -617,10 +921,10 @@
 
       const row = (v) => {
         const li = el('li', { id: `v-${v.id}`, class: v.id === focusId ? 'here' : '' });
-        const playBtn = playButton(li, v, () => markOpened(v.id));
+        const opens = openButtons(li, v, () => markOpened(v.id));
         const doneBtn = el('button', { type: 'button', class: 'primary' }, 'Watched');
         doneBtn.addEventListener('click', () => {
-          markWatched(slug, v.id);
+          markWatched(slug, v);
           li.remove();
           leftN -= 1;
           leftCount.textContent = `${n0(Math.max(0, leftN))} left`;
@@ -628,9 +932,9 @@
           if (!main.querySelector('.videos li')) route();
         });
         li.append(
-          el('a', { class: 'title', href: watchUrl(v.id), target: '_blank', rel: 'noopener noreferrer', on: { click: () => markOpened(v.id) } }, v.title),
+          hrefOf(v) ? el('a', { class: 'title', href: hrefOf(v), target: '_blank', rel: 'noopener noreferrer', on: { click: () => markOpened(v.id) } }, v.title) : el('span', { class: 'title' }, v.title),
           el('div', { class: 'meta' }, metaLine(v)),
-          el('div', { class: 'actions' }, playBtn, bookmarkButton(slug, v), doneBtn),
+          el('div', { class: 'actions' }, ...opens, bookmarkButton(slug, v), doneBtn),
         );
         return li;
       };
@@ -642,13 +946,19 @@
       } } }, order === 'old' ? 'Showing oldest first' : 'Showing newest first');
 
       const parts = [
-        el('div', { class: 'tools' }, sortBtn, el('a', { class: 'btn', href: c.channelUrl, target: '_blank', rel: 'noopener noreferrer' }, 'Channel on YouTube')),
+        el('div', { class: 'tools' }, sortBtn,
+          el('a', { class: 'btn', href: c.channelUrl, target: '_blank', rel: 'noopener noreferrer' }, c.feed ? 'Open the site' : 'Channel on YouTube'),
+          el('button', { type: 'button', on: { click: () => {
+            hideSource(slug);
+            toast(`Removed from your list: ${name}`, () => { unhideSource(slug); route(); });
+            location.hash = '#/';
+          } } }, 'Remove from my list')),
       ];
       if (left.length === 0) {
         parts.push(el('p', { class: 'empty' }, `All ${n0(all.length)} videos in this list are marked watched.`));
       } else {
         parts.push(
-          el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + shown.length)} of ${n0(left.length)} not yet watched` +
+          el('p', { class: 'range' }, `${n0(start + 1)}–${n0(start + shown.length)} of ${n0(left.length)} not yet ${c.feed ? 'marked done' : 'watched'}` +
             (c.cutoff ? ` · list stops before ${niceDate(c.cutoff)}` : '') +
             (c.filtered ? ' · filtered by title' : '')),
           pager(),
@@ -662,6 +972,39 @@
       const target = focusId && document.getElementById(`v-${focusId}`);
       if (target) target.scrollIntoView({ block: 'center' });
       else window.scrollTo(0, 0);
+    }
+
+    // ---------- adding a feed ----------
+    function addFeedSection() {
+      const input = el('input', { type: 'text', name: 'feed', placeholder: 'https://example.com/feed.xml', autocomplete: 'off', 'aria-label': 'Feed address', inputmode: 'url' });
+      const status = el('p', { class: 'note', role: 'status' });
+      return el('details', { id: 'add-feed' },
+        el('summary', {}, 'Add a feed'),
+        el('p', { class: 'note' }, 'Paste the address of a blog, a podcast or any site that publishes a feed. The ordinary address of the site often works; if it does not, look on the site for a link marked RSS and paste that.'),
+        el('p', { class: 'note' }, 'YouTube does not let other pages read its channels, so a YouTube address cannot be added here. To have a channel collected: ',
+          el('a', { href: ASK_URL, target: '_blank', rel: 'noopener noreferrer' }, 'how to ask'), '.'),
+        el('form', { class: 'form', on: { submit: async (e) => {
+          e.preventDefault();
+          const found = sourceFor(input.value);
+          if (found.error) { status.textContent = found.error; return; }
+          if (found.youtube) { status.textContent = 'YouTube does not let other pages read its channels. Use “how to ask” above to have the channel collected.'; return; }
+          status.textContent = 'Reading the feed…';
+          let c;
+          try { cache.delete(found.slug); c = await getChannel(found.slug); }
+          catch (err) {
+            status.textContent = isFeed(found.slug) ? String(err && err.message ? err.message : err) : 'No collected channel has that address.';
+            return;
+          }
+          // A web page that named its feed: keep the feed's own address.
+          const slug = c.address ? `f:${c.address}` : found.slug;
+          if (c.address) cache.set(slug, c);
+          state.feeds[slug] = { name: c.name, t: Date.now() };
+          if (isHidden(slug)) state.unhidden[slug] = Date.now();
+          save();
+          toast(`Added: ${c.name}`);
+          location.hash = `#/c/${encodeURIComponent(slug)}`;
+        } } }, input, el('div', { class: 'tools' }, el('button', { type: 'submit', class: 'primary' }, 'Add'))),
+        status);
     }
 
     // ---------- keep devices in step ----------
@@ -725,7 +1068,7 @@
       return el('details', { id: 'backup' },
         el('summary', {}, `${OPEN ? '⚠️ ' : ''}Back up or restore (${n0(count)} marked watched)`),
         el('p', { class: 'note' },
-          'A copy of your watched list, your saved videos and your place in each channel, to keep or to paste into another browser.'),
+          'A copy of your list of feeds, what you marked watched, your saved videos and your place in each one, to keep or to paste into another browser.'),
         el('div', { class: 'tools' },
           el('button', { type: 'button', on: { click: async () => {
             const text = JSON.stringify({ ...state, savedAt: new Date().toISOString() });

@@ -26,6 +26,7 @@ type Archive = {
   slug: string;
   channelUrl: string;
   cutoff?: string;
+  watch?: boolean;
 };
 
 function readArchives(): Archive[] {
@@ -44,13 +45,14 @@ function list(archives: Archive[]): string {
   if (archives.length === 0) return 'No channels collected.';
   const rows = archives.map((archive) => {
     const feed = `${SITE}/youtube/${archive.slug}.xml`;
-    return `| \`${archive.slug}\` | ${archive.channelUrl} | ${archive.cutoff ?? 'none'} | ${feed} |`;
+    const onWatch = archive.watch === false ? 'no' : 'yes';
+    return `| \`${archive.slug}\` | ${archive.channelUrl} | ${archive.cutoff ?? 'none'} | ${onWatch} | ${feed} |`;
   });
   return [
     `${archives.length} channels. Written from \`channels/\` by \`pnpm readme\`; do not edit by hand.`,
     '',
-    '| Slug | Channel | Feed cut before | Feed |',
-    '|---|---|---|---|',
+    '| Slug | Channel | Feed cut before | On /watch/ | Feed |',
+    '|---|---|---|---|---|',
     ...rows,
   ].join('\n');
 }

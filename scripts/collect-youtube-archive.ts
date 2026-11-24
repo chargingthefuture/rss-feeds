@@ -33,6 +33,7 @@
  * Usage:
  *   pnpm collect -- --channel @SomeChannel
  *   pnpm collect -- --channel @SomeChannel --cutoff 2024-12-31
+ *   pnpm collect -- --channel @SomeChannel --watch no  # keep it off the owner's watch page
  *   pnpm collect -- --channel @SomeChannel --remove # delete the channel's archive
  *   pnpm collect                                   # refresh every archive
  *
@@ -65,6 +66,8 @@ type Archive = {
   cutoff?: string;
   /** Read by the feed builder. Kept as found on every refresh. */
   titleFilter?: unknown;
+  /** false keeps the channel off the owner's watch page; absent means it is on it. */
+  watch?: boolean;
   videos: Video[];
 };
 
@@ -160,7 +163,7 @@ function merge(existing: Video[], found: Video[]): { videos: Video[]; added: num
   return { videos, added };
 }
 
-function refresh(channelUrl: string, slug: string, existing: Archive | null, cutoff?: string): void {
+function refresh(channelUrl: string, slug: string, existing: Archive | null, cutoff?: string, watch?: boolean): void {
   const found = collect(channelUrl);
   if (found.videos.length === 0) {
     throw new Error(
@@ -178,6 +181,8 @@ function refresh(channelUrl: string, slug: string, existing: Archive | null, cut
     // there is none, rather than written as null.
     ...(cutoff ?? existing?.cutoff ? { cutoff: cutoff ?? existing?.cutoff } : {}),
     ...(existing?.titleFilter ? { titleFilter: existing.titleFilter } : {}),
+    // A choice given now wins; otherwise the one recorded stays. Written only when off.
+    ...((watch ?? existing?.watch) === false ? { watch: false } : {}),
     videos,
   };
   mkdirSync(ARCHIVE_DIR, { recursive: true });
@@ -204,6 +209,16 @@ function main(): void {
     }
   }
 
+  const watchIndex = args.indexOf('--watch');
+  const watchArg = watchIndex >= 0 ? args[watchIndex + 1] : undefined;
+  if (watchArg !== undefined && watchArg !== 'yes' && watchArg !== 'no') {
+    throw new Error(`--watch takes yes or no, not "${watchArg}".`);
+  }
+  if (watchArg !== undefined && (channel === undefined || channel === '')) {
+    throw new Error('--watch is a choice for one channel, so it needs --channel beside it.');
+  }
+  const watch = watchArg === undefined ? undefined : watchArg === 'yes';
+
   if (args.includes('--remove')) {
     if (channel === undefined || channel === '') {
       throw new Error('--remove deletes one channel, so it needs --channel beside it.');
@@ -223,7 +238,7 @@ function main(): void {
     const channelUrl = uploadsUrl(channel);
     const slug = slugFor(channelUrl);
     const path = join(ARCHIVE_DIR, `${slug}.json`);
-    refresh(channelUrl, slug, existsSync(path) ? readArchive(path) : null, cutoff);
+    refresh(channelUrl, slug, existsSync(path) ? readArchive(path) : null, cutoff, watch);
     return;
   }
 

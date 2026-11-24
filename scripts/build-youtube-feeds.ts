@@ -88,6 +88,8 @@ type Archive = {
   cutoff?: string;
   /** Entries whose title or length do not pass this are left out of the feed on purpose. */
   titleFilter?: TitleFilter;
+  /** false keeps the channel off the owner's watch page (/watch/). Its feed and list are still written. */
+  watch?: boolean;
   videos: Video[];
 };
 
@@ -296,9 +298,12 @@ function writeWatchPage(archives: Archive[]): void {
       videos: videos.map((v) => [v.id, v.title, v.date, v.approximateDate ? 1 : 0, v.duration ?? null]),
     };
     writeFileSync(join(WATCH_DATA_DIR, `${archive.slug}.json`), JSON.stringify(data), 'utf8');
-    return { slug: archive.slug, name: archive.name, count: videos.length };
+    return { slug: archive.slug, name: archive.name, count: videos.length, watch: archive.watch !== false };
   });
-  writeFileSync(join(WATCH_DATA_DIR, 'channels.json'), JSON.stringify({ channels }), 'utf8');
+  // The owner's watch page lists only the channels marked for it. Every list is still written, so
+  // the shared page can open any collected channel a reader adds by its feed address.
+  const onWatch = channels.filter((c) => c.watch).map(({ watch: _watch, ...c }) => c);
+  writeFileSync(join(WATCH_DATA_DIR, 'channels.json'), JSON.stringify({ channels: onWatch }), 'utf8');
   console.log(`✓ watch page and ${channels.length} lists → ${relative(REPO_ROOT, WATCH_DIR)}, shared copy → ${relative(REPO_ROOT, READ_DIR)}`);
 }
 
@@ -345,8 +350,8 @@ function indexPage(archives: Archive[]): string {
     '  <main>',
     `    <h1>${xml(PAGE)}</h1>`,
     paragraphs,
-    `    <p><a href="${SITE}/watch/">Watch page</a>: every channel below, one list each, with a Watched button. Nothing is marked watched until you press it, and each channel opens where you left off.</p>`,
-    `    <p><a href="${SITE}/read/">Shared watch page</a>: the same lists with no sign-in, for anyone. What you mark there stays in that browser, so download a backup to keep it.</p>`,
+    `    <p><a href="${SITE}/watch/">Watch page</a>: the owner's channels, one list each, with a Watched button. Nothing is marked watched until you press it, and each channel opens where you left off.</p>`,
+    `    <p><a href="${SITE}/read/">Shared reader</a>: for anyone, with no sign-in. It starts with the Skills Economy blog, demo videos and recorded broadcasts; add any other feed by its address, and any channel below by its feed address. What you add and mark there stays in that browser, so download a backup to keep it.</p>`,
     '    <h2>Feeds</h2>',
     '    <ul>',
     rows,

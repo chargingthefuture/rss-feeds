@@ -50,6 +50,11 @@ on:
         required: false
         type: string
         default: '2024-09-01'
+      watch:
+        description: 'With a channel being added: on puts it on your watch page (/watch/). Off keeps it off /watch/; its feed is still published, and anybody given the address can add it on /read/. Ignored for remove and for a refresh of every channel.'
+        required: false
+        type: boolean
+        default: true
   schedule:
     # Weekly, Sundays. New uploads matter little here — the archive is for what
     # came before — so this only keeps the list from drifting far behind.
@@ -84,6 +89,7 @@ jobs:
           ACTION: ${{ inputs.action }}
           CHANNEL: ${{ inputs.channel }}
           CUTOFF: ${{ inputs.cutoff }}
+          WATCH: ${{ inputs.watch && 'yes' || 'no' }}
         run: |
           if [ "$ACTION" = "remove" ]; then
             if [ -z "$CHANNEL" ]; then
@@ -92,9 +98,9 @@ jobs:
             fi
             pnpm collect -- --channel "$CHANNEL" --remove
           elif [ -n "$CHANNEL" ] && [ -n "$CUTOFF" ]; then
-            pnpm collect -- --channel "$CHANNEL" --cutoff "$CUTOFF"
+            pnpm collect -- --channel "$CHANNEL" --cutoff "$CUTOFF" --watch "$WATCH"
           elif [ -n "$CHANNEL" ]; then
-            pnpm collect -- --channel "$CHANNEL"
+            pnpm collect -- --channel "$CHANNEL" --watch "$WATCH"
           else
             # A refresh of every channel keeps each one's own cutoff, so the box is ignored.
             pnpm collect
