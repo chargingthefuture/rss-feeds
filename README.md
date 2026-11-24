@@ -14,8 +14,8 @@ it is the same text the site's front page shows.
 | `scripts/collect-youtube-archive.ts` | Reads a channel's upload list with yt-dlp (metadata only, no video, no API key) and merges it into the archive. |
 | `scripts/update-readme.ts` | Rewrites the channel list below from `channels/`. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, the site's index page, and the watch page's lists into `dist/watch/data/`. |
-| `reader/index.html` | The watch page, https://chargingthefuture.github.io/rss-feeds/watch/ — channels A to Z, 50 videos a page, a Watched button. Copied to `dist/watch/` by the build. |
-| `dist/read/` | The shared copy of the watch page, https://chargingthefuture.github.io/rss-feeds/read/ — the same file with no sign-in. Lists stay in the browser; a warning says to download a backup to keep them. Written by the build. |
+| `reader/index.html` | The watch page, https://chargingthefuture.github.io/rss-feeds/watch/ — the channels marked for it (`watch` not `false`), 50 videos a page, a Watched button, a Watched list, Saved, a form to add any feed, and Remove from my list. Copied to `dist/watch/` by the build. |
+| `dist/read/` | The shared copy, https://chargingthefuture.github.io/rss-feeds/read/ — the same file with no sign-in. It starts with the Skills Economy blog, demo videos (`avenhood`) and recorded broadcasts instead of the owner's channels. Lists stay in the browser; a warning says to download a backup to keep them. Written by the build. |
 | `.github/workflows/collect.yml` | Adds, refreshes or removes a channel, or refreshes all of them, rewrites the README's channel list, and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
@@ -24,51 +24,51 @@ it is the same text the site's front page shows.
 <!-- channels:start -->
 43 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
-| Slug | Channel | Feed cut before | Feed |
-|---|---|---|---|
-| `avenhood` | https://www.youtube.com/@Avenhood | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
-| `carolinegirvan` | https://youtube.com/@carolinegirvan | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/carolinegirvan.xml |
-| `christitustechnical` | https://youtube.com/@ChrisTitusTechnical | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/christitustechnical.xml |
-| `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
-| `doctorly` | https://www.youtube.com/@Doctorly | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/doctorly.xml |
-| `donttellcomedy` | https://www.youtube.com/@DontTellComedy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/donttellcomedy.xml |
-| `driver61` | https://www.youtube.com/@Driver61 | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/driver61.xml |
-| `drmattdrmike` | https://www.youtube.com/@DrMattDrMike | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/drmattdrmike.xml |
-| `dustinnickerson` | https://www.youtube.com/@DustinNickerson | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/dustinnickerson.xml |
-| `eamonandbec` | https://www.youtube.com/@eamonandbec | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/eamonandbec.xml |
-| `ericarhodescomedy` | https://www.youtube.com/@ericarhodescomedy | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/ericarhodescomedy.xml |
-| `expeditionevans` | https://www.youtube.com/@ExpeditionEvans | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/expeditionevans.xml |
-| `flashgitz` | https://www.youtube.com/@Flashgitz | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/flashgitz.xml |
-| `formula1` | https://www.youtube.com/@formula1 | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/formula1.xml |
-| `gonewiththewynns` | https://www.youtube.com/@gonewiththewynns | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/gonewiththewynns.xml |
-| `growwithjo` | https://www.youtube.com/@growwithjo | 2023-12-31 | https://chargingthefuture.github.io/rss-feeds/youtube/growwithjo.xml |
-| `howtocooksmarter` | https://www.youtube.com/@HowToCookSmarter | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/howtocooksmarter.xml |
-| `jeremyethier` | https://www.youtube.com/@JeremyEthier | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/jeremyethier.xml |
-| `jumpropedudes` | https://www.youtube.com/@JumpRopeDudes | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/jumpropedudes.xml |
-| `karaandnate` | https://www.youtube.com/@KaraandNate | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/karaandnate.xml |
-| `lastweektonight` | https://www.youtube.com/@LastWeekTonight | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/lastweektonight.xml |
-| `mercedesamgf1` | https://www.youtube.com/@MercedesAMGF1 | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/mercedesamgf1.xml |
-| `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
-| `neoexplains` | https://www.youtube.com/@neoexplains | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/neoexplains.xml |
-| `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
-| `nutritionmadesimple` | https://www.youtube.com/@NutritionMadeSimple | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/nutritionmadesimple.xml |
-| `parlayrevival` | https://www.youtube.com/@ParlayRevival | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/parlayrevival.xml |
-| `petecorrealeofficial` | https://www.youtube.com/@petecorrealeofficial | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/petecorrealeofficial.xml |
-| `realcandaceo` | https://www.youtube.com/@RealCandaceO | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/realcandaceo.xml |
-| `realtime` | https://www.youtube.com/@RealTime | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/realtime.xml |
-| `redbull` | https://www.youtube.com/@redbull | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/redbull.xml |
-| `redbullracing` | https://www.youtube.com/@redbullracing | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/redbullracing.xml |
-| `sailinglavagabonde` | https://www.youtube.com/@SailingLaVagabonde | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/sailinglavagabonde.xml |
-| `sailinguma` | https://www.youtube.com/@SailingUma | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/sailinguma.xml |
-| `sailingzatara` | https://www.youtube.com/@SailingZatara | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/sailingzatara.xml |
-| `sebastiancomedy` | https://www.youtube.com/@sebastiancomedy | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/sebastiancomedy.xml |
-| `svdelos` | https://www.youtube.com/@svdelos | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/svdelos.xml |
-| `thedailyshow` | https://www.youtube.com/@TheDailyShow | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/thedailyshow.xml |
-| `theodd1sout` | https://www.youtube.com/@TheOdd1sOut | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/theodd1sout.xml |
-| `therealmarksmalls` | https://www.youtube.com/@therealmarksmalls | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/therealmarksmalls.xml |
-| `vox` | https://www.youtube.com/@Vox | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/vox.xml |
-| `wildlingsailing` | https://www.youtube.com/@WildlingSailing | 2024-10-01 | https://chargingthefuture.github.io/rss-feeds/youtube/wildlingsailing.xml |
-| `zachnoetowers` | https://www.youtube.com/@ZachNoeTowers | 2024-09-01 | https://chargingthefuture.github.io/rss-feeds/youtube/zachnoetowers.xml |
+| Slug | Channel | Feed cut before | On /watch/ | Feed |
+|---|---|---|---|---|
+| `avenhood` | https://www.youtube.com/@Avenhood | none | yes | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
+| `carolinegirvan` | https://youtube.com/@carolinegirvan | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/carolinegirvan.xml |
+| `christitustechnical` | https://youtube.com/@ChrisTitusTechnical | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/christitustechnical.xml |
+| `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
+| `doctorly` | https://www.youtube.com/@Doctorly | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/doctorly.xml |
+| `donttellcomedy` | https://www.youtube.com/@DontTellComedy | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/donttellcomedy.xml |
+| `driver61` | https://www.youtube.com/@Driver61 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/driver61.xml |
+| `drmattdrmike` | https://www.youtube.com/@DrMattDrMike | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/drmattdrmike.xml |
+| `dustinnickerson` | https://www.youtube.com/@DustinNickerson | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/dustinnickerson.xml |
+| `eamonandbec` | https://www.youtube.com/@eamonandbec | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/eamonandbec.xml |
+| `ericarhodescomedy` | https://www.youtube.com/@ericarhodescomedy | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/ericarhodescomedy.xml |
+| `expeditionevans` | https://www.youtube.com/@ExpeditionEvans | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/expeditionevans.xml |
+| `flashgitz` | https://www.youtube.com/@Flashgitz | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/flashgitz.xml |
+| `formula1` | https://www.youtube.com/@formula1 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/formula1.xml |
+| `gonewiththewynns` | https://www.youtube.com/@gonewiththewynns | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/gonewiththewynns.xml |
+| `growwithjo` | https://www.youtube.com/@growwithjo | 2023-12-31 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/growwithjo.xml |
+| `howtocooksmarter` | https://www.youtube.com/@HowToCookSmarter | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/howtocooksmarter.xml |
+| `jeremyethier` | https://www.youtube.com/@JeremyEthier | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/jeremyethier.xml |
+| `jumpropedudes` | https://www.youtube.com/@JumpRopeDudes | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/jumpropedudes.xml |
+| `karaandnate` | https://www.youtube.com/@KaraandNate | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/karaandnate.xml |
+| `lastweektonight` | https://www.youtube.com/@LastWeekTonight | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/lastweektonight.xml |
+| `mercedesamgf1` | https://www.youtube.com/@MercedesAMGF1 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/mercedesamgf1.xml |
+| `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
+| `neoexplains` | https://www.youtube.com/@neoexplains | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/neoexplains.xml |
+| `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
+| `nutritionmadesimple` | https://www.youtube.com/@NutritionMadeSimple | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/nutritionmadesimple.xml |
+| `parlayrevival` | https://www.youtube.com/@ParlayRevival | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/parlayrevival.xml |
+| `petecorrealeofficial` | https://www.youtube.com/@petecorrealeofficial | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/petecorrealeofficial.xml |
+| `realcandaceo` | https://www.youtube.com/@RealCandaceO | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/realcandaceo.xml |
+| `realtime` | https://www.youtube.com/@RealTime | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/realtime.xml |
+| `redbull` | https://www.youtube.com/@redbull | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbull.xml |
+| `redbullracing` | https://www.youtube.com/@redbullracing | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullracing.xml |
+| `sailinglavagabonde` | https://www.youtube.com/@SailingLaVagabonde | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinglavagabonde.xml |
+| `sailinguma` | https://www.youtube.com/@SailingUma | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinguma.xml |
+| `sailingzatara` | https://www.youtube.com/@SailingZatara | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailingzatara.xml |
+| `sebastiancomedy` | https://www.youtube.com/@sebastiancomedy | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sebastiancomedy.xml |
+| `svdelos` | https://www.youtube.com/@svdelos | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/svdelos.xml |
+| `thedailyshow` | https://www.youtube.com/@TheDailyShow | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/thedailyshow.xml |
+| `theodd1sout` | https://www.youtube.com/@TheOdd1sOut | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/theodd1sout.xml |
+| `therealmarksmalls` | https://www.youtube.com/@therealmarksmalls | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/therealmarksmalls.xml |
+| `vox` | https://www.youtube.com/@Vox | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/vox.xml |
+| `wildlingsailing` | https://www.youtube.com/@WildlingSailing | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/wildlingsailing.xml |
+| `zachnoetowers` | https://www.youtube.com/@ZachNoeTowers | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/zachnoetowers.xml |
 <!-- channels:end -->
 
 ## Adding or removing a channel

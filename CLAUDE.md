@@ -22,6 +22,28 @@ here vouches for, accuses, or associates the project with any channel listed.
   to enforce a cutoff.
 - `dist/` is build output and never committed.
 
+## The watch page and its shared copy stay one page (owner decisions, 2026-11-23 and 2026-11-24)
+
+`/watch/` is the owner's page, with sign-in. `/read/` is the shared copy for anyone, with no sign-in.
+Both are built from the one file, `reader/index.html`; the build writes it to `dist/read/` with
+`data-mode="open"` on `<html>`.
+
+- Never copy the file to make `/read/` its own page. A change to one is a change to both.
+- The copies differ only in these, all behind `OPEN` in the script: no sign-in; a storage key of
+  its own; lists read from `../watch/data/`; the warning box that says to download a backup; the
+  link to the blog post on how to ask for a channel; and what the list starts with. `/watch/`
+  starts with the channels whose archive is not `"watch": false`. `/read/` starts with the
+  Skills Economy blog, the demo videos (`avenhood`) and the recorded broadcasts. Anything else that
+  has to differ is the owner's call; ask first.
+- Both pages have the form to add a feed, Remove from my list, Saved and Watched.
+- A feed's text is rebuilt from plain parts before it is shown (`cleanHtml`): nothing from a feed
+  runs, and a picture or embedded player becomes a link, so nothing loads from another site until
+  it is tapped.
+- After a change to the page, open both `/watch/` and `/read/` from a local build and check the
+  change shows in each.
+- The warning on `/read/` says to back up. It never tells anyone to keep their browser data or
+  cookies.
+
 ## Conventions
 
 - Branch names: `<type>/<short-description>`. Never work on an auto-generated `claude/<slug>` branch.
