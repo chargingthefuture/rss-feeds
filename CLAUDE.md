@@ -33,7 +33,7 @@ Both are built from the one file, `reader/index.html`; the build writes it to `d
   its own; lists read from `../watch/data/`; the warning box that says to download a backup; the
   link to the blog post on how to ask for a channel; and what the list starts with. `/watch/`
   starts with the channels whose archive is not `"watch": false`. `/read/` starts with the
-  Skills Economy blog, the demo videos (`mutilpe`) and the recorded broadcasts. Anything else that
+  Skills Economy blog, the demo videos (`avenhood`) and the recorded broadcasts. Anything else that
   has to differ is the owner's call; ask first.
 - Both pages have the form to add a feed, Remove from my list, Saved and Watched.
 - A feed's text is rebuilt from plain parts before it is shown (`cleanHtml`): nothing from a feed

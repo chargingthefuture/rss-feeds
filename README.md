@@ -15,18 +15,18 @@ it is the same text the site's front page shows.
 | `scripts/update-readme.ts` | Rewrites the channel list below from `channels/`. |
 | `scripts/build-youtube-feeds.ts` | Renders one RSS feed per archive into `dist/youtube/<slug>.xml`, the site's index page, and the watch page's lists into `dist/watch/data/`. |
 | `reader/index.html` | The watch page, https://chargingthefuture.github.io/rss-feeds/watch/ — the channels marked for it (`watch` not `false`), 50 videos a page, a Watched button, a Watched list, Saved, a form to add any feed, and Remove from my list. Copied to `dist/watch/` by the build. |
-| `dist/read/` | The shared copy, https://chargingthefuture.github.io/rss-feeds/read/ — the same file with no sign-in. It starts with the Skills Economy blog, demo videos (`mutilpe`) and recorded broadcasts instead of the owner's channels. Lists stay in the browser; a warning says to download a backup to keep them. Written by the build. |
+| `dist/read/` | The shared copy, https://chargingthefuture.github.io/rss-feeds/read/ — the same file with no sign-in. It starts with the Skills Economy blog, demo videos (`avenhood`) and recorded broadcasts instead of the owner's channels. Lists stay in the browser; a warning says to download a backup to keep them. Written by the build. |
 | `.github/workflows/collect.yml` | Adds, refreshes or removes a channel, or refreshes all of them, rewrites the README's channel list, and opens a pull request with what changed. Merging it starts the deploy. |
 | `.github/workflows/deploy.yml` | Builds `dist/` and publishes it to GitHub Pages. |
 
 ## Channels
 
 <!-- channels:start -->
-44 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+43 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
-| `avenhood` | https://www.youtube.com/@Avenhood | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
+| `avenhood` | https://www.youtube.com/@Avenhood | none | yes | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
 | `carolinegirvan` | https://youtube.com/@carolinegirvan | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/carolinegirvan.xml |
 | `christitustechnical` | https://youtube.com/@ChrisTitusTechnical | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/christitustechnical.xml |
 | `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
@@ -49,7 +49,6 @@ it is the same text the site's front page shows.
 | `lastweektonight` | https://www.youtube.com/@LastWeekTonight | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/lastweektonight.xml |
 | `mercedesamgf1` | https://www.youtube.com/@MercedesAMGF1 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/mercedesamgf1.xml |
 | `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
-| `mutilpe` | https://www.youtube.com/@mutilpe | none | no | https://chargingthefuture.github.io/rss-feeds/youtube/mutilpe.xml |
 | `neoexplains` | https://www.youtube.com/@neoexplains | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/neoexplains.xml |
 | `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
 | `nutritionmadesimple` | https://www.youtube.com/@NutritionMadeSimple | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/nutritionmadesimple.xml |
