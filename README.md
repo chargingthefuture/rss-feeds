@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-43 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+44 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -57,6 +57,7 @@ it is the same text the site's front page shows.
 | `realcandaceo` | https://www.youtube.com/@RealCandaceO | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/realcandaceo.xml |
 | `realtime` | https://www.youtube.com/@RealTime | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/realtime.xml |
 | `redbull` | https://www.youtube.com/@redbull | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbull.xml |
+| `redbullbike` | https://www.youtube.com/@RedBullBike | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullbike.xml |
 | `redbullracing` | https://www.youtube.com/@redbullracing | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullracing.xml |
 | `sailinglavagabonde` | https://www.youtube.com/@SailingLaVagabonde | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinglavagabonde.xml |
 | `sailinguma` | https://www.youtube.com/@SailingUma | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinguma.xml |
