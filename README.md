@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-44 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+45 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
