@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-50 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+51 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -75,6 +75,7 @@ it is the same text the site's front page shows.
 | `therealmarksmalls` | https://www.youtube.com/@therealmarksmalls | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/therealmarksmalls.xml |
 | `vox` | https://www.youtube.com/@Vox | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/vox.xml |
 | `wildlingsailing` | https://www.youtube.com/@WildlingSailing | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/wildlingsailing.xml |
+| `wired` | https://www.youtube.com/@WIRED | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/wired.xml |
 | `zachnoetowers` | https://www.youtube.com/@ZachNoeTowers | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/zachnoetowers.xml |
 <!-- channels:end -->
 
