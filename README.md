@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-48 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+49 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -63,6 +63,7 @@ it is the same text the site's front page shows.
 | `redbullbike` | https://www.youtube.com/@RedBullBike | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullbike.xml |
 | `redbullmotorsports` | https://www.youtube.com/@RedBullMotorsports | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullmotorsports.xml |
 | `redbullracing` | https://www.youtube.com/@redbullracing | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullracing.xml |
+| `redbullskateboarding` | https://www.youtube.com/@RedBullSkateboarding | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/redbullskateboarding.xml |
 | `sailinglavagabonde` | https://www.youtube.com/@SailingLaVagabonde | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinglavagabonde.xml |
 | `sailinguma` | https://www.youtube.com/@SailingUma | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailinguma.xml |
 | `sailingzatara` | https://www.youtube.com/@SailingZatara | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/sailingzatara.xml |
