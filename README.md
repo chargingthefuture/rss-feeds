@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-49 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+50 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -41,6 +41,7 @@ it is the same text the site's front page shows.
 | `expeditionevans` | https://www.youtube.com/@ExpeditionEvans | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/expeditionevans.xml |
 | `flashgitz` | https://www.youtube.com/@Flashgitz | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/flashgitz.xml |
 | `formula1` | https://www.youtube.com/@formula1 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/formula1.xml |
+| `formulaaddict` | https://www.youtube.com/@formulaaddict | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/formulaaddict.xml |
 | `gonewiththewynns` | https://www.youtube.com/@gonewiththewynns | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/gonewiththewynns.xml |
 | `growwithjo` | https://www.youtube.com/@growwithjo | 2023-12-31 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/growwithjo.xml |
 | `howtocooksmarter` | https://www.youtube.com/@HowToCookSmarter | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/howtocooksmarter.xml |
