@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-46 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+47 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -52,6 +52,7 @@ it is the same text the site's front page shows.
 | `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
 | `neoexplains` | https://www.youtube.com/@neoexplains | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/neoexplains.xml |
 | `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
+| `nitrocross` | https://www.youtube.com/@nitrocross | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/nitrocross.xml |
 | `nutritionmadesimple` | https://www.youtube.com/@NutritionMadeSimple | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/nutritionmadesimple.xml |
 | `parlayrevival` | https://www.youtube.com/@ParlayRevival | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/parlayrevival.xml |
 | `petecorrealeofficial` | https://www.youtube.com/@petecorrealeofficial | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/petecorrealeofficial.xml |
