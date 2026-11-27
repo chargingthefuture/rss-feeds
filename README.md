@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-55 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+56 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -38,6 +38,7 @@ it is the same text the site's front page shows.
 | `drmattdrmike` | https://www.youtube.com/@DrMattDrMike | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/drmattdrmike.xml |
 | `dustinnickerson` | https://www.youtube.com/@DustinNickerson | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/dustinnickerson.xml |
 | `eamonandbec` | https://www.youtube.com/@eamonandbec | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/eamonandbec.xml |
+| `epicurious` | https://www.youtube.com/@epicurious | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/epicurious.xml |
 | `ericarhodescomedy` | https://www.youtube.com/@ericarhodescomedy | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/ericarhodescomedy.xml |
 | `expeditionevans` | https://www.youtube.com/@ExpeditionEvans | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/expeditionevans.xml |
 | `flashgitz` | https://www.youtube.com/@Flashgitz | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/flashgitz.xml |
