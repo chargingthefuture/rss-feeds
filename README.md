@@ -22,12 +22,13 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-54 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+55 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
 | `avenhood` | https://www.youtube.com/@Avenhood | none | yes | https://chargingthefuture.github.io/rss-feeds/youtube/avenhood.xml |
 | `berrics` | https://www.youtube.com/@berrics | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/berrics.xml |
+| `brightsideofficial` | https://www.youtube.com/@BRIGHTSIDEOFFICIAL | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/brightsideofficial.xml |
 | `carolinegirvan` | https://youtube.com/@carolinegirvan | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/carolinegirvan.xml |
 | `christitustechnical` | https://youtube.com/@ChrisTitusTechnical | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/christitustechnical.xml |
 | `colbertlateshow` | https://www.youtube.com/@ColbertLateShow | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/colbertlateshow.xml |
