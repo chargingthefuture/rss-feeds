@@ -22,7 +22,7 @@ it is the same text the site's front page shows.
 ## Channels
 
 <!-- channels:start -->
-53 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
+54 channels. Written from `channels/` by `pnpm readme`; do not edit by hand.
 
 | Slug | Channel | Feed cut before | On /watch/ | Feed |
 |---|---|---|---|---|
@@ -53,6 +53,7 @@ it is the same text the site's front page shows.
 | `lastweektonight` | https://www.youtube.com/@LastWeekTonight | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/lastweektonight.xml |
 | `leticiabufoni` | https://www.youtube.com/leticiabufoni | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/leticiabufoni.xml |
 | `mercedesamgf1` | https://www.youtube.com/@MercedesAMGF1 | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/mercedesamgf1.xml |
+| `michael-girdley` | https://www.youtube.com/@Michael-Girdley | 2026-11-26 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/michael-girdley.xml |
 | `morganjay` | https://www.youtube.com/@morganjay | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/morganjay.xml |
 | `neoexplains` | https://www.youtube.com/@neoexplains | 2024-09-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/neoexplains.xml |
 | `netflixisajoke` | https://www.youtube.com/@netflixisajoke | 2024-10-01 | yes | https://chargingthefuture.github.io/rss-feeds/youtube/netflixisajoke.xml |
